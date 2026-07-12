@@ -1,0 +1,4 @@
+interface:
+  display_name: "出海有机增长规划"
+  short_description: "规划SEO、GEO、社区营销、产品发布与内容增长系统"
+  default_prompt: "使用 $plan-organic-growth 为这个产品制定合规的出海有机增长计划。"
