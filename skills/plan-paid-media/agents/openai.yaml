@@ -1,0 +1,4 @@
+interface:
+  display_name: "全域广告投放规划"
+  short_description: "规划并诊断搜索、抖音、小红书与视频号全域投放"
+  default_prompt: "使用 $plan-paid-media 为这个项目制定可验证的投放计划。"

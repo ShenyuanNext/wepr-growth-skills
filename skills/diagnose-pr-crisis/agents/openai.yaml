@@ -1,0 +1,4 @@
+interface:
+  display_name: "公关与危机诊断"
+  short_description: "诊断舆情危机、声明、媒体沟通并生成完整执行方案"
+  default_prompt: "使用 $diagnose-pr-crisis 分析这次舆情事件并给出执行方案。"

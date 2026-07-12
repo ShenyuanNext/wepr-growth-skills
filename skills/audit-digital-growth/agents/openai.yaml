@@ -1,0 +1,4 @@
+interface:
+  display_name: "数字营销增长诊断"
+  short_description: "用数据诊断流量、转化、归因、留存与增长执行问题"
+  default_prompt: "使用 $audit-digital-growth 诊断这个数字营销项目并制定增长动作。"
