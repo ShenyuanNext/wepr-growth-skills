@@ -34,6 +34,7 @@ Build content that earns discovery, trust, saves, and qualified conversations. W
 - For keyword and search placement, read [references/search-strategy.md](references/search-strategy.md).
 - For titles and full-copy structure, read [references/content-execution.md](references/content-execution.md).
 - For account planning, cadence, diagnosis, and consultation paths, read [references/account-operations.md](references/account-operations.md).
+- For search-to-commerce, product trust, objection handling, and operational delivery, read [references/commerce-and-trust.md](references/commerce-and-trust.md).
 
 ## Output modes
 

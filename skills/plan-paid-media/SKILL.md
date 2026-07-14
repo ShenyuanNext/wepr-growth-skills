@@ -31,4 +31,4 @@ Treat media buying as a system connecting market demand, audience, creative, bid
 
 Do not treat fixed algorithm weights, traffic-pool thresholds, audience percentages, benchmark costs, or learning periods as platform facts without current official evidence. Never promise ROI multiplication or guaranteed low-cost scale. Do not fabricate reviews, chats, orders, social proof, or engagement, and do not use forced sharing or policy evasion.
 
-Read [references/operations.md](references/operations.md) for launch and optimization checklists.
+Read [references/operations.md](references/operations.md) for launch and optimization checklists. Read [references/strategy-insights.md](references/strategy-insights.md) when reviewing automation, brand/performance roles, audience assets, or budget structure.

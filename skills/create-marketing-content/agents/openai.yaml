@@ -1,0 +1,4 @@
+interface:
+  display_name: "营销内容创作"
+  short_description: "把业务证据转化为可信、清晰、可执行的多平台营销内容"
+  default_prompt: "使用 $create-marketing-content 把这些素材写成可信且可发布的营销内容。"

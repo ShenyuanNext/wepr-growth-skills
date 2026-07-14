@@ -1,0 +1,4 @@
+interface:
+  display_name: "品牌战略分析"
+  short_description: "分析品牌价值、渠道、竞争、年轻化、出海路径与执行验证"
+  default_prompt: "使用 $analyze-brand-strategy 分析这个品牌并输出可验证的战略判断。"

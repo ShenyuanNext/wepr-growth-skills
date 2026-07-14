@@ -33,6 +33,8 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `distill-creator-playbook` | 创作者内容蒸馏 | 博主拆解、对标账号、内容模式研究 | 样本账本、定位、选题、结构、证据强度和原创执行手册 |
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
+| `analyze-brand-strategy` | 品牌战略分析 | 品牌定位、年轻化、渠道、竞争、品牌出海 | 证据账本、品牌诊断、战略选项、执行与验证路线图 |
+| `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
 
 ### 如何选择
 
@@ -43,6 +45,8 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
+- 要诊断品牌价值、定位、竞争或出海路径：使用 `$analyze-brand-strategy`。
+- 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
 
 ### 安装
@@ -155,6 +159,8 @@ The collection is designed to produce evidence-based execution plans—not gener
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
 | `distill-creator-playbook` | Creator-pattern distillation | Creator research, benchmark accounts, content-pattern analysis | Sample ledger, positioning, structures, evidence strength, original playbook |
 | `plan-editorial-illustrations` | Editorial illustration planning | Article visuals, social illustrations, prompts, visual QA | Placement map, shot list, prompts, alt text, QA findings |
+| `analyze-brand-strategy` | Brand strategy analysis | Positioning, youth strategy, channels, competition, international expansion | Evidence ledger, diagnosis, strategic options, activation roadmap |
+| `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
 
 ### Choosing a skill
 
@@ -165,6 +171,8 @@ The collection is designed to produce evidence-based execution plans—not gener
 - Use `$plan-xiaohongshu-growth` to plan, write, rewrite, or diagnose Xiaohongshu content.
 - Use `$distill-creator-playbook` to turn public creator content into an evidence-tagged original playbook.
 - Use `$plan-editorial-illustrations` to translate an article into a coherent illustration system.
+- Use `$analyze-brand-strategy` to diagnose positioning, customer value, competition, or international expansion.
+- Use `$create-marketing-content` to turn business evidence into credible platform-native content.
 - Combine skills when appropriate. A growth audit can define the problem before separate paid and organic plans are built.
 
 ### Installation

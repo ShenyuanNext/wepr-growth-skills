@@ -13,6 +13,8 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$distill-creator-playbook` | Distill public creator content into an original testable playbook |
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
+| `$analyze-brand-strategy` | Diagnose brand value, positioning, channels, competition, and expansion |
+| `$create-marketing-content` | Turn business evidence into credible platform-native content |
 
 ## 2. Installation
 
@@ -100,6 +102,22 @@ Use $plan-editorial-illustrations to design six 16:9 visuals for this article us
 ```
 
 Provide the complete article, publishing surface, ratio, count, brand rules, and whether images should be generated. The default is a shot list; explicit generation requests should proceed when an image tool is available.
+
+### Brand strategy analysis
+
+```text
+Use $analyze-brand-strategy to evaluate this brand's path into a younger market. Separate company claims, customer perception, and behavioral evidence; produce three strategic options with trade-offs and a 90-day validation plan.
+```
+
+Provide the decision, market, audience, offer and price architecture, channels, substitutes, research, and operating evidence. Use cases to study mechanisms, not to copy conclusions.
+
+### Marketing content creation
+
+```text
+Use $create-marketing-content to turn these project materials into a publishable article. Build a fact-and-opinion ledger first, then provide final copy, two headlines, and editorial QA notes.
+```
+
+Provide the reader, platform, content job, sources, publishable facts, voice, and length. Use `$plan-xiaohongshu-growth` for Xiaohongshu-specific search and account execution.
 
 ## 5. Combined workflows
 
