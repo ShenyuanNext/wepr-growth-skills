@@ -15,6 +15,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
 | `$analyze-brand-strategy` | Diagnose brand value, positioning, channels, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
+| `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
 ## 2. Installation
 
@@ -118,6 +119,14 @@ Use $create-marketing-content to turn these project materials into a publishable
 ```
 
 Provide the reader, platform, content job, sources, publishable facts, voice, and length. Use `$plan-xiaohongshu-growth` for Xiaohongshu-specific search and account execution.
+
+### Content-account launch
+
+```text
+Use $launch-content-account to launch a WeChat Channels account for international-brand leaders. The objective is professional trust and qualified inquiries. Design the account promise, profile, content pillars, first comparable sample, review metrics, and a 30-day plan.
+```
+
+Provide the business objective, platform, audience, account role, offer, publishable evidence, production capacity, horizon, and compliance constraints. The skill does not treat fixed cadence, three-second hooks, content ratios, or engagement thresholds as platform rules.
 
 ## 5. Combined workflows
 

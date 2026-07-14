@@ -1,5 +1,9 @@
 # Editorial QA
 
+## Production brief
+
+Before drafting, record the content job, target reader, reader state, primary promise, source ledger, platform format, opening options, structure, proof needed, next action, and risk check. A calendar item without a source or proof plan is not production-ready.
+
 ## Reader test
 
 - Is the intended reader and situation clear early?

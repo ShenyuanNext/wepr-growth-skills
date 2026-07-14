@@ -1,5 +1,11 @@
 # Xiaohongshu Account Operations
 
+## Launch foundation
+
+Define the account promise, target reader, proof, three to five content pillars, profile copy, pinned-content plan, and permitted next action before setting a calendar. Build initial material from customer questions, search language, work processes, cases, objections, experiments, and product use. Treat preparation counts and publishing cadence as capacity decisions, not platform requirements.
+
+For an early sample, keep the audience and promise stable while testing one or two variables at a time. Review eligibility and exposure, open, reading depth, saves, comments by motive, profile visits, follows, qualified conversations, and business outcomes. Use the account's own baseline and comparable formats.
+
 ## Weekly four-post mix
 
 Use a balanced operating mix rather than four versions of one topic:
