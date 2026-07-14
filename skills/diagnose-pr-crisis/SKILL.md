@@ -34,4 +34,4 @@ Return the relevant subset of: executive diagnosis, timeline, stakeholder map, r
 
 Never promise total deletion, control of public opinion, guaranteed trending results, fabricated media coverage, fake users, or fake evidence. Separate legal, platform, media, search, content, and operational remedies. For overseas disputes, prefer correction, response, platform policy, privacy, copyright, and lawful escalation over paid deletion.
 
-Read [references/checklists.md](references/checklists.md) when producing a statement, interview plan, or crisis execution schedule.
+Read [references/checklists.md](references/checklists.md) when producing a statement, interview plan, or crisis execution schedule. Read [references/incident-patterns.md](references/incident-patterns.md) for promotion, pricing, rumor, or false-information incidents.

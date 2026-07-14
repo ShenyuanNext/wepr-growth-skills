@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Editorial Illustrations"
+  short_description: "Turn articles into coherent editorial illustration plans"
+  default_prompt: "Use $plan-editorial-illustrations to create a coherent illustration plan for this article."

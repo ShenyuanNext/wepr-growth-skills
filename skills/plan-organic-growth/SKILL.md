@@ -20,11 +20,12 @@ Build a compounding growth system, not a list of platform tricks.
 
 ## Route by need
 
-- SEO or backlinks: read [references/seo-geo.md](references/seo-geo.md).
-- GEO, AI search, brand entities, or citations: read [references/seo-geo.md](references/seo-geo.md).
-- Reddit research, participation, monitoring, or crisis response: read [references/community-launch.md](references/community-launch.md).
+- SEO, technical search, content architecture, or backlinks: read [references/seo-geo.md](references/seo-geo.md) and [references/seo-system.md](references/seo-system.md).
+- GEO, AI search, brand entities, citations, or prompt baselines: read [references/seo-geo.md](references/seo-geo.md) and [references/geo-evidence.md](references/geo-evidence.md).
+- Reddit research, participation, monitoring, or crisis response: read [references/community-launch.md](references/community-launch.md) and [references/reddit-community.md](references/reddit-community.md).
 - Product Hunt, SaaS launch, or first users: read [references/community-launch.md](references/community-launch.md).
 - Multi-platform content or founder-led growth: read [references/content-growth.md](references/content-growth.md).
+- International market entry, creators, social channels, or independent-product growth: read [references/international-growth.md](references/international-growth.md).
 
 ## Output standard
 

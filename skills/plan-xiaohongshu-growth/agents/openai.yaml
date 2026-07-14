@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Xiaohongshu Growth"
+  short_description: "Build searchable, useful Xiaohongshu content systems"
+  default_prompt: "Use $plan-xiaohongshu-growth to turn my topic into a searchable Xiaohongshu post and execution plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Distill Creator Playbook"
+  short_description: "Extract reusable creator patterns from public content"
+  default_prompt: "Use $distill-creator-playbook to analyze this creator and produce a reusable content playbook."
