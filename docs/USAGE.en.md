@@ -19,7 +19,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$xiaohongshu-conversion-path` | Design content-to-profile-to-action and delivery paths |
 | `$distill-creator-playbook` | Distill public creator content into an original testable playbook |
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
-| `$analyze-brand-strategy` | Diagnose brand value, positioning, channels, competition, and expansion |
+| `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
@@ -117,10 +117,10 @@ Provide the complete article, publishing surface, ratio, count, brand rules, and
 ### Brand strategy analysis
 
 ```text
-Use $analyze-brand-strategy to evaluate this brand's path into a younger market. Separate company claims, customer perception, and behavioral evidence; produce three strategic options with trade-offs and a 90-day validation plan.
+Use $analyze-brand-strategy to evaluate this brand's path into a younger market. Check research readiness first; separate company claims, customer perception, and behavioral evidence; map direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark; compare three strategic options, recommend one, and provide sacrifices, falsification conditions, and a 90-day validation plan.
 ```
 
-Provide the decision, market, audience, offer and price architecture, channels, substitutes, research, and operating evidence. Use cases to study mechanisms, not to copy conclusions.
+Provide the decision, market, audience, offer and price architecture, channels, substitutes, research, and operating evidence. When evidence is incomplete, the skill should return validate-first or insufficient-evidence instead of manufacturing certainty. Use cases to study mechanisms, not to copy conclusions.
 
 ### Marketing content creation
 
@@ -142,10 +142,11 @@ Provide the business objective, platform, audience, account role, offer, publish
 
 ### Client growth plan
 
-1. Use `$audit-digital-growth` to define the problem and measurement system.
-2. Use `$plan-paid-media` for controlled acquisition tests.
-3. Use `$plan-organic-growth` for compounding search and community assets.
-4. Combine owners and reviews in one 30/60/90-day roadmap.
+1. Use `$analyze-brand-strategy` to define the best-fit customer, choice situation, category, competition reference, and provable difference.
+2. Use `$audit-digital-growth` to define the problem and measurement system.
+3. Use `$plan-paid-media` for controlled acquisition tests.
+4. Use `$plan-organic-growth` for compounding search and community assets.
+5. Combine owners and reviews in one 30/60/90-day roadmap.
 
 ### Xiaohongshu production system
 

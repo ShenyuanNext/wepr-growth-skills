@@ -28,7 +28,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 
 ```text
 业务与品牌判断
-├── analyze-brand-strategy
+├── analyze-brand-strategy（证据化定位、差异化与品牌战略）
 ├── audit-digital-growth
 └── diagnose-pr-crisis
 
@@ -70,7 +70,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `xiaohongshu-conversion-path` | 小红书转化路径 | 内容到主页、私信、咨询、体验、购买与复访 | 阶段路径、阻力、内容分工、筛选问题、指标与交付风险 |
 | `distill-creator-playbook` | 创作者内容蒸馏 | 博主拆解、对标账号、内容模式研究 | 样本账本、定位、选题、结构、证据强度和原创执行手册 |
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
-| `analyze-brand-strategy` | 品牌战略分析 | 品牌定位、年轻化、渠道、竞争、品牌出海 | 证据账本、品牌诊断、战略选项、执行与验证路线图 |
+| `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
@@ -84,7 +84,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
-- 要诊断品牌价值、定位、竞争或出海路径：使用 `$analyze-brand-strategy`。
+- 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
 - 要从零启动或修复一个内容账号：使用 `$launch-content-account`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
@@ -150,7 +150,7 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 ```
 
 ```text
-使用 $analyze-brand-strategy，分析这个品牌的定位、渠道、竞争与年轻化路径，给出三个战略选项和验证计划。
+使用 $analyze-brand-strategy，分析这个品牌的定位、渠道与竞争。先检查研究就绪度，建立五类竞争参照和D6优势诊断，再比较三套方向、只推荐一套，并给出反证条件和90天验证计划。
 ```
 
 ```text
@@ -247,7 +247,7 @@ This is not a prompt collection. Each skill defines triggering contexts, an exec
 
 ```text
 Business and brand decisions
-├── analyze-brand-strategy
+├── analyze-brand-strategy (evidence-aware positioning and brand strategy)
 ├── audit-digital-growth
 └── diagnose-pr-crisis
 
@@ -289,7 +289,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `xiaohongshu-conversion-path` | Xiaohongshu conversion path | Content to profile, inquiry, trial, purchase, and return | Stage map, friction, content jobs, qualification, metrics, delivery risks |
 | `distill-creator-playbook` | Creator-pattern distillation | Creator research, benchmark accounts, content-pattern analysis | Sample ledger, positioning, structures, evidence strength, original playbook |
 | `plan-editorial-illustrations` | Editorial illustration planning | Article visuals, social illustrations, prompts, visual QA | Placement map, shot list, prompts, alt text, QA findings |
-| `analyze-brand-strategy` | Brand strategy analysis | Positioning, youth strategy, channels, competition, international expansion | Evidence ledger, diagnosis, strategic options, activation roadmap |
+| `analyze-brand-strategy` | Evidence-aware positioning and brand strategy | Positioning, differentiation, repositioning, competition, youth strategy, international expansion | Readiness gate, five-role competition set, D6 advantage test, options, falsification conditions, activation roadmap |
 | `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
 | `launch-content-account` | Content-account launch | WeChat, Douyin, WeChat Channels, X, and Xiaohongshu launches | Account promise, profile, pillars, experiments, reviews, roadmap |
 
@@ -303,7 +303,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.
 - Use `$distill-creator-playbook` to turn public creator content into an evidence-tagged original playbook.
 - Use `$plan-editorial-illustrations` to translate an article into a coherent illustration system.
-- Use `$analyze-brand-strategy` to diagnose positioning, customer value, competition, or international expansion.
+- Use `$analyze-brand-strategy` to diagnose evidence-aware positioning, differentiation, competition, or international expansion. It checks readiness and covers direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark.
 - Use `$create-marketing-content` to turn business evidence into credible platform-native content.
 - Use `$launch-content-account` to launch or repair a content account through comparable experiments and business signals.
 - Combine skills when appropriate. A growth audit can define the problem before separate paid and organic plans are built.
@@ -369,7 +369,7 @@ Use $plan-editorial-illustrations to design six coherent article illustrations, 
 ```
 
 ```text
-Use $analyze-brand-strategy to evaluate this brand's positioning, channels, competition, and youth strategy, then provide three strategic options and a validation plan.
+Use $analyze-brand-strategy to evaluate this brand's positioning, channels, and competition. Check research readiness, build the five-role competition set and D6 advantage test, compare three materially different directions, recommend one, and provide falsification conditions and a 90-day validation plan.
 ```
 
 ```text

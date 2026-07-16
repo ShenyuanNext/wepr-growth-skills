@@ -21,7 +21,7 @@
 | `$xiaohongshu-conversion-path` | 设计内容、主页、私信、咨询、体验、购买和复访路径 |
 | `$distill-creator-playbook` | 从公开账号提炼原创、可测试的内容方法 |
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
-| `$analyze-brand-strategy` | 分析品牌价值、定位、渠道、竞争和出海路径 |
+| `$analyze-brand-strategy` | 以证据分析品牌定位、差异化、竞争和出海路径 |
 | `$create-marketing-content` | 把业务证据写成可信、可发布的多平台内容 |
 | `$launch-content-account` | 规划公众号、抖音、视频号、X和小红书的内容账号冷启动 |
 
@@ -137,10 +137,10 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ### 品牌战略分析
 
 ```text
-使用 $analyze-brand-strategy。分析这个品牌进入年轻消费市场的路径，区分企业主张、客户认知和行为证据，给出三个战略选项、取舍及90天验证计划。
+使用 $analyze-brand-strategy。分析这个品牌进入年轻消费市场的路径。先检查定位对象、决策、产品、市场、目标用户和资料是否达到研究门槛；再区分企业主张、客户认知和行为证据，研究直接竞品、间接替代、现状、不行动和心智标杆，比较三个方向后只推荐一套，并给出牺牲项、反证条件和90天验证计划。
 ```
 
-重要输入：业务目标、市场、用户、产品价格、渠道、竞争替代、研究与经营数据。案例只能用于研究机制，不能直接复制结论。
+重要输入：业务目标、市场、用户、产品价格、渠道、竞争替代、研究与经营数据。资料不足时应输出“建议先验证”或“证据不足”，不能用口号填补证据。案例只能用于研究机制，不能直接复制结论。
 
 ### 营销内容创作
 
@@ -162,10 +162,11 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 
 ### 客户增长方案
 
-1. `$audit-digital-growth` 定义问题和指标；
-2. `$plan-paid-media` 设计可控获客实验；
-3. `$plan-organic-growth` 建设长期搜索与社区资产；
-4. 用30/60/90天路线图统一负责人和复盘节奏。
+1. `$analyze-brand-strategy` 明确最佳用户、选择场景、品类、竞争参照和可证明差异；
+2. `$audit-digital-growth` 定义问题和指标；
+3. `$plan-paid-media` 设计可控获客实验；
+4. `$plan-organic-growth` 建设长期搜索与社区资产；
+5. 用30/60/90天路线图统一负责人和复盘节奏。
 
 ### 小红书内容生产
 

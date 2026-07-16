@@ -19,3 +19,5 @@ Tag every important claim as company statement, customer evidence, behavioral da
 ## Option comparison
 
 Score each strategic option on customer relevance, distinctiveness, credibility, economic value, operational feasibility, channel fit, reversibility, and time to evidence. Explain trade-offs; do not hide them inside a total score.
+
+When the task includes positioning or differentiation, also read `evidence-positioning.md`. Apply its readiness gate, five competition roles, D6 advantage rejection rules, six positioning questions, recommendation state, and falsification condition before writing a slogan or channel plan.
