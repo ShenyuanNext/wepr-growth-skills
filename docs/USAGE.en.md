@@ -11,6 +11,12 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
+| `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |
+| `$xiaohongshu-profile` | Audit profile positioning, bio, proof, and pinned posts |
+| `$xiaohongshu-topic-planner` | Build topic pools, series, calendars, and evidence plans |
+| `$xiaohongshu-title` | Generate, diagnose, select, and rewrite titles and cover lines |
+| `$xiaohongshu-comment-reply` | Classify comments, draft replies, handle objections, and flag risk |
+| `$xiaohongshu-conversion-path` | Design content-to-profile-to-action and delivery paths |
 | `$distill-creator-playbook` | Distill public creator content into an original testable playbook |
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
 | `$analyze-brand-strategy` | Diagnose brand value, positioning, channels, competition, and expansion |
@@ -88,6 +94,10 @@ Use $plan-xiaohongshu-growth to turn “GEO for B2B brands” into an executable
 
 Available modes are single post, calendar, diagnosis, and rewrite. The skill aligns one primary search intent with the title promise and body delivery; it must not invent volume, ranking, or case results.
 
+### Xiaohongshu specialist workbench
+
+Use `$xiaohongshu-suite` when the blocked stage is unclear. Use `$xiaohongshu-profile`, `$xiaohongshu-topic-planner`, `$xiaohongshu-title`, `$xiaohongshu-comment-reply`, or `$xiaohongshu-conversion-path` directly for a single-purpose request. Use `$plan-xiaohongshu-growth` for final copy, keywords, and publishing-ready posts.
+
 ### Creator distillation
 
 ```text
@@ -140,9 +150,11 @@ Provide the business objective, platform, audience, account role, offer, publish
 ### Xiaohongshu production system
 
 1. Use `$distill-creator-playbook` to identify transferable patterns from public benchmarks.
-2. Use `$plan-xiaohongshu-growth` for intent, keywords, titles, copy, and calendar.
-3. Use `$plan-editorial-illustrations` for a coherent visual set.
-4. Feed real publishing results into the next test cycle.
+2. Use `$xiaohongshu-suite` to locate the earliest blocked stage.
+3. Use `$xiaohongshu-profile` and `$xiaohongshu-topic-planner` for profile acceptance and topic planning.
+4. Use `$xiaohongshu-title` and `$plan-xiaohongshu-growth` for titles, intent, keywords, and final copy.
+5. Use `$xiaohongshu-comment-reply` and `$xiaohongshu-conversion-path` for conversation and qualified actions.
+6. Use `$plan-editorial-illustrations` for visuals and feed real publishing evidence into the next test cycle.
 
 ### Reputation recovery
 

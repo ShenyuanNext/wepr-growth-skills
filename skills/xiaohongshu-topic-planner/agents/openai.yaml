@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Topic Planner"
+  short_description: "Build topic pools, series, calendars, proof plans, and learning goals"
+  default_prompt: "Use $xiaohongshu-topic-planner to build a prioritized Xiaohongshu topic system and publishing calendar for this account."
+
+policy:
+  allow_implicit_invocation: true

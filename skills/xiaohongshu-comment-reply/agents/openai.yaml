@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Comment Operations"
+  short_description: "Reply naturally, handle objections, pin value, and flag high-risk comments"
+  default_prompt: "Use $xiaohongshu-comment-reply to classify these Xiaohongshu comments and draft natural, risk-aware replies."
+
+policy:
+  allow_implicit_invocation: true

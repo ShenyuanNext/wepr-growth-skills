@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Profile Audit"
+  short_description: "Audit positioning, bio, proof, pinned posts, and profile acceptance"
+  default_prompt: "Use $xiaohongshu-profile to audit this Xiaohongshu profile and rewrite the bio and pinned-post structure."
+
+policy:
+  allow_implicit_invocation: true

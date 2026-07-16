@@ -4,7 +4,7 @@
 
 这不是营销术语库，而是一组可组合的执行工作流。每项技能负责一类清晰决策：先确认业务目标和证据，再输出动作、负责人、验证指标和风险边界。
 
-当前包含十项公开技能：
+当前包含十六项公开技能：
 
 | 技能 | 一句话用途 |
 | --- | --- |
@@ -13,6 +13,12 @@
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
+| `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
+| `$xiaohongshu-profile` | 诊断主页第一眼、简介、定位、信任材料和置顶笔记 |
+| `$xiaohongshu-topic-planner` | 建立选题池、系列内容与7/14/30天日历 |
+| `$xiaohongshu-title` | 生成、诊断、筛选和优化小红书标题与封面短句 |
+| `$xiaohongshu-comment-reply` | 分类并回复评论、处理质疑、设计置顶评论 |
+| `$xiaohongshu-conversion-path` | 设计内容、主页、私信、咨询、体验、购买和复访路径 |
 | `$distill-creator-playbook` | 从公开账号提炼原创、可测试的内容方法 |
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
 | `$analyze-brand-strategy` | 分析品牌价值、定位、渠道、竞争和出海路径 |
@@ -97,6 +103,21 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 
 可选模式：单篇、周更日历、账号诊断、全文重构。它会先确定一个主搜索意图，再让标题承诺与正文交付一致；不会虚构搜索量、排名或案例结果。
 
+### 小红书专项工作台
+
+```text
+使用 $xiaohongshu-suite。账号已经在更新，但主页、选题、标题、评论和咨询承接都有问题。请先判断最早的阻塞环节，再给处理顺序。
+```
+
+- 只改主页、简介、昵称或置顶：`$xiaohongshu-profile`。
+- 只做选题池、系列和日历：`$xiaohongshu-topic-planner`。
+- 只生成或优化标题：`$xiaohongshu-title`。
+- 写完整正文、关键词和收藏清单：`$plan-xiaohongshu-growth`。
+- 回复评论、处理质疑或写置顶评论：`$xiaohongshu-comment-reply`。
+- 设计内容到咨询、体验或购买路径：`$xiaohongshu-conversion-path`。
+
+这些技能共享同一条原则：先修复最早的断点，再增加后续动作；不靠夸张承诺、虚假身份或隐藏导流制造转化。
+
 ### 创作者内容蒸馏
 
 ```text
@@ -149,9 +170,11 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ### 小红书内容生产
 
 1. `$distill-creator-playbook` 提炼公开对标的可迁移模式；
-2. `$plan-xiaohongshu-growth` 完成关键词、标题、正文和周更计划；
-3. `$plan-editorial-illustrations` 生成统一配图方案；
-4. 发布后用真实数据回填，更新下一轮假设。
+2. `$xiaohongshu-suite` 判断最早的阻塞环节；
+3. `$xiaohongshu-profile` 与 `$xiaohongshu-topic-planner` 完成主页和选题系统；
+4. `$xiaohongshu-title` 与 `$plan-xiaohongshu-growth` 完成标题、关键词和正文；
+5. `$xiaohongshu-comment-reply` 与 `$xiaohongshu-conversion-path` 承接评论和咨询；
+6. `$plan-editorial-illustrations` 生成统一配图，发布后用真实数据更新下一轮假设。
 
 ### 品牌事件后的恢复
 

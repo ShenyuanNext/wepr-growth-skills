@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Conversion Path"
+  short_description: "Connect content, profile, trust, qualification, action, and delivery"
+  default_prompt: "Use $xiaohongshu-conversion-path to map and improve this Xiaohongshu content-to-consultation or product-adoption path."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,6 +1,6 @@
 ---
 name: plan-xiaohongshu-growth
-description: Plan, write, diagnose, and improve compliant Xiaohongshu content using search intent, keyword architecture, native titles, useful body structure, account positioning, content calendars, and natural consultation paths. Use for 小红书运营, 小红书标题, 关键词布局, 搜索流量, 图文笔记, 账号定位, 内容重构, 周更计划, 笔记诊断, or Xiaohongshu content growth.
+description: Plan, write, diagnose, and improve compliant Xiaohongshu posts using search intent, keyword architecture, truthful titles, useful body structure, evidence, save-worthy takeaways, and natural consultation paths. Use for 小红书内容创作, 关键词布局, 搜索流量, 图文笔记, 内容重构, 周更内容, 笔记诊断, or publishing-ready Xiaohongshu copy. Route profile-only, topic-only, title-only, comment-only, and conversion-path requests to the matching xiaohongshu-* specialist skill.
 ---
 
 # Plan Xiaohongshu Growth
@@ -20,6 +20,8 @@ Build content that earns discovery, trust, saves, and qualified conversations. W
 9. Review for unsupported claims, prohibited or sensitive expressions, keyword stuffing, fake urgency, platform manipulation, and AI-like filler.
 10. Return publishing-ready copy plus optional keyword and testing notes. Do not insert page-by-page layout instructions unless requested.
 
+When the user requests multiple functions, diagnose the earliest blocked stage first and use the workflow in [references/full-funnel-workbench.md](references/full-funnel-workbench.md).
+
 ## Content standard
 
 - Open with a concrete tension, costly mistake, surprising observation, or useful outcome.
@@ -35,6 +37,7 @@ Build content that earns discovery, trust, saves, and qualified conversations. W
 - For titles and full-copy structure, read [references/content-execution.md](references/content-execution.md).
 - For account planning, cadence, diagnosis, and consultation paths, read [references/account-operations.md](references/account-operations.md).
 - For search-to-commerce, product trust, objection handling, and operational delivery, read [references/commerce-and-trust.md](references/commerce-and-trust.md).
+- For profile, topic, title, comment, and conversion routing, read [references/full-funnel-workbench.md](references/full-funnel-workbench.md).
 
 ## Output modes
 
@@ -42,6 +45,15 @@ Build content that earns discovery, trust, saves, and qualified conversations. W
 - **Calendar:** account objective, four weekly topics, intent mix, proof needed, reuse plan, and measurement.
 - **Diagnosis:** symptom, evidence, likely causes, confidence, next test, and rewrite priorities.
 - **Rewrite:** preserve valid facts and voice while rebuilding hook, value density, structure, and takeaway.
+
+## Specialist routing
+
+- Use `$xiaohongshu-profile` for profile, bio, positioning, and pinned posts.
+- Use `$xiaohongshu-topic-planner` for topic pools, series, and calendars.
+- Use `$xiaohongshu-title` when the user wants titles without a full body.
+- Use `$xiaohongshu-comment-reply` for replies, pinned comments, and objection handling.
+- Use `$xiaohongshu-conversion-path` for content-to-profile-to-consultation design.
+- Use `$xiaohongshu-suite` when the blocked stage is unclear.
 
 ## Guardrails
 

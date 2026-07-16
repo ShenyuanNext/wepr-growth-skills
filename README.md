@@ -41,7 +41,14 @@ An open collection of practical Agent Skills for public relations, digital analy
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-└── plan-editorial-illustrations
+├── plan-editorial-illustrations
+└── Xiaohongshu Workbench
+    ├── xiaohongshu-suite
+    ├── xiaohongshu-profile
+    ├── xiaohongshu-topic-planner
+    ├── xiaohongshu-title
+    ├── xiaohongshu-comment-reply
+    └── xiaohongshu-conversion-path
 ```
 
 每项技能都遵循同一条主线：`目标 → 证据 → 判断 → 动作 → 负责人 → 指标 → 复盘 → 风险`。
@@ -55,6 +62,12 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
+| `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
+| `xiaohongshu-profile` | 小红书主页诊断 | 简介、昵称、定位、信任材料、置顶笔记 | 第一眼判断、定位句、简介版本、置顶结构和下一步测试 |
+| `xiaohongshu-topic-planner` | 小红书选题系统 | 选题池、系列、7/14/30天计划、周更排期 | 内容支柱、意图、证据需求、日历、复用与学习目标 |
+| `xiaohongshu-title` | 小红书标题工作台 | 标题生成、诊断、选择、封面短句 | 多角度标题、首推版本、关键词与承诺风险检查 |
+| `xiaohongshu-comment-reply` | 小红书评论运营 | 回复评论、置顶评论、质疑与高风险评论 | 评论分类、自然回复、替代语气、升级处理建议 |
+| `xiaohongshu-conversion-path` | 小红书转化路径 | 内容到主页、私信、咨询、体验、购买与复访 | 阶段路径、阻力、内容分工、筛选问题、指标与交付风险 |
 | `distill-creator-playbook` | 创作者内容蒸馏 | 博主拆解、对标账号、内容模式研究 | 样本账本、定位、选题、结构、证据强度和原创执行手册 |
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
 | `analyze-brand-strategy` | 品牌战略分析 | 品牌定位、年轻化、渠道、竞争、品牌出海 | 证据账本、品牌诊断、战略选项、执行与验证路线图 |
@@ -68,6 +81,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
+- 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
 - 要诊断品牌价值、定位、竞争或出海路径：使用 `$analyze-brand-strategy`。
@@ -160,9 +174,11 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 #### 小红书内容与获客
 
 1. `$distill-creator-playbook` 分析公开对标样本；
-2. `$plan-xiaohongshu-growth` 规划搜索意图、关键词、标题和正文；
-3. `$plan-editorial-illustrations` 设计统一配图；
-4. `$launch-content-account` 管理发布样本、复盘和账号迭代。
+2. `$xiaohongshu-suite` 找到最早的阻塞环节；
+3. `$xiaohongshu-profile` 和 `$xiaohongshu-topic-planner` 完成主页承接与选题系统；
+4. `$xiaohongshu-title` 和 `$plan-xiaohongshu-growth` 完成标题、关键词与正文；
+5. `$xiaohongshu-comment-reply` 和 `$xiaohongshu-conversion-path` 承接评论、咨询与转化；
+6. `$plan-editorial-illustrations` 设计统一配图，`$launch-content-account` 管理发布样本和复盘。
 
 #### 品牌危机与恢复
 
@@ -244,7 +260,14 @@ Content production and account operations
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-└── plan-editorial-illustrations
+├── plan-editorial-illustrations
+└── Xiaohongshu Workbench
+    ├── xiaohongshu-suite
+    ├── xiaohongshu-profile
+    ├── xiaohongshu-topic-planner
+    ├── xiaohongshu-title
+    ├── xiaohongshu-comment-reply
+    └── xiaohongshu-conversion-path
 ```
 
 Every skill follows the same operating line: `objective → evidence → judgment → action → owner → metric → review → risk`.
@@ -258,6 +281,12 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
+| `xiaohongshu-suite` | Xiaohongshu workflow routing | Unclear whether to start with profile, topics, titles, copy, comments, or conversion | Blocked stage, skill selection, processing order, and input handoff |
+| `xiaohongshu-profile` | Xiaohongshu profile audit | Bio, positioning, proof, pinned posts, profile acceptance | First-impression diagnosis, positioning, bio options, pinned-post plan |
+| `xiaohongshu-topic-planner` | Xiaohongshu topic system | Topic pools, series, calendars, evidence planning | Pillars, intent, calendar, proof requirements, reuse, learning goals |
+| `xiaohongshu-title` | Xiaohongshu title studio | Title generation, diagnosis, selection, cover lines | Distinct title angles, recommendation, keyword and promise-risk checks |
+| `xiaohongshu-comment-reply` | Xiaohongshu comment operations | Replies, pinned comments, objections, high-risk comments | Classification, natural replies, alternatives, escalation advice |
+| `xiaohongshu-conversion-path` | Xiaohongshu conversion path | Content to profile, inquiry, trial, purchase, and return | Stage map, friction, content jobs, qualification, metrics, delivery risks |
 | `distill-creator-playbook` | Creator-pattern distillation | Creator research, benchmark accounts, content-pattern analysis | Sample ledger, positioning, structures, evidence strength, original playbook |
 | `plan-editorial-illustrations` | Editorial illustration planning | Article visuals, social illustrations, prompts, visual QA | Placement map, shot list, prompts, alt text, QA findings |
 | `analyze-brand-strategy` | Brand strategy analysis | Positioning, youth strategy, channels, competition, international expansion | Evidence ledger, diagnosis, strategic options, activation roadmap |
@@ -271,6 +300,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
 - Use `$plan-xiaohongshu-growth` to plan, write, rewrite, or diagnose Xiaohongshu content.
+- Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.
 - Use `$distill-creator-playbook` to turn public creator content into an evidence-tagged original playbook.
 - Use `$plan-editorial-illustrations` to translate an article into a coherent illustration system.
 - Use `$analyze-brand-strategy` to diagnose positioning, customer value, competition, or international expansion.
@@ -363,9 +393,11 @@ Use $launch-content-account to design a WeChat Channels launch for WEPR, includi
 #### Xiaohongshu content and acquisition
 
 1. Use `$distill-creator-playbook` to study public benchmark samples.
-2. Use `$plan-xiaohongshu-growth` for search intent, keywords, titles, and copy.
-3. Use `$plan-editorial-illustrations` for a coherent visual system.
-4. Use `$launch-content-account` to manage publishing samples, reviews, and account iteration.
+2. Use `$xiaohongshu-suite` to locate the earliest blocked stage.
+3. Use `$xiaohongshu-profile` and `$xiaohongshu-topic-planner` for profile acceptance and the topic system.
+4. Use `$xiaohongshu-title` and `$plan-xiaohongshu-growth` for titles, keywords, and final copy.
+5. Use `$xiaohongshu-comment-reply` and `$xiaohongshu-conversion-path` for conversation and qualified next actions.
+6. Use `$plan-editorial-illustrations` for visuals and `$launch-content-account` for publishing experiments and reviews.
 
 #### Crisis response and recovery
 

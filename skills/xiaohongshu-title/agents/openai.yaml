@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Title Studio"
+  short_description: "Generate, diagnose, select, and rewrite truthful Xiaohongshu titles"
+  default_prompt: "Use $xiaohongshu-title to generate distinct Xiaohongshu title options from this content and recommend the strongest one."
+
+policy:
+  allow_implicit_invocation: true

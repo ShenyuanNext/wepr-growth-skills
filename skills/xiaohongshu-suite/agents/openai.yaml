@@ -1,0 +1,7 @@
+interface:
+  display_name: "Xiaohongshu Workflow Router"
+  short_description: "Route profile, topic, title, content, comment, and conversion tasks"
+  default_prompt: "Use $xiaohongshu-suite to diagnose the blocked stage and select the shortest Xiaohongshu workflow for this request."
+
+policy:
+  allow_implicit_invocation: true
