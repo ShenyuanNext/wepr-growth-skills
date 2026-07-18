@@ -1,0 +1,16 @@
+{
+  "name": "operate-georank-workbench",
+  "version": "1.0.0",
+  "owner": "WEPR",
+  "updated_at": "2026-07-18",
+  "status": "active",
+  "license": "Apache-2.0",
+  "category": "platform-operations",
+  "source": "https://github.com/yaojingang/GEORank/tree/main/skills/georank",
+  "modified": true,
+  "runtime_permissions": [
+    "network",
+    "file_write",
+    "interactive"
+  ]
+}

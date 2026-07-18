@@ -4,7 +4,7 @@
 
 这不是营销术语库，而是一组可组合的执行工作流。每项技能负责一类清晰决策：先确认业务目标和证据，再输出动作、负责人、验证指标和风险边界。
 
-当前包含十六项公开技能：
+当前包含十七项公开技能：
 
 | 技能 | 一句话用途 |
 | --- | --- |
@@ -12,6 +12,7 @@
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |
+| `$operate-georank-workbench` | 安全操作已部署的GEOrank实例、诊断、拓词与后台 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
 | `$xiaohongshu-profile` | 诊断主页第一眼、简介、定位、信任材料和置顶笔记 |
@@ -94,6 +95,14 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：产品、用户、竞争替代、现有网站和内容、目标市场、可投入人力。禁止购买Karma、投票或垃圾外链。
+
+### GEOrank工作台操作
+
+```text
+使用 $operate-georank-workbench。连接这个GEOrank实例，先检查登录身份和权限，再为指定网站启动诊断；任何写操作先给预检，不要输出密钥。
+```
+
+重要输入：实例URL、账户、目标资源、期望动作，以及是否明确授权执行写操作。普通GEO策略、内容规划和客户方案仍使用 `$plan-organic-growth`；只有需要实际调用已部署GEOrank时才使用本技能。远程实例必须使用HTTPS，管理员写操作和删除有独立确认门槛。
 
 ### 小红书搜索与内容
 

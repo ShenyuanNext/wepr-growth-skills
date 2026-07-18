@@ -10,6 +10,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
+| `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |
 | `$xiaohongshu-profile` | Audit profile positioning, bio, proof, and pinned posts |
@@ -85,6 +86,14 @@ Use $plan-organic-growth to build a 90-day SEO, GEO, Reddit, and Product Hunt pl
 ```
 
 Provide the product, user, alternatives, current site and content, market, and capacity. Purchased karma, votes, and spam links are out of scope.
+
+### GEOrank workbench operations
+
+```text
+Use $operate-georank-workbench to connect to this GEOrank instance, verify the detected identity and permissions, and start a diagnosis for the specified site. Preflight every write and never expose credentials.
+```
+
+Provide the instance URL, account, target resource, intended operation, and explicit authorization for any write. Use `$plan-organic-growth` for general GEO strategy and client planning; use this skill only when a live GEOrank instance must be called. Remote instances require HTTPS, and administrator writes and deletions have separate confirmation gates.
 
 ### Xiaohongshu growth
 

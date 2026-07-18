@@ -35,6 +35,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 增长规划与获客
 ├── plan-paid-media
 ├── plan-organic-growth
+├── operate-georank-workbench（GEOrank安全操作与交付回执）
 └── plan-xiaohongshu-growth
 
 内容生产与账号运营
@@ -61,6 +62,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和90天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
+| `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API执行回执、资源ID、风险与回滚说明 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
 | `xiaohongshu-profile` | 小红书主页诊断 | 简介、昵称、定位、信任材料、置顶笔记 | 第一眼判断、定位句、简介版本、置顶结构和下一步测试 |
@@ -80,6 +82,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
+- 已部署GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般GEO策略仍使用 `$plan-organic-growth`。
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
@@ -254,6 +257,7 @@ Business and brand decisions
 Growth planning and acquisition
 ├── plan-paid-media
 ├── plan-organic-growth
+├── operate-georank-workbench (safe GEOrank operations)
 └── plan-xiaohongshu-growth
 
 Content production and account operations
@@ -280,6 +284,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
+| `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
 | `xiaohongshu-suite` | Xiaohongshu workflow routing | Unclear whether to start with profile, topics, titles, copy, comments, or conversion | Blocked stage, skill selection, processing order, and input handoff |
 | `xiaohongshu-profile` | Xiaohongshu profile audit | Bio, positioning, proof, pinned posts, profile acceptance | First-impression diagnosis, positioning, bio options, pinned-post plan |
@@ -299,6 +304,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
+- Use `$operate-georank-workbench` when a deployed GEOrank instance must be queried or changed. Use `$plan-organic-growth` for general GEO strategy.
 - Use `$plan-xiaohongshu-growth` to plan, write, rewrite, or diagnose Xiaohongshu content.
 - Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.
 - Use `$distill-creator-playbook` to turn public creator content into an evidence-tagged original playbook.

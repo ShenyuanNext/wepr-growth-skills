@@ -28,6 +28,23 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## GEORank operator skill
+
+Source: https://github.com/yaojingang/GEORank/tree/main/skills/georank
+
+Copyright 2026 yaojingang
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at https://www.apache.org/licenses/LICENSE-2.0.
+
+The `operate-georank-workbench` skill is a modified and renamed redistribution.
+WEPR condensed the operator instructions and interface metadata, retained the
+deterministic client and essential safety/capability references, and added its
+own GEO measurement reference to `plan-organic-growth`. A complete copy of the
+Apache-2.0 license is included at
+`skills/operate-georank-workbench/LICENSE`.
+
 ## yao-positioning-skill
 
 Source: https://github.com/yaojingang/yao-open-skills/tree/main/skills/yao-positioning-skill

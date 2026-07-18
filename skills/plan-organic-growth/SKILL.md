@@ -21,7 +21,8 @@ Build a compounding growth system, not a list of platform tricks.
 ## Route by need
 
 - SEO, technical search, content architecture, or backlinks: read [references/seo-geo.md](references/seo-geo.md) and [references/seo-system.md](references/seo-system.md).
-- GEO, AI search, brand entities, citations, or prompt baselines: read [references/seo-geo.md](references/seo-geo.md) and [references/geo-evidence.md](references/geo-evidence.md).
+- GEO, AI search, brand entities, citations, prompt baselines, diagnostic scoring, or 30/60/90-day GEO execution: read [references/seo-geo.md](references/seo-geo.md), [references/geo-evidence.md](references/geo-evidence.md), and [references/georank-measurement.md](references/georank-measurement.md).
+- Operating a live self-hosted GEOrank instance: hand off to `$operate-georank-workbench`; do not mix platform mutations into a general strategy deliverable.
 - Reddit research, participation, monitoring, or crisis response: read [references/community-launch.md](references/community-launch.md) and [references/reddit-community.md](references/reddit-community.md).
 - Product Hunt, SaaS launch, or first users: read [references/community-launch.md](references/community-launch.md).
 - Multi-platform content or founder-led growth: read [references/content-growth.md](references/content-growth.md).
@@ -29,7 +30,7 @@ Build a compounding growth system, not a list of platform tricks.
 
 ## Output standard
 
-Return the relevant subset of: demand evidence, user-language library, channel-role map, technical/content/entity audit, community map, launch plan, content system, experiment backlog, measurement plan, risk register, and 30/60/90-day roadmap.
+Return the relevant subset of: demand evidence, user-language library, channel-role map, technical/content/entity audit, fixed GEO prompt panel, evidence ledger, community map, launch plan, content system, experiment backlog, measurement plan with denominators, risk register, and 30/60/90-day roadmap.
 
 ## Guardrails
 

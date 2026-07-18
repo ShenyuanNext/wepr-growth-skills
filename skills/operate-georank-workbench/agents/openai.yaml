@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEOrank工作台操作"
+  short_description: "安全执行GEOrank诊断、拓词、方案对话与后台操作"
+  default_prompt: "使用 $operate-georank-workbench 安全检查并操作这个GEOrank实例，先识别权限并对写操作预检。"
