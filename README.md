@@ -12,7 +12,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 
 ### 项目简介
 
-`wepr-growth-skills` 是 WEPR 建设并持续维护的开放式增长技能库。它把公关、品牌、数据分析、广告投放、SEO/GEO、社区增长、内容运营和视觉生产中的真实执行方法，整理为可以被 Codex、Claude Code 及其他兼容 Agent 调用的独立技能。
+`wepr-growth-skills` 是 WEPR 建设并持续维护的开放式增长技能库。它把公关、品牌、数据分析、广告投放、SEO/GEO、社区增长、内容运营和视觉生产中的真实执行方法，整理为可以被 Codex、Claude Code 及其他兼容 Agent 调用的独立技能。更多关于 WEPR 的服务与案例，请访问 [WEPR 官网](https://www.scwepr.com/)。
 
 仓库不是提示词合集。每个技能都包含明确触发场景、执行流程、交付结构、条件性参考资料和风险边界，可单独调用，也可以组合成完整客户工作流。
 
@@ -242,7 +242,7 @@ skills/<skill-name>/
 
 ### Overview
 
-`wepr-growth-skills` is an open, continuously maintained collection built by WEPR. It turns practical work in PR, brand strategy, analytics, media buying, SEO/GEO, community growth, content operations, and visual production into modular Agent Skills for Codex, Claude Code, and compatible agents.
+`wepr-growth-skills` is an open, continuously maintained collection built by WEPR. It turns practical work in PR, brand strategy, analytics, media buying, SEO/GEO, community growth, content operations, and visual production into modular Agent Skills for Codex, Claude Code, and compatible agents. Learn more about WEPR's services and work on the [official WEPR website](https://www.scwepr.com/).
 
 This is not a prompt collection. Each skill defines triggering contexts, an execution workflow, deliverables, conditionally loaded references, and risk boundaries. Skills can operate independently or combine into a client-ready workflow.
 
