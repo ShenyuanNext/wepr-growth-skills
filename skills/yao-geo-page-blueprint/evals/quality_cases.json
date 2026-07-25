@@ -1,0 +1,62 @@
+[
+  {
+    "name": "研究依据映射",
+    "requirement": "报告必须把 GEO、长上下文、RAG、结构特征和 FAQPage 规则映射为页面原则。",
+    "pass_condition": "输出包含研究依据与页面设计原则表。"
+  },
+  {
+    "name": "证据区与来源台账",
+    "requirement": "报告必须包含来源、核验日期、页面用途和对应模块。",
+    "pass_condition": "输出包含证据区与来源台账表。"
+  },
+  {
+    "name": "系统完整性",
+    "requirement": "报告必须系统、详细、完整，不能只列模块标题或视觉描述。",
+    "pass_condition": "输出包含输入假设、query fan-out、实体关系、证据台账、抽取单元、Schema、CMS、无障碍和实施验收。"
+  },
+  {
+    "name": "真实数据接入",
+    "requirement": "如果报告使用或声称可使用真实数据，必须说明数据模式、来源等级、核验日期、可写入字段和限制。",
+    "pass_condition": "输出包含真实数据接入与核验计划，AI 答案样本不被当作品牌事实来源。"
+  },
+  {
+    "name": "Query Fan-out 覆盖",
+    "requirement": "报告必须把目标问题扩展为定义、对比、风险、实施、案例、替代方案和转化相关子问题。",
+    "pass_condition": "输出包含查询意图与 Query Fan-out 覆盖表，并把每个子问题映射到页面模块和答案形态。"
+  },
+  {
+    "name": "实体关系与知识图谱字段",
+    "requirement": "报告必须说明品牌、产品、场景、竞品、证据、案例和 Schema 之间的关系。",
+    "pass_condition": "输出包含实体关系与知识图谱字段表，且说明页面锚点或 Schema @id。"
+  },
+  {
+    "name": "Schema 正文一致性",
+    "requirement": "Schema 候选只能引用页面正文、证据区或 CMS 字段中真实出现的事实。",
+    "pass_condition": "Article、FAQPage、Product、Organization、BreadcrumbList、Review 等候选均写明事实来源和禁止项，FAQPage 不承诺 Google 富结果展示。"
+  },
+  {
+    "name": "CTA 不干扰答案",
+    "requirement": "转化模块不能压过首屏直接答案、核心事实、证据区和比较表。",
+    "pass_condition": "弱 CTA 可出现在首屏后，强 CTA 必须后置，并说明触发位置。"
+  },
+  {
+    "name": "Word 右侧溢出防护",
+    "requirement": "Word 表格和长英文、URL、Schema 字段、代码片段不能向右溢出正文宽度。",
+    "pass_condition": "DOCX 使用固定表格布局、tblGrid、显式列宽、单元格边距、wordWrap，并且不存在未断开的超长英文/URL片段。"
+  },
+  {
+    "name": "PDF 页面边界防护",
+    "requirement": "PDF 从已校验 HTML 渲染，不能出现右边缘截断、表格压线或页面底色异常。",
+    "pass_condition": "HTML 包含 A4 打印规则、白底、表格边框、overflow-wrap，抽样页面右侧边缘无非白截断。"
+  },
+  {
+    "name": "HTML 固定菜单",
+    "requirement": "HTML 可视化报告必须有页面下拉时固定跟随的菜单栏。",
+    "pass_condition": "HTML 包含 toc-bar、aria-label=报告目录、position: sticky、top:0、锚点链接和移动端不溢出规则。"
+  },
+  {
+    "name": "四格式报告",
+    "requirement": "示例和正式交付必须包含 Markdown、HTML、Word、PDF。",
+    "pass_condition": "四个文件存在、非空且 quality-review 通过。"
+  }
+]

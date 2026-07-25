@@ -1,0 +1,22 @@
+[
+  {
+    "case": "existing article GEO rewrite",
+    "input": "把这篇文章改造成 GEO/AI 搜索友好版本，并输出评分和改造说明。",
+    "should_trigger": true
+  },
+  {
+    "case": "local article path",
+    "input": "使用这个 Markdown 文件做 GEO 文章 AI 友好化改造：/path/to/article.md",
+    "should_trigger": true
+  },
+  {
+    "case": "new article from topic only",
+    "input": "帮我从零写一篇 GEO 教程文章。",
+    "should_trigger": false
+  },
+  {
+    "case": "legal compliance audit",
+    "input": "检查这篇文章是否存在合规和法律风险。",
+    "should_trigger": false
+  }
+]

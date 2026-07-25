@@ -1,0 +1,17 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-brand-graph
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+interface:
+  display_name: "Yao GEO 品牌实体图谱"
+  short_description: "把企业资料转成可审计的品牌、产品、人物、地点、案例、证据和场景关系图谱。"
+  default_prompt: "当需要知识库升级、页面结构设计、监测纠偏、品牌百科化或 AI 内容一致性治理时，使用 $yao-geo-brand-graph。"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets: ["openai", "claude", "generic"]
+  activation: {mode: "manual", paths: []}
+  execution: {context: "inline", shell: "bash"}
+  trust: {source_tier: "local", remote_inline_execution: "forbid", remote_metadata_policy: "allow-metadata-only"}
+  degradation: {openai: "metadata-adapter", claude: "neutral-source-plus-adapter", generic: "neutral-source"}

@@ -1,0 +1,29 @@
+{
+  "id": "yao-geo-page-audit",
+  "name": "yao-geo-page-audit",
+  "version": "0.4.0",
+  "family": "geo-page-technical",
+  "maturity": "beta",
+  "owner": "Yao Team",
+  "requires_web": true,
+  "description": "Diagnose website pages for GEO readiness with authoritative public evidence and produce code/content/schema fixes plus Word, PDF, Kami-style sticky-menu HTML, and Markdown reports.",
+  "entrypoint": "SKILL.md",
+  "created_at": "2026-05-19",
+  "last_updated": "2026-05-21",
+  "outputs": [
+    "geo-page-audit-report",
+    "authority-evidence-ledger",
+    "public-answer-material-question-set",
+    "code-layer-fix-list",
+    "content-structure-remodeling-plan",
+    "schema-html-module-recommendations",
+    "priority-roadmap",
+    "completeness-self-check",
+    "markdown-report",
+    "html-report",
+    "docx-report",
+    "pdf-report",
+    "kami-layout-quality-report",
+    "quality-report"
+  ]
+}

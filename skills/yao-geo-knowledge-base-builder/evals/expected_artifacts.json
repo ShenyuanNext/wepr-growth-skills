@@ -1,0 +1,44 @@
+{
+  "required_files": [
+    "SKILL.md",
+    "agents/interface.yaml",
+    "references/four-format-report-layout.md",
+    "references/knowledge-base-architecture.md",
+    "references/authoritative-reference-framework.md",
+    "references/source-acquisition-and-freshness.md",
+    "references/analysis-completeness-rubric.md",
+    "reports/output-risk-profile.md",
+    "reports/artifact-design-profile.md",
+    "reports/review-2026-05-19.md",
+    "scripts/render_four_format.py",
+    "templates/brief-template.md",
+    "evals/trigger_cases.json",
+    "evals/expected_artifacts.json"
+  ],
+  "example_required_files": [
+    "examples/hubspot-demo/deliverables/hubspot-demo-geo-knowledge-base.md",
+    "examples/hubspot-demo/deliverables/hubspot-demo-geo-knowledge-base.html",
+    "examples/hubspot-demo/deliverables/hubspot-demo-geo-knowledge-base.docx",
+    "examples/hubspot-demo/deliverables/hubspot-demo-geo-knowledge-base.pdf",
+    "examples/hubspot-demo/quality-report.json"
+  ],
+  "layout_requirements": [
+    "docx-fixed-table-layout",
+    "docx-dxa-table-width",
+    "docx-no-nowrap",
+    "docx-soft-wrapped-long-urls",
+    "pdf-readable",
+    "html-no-absolute-local-paths"
+  ],
+  "content_requirements": [
+    "structured-summary",
+    "systematic-knowledge-base-body",
+    "complete-entity-inventory",
+    "full-fact-card-ledger",
+    "source-index",
+    "pending-confirmation-boundary",
+    "analysis-completeness-self-check",
+    "real-data-access-boundary",
+    "html-sticky-menu"
+  ]
+}

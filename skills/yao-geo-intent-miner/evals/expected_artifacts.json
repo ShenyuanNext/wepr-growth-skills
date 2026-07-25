@@ -1,0 +1,23 @@
+{
+  "required_artifacts": [
+    "question_bank",
+    "intent_map",
+    "follow_up_chains",
+    "query_rewrite_list",
+    "scoring_matrix",
+    "data_source_status",
+    "ai_sampling_plan_or_results",
+    "calibration_actions",
+    "content_topic_library",
+    "faq_bank",
+    "knowledge_base_entries",
+    "evidence_gap_list",
+    "compliance_boundaries",
+    "monitoring_prompt_library",
+    "markdown_report",
+    "html_report",
+    "docx_report",
+    "pdf_report",
+    "quality_report"
+  ]
+}

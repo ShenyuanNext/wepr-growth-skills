@@ -1,0 +1,21 @@
+{
+  "required_files": [
+    "SKILL.md",
+    "manifest.json",
+    "agents/interface.yaml",
+    "scripts/render_yao_geo_brand_graph.py",
+    "scripts/collect_source_validation.py",
+    "references/skill-method.md",
+    "references/entity-schema.md",
+    "references/evidence-policy.md",
+    "references/real-data-acquisition.md",
+    "references/quality-gates.md",
+    "examples/hubspot-domestic-ai-test/report_input.json",
+    "examples/hubspot-domestic-ai-test/source-validation.generated.json",
+    "examples/hubspot-domestic-ai-test/hubspot-domestic-ai-yao-geo-brand-graph.docx",
+    "examples/hubspot-domestic-ai-test/hubspot-domestic-ai-yao-geo-brand-graph.pdf",
+    "examples/hubspot-domestic-ai-test/hubspot-domestic-ai-yao-geo-brand-graph.html",
+    "examples/hubspot-domestic-ai-test/hubspot-domestic-ai-yao-geo-brand-graph.md",
+    "examples/hubspot-domestic-ai-test/quality-report.json"
+  ]
+}

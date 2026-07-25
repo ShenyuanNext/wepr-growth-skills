@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geo-comparison-builder"
+  short_description: "Run the evidence-led workflow for yao-geo-comparison-builder"
+  default_prompt: "Use $yao-geo-comparison-builder to complete this GEO task with source boundaries, validation, and auditable deliverables."

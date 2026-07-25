@@ -1,0 +1,19 @@
+{
+  "id": "yao-geo-ranking-article-builder",
+  "name": "Yao GEO Ranking Article Builder",
+  "version": "0.3.0",
+  "family": "geo-content-production",
+  "maturity": "beta",
+  "status": "active",
+  "owner": "Yao Team",
+  "requires_web": true,
+  "primary_outputs": [
+    "ranking-review-article",
+    "source-availability-audit",
+    "real-data-boundary-map",
+    "analysis-completeness-map",
+    "four-format-delivery",
+    "sticky-html-report"
+  ],
+  "entrypoint": "SKILL.md"
+}

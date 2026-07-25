@@ -1,0 +1,22 @@
+{
+  "should_trigger": [
+    "帮我用 DeepSeek 网页端重复抓取 5 个问题，每个问题 5 次，并生成 GEO 可视化报告。",
+    "我想测试某个品牌在 DeepSeek AI 搜索里的 Top 1、Top 3、Top 5 概率。",
+    "输入关键词、轮询次数、目标实体和实体类型，帮我跑 DeepSeek 采样并导出 JSON、Excel 和 HTML。",
+    "帮我分析蔚来在新能源汽车推荐类问题里的 AI 搜索表现和竞品对比。",
+    "我已经有 OpenCLI profile，帮我用随机间隔做 DeepSeek 重复采样。",
+    "基于 deepseek-crawl.json 生成结构化 Markdown、Excel 和 Kami 风格可视化诊断报告。"
+  ],
+  "should_not_trigger": [
+    "帮我写一篇新能源汽车推荐文章。",
+    "解释一下 DeepSeek 是什么。",
+    "用 DeepSeek API 聊天回答一个问题。",
+    "爬取任意网站页面内容，不需要 DeepSeek 网页端。",
+    "只想做传统 SEO 关键词规划，不需要 AI 搜索重复采样。"
+  ],
+  "near_neighbor": [
+    "设计一套 GEO 长期监测指标，但暂时不跑 DeepSeek 网页端。",
+    "做品牌 GEO 全景诊断，需要同时覆盖多个 AI 平台。",
+    "生成 GEO 内容优化建议，但没有原始采样数据。"
+  ]
+}

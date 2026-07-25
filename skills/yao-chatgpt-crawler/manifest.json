@@ -1,0 +1,58 @@
+{
+  "name": "yao-chatgpt-crawler",
+  "version": "0.1.0",
+  "owner": "Yao Team",
+  "updated_at": "2026-06-25",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "context_budget_tier": "production",
+  "review_cadence": "monthly",
+  "skill_archetype": "production",
+  "category": "geo",
+  "complexity_tier": "high",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "generic",
+    "agent-skills-compatible",
+    "vscode"
+  ],
+  "factory_components": [
+    "references",
+    "scripts",
+    "fixtures",
+    "templates",
+    "evals",
+    "examples",
+    "reports"
+  ],
+  "input_files": [
+    "questions.txt or questions.json",
+    "required standard inputs: repeat count, target entity, entity type, OpenCLI profile, and single-query interval preset",
+    "optional brands.txt alias/competitor file",
+    "optional OPENAI_API_KEY for AI semantic review",
+    "optional existing chatgpt-crawl.json"
+  ],
+  "output_contract": [
+    "chatgpt-crawl.json canonical evidence dataset",
+    "summary.json analysis metrics with target entity recognition, semantic review status, and same-type competitor comparison",
+    "structured-data.md Markdown export of cleaned structured fields, semantic labels, and analysis tables",
+    "structured-data.xlsx Excel workbook with the same structured sheets as the Markdown export",
+    "report.html Kami-styled visual report with overview, directory, metric explanations, semantic entity classification, probability tables, target-vs-competitor module, clickable citations with unique compact URL labels, GEO trend projections, and capped detail lists",
+    "semantic-review-cache.json optional AI semantic-review cache when reusable classifications are produced",
+    "raw/*.json and logs/*.log per-sample evidence"
+  ],
+  "rollback_boundary": "The skill writes local artifacts only to the selected run output directory. Fresh crawling creates ChatGPT web conversations and may switch the current ChatGPT mode when --model is used; it does not modify external source projects.",
+  "local_dependencies": [
+    "Node.js 18+",
+    "Python 3.10+",
+    "OpenCLI CLI 1.8.4+",
+    "OpenCLI Browser Bridge connected profile",
+    "ChatGPT web session that can send messages",
+    "ChatGPT Web Search availability for source-analysis runs",
+    "Bundled scripts/chatgpt_browser_crawl.mjs using the OpenCLI chatgpt adapter",
+    "Bundled scripts/test_chatgpt_batch_delay.mjs for delay strategy regression checks",
+    "Optional OPENAI_API_KEY for AI semantic review during analysis"
+  ]
+}

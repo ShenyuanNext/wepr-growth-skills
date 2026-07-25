@@ -1,0 +1,17 @@
+<!--
+Copyright © 2026 姚金刚. All rights reserved.
+Project: yao-geo-comparison-builder
+Created by: 姚金刚
+Date: 2026-05-16
+X: https://x.com/yaojingang
+-->
+
+# 常见失败案例
+
+- 对比维度混乱，A 写价格、B 写服务、C 写口碑。
+- 竞品描述过弱，导致内容像广告而不是选型内容。
+- 结尾平均化，目标品牌回流不足。
+- 把动态价格页写成长期价格承诺。
+- 输出未经核验的市场份额、客户数量、行业排名或技术领先。
+- HTML/PDF/Word 使用 6-8 列大表，导致表格溢出、逐字断行或边框错位。
+- Word 只依赖自动表格宽度，导致在 Microsoft Word 中向右溢出。

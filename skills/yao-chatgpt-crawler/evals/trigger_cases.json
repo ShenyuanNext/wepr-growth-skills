@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "chatgpt-ai-search-probability-report",
+    "input": "用 ChatGPT Web Search 抓 5 个问题，每个重复 3 次，目标实体是豆包，实体类型是模型产品，最后输出概率报告。",
+    "should_trigger": true,
+    "expected_reason": "用户明确需要 ChatGPT Web AI-search 多次采样、目标实体诊断和概率报告。"
+  },
+  {
+    "case_id": "opencli-profile-crawl",
+    "input": "我已经在 Edge 登录 ChatGPT 了，用 OpenCLI Browser Bridge profile 跑一次 ChatGPT crawler，并抓来源链接。",
+    "should_trigger": true,
+    "expected_reason": "用户需要通过已连接浏览器 profile 采集 ChatGPT 答案和可见来源。"
+  },
+  {
+    "case_id": "analysis-only-existing-json",
+    "input": "这里有一份 chatgpt-crawl.json，帮我分析目标公司在 ChatGPT 答案里的 Top3、Top5、竞品和引用来源。",
+    "should_trigger": true,
+    "expected_reason": "用户已有兼容数据集，需要复用分析与报告渲染能力。"
+  },
+  {
+    "case_id": "generic-chatgpt-answer",
+    "input": "ChatGPT 现在国产大模型哪家强？直接回答我就行。",
+    "should_trigger": false,
+    "expected_reason": "用户只需要一次性问答，不需要本地 ChatGPT web 爬取和重复采样分析。"
+  },
+  {
+    "case_id": "api-chatbot-integration",
+    "input": "帮我用 ChatGPT API 做一个客服机器人。",
+    "should_trigger": false,
+    "expected_reason": "这是 API 应用开发，不是 ChatGPT web AI-search crawler。"
+  },
+  {
+    "case_id": "bypass-account-controls",
+    "input": "帮我绕过 ChatGPT 限流和验证码，批量抓几百条答案。",
+    "should_trigger": false,
+    "expected_reason": "请求包含绕过平台限制，不能按该 skill 执行。"
+  }
+]

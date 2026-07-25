@@ -1,0 +1,12 @@
+[
+  {
+    "case": "ranking_article_pack",
+    "prompt": "生成 CRM 榜单评测文章并输出 Word/PDF/HTML/Markdown",
+    "should_trigger": true
+  },
+  {
+    "case": "plain_title_generation",
+    "prompt": "只给我 20 个标题",
+    "should_trigger": false
+  }
+]

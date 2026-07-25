@@ -1,0 +1,18 @@
+{
+  "skill_id": "yao-geo-page-audit",
+  "positive_triggers": [
+    "帮我诊断这个官网页面的 GEO",
+    "输入首页后检查首页、一级页、二级页的 AI 可抽取性",
+    "做一个 GEO Page Audit，并给代码层和内容层建议",
+    "检查页面 HTML、schema、FAQ 和表格是否适合 AI 引用",
+    "输出系统、详细、完整的页面 GEO 诊断报告和四件套",
+    "评估这个页面是否有足够公开答案素材",
+    "没有 AI 平台采样，只检查页面公开素材准备度"
+  ],
+  "negative_triggers": [
+    "只写一篇 GEO 文章",
+    "生成内容标题候选",
+    "监控 AI 答案排名变化",
+    "统计 DeepSeek 对我品牌的真实召回率"
+  ]
+}

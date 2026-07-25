@@ -1,0 +1,32 @@
+[
+  {
+    "name": "产品页页面蓝图",
+    "input": "为我们的 B2B SaaS 产品页设计一个 GEO 友好的页面结构，输出 HTML、Schema、CMS 字段和四格式报告。",
+    "should_trigger": true,
+    "expected_skill": "yao-geo-page-blueprint"
+  },
+  {
+    "name": "FAQ 页面结构设计",
+    "input": "帮我设计官网 FAQ 页，适合 DeepSeek、豆包、千问、Kimi、元宝抽取答案。",
+    "should_trigger": true,
+    "expected_skill": "yao-geo-page-blueprint"
+  },
+  {
+    "name": "对比页蓝图",
+    "input": "以 HubSpot 为例，设计一个面向国内 AI 平台的 CRM 对比页，包含信息架构、证据区、Schema、HTML 结构和四格式报告。",
+    "should_trigger": true,
+    "expected_skill": "yao-geo-page-blueprint"
+  },
+  {
+    "name": "只做全站诊断",
+    "input": "帮我诊断品牌在所有 AI 平台上的可见性、竞品差距和外部信源。",
+    "should_trigger": false,
+    "better_skill": "yao-geo-panorama-audit"
+  },
+  {
+    "name": "只写公众号文章",
+    "input": "帮我写一篇 CRM 选型公众号长文，不需要页面结构、HTML、Schema 或 CMS 字段。",
+    "should_trigger": false,
+    "better_skill": "khazix-writer"
+  }
+]

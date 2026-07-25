@@ -1,0 +1,27 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-page-blueprint
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+interface:
+  display_name: "Yao GEO 页面蓝图"
+  short_description: "生成 GEO 友好页面结构、真实数据核验计划、AI 可抽取模块、HTML 语义结构、Schema 和 CMS 字段方案。"
+  default_prompt: "当需要设计官网产品页、专题页、文章页、榜单页、对比页、FAQ页、知识库页或案例页的 GEO 友好页面蓝图，尤其需要来源包、真实数据核验或四格式报告时，使用 $yao-geo-page-blueprint。"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets: ["openai", "claude", "generic"]
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    generic: "neutral-source"

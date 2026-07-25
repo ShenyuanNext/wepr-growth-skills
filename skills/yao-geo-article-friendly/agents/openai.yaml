@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geo-article-friendly"
+  short_description: "Run the evidence-led workflow for yao-geo-article-friendly"
+  default_prompt: "Use $yao-geo-article-friendly to complete this GEO task with source boundaries, validation, and auditable deliverables."

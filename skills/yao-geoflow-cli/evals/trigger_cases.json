@@ -1,0 +1,200 @@
+{
+  "recommended_threshold": 0.34,
+  "negative_patterns": [
+    "implement the api",
+    "refactor backend",
+    "change the database",
+    "just explain",
+    "only summarize"
+  ],
+  "should_trigger": [
+    {
+      "text": "用本地 CLI 去创建 GEOFlow 任务并立即入队。",
+      "family": "task_ops"
+    },
+    {
+      "text": "帮我通过 geoflow CLI 上传一篇文章草稿，然后审核并发布。",
+      "family": "article_ops"
+    },
+    {
+      "text": "不要进后台，直接用命令行看看这个 GEOFlow 系统有哪些分类和作者。",
+      "family": "catalog_lookup"
+    },
+    {
+      "text": "用 GEOFlow API 查一下素材库，再创建一个关键词库并添加几个关键词。",
+      "family": "material_ops"
+    },
+    {
+      "text": "Laravel 版 GEOFlow 没有 CLI，用 /api/v1/materials 帮我新增一个标题库和标题条目。",
+      "family": "laravel_material_api_ops"
+    },
+    {
+      "text": "我想批量用本地命令去管理 GEOFlow 的任务和文章。",
+      "family": "bulk_cli_ops"
+    },
+    {
+      "text": "用 API 删除这个 GEOFlow 任务，确认关联任务已经不存在。",
+      "family": "task_delete_api"
+    },
+    {
+      "text": "创建一个 publish_scope=distribution_only 的 GEOFlow 任务，但不要直接改数据库。",
+      "family": "task_publish_scope"
+    },
+    {
+      "text": "用 geoflow 命令检查这个任务的 job 状态，看看是不是 worker 执行失败。",
+      "family": "job_inspection"
+    },
+    {
+      "text": "geoflow 的 token 过期了，直接帮我刷新登录然后继续查 catalog。",
+      "family": "expired_token_refresh"
+    },
+    {
+      "text": "不要进后台，用 geoflow CLI 发一篇测试文章，并把最终的 /article/8位短slug 链接给我。",
+      "family": "publish_short_slug_url"
+    },
+    {
+      "text": "这个任务提示没有可用的标题，先停掉任务，再直接发一篇测试文章验证发布链路。",
+      "family": "missing_titles_fallback_cleanup"
+    },
+    {
+      "text": "Laravel 版 GEOFlow 没有 bin/geoflow，用 /api/v1 和 Docker 环境变量帮我先做 preflight。",
+      "family": "laravel_api_v1_docker_preflight"
+    },
+    {
+      "text": "调用 GEOFlow API 返回 <!doctype html>，帮我判断是不是 base url 或代理路由配置错了。",
+      "family": "non_json_api_response_diagnosis"
+    },
+    {
+      "text": "先检查 catalog 和 materials 两个 API 读接口，再批量写入素材。",
+      "family": "material_preflight"
+    },
+    {
+      "text": "帮我在后台创建 GEOFlow 分发渠道并下载目标站点包。",
+      "family": "admin_distribution_web_flow"
+    },
+    {
+      "text": "打开 GEOFlow 数据分析页看一下访问趋势和分发失败统计。",
+      "family": "admin_analytics_web_flow"
+    },
+    {
+      "text": "用当前 GEOFlow 后台给任务选择两个渠道站点，策略用 round_robin。",
+      "family": "admin_task_distribution_channels"
+    },
+    {
+      "text": "创建一个 WordPress REST 分发渠道，做健康检查，然后不要泄露 Application Password。",
+      "family": "wordpress_distribution_channel"
+    },
+    {
+      "text": "创建一个通用 HTTP API 分发渠道，配置 HMAC 鉴权和响应字段映射。",
+      "family": "generic_http_distribution_channel"
+    },
+    {
+      "text": "帮我跑 URL Import，从网页生成知识库、关键词和标题，完成后提交结果。",
+      "family": "url_import_flow"
+    },
+    {
+      "text": "进入系统更新中心检查更新，生成计划和备份，但先不要执行 apply。",
+      "family": "system_update_plan_backup"
+    },
+    {
+      "text": "用后台主题复刻功能导入参考站，预览 home/category/article 后再发布。",
+      "family": "theme_replication_flow"
+    },
+    {
+      "text": "帮我创建一个 GEOFlow API Token，只返回脱敏后的结果。",
+      "family": "api_token_admin"
+    },
+    {
+      "text": "在后台批量把这些文章审核通过并发布状态改为 published。",
+      "family": "admin_article_batch_ops"
+    },
+    {
+      "text": "给 GEOFlow 配置默认 embedding 模型并更新知识库分块参数。",
+      "family": "admin_ai_config"
+    },
+    {
+      "text": "在增长中心创建一个线索表单，启用后导出今天提交的 leads。",
+      "family": "growth_center_lead_forms_and_export"
+    },
+    {
+      "text": "用后台企业知识库上传一份企业资料，生成草稿，校验后发布到知识库。",
+      "family": "enterprise_knowledge_admin_flow"
+    },
+    {
+      "text": "刷新这个 GEOFlow Agent 渠道的 frontend-capabilities，然后生成 settings sync preview。",
+      "family": "frontend_capability_sync_preview"
+    },
+    {
+      "text": "打开 site settings 里的 live theme editor，保存 home 页 draft，预览确认后发布。",
+      "family": "live_theme_editor_publish"
+    }
+  ],
+  "should_not_trigger": [
+    {
+      "text": "帮我设计 GEOFlow 的新 API。",
+      "family": "backend_design"
+    },
+    {
+      "text": "修改 GEOFlow 的数据库字段。",
+      "family": "schema_change"
+    },
+    {
+      "text": "解释一下 GEOFlow 任务架构。",
+      "family": "explanation_only"
+    },
+    {
+      "text": "只帮我读一下这篇文章，不要操作系统。",
+      "family": "read_only_unrelated"
+    },
+    {
+      "text": "帮我重新设计 GEOFlow 后台分发管理页面。",
+      "family": "frontend_design"
+    },
+    {
+      "text": "帮我实现新的 distribution API v2 控制器。",
+      "family": "backend_implementation"
+    },
+    {
+      "text": "帮我实现 lead form 的数据库迁移和模型关联。",
+      "family": "lead_form_backend_implementation"
+    },
+    {
+      "text": "帮我重新设计 GEOFlow 首页的表单模块视觉稿。",
+      "family": "frontend_design"
+    }
+  ],
+  "near_neighbor": [
+    {
+      "text": "帮我实现 geoflow CLI 本身。",
+      "family": "cli_development_vs_cli_operations"
+    },
+    {
+      "text": "不要执行命令，只列出 geoflow 可以做什么。",
+      "family": "explain_vs_operate"
+    },
+    {
+      "text": "直接改数据库，把文章状态改成 published。",
+      "family": "db_shortcut_vs_supported_ops"
+    },
+    {
+      "text": "通过 API v1 配置分发渠道和轮换密钥。",
+      "family": "distribution_api_vs_admin_web"
+    },
+    {
+      "text": "直接把 distribution_channels 表插一条记录。",
+      "family": "db_shortcut_vs_admin_web"
+    },
+    {
+      "text": "不用登录后台，直接绕过 CSRF 下载目标站点包。",
+      "family": "csrf_bypass_vs_admin_web"
+    },
+    {
+      "text": "通过 API v1 创建企业知识项目并发布知识库，不走后台。",
+      "family": "enterprise_knowledge_api_vs_admin_web"
+    },
+    {
+      "text": "直接从数据库导出所有 leads，绕过 admin export。",
+      "family": "lead_export_db_shortcut"
+    }
+  ]
+}

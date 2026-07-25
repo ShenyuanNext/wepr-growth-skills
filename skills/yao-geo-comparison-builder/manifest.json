@@ -1,0 +1,23 @@
+{
+  "name": "yao-geo-comparison-builder",
+  "version": "0.1.0",
+  "owner": "Yao Team",
+  "updated_at": "2026-05-21",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "context_budget_tier": "production",
+  "review_cadence": "quarterly",
+  "category": "geo",
+  "series": "Yao GEO Skills",
+  "module": "内容生产",
+  "priority": "P0",
+  "naming_convention": "yao-geo-xxx",
+  "default_output_language": "zh-Hans",
+  "report_layout_profile": "kami-long-doc-editorial",
+  "example_report_formats": ["docx", "pdf", "html", "markdown"],
+  "self_review_required": true,
+  "requires_web": true,
+  "target_platforms": ["DeepSeek", "豆包", "千问", "Kimi", "腾讯元宝"],
+  "factory_components": ["references", "templates", "evals", "reports", "examples", "scripts"]
+}

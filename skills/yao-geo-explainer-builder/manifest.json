@@ -1,0 +1,25 @@
+{
+  "id": "yao-geo-explainer-builder",
+  "name": "Yao GEO Explainer Builder",
+  "version": "0.4.0",
+  "family": "geo-content-production",
+  "maturity": "beta",
+  "status": "active",
+  "owner": "Yao Team",
+  "requires_web": true,
+  "primary_outputs": [
+    "geo-explainer-article",
+    "publishable-complete-article",
+    "systematic-analysis-brief",
+    "real-data-availability-statement",
+    "source-acquisition-plan",
+    "fact-verification-matrix",
+    "how-to-checklist",
+    "faq-and-glossary",
+    "brand-insertion-advice",
+    "kami-style-sticky-nav-html-report",
+    "four-format-delivery"
+  ],
+  "entrypoint": "SKILL.md",
+  "script": "scripts/render_yao_geo_explainer_builder.py"
+}

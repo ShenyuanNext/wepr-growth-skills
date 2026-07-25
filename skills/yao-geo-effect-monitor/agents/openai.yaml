@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geo-effect-monitor"
+  short_description: "Run the evidence-led workflow for yao-geo-effect-monitor"
+  default_prompt: "Use $yao-geo-effect-monitor to complete this GEO task with source boundaries, validation, and auditable deliverables."

@@ -1,0 +1,51 @@
+{
+  "id": "yao-geo-page-blueprint",
+  "name": "yao-geo-page-blueprint",
+  "version": "0.1.0",
+  "family": "geo-page-technical",
+  "maturity": "beta",
+  "owner": "Yao Team",
+  "requires_web": false,
+  "description": "Design GEO-friendly page blueprints with optional real-data source packs, information architecture, AI-extractable modules, semantic HTML, Schema candidates, CMS fields, and four-format report delivery.",
+  "entrypoint": "SKILL.md",
+  "inputs": [
+    "target_content",
+    "target_questions",
+    "brand_knowledge_base",
+    "data_mode",
+    "evidence_source_pack",
+    "official_source_urls",
+    "ai_answer_samples",
+    "competitor_pages",
+    "page_type",
+    "user_path",
+    "conversion_goal",
+    "technical_stack",
+    "cms_constraints",
+    "compliance_requirements",
+    "target_ai_platforms"
+  ],
+  "outputs": [
+    "geo-page-blueprint-report",
+    "real-data-intake-validation-plan",
+    "page-module-information-architecture",
+    "research-basis-design-principles",
+    "evidence-source-ledger",
+    "html-structure-sample",
+    "schema-recommendations",
+    "cms-field-list",
+    "mobile-wechat-layout-advice",
+    "markdown-report",
+    "html-report",
+    "docx-report",
+    "pdf-report"
+  ],
+  "created_at": "2026-05-19",
+  "data_modes": [
+    "provided-source-pack",
+    "assisted-web-research",
+    "ai-answer-sample",
+    "synthetic-planning"
+  ],
+  "last_updated": "2026-05-21"
+}

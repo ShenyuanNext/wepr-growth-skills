@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geo-brand-graph"
+  short_description: "Run the evidence-led workflow for yao-geo-brand-graph"
+  default_prompt: "Use $yao-geo-brand-graph to complete this GEO task with source boundaries, validation, and auditable deliverables."

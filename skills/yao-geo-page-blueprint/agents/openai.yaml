@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geo-page-blueprint"
+  short_description: "Run the evidence-led workflow for yao-geo-page-blueprint"
+  default_prompt: "Use $yao-geo-page-blueprint to complete this GEO task with source boundaries, validation, and auditable deliverables."

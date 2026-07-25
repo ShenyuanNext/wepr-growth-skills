@@ -1,0 +1,23 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-content-refiner
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+name: yao-geo-content-refiner
+display_name: Yao GEO 内容改造
+description: 将已有文章改造成 GEO 友好、AI 可引用、证据可核验、结构可抽取的内容，并交付防溢出的 Word/PDF/HTML/Markdown 四格式报告。
+default_language: zh-Hans
+outputs:
+  - 分析完整性总览
+  - 真实数据获取与核验计划
+  - GEO 改造版文章
+  - 原文 GEO 评分表
+  - 改造前后差异报告
+  - 原子事实卡
+  - FAQ 与同义问法
+  - 语义与实体地图
+  - 平台适配矩阵
+  - 证据强度与缺口
+  - 发布与追踪建议
+  - Word/PDF/HTML/Markdown 四格式报告

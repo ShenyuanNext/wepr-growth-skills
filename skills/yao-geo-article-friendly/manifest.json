@@ -1,0 +1,26 @@
+{
+  "id": "yao-geo-article-friendly",
+  "name": "Yao GEO Article Friendly",
+  "version": "0.1.0",
+  "family": "geo-content-production",
+  "maturity": "scaffold",
+  "maturity_tier": "scaffold",
+  "context_budget_tier": "production",
+  "status": "active",
+  "owner": "Yao Team",
+  "updated_at": "2026-06-27",
+  "review_cadence": "quarterly",
+  "requires_web": false,
+  "primary_outputs": [
+    "geo-optimized-article",
+    "geo-score-report",
+    "change-notes",
+    "supplement-request-list",
+    "risk-notes"
+  ],
+  "factory_components": [
+    "evals",
+    "templates"
+  ],
+  "entrypoint": "SKILL.md"
+}

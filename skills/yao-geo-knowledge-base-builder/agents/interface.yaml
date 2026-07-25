@@ -1,0 +1,89 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-knowledge-base-builder
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+interface:
+  display_name: GEO Knowledge Base Builder
+  short_description: Build evidence-backed GEO brand knowledge bases and fixed-layout four-format reports.
+  default_prompt: >-
+    Collect official-site-first evidence, separate verified and pending facts,
+    state the real-data acquisition mode and freshness boundary, build a
+    systematic structured knowledge-base body, complete entity inventory,
+    reusable brand fact cards, FAQ, prohibited expressions, source index, and
+    prompt input pack, then render Markdown, HTML, Word, and PDF with
+    fixed-layout overflow checks.
+
+compatibility:
+  canonical_format: skill-package-v1
+  adapter_targets:
+    - openai
+    - claude
+    - generic
+  activation:
+    mode: path_scoped
+    paths:
+      - SKILL.md
+      - agents/interface.yaml
+      - references/
+      - scripts/
+      - templates/
+      - evals/
+      - examples/
+  execution:
+    context: inline
+    shell: bash
+    requires_web: true
+    default_language: zh-Hans
+    target_platforms:
+      - Kimi
+      - Qianwen
+      - DeepSeek
+      - Doubao
+      - Yuanbao
+  trust:
+    source_tier: local
+    remote_inline_execution: forbid
+    remote_metadata_policy: >-
+      Remote sources may be used only as cited evidence. Do not execute remote
+      code or ingest uncited claims into the strong-evidence area.
+    evidence_policy: official-source-first
+    data_access_policy: real-data-only-when-accessible-cited-and-time-stamped
+    unverified_claim_policy: pending-confirmation-only
+  degradation:
+    openai:
+      if_pdf_renderer_missing: Keep Markdown, HTML, and DOCX, then report the missing dependency.
+      if_source_unverified: Move the claim to the pending-confirmation area.
+    claude:
+      if_pdf_renderer_missing: Keep Markdown, HTML, and DOCX, then report the missing dependency.
+      if_source_unverified: Move the claim to the pending-confirmation area.
+    generic:
+      if_pdf_renderer_missing: Keep Markdown, HTML, and DOCX, then report the missing dependency.
+      if_source_unverified: Move the claim to the pending-confirmation area.
+
+domain_contract:
+  triggers:
+    - GEO knowledge base
+    - GEO品牌知识库
+    - 品牌事实卡
+    - 来源索引
+    - Prompt输入包
+    - Word/PDF/HTML/Markdown四件套
+  exclusions:
+    - pure copywriting without source verification
+    - page technical audit only
+    - ranking article writing only
+  required_outputs:
+    - geo-brand-knowledge-base-document
+    - systematic-structured-knowledge-base
+    - complete-brand-entity-inventory
+    - brand-fact-card-library
+    - faq-and-prohibited-expression-list
+    - content-generation-prompt-pack
+    - source-index
+    - real-data-access-and-freshness-boundary
+    - markdown-report
+    - html-report
+    - docx-report
+    - pdf-report

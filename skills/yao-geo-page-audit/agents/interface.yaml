@@ -1,0 +1,66 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-page-audit
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+id: yao-geo-page-audit
+name: yao-geo-page-audit
+version: 0.4.0
+language: zh-CN
+purpose: >
+  Diagnose target website pages for GEO readiness with authoritative
+  evidence, systematic page analysis, code/content/schema fixes,
+  sticky-menu HTML, Kami-style report layout, and Word/PDF-safe
+  four-format delivery. Do not infer AI-platform recall without
+  user-provided platform samples.
+inputs:
+  required:
+    - target_url
+  recommended:
+    - brand_name
+    - target_keywords
+    - target_questions
+    - competitor_pages
+  optional:
+    - sitemap
+    - robots_txt
+    - structured_data
+    - server_logs
+    - source_html
+    - cms_notes
+    - official_docs
+    - pricing_or_service_boundaries
+    - domestic_ai_samples
+outputs:
+  required:
+    - page_geo_audit_report
+    - authority_evidence_ledger
+    - public_answer_material_question_set
+    - code_layer_fix_list
+    - content_structure_plan
+    - schema_html_module_recommendations
+    - priority_roadmap
+    - completeness_self_check
+    - markdown_report
+    - html_report
+    - docx_report
+    - pdf_report
+    - quality_report
+constraints:
+  - Do not infer log-level crawl behavior without logs.
+  - Distinguish user-visible content, crawler-readable content, and AI-extractable content.
+  - Schema recommendations must be supported by visible page body facts.
+  - Word tables must not exceed five columns.
+  - Visible URL/code tokens in Word must not create right-overflow.
+  - HTML reports must include a sticky or fixed table-of-contents menu.
+  - Important claims must be marked as observed, official, standard, research, inferred, or input gap.
+  - Do not analyze AI-platform recall, ranking, citation share, or answer frequency unless platform samples are provided.
+  - Reports must follow Kami-style warm parchment, ink-blue accent, warm-gray, compact editorial spacing rules.
+quality_gates:
+  - references/authority-reference-model.md
+  - references/report-module-taxonomy.md
+  - references/quality-gates.md
+  - references/output-layout-policy.md
+  - scripts/review_report_layout.py
+  - scripts/polish_docx.py

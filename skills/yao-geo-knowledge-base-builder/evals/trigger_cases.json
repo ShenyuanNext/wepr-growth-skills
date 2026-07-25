@@ -1,0 +1,22 @@
+[
+  {
+    "input": "基于官网和帮助中心帮我生成一个GEO品牌知识库，输出Word、PDF、HTML和Markdown。",
+    "should_trigger": true,
+    "reason": "Direct request for GEO brand knowledge base and four-format delivery."
+  },
+  {
+    "input": "把这个品牌资料整理成事实卡、FAQ、禁用表达和Prompt输入包，给Kimi和DeepSeek复用。",
+    "should_trigger": true,
+    "reason": "Fact cards, FAQ, prohibited expressions, prompt pack, and domestic AI reuse are core scope."
+  },
+  {
+    "input": "帮我写一篇CRM榜单评测文章，把竞品排名排出来。",
+    "should_trigger": false,
+    "reason": "Ranking article writing should route to a ranking/comparison content skill."
+  },
+  {
+    "input": "检查这个页面的schema、canonical和可抓取性。",
+    "should_trigger": false,
+    "reason": "Technical page audit belongs to a page-audit skill."
+  }
+]

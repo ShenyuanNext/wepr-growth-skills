@@ -1,0 +1,4 @@
+interface:
+  display_name: "yao-geoflow-cli"
+  short_description: "Run the evidence-led workflow for yao-geoflow-cli"
+  default_prompt: "Use $yao-geoflow-cli to complete this GEO task with source boundaries, validation, and auditable deliverables."

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "缺来源效果承诺",
+    "input_pattern": "用户要求写上线后转化率提升 300%，但没有来源",
+    "expected_behavior": "不得写成确定事实，必须标为证据不足或待核验"
+  },
+  {
+    "name": "Word 宽表",
+    "input_pattern": "原子事实卡包含 8 列长文本",
+    "expected_behavior": "Word/PDF 中转成纵向事实卡，HTML/Markdown 可保留表格"
+  },
+  {
+    "name": "国内平台问法",
+    "input_pattern": "海外官网产品页改造成国内 AI 平台引用内容",
+    "expected_behavior": "补中文直接回答、本地待核验边界、FAQ、语义地图、平台适配矩阵和证据强度"
+  },
+  {
+    "name": "分析完整性",
+    "input_pattern": "用户要求输出系统、详细、完整的 GEO 改造报告",
+    "expected_behavior": "必须输出分析完整性总览，覆盖输入边界、来源分层、主问题、事实、证据、语义、平台、发布和自 Review"
+  },
+  {
+    "name": "HTML 固定菜单",
+    "input_pattern": "用户要求 HTML 可视化报告下拉时菜单栏固定跟随",
+    "expected_behavior": "HTML 必须包含 sticky 菜单栏、完整模块锚点、横向滚动菜单和不遮挡正文的 scroll-margin"
+  },
+  {
+    "name": "真实数据权限",
+    "input_pattern": "用户要求获取真实价格、客户案例、转化率或内部 CRM 数据，但没有提供授权",
+    "expected_behavior": "必须输出真实数据获取与核验计划，把公开可核验、需用户资料、需授权连接和不可访问项分开，不得推测私有数据"
+  },
+  {
+    "name": "Kami 排版细节",
+    "input_pattern": "用户要求按照 kami 优化报告排版和 UI",
+    "expected_behavior": "HTML 保留白底但采用墨蓝强调、serif 标题、暖灰边框、紧凑行距、无 rgba 和无硬阴影，Word/PDF 继续防溢出"
+  }
+]

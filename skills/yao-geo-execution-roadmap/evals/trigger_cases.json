@@ -1,0 +1,39 @@
+[
+  {
+    "case": "已有诊断，要求 90 天执行方案",
+    "input": "根据这份 GEO 全景诊断，输出 30/60/90 天实施路线图和四格式报告。",
+    "should_trigger": true
+  },
+  {
+    "case": "只要全景诊断",
+    "input": "帮我采样 DeepSeek、豆包、千问、Kimi、元宝并做 GEO 全景诊断。",
+    "should_trigger": false,
+    "expected_alternative": "yao-geo-panorama-audit"
+  },
+  {
+    "case": "只要追踪看板",
+    "input": "帮我设计 GEO 效果追踪字段和复测看板。",
+    "should_trigger": false,
+    "expected_alternative": "yao-geo-tracking"
+  },
+  {
+    "case": "国内平台差异化实施",
+    "input": "把已有机会地图拆成 DeepSeek、豆包、千问、Kimi、元宝的执行动作。",
+    "should_trigger": true
+  },
+  {
+    "case": "四格式交付与 Word 排版复核",
+    "input": "用已有诊断结果生成 GEO 综合实施方案，输出 Word、PDF、HTML、Markdown，并检查 Word 表格不要向右溢出。",
+    "should_trigger": true
+  },
+  {
+    "case": "系统详细完整报告与固定菜单",
+    "input": "把诊断结果生成系统、详细、完整的 GEO 执行方案，报告要包含分析完整性矩阵、证据成熟度、资源预算、治理机制，HTML 页面下拉时菜单栏固定跟随。",
+    "should_trigger": true
+  },
+  {
+    "case": "真实数据能力与排版升级",
+    "input": "基于已有 GEO 诊断做实施路线图，说明哪些真实数据能公开核验、哪些需要平台采样导入，并按 kami 风格优化 Word、PDF、HTML、Markdown 报告排版。",
+    "should_trigger": true
+  }
+]

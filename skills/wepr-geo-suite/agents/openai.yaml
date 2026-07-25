@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR GEO Suite"
+  short_description: "Route complete evidence-led GEO delivery workflows"
+  default_prompt: "Use $wepr-geo-suite to scope this GEO project, route the required specialist skills, and define evidence, deliverables, measurement, and validation."

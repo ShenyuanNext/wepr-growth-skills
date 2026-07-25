@@ -1,0 +1,9 @@
+{
+  "id": "yao-geo-content-refiner",
+  "version": "0.4.0",
+  "status": "active",
+  "maturity": "beta",
+  "updated_at": "2026-05-21",
+  "layout_profile": "kami-editorial-white-fixed-width-docx-wide-table-cards-sticky-html-nav",
+  "formats": ["markdown", "html", "docx", "pdf"]
+}

@@ -1,0 +1,23 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-ranking-article-builder
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+name: yao-geo-ranking-article-builder
+version: 0.3.0
+summary: Generate systematic, evidence-backed GEO ranking review articles and four-format report packs.
+outputs:
+  - source_availability_audit
+  - real_data_boundary_map
+  - analysis_completeness_map
+  - methodology_reference_map
+  - keyword_intent_map
+  - competitor_evidence_table
+  - ranking_dimension_table
+  - markdown_report
+  - html_report
+  - pdf_report
+  - docx_report
+  - html_sticky_nav_check
+  - layout_review_report

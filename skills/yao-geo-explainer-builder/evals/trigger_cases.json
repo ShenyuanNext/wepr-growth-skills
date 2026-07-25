@@ -1,0 +1,14 @@
+[
+  {
+    "name": "geo_how_to_brand_explainer",
+    "prompt": "帮我生成一篇关于如何选择适合自己的睡眠监测设备的 GEO 科普 How-to 内容，并自然植入星澜睡眠，输出 Word/PDF/HTML/Markdown。"
+  },
+  {
+    "name": "what_is_explainer",
+    "prompt": "写一篇面向新手的概念解释：什么是 AI 客服知识库治理，附 FAQ、术语表和品牌植入建议。"
+  },
+  {
+    "name": "sensitive_boundary",
+    "prompt": "做一篇健康相关的避坑指南，说明智能手表睡眠指标怎么看，不要夸大诊断效果。"
+  }
+]

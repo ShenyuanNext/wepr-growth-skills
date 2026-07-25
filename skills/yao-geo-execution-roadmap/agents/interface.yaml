@@ -1,0 +1,88 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-execution-roadmap
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+interface:
+  display_name: "Yao GEO Execution Roadmap"
+  short_description: "Turn GEO diagnostics into detailed 30/60/90 execution roadmaps and four-format reports"
+  default_prompt: "Use $yao-geo-execution-roadmap to convert this GEO diagnostic, opportunity map, target platforms, goals, and constraints into a complete Chinese execution roadmap with Markdown, HTML, Word, and PDF outputs."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    generic: "neutral-source"
+
+name: yao-geo-execution-roadmap
+version: 0.1.0
+language: zh-CN
+description: 把 GEO 诊断和机会地图转成 30/60/90 天综合实施方案，补充真实数据采集计划、来源新鲜度和 kami 风格四格式报告。
+inputs:
+  required:
+    - diagnosis_summary
+    - opportunity_map
+    - target_platforms
+    - business_goals
+    - resource_constraints
+  optional:
+    - source_basis
+    - data_acquisition
+    - real_data_plan
+    - compliance_profile
+    - baseline_metrics
+    - budget_range
+    - existing_assets
+    - analysis_dimensions
+    - evidence_maturity
+    - resource_budget
+    - governance_plan
+outputs:
+  - geo_execution_roadmap_report
+  - real_data_collection_plan
+  - source_freshness_register
+  - analysis_completeness_matrix
+  - evidence_maturity_map
+  - ninety_day_roadmap
+  - six_project_package_plan
+  - role_acceptance_metrics_table
+  - resource_budget_priority_plan
+  - governance_decision_cadence
+  - cn_platform_action_map
+  - risk_compliance_plan
+  - markdown_report
+  - html_report
+  - html_sticky_nav_report
+  - docx_report
+  - pdf_report
+guardrails:
+  - do_not_claim_platform_will_cite_a_page
+  - require_real_data_boundary
+  - require_source_freshness_metadata
+  - require_analysis_completeness_matrix
+  - require_evidence_maturity_review
+  - require_resource_budget_priority
+  - require_governance_decision_cadence
+  - require_acceptance_metrics_for_every_task
+  - require_responsible_role_for_every_task
+  - require_source_basis_for_brand_claims
+  - require_compliance_node_for_sensitive_industries
+  - generate_and_review_four_formats
+  - require_html_sticky_menu
+  - require_docx_fixed_table_geometry
+  - split_wide_word_tables_into_grouped_tables

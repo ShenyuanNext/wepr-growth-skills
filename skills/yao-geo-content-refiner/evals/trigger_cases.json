@@ -1,0 +1,12 @@
+[
+  {
+    "case": "旧文 GEO 改造",
+    "input": "把这篇官网文章改造成 GEO 友好内容，并输出 Word/PDF/HTML/Markdown。",
+    "should_trigger": true
+  },
+  {
+    "case": "只做标题",
+    "input": "给这篇文章起 20 个标题。",
+    "should_trigger": false
+  }
+]

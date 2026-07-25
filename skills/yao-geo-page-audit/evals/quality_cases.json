@@ -1,0 +1,40 @@
+{
+  "skill_id": "yao-geo-page-audit",
+  "must_include": [
+    "page_type_and_scope",
+    "crawlability",
+    "renderability",
+    "semantic_structure",
+    "content_evidence",
+    "ai_extractability",
+    "schema_consistency",
+    "authority_evidence_ledger",
+    "public_answer_material_question_set",
+    "mobile_and_performance",
+    "source_authority",
+    "code_layer_fix_list",
+    "content_structure_plan",
+    "priority_and_cost",
+    "acceptance_tests",
+    "completeness_self_check",
+    "four_format_delivery",
+    "layout_quality_report",
+    "sticky_html_toc",
+    "kami_report_layout"
+  ],
+  "must_not_include": [
+    "log_level_claim_without_logs",
+    "schema_fact_not_supported_by_page_body",
+    "seo_only_recommendations_without_ai_extractability",
+    "important_claim_without_evidence_level",
+    "third_party_claim_as_official_fact",
+    "ai_platform_recall_claim_without_samples",
+    "ai_platform_ranking_claim_without_samples",
+    "ai_platform_answer_frequency_without_samples",
+    "all_recommendations_marked_p0",
+    "word_table_with_more_than_five_columns",
+    "visible_long_url_that_overflows_word",
+    "html_report_without_sticky_toc",
+    "cold_blue_gray_or_rgba_report_style"
+  ]
+}

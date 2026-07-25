@@ -1,0 +1,38 @@
+{
+  "required_files": [
+    "SKILL.md",
+    "agents/interface.yaml",
+    "manifest.json",
+    "references/artifact-layout.md",
+    "references/quality-gates.md",
+    "references/data-acquisition.md",
+    "templates/brief-template.md",
+    "scripts/render_ranking_article_pack.py",
+    "scripts/audit_sources.py",
+    "evals/trigger_cases.json",
+    "evals/expected_artifacts.json",
+    "evals/quality_cases.json"
+  ],
+  "required_example_outputs": [
+    "examples/synthetic-demo/demo-geo-ranking-article.md",
+    "examples/synthetic-demo/demo-geo-ranking-article.html",
+    "examples/synthetic-demo/demo-geo-ranking-article.pdf",
+    "examples/synthetic-demo/demo-geo-ranking-article.docx",
+    "examples/hubspot-demo/hubspot-crm-ranking-article.md",
+    "examples/hubspot-demo/hubspot-crm-ranking-article.html",
+    "examples/hubspot-demo/hubspot-crm-ranking-article.pdf",
+    "examples/hubspot-demo/hubspot-crm-ranking-article.docx"
+  ],
+  "required_html_checks": [
+    "report-nav",
+    "position: sticky",
+    "top: 0",
+    "table-wrap"
+  ],
+  "required_docx_checks": [
+    "A4 page size",
+    "fixed table layout",
+    "grid width within body width",
+    "soft breaks for long tokens"
+  ]
+}

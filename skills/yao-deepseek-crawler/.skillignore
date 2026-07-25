@@ -1,0 +1,9 @@
+runs/
+**/raw/
+**/logs/
+**/*.log
+**/__pycache__/
+**/*.pyc
+.DS_Store
+*.tmp
+*.bak

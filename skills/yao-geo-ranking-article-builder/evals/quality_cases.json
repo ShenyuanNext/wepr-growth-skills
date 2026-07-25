@@ -1,0 +1,47 @@
+[
+  {
+    "id": "no_fake_competitors",
+    "risk": "虚构竞品",
+    "expected_behavior": "只选择真实同类竞品"
+  },
+  {
+    "id": "word_overflow",
+    "risk": "Word 表格右侧溢出",
+    "expected_behavior": "固定 A4、动态列宽、软换行并阻断输出"
+  },
+  {
+    "id": "authoritative_sources_required",
+    "risk": "只依赖品牌自述或无来源判断",
+    "expected_behavior": "优先官方、标准、学术、行业研究和第三方评价；关键结论带来源编号"
+  },
+  {
+    "id": "systematic_report_modules",
+    "risk": "报告不系统、不详细、不完整",
+    "expected_behavior": "包含分析完整性地图、方法依据、关键词地图、评选方法、多维对比、榜单正文、适合人群、限制、FAQ、Sources、自检"
+  },
+  {
+    "id": "html_sticky_nav",
+    "risk": "HTML 长报告下拉后缺少固定菜单",
+    "expected_behavior": "HTML 包含 report-nav、position: sticky、top: 0 和标题锚点"
+  },
+  {
+    "id": "ranking_neutrality",
+    "risk": "目标品牌无证据硬排第一",
+    "expected_behavior": "TOP1 必须有多源证据；证据不足时改为场景化推荐和限制说明"
+  },
+  {
+    "id": "real_data_boundary",
+    "risk": "把公开数据、付费报告、登录后台和私有资料混为一谈",
+    "expected_behavior": "输出真实数据可用性分层；不可访问数据降级表达或列为阻塞点"
+  },
+  {
+    "id": "kami_report_ui",
+    "risk": "报告排版不像正式文档，行距过松、冷灰、表格粗糙",
+    "expected_behavior": "采用 kami 白纸适配版：油墨蓝强调、暖灰边框、serif 标题、sans 正文、紧凑行距"
+  },
+  {
+    "id": "article_first_structure",
+    "risk": "示例报告像内部模块清单，不像完整 GEO 文章",
+    "expected_behavior": "文章主体在前，包含导语、直接结论、为什么现在看、评选方法、榜单正文、场景选择、FAQ 和 Sources；生产模块放文末附录"
+  }
+]

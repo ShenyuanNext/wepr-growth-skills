@@ -1,0 +1,32 @@
+{
+  "skill_id": "yao-geo-page-audit",
+  "required_files": [
+    "SKILL.md",
+    "agents/interface.yaml",
+    "manifest.json",
+    "references/research-foundation.md",
+    "references/authority-reference-model.md",
+    "references/report-module-taxonomy.md",
+    "references/page-audit-method.md",
+    "references/report-formatting-spec.md",
+    "references/output-layout-policy.md",
+    "references/quality-gates.md",
+    "templates/brief-template.md",
+    "templates/report.css",
+    "scripts/review_report_layout.py",
+    "scripts/polish_docx.py",
+    "evals/trigger_cases.json",
+    "evals/quality_cases.json",
+    "evals/expected_artifacts.json"
+  ],
+  "example_reports": [
+    "examples/example-site-demo/example-site-geo-page-audit.md",
+    "examples/example-site-demo/example-site-geo-page-audit.html",
+    "examples/example-site-demo/example-site-geo-page-audit.docx",
+    "examples/example-site-demo/example-site-geo-page-audit.pdf",
+    "examples/hubspot-domestic-ai-demo/hubspot-geo-page-audit.md",
+    "examples/hubspot-domestic-ai-demo/hubspot-geo-page-audit.html",
+    "examples/hubspot-domestic-ai-demo/hubspot-geo-page-audit.docx",
+    "examples/hubspot-domestic-ai-demo/hubspot-geo-page-audit.pdf"
+  ]
+}

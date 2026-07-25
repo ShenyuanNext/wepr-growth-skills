@@ -1,0 +1,33 @@
+{
+  "name": "yao-geo-brand-graph",
+  "version": "0.1.4",
+  "owner": "Yao Team",
+  "updated_at": "2026-05-21",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "context_budget_tier": "production",
+  "review_cadence": "quarterly",
+  "category": "geo",
+  "series": "Yao GEO Skills",
+  "priority": "P1",
+  "module": "知识资产",
+  "naming_convention": "yao-geo-xxx",
+  "default_output_language": "zh-Hans",
+  "report_layout_profile": "kami-paper-long-doc",
+  "example_report_formats": [
+    "docx",
+    "pdf",
+    "html",
+    "markdown"
+  ],
+  "self_review_required": true,
+  "factory_components": [
+    "references",
+    "templates",
+    "evals",
+    "reports",
+    "examples",
+    "scripts"
+  ]
+}

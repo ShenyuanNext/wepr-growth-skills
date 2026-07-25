@@ -1,0 +1,61 @@
+{
+  "required_files": [
+    "SKILL.md",
+    "manifest.json",
+    "agents/interface.yaml",
+    "templates/brief-template.md",
+    "references/research-foundation.md",
+    "references/explainer-method.md",
+    "references/cn-platform-adaptation.md",
+    "references/brand-insertion-policy.md",
+    "references/artifact-layout.md",
+    "references/quality-gates.md",
+    "reports/output-risk-profile.md",
+    "scripts/render_yao_geo_explainer_builder.py",
+    "examples/acme-sleep-demo/report_input.json"
+  ],
+  "rendered_outputs": [
+    "deliverables/acme-sleep-geo-explainer.md",
+    "deliverables/html-package/index.html",
+    "deliverables/acme-sleep-geo-explainer.docx",
+    "deliverables/acme-sleep-geo-explainer.pdf",
+    "quality-report.json"
+  ],
+  "layout_requirements": {
+    "background": "kami-parchment",
+    "parchment_color": "#f5f4ed",
+    "paper_surface_color": "#faf9f5",
+    "accent_color": "#1B365D",
+    "packaged_fonts": [
+      "TsangerJinKai02-W04.ttf",
+      "Inter.woff2",
+      "Inter-600.woff2"
+    ],
+    "html_sticky_menu": true,
+    "html_section_anchors": true,
+    "html_no_gradient": true,
+    "html_no_rgba": true,
+    "docx_max_table_width_dxa": 9638,
+    "docx_long_ascii_token_limit": 36,
+    "html_table_border_collapse": true,
+    "pdf_from_html": true
+  },
+  "analysis_requirements": {
+    "article_sections_min": 6,
+    "article_paragraphs_min": 12,
+    "article_body_min_chars_no_space": 1400,
+    "article_before_analysis_modules": true,
+    "problem_type_map_min": 3,
+    "audience_scenarios_min": 2,
+    "research_basis_min": 6,
+    "evidence_assessment_min": 3,
+    "data_availability_declared": true,
+    "data_source_plan_min": 3,
+    "fact_verification_matrix_min": 3,
+    "entity_map_min": 3,
+    "decision_paths_min": 2,
+    "schema_recommendations_min": 2,
+    "measurement_plan_min": 2,
+    "content_gap_opportunities_min": 2
+  }
+}

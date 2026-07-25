@@ -1,0 +1,36 @@
+{
+  "required_files": [
+    "SKILL.md",
+    "agents/interface.yaml",
+    "manifest.json",
+    "templates/brief-template.md",
+    "references/content-refinement-method.md",
+    "references/data-access-and-verification.md",
+    "references/evidence-and-fact-rules.md",
+    "references/platform-adaptation.md",
+    "references/research-backed-framework.md",
+    "references/artifact-layout.md",
+    "references/quality-gates.md",
+    "reports/reference-scan-2026-05-21.md",
+    "reports/artifact-design-profile-2026-05-21.md",
+    "reports/capability-iteration-2026-05-21.md",
+    "reports/overall-review-2026-05-21.md",
+    "evals/trigger_cases.json",
+    "evals/quality_cases.json",
+    "evals/rubric.md",
+    "scripts/render_content_refiner_bundle.py",
+    "examples/hubspot-cn-demo/hubspot-cn-geo-content-refiner-report.md",
+    "examples/hubspot-cn-demo/hubspot-cn-geo-content-refiner-report.html",
+    "examples/hubspot-cn-demo/hubspot-cn-geo-content-refiner-report.docx",
+    "examples/hubspot-cn-demo/hubspot-cn-geo-content-refiner-report.pdf",
+    "examples/hubspot-cn-demo/quality-report.json"
+  ],
+  "layout_gates": [
+    "docx_table_width_must_not_exceed_page_usable_width",
+    "wide_tables_render_as_record_cards_in_docx_pdf",
+    "pdf_png_right_margin_positive",
+    "html_has_sticky_navigation",
+    "html_uses_kami_editorial_tokens_without_rgba",
+    "report_has_completeness_data_access_semantic_platform_publishing_modules"
+  ]
+}

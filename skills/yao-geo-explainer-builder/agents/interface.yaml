@@ -1,0 +1,58 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: yao-geo-explainer-builder
+# Created by: 姚金刚
+# Date: 2026-05-16
+# X: https://x.com/yaojingang
+
+name: yao-geo-explainer-builder
+version: 0.4.0
+description: Generate a complete publishable GEO explainer article with How-to content, objective brand insertion, verification appendices, and four-format delivery.
+inputs:
+  required:
+    - topic
+    - target_brand
+    - target_audience
+    - use_case
+    - brand_knowledge
+    - industry_materials
+    - article_sections
+  optional:
+    - sensitive_domain
+    - brand_insertion_allowed
+    - max_brand_mentions
+    - desired_length
+    - compliance_notes
+    - sources
+    - problem_type_map
+    - audience_scenarios
+    - evidence_assessment
+    - data_availability
+    - data_source_plan
+    - fact_verification_matrix
+    - entity_map
+    - decision_paths
+    - schema_recommendations
+    - measurement_plan
+outputs:
+  - markdown
+  - html_package
+  - docx
+  - pdf
+  - quality_report
+quality_gates:
+  - core_answer_80_to_120_chars
+  - complete_article_before_analysis_modules
+  - article_body_complete_length
+  - section_parity_across_markdown_html_docx
+  - numbered_how_to_steps
+  - evidence_ledger_complete
+  - systematic_analysis_dimensions_complete
+  - real_data_availability_declared
+  - fact_verification_matrix_complete
+  - kami_layout_system
+  - html_sticky_menu
+  - brand_mentions_within_limit
+  - sensitive_domain_boundary_notice
+  - docx_table_width_within_page
+  - docx_long_tokens_wrapped
+  - pdf_page_count

@@ -1,0 +1,24 @@
+interface:
+  display_name: "Yao GEO Article Friendly"
+  short_description: "Rewrite existing articles into GEO and AI-search-friendly Markdown with source-bound evidence, scoring, change notes, and supplement flags"
+  default_prompt: "Use $yao-geo-article-friendly to transform this pasted article or local article path into a GEO/AI-search-friendly version. Preserve the original claims, strengthen structure and evidence, mark unsupported additions as suggestions, score the original and optimized versions across the weighted GEO dimensions plus risk control, and return the optimized article plus change notes."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    generic: "neutral-source"

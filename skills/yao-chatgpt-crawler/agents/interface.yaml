@@ -1,0 +1,31 @@
+interface:
+  display_name: "Yao ChatGPT Crawler"
+  short_description: "Repeat ChatGPT web AI-search crawls and generate semantic target-vs-competitor entity probability reports."
+  default_prompt: "Use $yao-chatgpt-crawler when the user provides ChatGPT web AI-search keywords/questions, repeat count, target entity, entity type, OpenCLI profile, and single-query interval preference, then needs a crawl JSON dataset, structured Markdown/Excel exports, and a Kami-styled HTML report covering semantic entity review, same-type competitor entry reasons, target-vs-same-type-competitor comparison, mention rate, average mentions, Top 1/Top 3/Top 5 probabilities, sentiment, source/channel/title intent analysis, bilingual summaries, clickable citations with unique compact URL labels, compact domain treemaps, click-to-reveal bubble benchmarks, and GEO recommendations with priority charts, core-metric trend projections, and concrete methods. Ask for the standard inputs if they are missing: keywords, repeat count, target entity, entity type, OpenCLI profile, and interval preset. Use random 30s-1m by default; offer 1-3m and 3-10m for slower runs. Do not use it for generic web scraping, ChatGPT API-only calls, or one-off answer writing."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+    - "vscode"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+    primary_commands:
+      - "node scripts/preflight.mjs --help"
+      - "node scripts/chatgpt_browser_crawl.mjs --help"
+      - "node scripts/chatgpt_batch_crawl.mjs --help"
+      - "python3 scripts/analyze_chatgpt_results.py --help"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    generic: "neutral-source"
+    vscode: "agent-skills-source-with-vscode-notes"
