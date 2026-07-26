@@ -42,6 +42,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
+├── bento-slides（单文件交互式演示文档）
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite
@@ -87,6 +88,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
+| `bento-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
 ### 如何选择
@@ -102,6 +104,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
 - 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
+- 要把方案、报价或报告制作成可直接在浏览器演示的单文件演示文档：使用 `$bento-slides`。
 - 要从零启动或修复一个内容账号：使用 `$launch-content-account`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
 
@@ -281,6 +284,7 @@ Content production and account operations
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
+├── bento-slides (single-file interactive presentations)
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite

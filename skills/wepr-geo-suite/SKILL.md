@@ -28,6 +28,7 @@ Read [references/routing-and-delivery.md](references/routing-and-delivery.md) fo
 - 30/60/90-day implementation: `$yao-geo-execution-roadmap`.
 - GEOFlow product development and operations: `$geoflow`. Treat `$yao-geoflow-cli`, `$yao-geoflow-design`, and `$yao-geoflow-template` as compatibility routes.
 - Broader WEPR channel strategy, GEO/SEO integration, and commercial growth planning: `$plan-organic-growth`; live GEOrank operations: `$operate-georank-workbench`.
+- Browser-openable interactive proposal or report presentation: `$bento-slides`; use the PowerPoint skill when `.pptx` compatibility is required.
 
 ## Orchestrate multi-stage projects
 

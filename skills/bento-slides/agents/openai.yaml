@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bento Slides"
+  short_description: "Create interactive single-file client presentations"
+  default_prompt: "Use $bento-slides to turn this approved proposal or report into a polished, interactive, single-file Bento presentation with charts, motion, and speaker notes."
