@@ -56,16 +56,16 @@ An open collection of practical Agent Skills for public relations, digital analy
 
 ### GEO 专业能力包
 
-仓库现已整合 [GEOFlow](https://github.com/yaojingang/GEOFlow) 与 [Yao GEO Skills](https://github.com/yaojingang/yao-geo-skills) 的公开能力，并新增 `$wepr-geo-suite` 作为 WEPR 项目总入口。新增能力覆盖：
+仓库现已新增 `$wepr-geo-suite` 作为 WEPR GEO 项目总入口，覆盖从策略诊断到执行监测的完整工作流：
 
 - GEO 全景诊断、意图拓词、30/60/90 天执行路线图；
 - 品牌知识库、事实卡、实体关系图谱与证据治理；
 - 页面审计、页面蓝图、标题、科普、对比、榜单和文章改造；
 - DeepSeek、豆包、ChatGPT 合规重复采样与可审计报告；
 - AI 答案、引用源、品牌事实、转化归因和月度监测；
-- GEOFlow 的开发、CLI/API/后台操作、主题、渠道站点和旧模板迁移。
+- GEO 工作台的开发、CLI/API/后台操作、主题、渠道站点和旧模板迁移。
 
-推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力。原 `yao-geoflow-cli`、`yao-geoflow-design` 和 `yao-geoflow-template` 保留为兼容入口；新的 GEOFlow 工作优先使用 `$geoflow`。
+推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发与运营时使用 `$geoflow`。
 
 ### 技能目录
 
@@ -261,7 +261,7 @@ This is not a prompt collection. Each skill defines triggering contexts, an exec
 
 ### GEO capability pack
 
-The repository now integrates the public capabilities of [GEOFlow](https://github.com/yaojingang/GEOFlow) and [Yao GEO Skills](https://github.com/yaojingang/yao-geo-skills), with `$wepr-geo-suite` as the WEPR orchestration entrypoint. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer/citation monitoring, attribution, execution roadmaps, and GEOFlow development or operations. Legacy `yao-geoflow-*` IDs remain compatibility routes; use `$geoflow` for new GEOFlow work.
+The repository now provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench development or operations. Use `$geoflow` for workbench development and operations.
 
 ### Capability architecture
 
