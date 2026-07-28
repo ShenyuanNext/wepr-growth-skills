@@ -22,6 +22,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
+| `$marketing-for-founders` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
 ## 2. Installation

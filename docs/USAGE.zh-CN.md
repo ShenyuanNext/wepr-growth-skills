@@ -24,6 +24,7 @@
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
 | `$analyze-brand-strategy` | 以证据分析品牌定位、差异化、竞争和出海路径 |
 | `$create-marketing-content` | 把业务证据写成可信、可发布的多平台内容 |
+| `$marketing-for-founders` | 形成客户营销方案、传播策略、早期获客计划与转化文案 |
 | `$launch-content-account` | 规划公众号、抖音、视频号、X和小红书的内容账号冷启动 |
 
 ## 2. 安装

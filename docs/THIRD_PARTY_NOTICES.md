@@ -28,6 +28,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Marketing for Founders
+
+Original work: *Marketing for Founders*
+
+Author: Edoardo Stradella
+
+Source: https://github.com/EdoStra/Marketing-for-Founders
+
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+License text: https://creativecommons.org/licenses/by-sa/4.0/
+
+WEPR adaptation dated 2026-07-28: transformed the curated marketing-resource catalog into a callable workflow; condensed and reorganized its subject taxonomy; removed promotional material; and added evidence controls, proposal and copywriting contracts, measurement, compliance, and skill routing. No endorsement by the original author is implied. The adapted skill directory is distributed under CC BY-SA 4.0 and is not covered by the repository's root MIT license.
+
 ## GEORank operator skill
 
 Source: https://github.com/yaojingang/GEORank/tree/main/skills/georank

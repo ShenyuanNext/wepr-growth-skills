@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Marketing Workbench"
+  short_description: "Plan early-stage marketing and client communication"
+  default_prompt: "Use $marketing-for-founders to build an evidence-led customer marketing plan, communication strategy, or copy package."
