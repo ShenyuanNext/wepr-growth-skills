@@ -9,6 +9,7 @@
 | 技能 | 一句话用途 |
 | --- | --- |
 | `$diagnose-pr-crisis` | 处理舆情、声明、媒体沟通和声誉恢复 |
+| `$pr-strategy-workbench` | 制定客户公关方案、传播决策、媒体叙事、上线预案与公共文案 |
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |

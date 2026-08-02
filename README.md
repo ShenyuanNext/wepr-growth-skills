@@ -30,6 +30,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 业务与品牌判断
 ├── analyze-brand-strategy（证据化定位、差异化与品牌战略）
 ├── audit-digital-growth
+├── pr-strategy-workbench（公关方案、传播决策与公共文案）
 └── diagnose-pr-crisis
 
 增长规划与获客
@@ -74,6 +75,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 | 技能 | 中文名称 | 适用场景 | 主要输出 |
 | --- | --- | --- | --- |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
+| `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和90天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
@@ -96,6 +98,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 ### 如何选择
 
 - 发生负面事件、需要声明或媒体沟通：使用 `$diagnose-pr-crisis`。
+- 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
@@ -275,6 +278,7 @@ The repository now provides `$wepr-geo-suite` as the WEPR orchestration entrypoi
 Business and brand decisions
 ├── analyze-brand-strategy (evidence-aware positioning and brand strategy)
 ├── audit-digital-growth
+├── pr-strategy-workbench (PR plans, communication decisions, and public copy)
 └── diagnose-pr-crisis
 
 Growth planning and acquisition
@@ -306,6 +310,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | Skill | Purpose | Typical use cases | Core deliverables |
 | --- | --- | --- | --- |
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
+| `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
@@ -327,6 +332,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 ### Choosing a skill
 
 - Use `$diagnose-pr-crisis` when the business needs a response, statement, media plan, or reputation recovery.
+- Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.

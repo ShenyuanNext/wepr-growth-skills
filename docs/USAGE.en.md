@@ -7,6 +7,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | Skill | Primary job |
 | --- | --- |
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |
+| `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
