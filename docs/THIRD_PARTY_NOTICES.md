@@ -42,6 +42,18 @@ License text: https://creativecommons.org/licenses/by-sa/4.0/
 
 WEPR adaptation dated 2026-07-28: transformed the curated marketing-resource catalog into a callable workflow; condensed and reorganized its subject taxonomy; removed promotional material; and added evidence controls, proposal and copywriting contracts, measurement, compliance, and skill routing. No endorsement by the original author is implied. The adapted skill directory is distributed under CC BY-SA 4.0 and is not covered by the repository's root MIT license.
 
+## SEO Audit Skill
+
+Source: https://github.com/JeffLi1993/seo-audit-skill
+
+MIT License, Copyright (c) 2026 Jeff. The full license notice is included at `skills/seo-audit/LICENSE` and `skills/seo-audit-full/LICENSE`. WEPR removes upstream interface promotion, adds Codex interface metadata, and preserves the audit scripts and reporting assets.
+
+## Qiaomu SEO
+
+Source: https://github.com/joeseesun/qiaomu-seo
+
+MIT License, Copyright (c) 向阳乔木. The full license notice is included at `skills/qiaomu-seo/LICENSE`. WEPR removes promotional interface assets and repository-only evaluation reports while retaining the evidence-led SEO workflow, references, source registry, schema, and validators.
+
 ## GEORank operator skill
 
 Source: https://github.com/yaojingang/GEORank/tree/main/skills/georank

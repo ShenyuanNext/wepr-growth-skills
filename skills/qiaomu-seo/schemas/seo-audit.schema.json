@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qiaomu.ai/schemas/seo-audit.schema.json",
+  "title": "Qiaomu SEO Audit",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "scope",
+    "coverage",
+    "findings",
+    "action_plan",
+    "missing_evidence"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "generated_at": {"type": "string", "minLength": 1},
+    "scope": {
+      "type": "object",
+      "required": ["mode", "targets", "market", "device", "evidence_modes"],
+      "properties": {
+        "mode": {
+          "enum": ["advisory", "page", "template_sample", "site_inventory", "incident", "migration", "ai_search_extension"]
+        },
+        "targets": {"type": "array", "items": {"type": "string"}},
+        "market": {"type": "string"},
+        "language": {"type": "string"},
+        "device": {"enum": ["mobile", "desktop", "both", "unspecified"]},
+        "evidence_modes": {
+          "type": "array",
+          "items": {"enum": ["live", "code", "data", "advisory"]},
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["discovered", "selected", "fetched", "rendered", "data_backed", "failed", "exclusions", "limitations"],
+      "properties": {
+        "discovered": {"type": "integer", "minimum": 0},
+        "selected": {"type": "integer", "minimum": 0},
+        "fetched": {"type": "integer", "minimum": 0},
+        "rendered": {"type": "integer", "minimum": 0},
+        "data_backed": {"type": "integer", "minimum": 0},
+        "failed": {"type": "array", "items": {"type": "object"}},
+        "exclusions": {"type": "array", "items": {"type": "string"}},
+        "limitations": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "findings": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/finding"}
+    },
+    "action_plan": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/action"}
+    },
+    "missing_evidence": {"type": "array", "items": {"type": "string"}},
+    "source_review": {
+      "type": "object",
+      "required": ["reviewed_at", "source_ids", "overdue_sources"],
+      "properties": {
+        "reviewed_at": {"type": "string", "minLength": 1},
+        "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "overdue_sources": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "evidence_ref": {
+      "type": "object",
+      "required": ["kind", "ref"],
+      "properties": {
+        "kind": {"enum": ["url", "file", "http", "rendered_dom", "search_console", "webmaster_tools", "analytics", "server_log", "crawl", "serp", "web_vitals_field", "lab_test", "official_doc", "other"]},
+        "ref": {"type": "string", "minLength": 1},
+        "observed_at": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "finding": {
+      "type": "object",
+      "required": ["id", "category", "issue", "status", "evidence_level", "evidence_refs", "impact", "confidence", "recommended_fix", "effort", "dependencies", "verification"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "category": {
+          "enum": ["discovery", "crawl", "render", "indexing", "canonical", "technical", "performance", "on_page", "content", "architecture", "structured_data", "international", "commerce", "image_search", "video_search", "local", "ai_search", "measurement", "experiment", "policy", "security"]
+        },
+        "issue": {"type": "string", "minLength": 1},
+        "status": {"enum": ["pass", "warning", "fail", "not_checked"]},
+        "evidence_level": {"enum": ["observed", "inferred", "missing evidence"]},
+        "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/evidence_ref"}},
+        "impact": {"enum": ["critical", "high", "medium", "low", "none"]},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "recommended_fix": {"type": "string", "minLength": 1},
+        "effort": {"enum": ["xs", "s", "m", "l", "xl", "unknown"]},
+        "dependencies": {"type": "array", "items": {"type": "string"}},
+        "verification": {"type": "string", "minLength": 1},
+        "engine_scope": {
+          "type": "array",
+          "items": {"enum": ["google", "bing", "openai", "perplexity", "other"]},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "action": {
+      "type": "object",
+      "required": ["id", "finding_ids", "action", "impact", "effort", "owner", "verification"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "finding_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+        "action": {"type": "string", "minLength": 1},
+        "impact": {"enum": ["critical", "high", "medium", "low", "none"]},
+        "effort": {"enum": ["xs", "s", "m", "l", "xl", "unknown"]},
+        "owner": {"type": "string"},
+        "verification": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

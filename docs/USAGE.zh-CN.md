@@ -13,6 +13,9 @@
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |
+| `$qiaomu-seo` | 处理站点级SEO策略、技术、关键词内容、迁移、国际化、电商与AI搜索 |
+| `$seo-audit` | 快速生成单页面SEO审计与HTML报告 |
+| `$seo-audit-full` | 生成含PageSpeed和社交元数据的深度SEO审计 |
 | `$operate-georank-workbench` | 安全操作已部署的GEOrank实例、诊断、拓词与后台 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |

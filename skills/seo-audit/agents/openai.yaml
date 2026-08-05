@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quick SEO Audit"
+  short_description: "Run a fast evidence-led single-page SEO check"
+  default_prompt: "Use $seo-audit to run a quick SEO audit of this page and save a client-ready HTML report."
