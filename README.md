@@ -2,9 +2,9 @@
 
 [中文](#中文说明) · [English](#english)
 
-WEPR's open, evidence-led Agent Skills system for brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, content and account operations, client proposals, presentations, and international growth.
+WEPR's open, evidence-led Agent Skills system for brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
 
-WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、内容与账号运营、客户方案、演示文档和品牌出海。
+WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
 
 ---
 
@@ -45,6 +45,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 ├── distill-creator-playbook
 ├── create-marketing-content
 ├── wepr-marketing（客户营销方案、传播与文案）
+├── wepr-human-writing（自然中文写作与客户终稿润色）
 ├── wepr-slides（单文件交互式演示文档）
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
@@ -94,6 +95,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
 | `wepr-marketing` | 营销策略工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
+| `wepr-human-writing` | 自然中文写作 | 客户方案、传播稿、品牌文章、营销文案和终稿润色 | 素材缺口、自然中文成稿、机械表达诊断与事实风险提示 |
 | `wepr-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
@@ -113,6 +115,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
 - 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$wepr-marketing`。
+- 要在不改变事实、数据和承诺的前提下，让方案、传播稿或营销文案更自然、更符合中文阅读习惯：使用 `$wepr-human-writing`。策略和内容结构尚未确定时，先使用对应的营销、公关或内容技能。
 - 要把方案、报价或报告制作成可直接在浏览器演示的单文件演示文档：使用 `$wepr-slides`。
 - 要从零启动或修复一个内容账号：使用 `$launch-content-account`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
@@ -175,6 +178,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 
 ```text
 使用 $plan-editorial-illustrations，为这篇文章设计6张统一风格配图，先给镜头清单和生成提示词。
+```
+
+```text
+使用 $wepr-human-writing，在不改变报价、服务范围和事实的前提下，把这份客户方案改成自然、可信、符合中国人阅读习惯的中文。
 ```
 
 ```text
@@ -296,6 +303,7 @@ Content production and account operations
 ├── distill-creator-playbook
 ├── create-marketing-content
 ├── wepr-marketing (client plans, communications, and copy)
+├── wepr-human-writing (natural Chinese writing and final revision)
 ├── wepr-slides (single-file interactive presentations)
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
@@ -332,6 +340,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `analyze-brand-strategy` | Evidence-aware positioning and brand strategy | Positioning, differentiation, repositioning, competition, youth strategy, international expansion | Readiness gate, five-role competition set, D6 advantage test, options, falsification conditions, activation roadmap |
 | `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
 | `wepr-marketing` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
+| `wepr-human-writing` | Natural Chinese writing | Client proposals, communication drafts, brand articles, marketing copy, final revision | Material gaps, natural Chinese copy, mechanical-writing diagnosis, fact-risk notes |
 | `launch-content-account` | Content-account launch | WeChat, Douyin, WeChat Channels, X, and Xiaohongshu launches | Account promise, profile, pillars, experiments, reviews, roadmap |
 
 ### Choosing a skill
@@ -350,6 +359,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$analyze-brand-strategy` to diagnose evidence-aware positioning, differentiation, competition, or international expansion. It checks readiness and covers direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark.
 - Use `$create-marketing-content` to turn business evidence into credible platform-native content.
 - Use `$wepr-marketing` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
+- Use `$wepr-human-writing` to make Chinese proposals, communication drafts, and marketing copy sound natural without changing facts, data, scope, or promises. Use the relevant strategy or content skill first when the message and structure are not yet settled.
 - Use `$launch-content-account` to launch or repair a content account through comparable experiments and business signals.
 - Combine skills when appropriate. A growth audit can define the problem before separate paid and organic plans are built.
 
@@ -399,6 +409,10 @@ Use $plan-paid-media to design a measurable search and social advertising test f
 
 ```text
 Use $plan-organic-growth to build a 90-day SEO, GEO, Reddit, and Product Hunt cold-start plan.
+```
+
+```text
+Use $wepr-human-writing to revise this client proposal into natural Chinese without changing its facts, pricing, scope, or commitments.
 ```
 
 ```text

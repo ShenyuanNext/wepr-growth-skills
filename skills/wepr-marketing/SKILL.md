@@ -84,8 +84,11 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Xiaohongshu work: `$xiaohongshu-suite`
 - Pricing and scope: `$wepr-pricing`
 - Interactive presentation: `$wepr-slides`
+- Natural Chinese final revision: `$wepr-human-writing`
 
 Keep this skill as the strategic spine; do not duplicate specialist execution.
+
+When the strategy, facts, offer, and compliance language are final, route Chinese client proposals, campaign copy, and communication drafts through `$wepr-human-writing`. It may improve fluency, but must not change business meaning, scope, price, claims, or risk controls.
 
 ## Quality gate
 

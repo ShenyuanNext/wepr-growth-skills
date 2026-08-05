@@ -118,6 +118,9 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Account operations: `$launch-content-account`
 - Client pricing and scope: `$wepr-pricing`
 - Interactive client presentation: `$wepr-slides`
+- Natural Chinese final revision: `$wepr-human-writing`
+
+After facts, response strategy, approvals, and public wording are settled, use `$wepr-human-writing` to improve Chinese fluency without changing the approved meaning or risk controls.
 
 ## Quality gate
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 自然中文写作"
+  short_description: "让客户方案、传播稿与营销文案更自然、可信并符合中文语感"
+  default_prompt: "使用 $wepr-human-writing，在不改变事实、数据和承诺的前提下，把这份内容改成自然、可信、符合中国人阅读习惯的中文。"

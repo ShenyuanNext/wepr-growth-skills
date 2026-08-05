@@ -25,6 +25,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
 | `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
+| `$wepr-human-writing` | Revise proposals, communication drafts, and copy into natural Chinese without changing business meaning |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
 ## 2. Installation
@@ -141,6 +142,14 @@ Use $create-marketing-content to turn these project materials into a publishable
 ```
 
 Provide the reader, platform, content job, sources, publishable facts, voice, and length. Use `$plan-xiaohongshu-growth` for Xiaohongshu-specific search and account execution.
+
+### Natural Chinese writing
+
+```text
+Use $wepr-human-writing to remove translated phrasing, generic filler, mechanical parallelism, and abrupt transitions from this proposal. Preserve every client name, fact, price, deliverable, commitment, and compliance statement; flag missing evidence instead of inventing it.
+```
+
+Provide the source text, reader, delivery context, editing boundary, protected facts and terms, and brand voice. Use it after strategy and structure are stable. Start with `$wepr-marketing`, `$create-marketing-content`, or `$pr-strategy-workbench` when the underlying message is still undecided.
 
 ### Content-account launch
 

@@ -19,12 +19,14 @@ Turn real business knowledge into clear, useful, credible content. Optimize for 
 8. End with a useful synthesis, decision rule, checklist, or relevant next question. Keep calls to action natural and optional.
 9. Edit for short sentences, precise verbs, varied rhythm, clear attribution, and removal of filler, repetition, cliché, and unsupported certainty.
 10. Run an integrity check for claims, permissions, disclosure, privacy, copyright, sensitive categories, and platform rules.
+11. After facts, structure, and platform requirements are stable, use `$wepr-human-writing` when the Chinese draft still feels mechanical, translated, generic, or unlike natural client-facing writing.
 
 ## Route by need
 
 - Read [references/structure-and-persuasion.md](references/structure-and-persuasion.md) to choose a structure and strengthen reasoning.
 - Read [references/editorial-qa.md](references/editorial-qa.md) for rewriting, platform adaptation, and final review.
 - For Xiaohongshu-specific search, titles, and account operations, use `$plan-xiaohongshu-growth` instead.
+- For final Chinese-language naturalization without changing claims, use `$wepr-human-writing`.
 
 ## Output modes
 
