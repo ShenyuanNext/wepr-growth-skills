@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-knowledge-base-builder"
+  short_description: "Run the evidence-led workflow for wepr-geo-knowledge-base-builder"
+  default_prompt: "Use $wepr-geo-knowledge-base-builder to complete this GEO task with source boundaries, validation, and auditable deliverables."

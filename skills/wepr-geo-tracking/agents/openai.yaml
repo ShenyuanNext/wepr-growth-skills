@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-tracking"
+  short_description: "Run the evidence-led workflow for wepr-geo-tracking"
+  default_prompt: "Use $wepr-geo-tracking to complete this GEO task with source boundaries, validation, and auditable deliverables."

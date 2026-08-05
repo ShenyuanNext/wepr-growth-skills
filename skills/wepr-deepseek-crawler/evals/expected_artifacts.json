@@ -1,0 +1,48 @@
+{
+  "skill_id": "wepr-deepseek-crawler",
+  "required_files": [
+    "SKILL.md",
+    "README.md",
+    "agents/interface.yaml",
+    "evals/trigger_cases.json",
+    "evals/expected_artifacts.json",
+    "templates/brief-template.md",
+    "scripts/preflight.mjs",
+    "scripts/deepseek_batch_crawl.mjs",
+    "scripts/geo-deepseek-browser-direct.mjs",
+    "scripts/test_geo_deepseek_browser_direct.mjs",
+    "scripts/run-tests.sh",
+    "scripts/analyze_deepseek_results.py"
+  ],
+  "public_examples": [
+    "examples/nio-nev-deepseek-20260620/questions.txt",
+    "examples/nio-nev-deepseek-20260620/brands.txt",
+    "examples/nio-nev-deepseek-20260620/deepseek-crawl.json",
+    "examples/nio-nev-deepseek-20260620/report-brand-company/summary.json",
+    "examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.md",
+    "examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.xlsx",
+    "examples/nio-nev-deepseek-20260620/report-brand-company/report.html",
+    "examples/nio-nev-deepseek-20260620/report/summary.json",
+    "examples/nio-nev-deepseek-20260620/report/structured-data.md",
+    "examples/nio-nev-deepseek-20260620/report/structured-data.xlsx",
+    "examples/nio-nev-deepseek-20260620/report/report.html",
+    "examples/nio-nev-deepseek-20260620/raw/",
+    "examples/nio-nev-deepseek-20260620/logs/"
+  ],
+  "primary_outputs": [
+    "deepseek-crawl.json",
+    "summary.json",
+    "structured-data.md",
+    "structured-data.xlsx",
+    "report.html",
+    "raw-json-and-log-evidence"
+  ],
+  "quality_expectations": [
+    "must preserve raw DeepSeek answers, source titles, URLs, and per-sample logs",
+    "must separate planned, completed, valid, failed, and pending samples",
+    "must require target entity and entity type for standard reports",
+    "must keep same-type competitor comparison auditable through aliases and entity candidates",
+    "must label probability metrics as repeated-sample estimates rather than ground truth",
+    "must not bypass login, CAPTCHA, throttling, or DeepSeek platform controls"
+  ]
+}

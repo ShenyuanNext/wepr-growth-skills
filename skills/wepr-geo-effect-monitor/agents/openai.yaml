@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-effect-monitor"
+  short_description: "Run the evidence-led workflow for wepr-geo-effect-monitor"
+  default_prompt: "Use $wepr-geo-effect-monitor to complete this GEO task with source boundaries, validation, and auditable deliverables."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-chatgpt-crawler"
+  short_description: "Run the evidence-led workflow for wepr-chatgpt-crawler"
+  default_prompt: "Use $wepr-chatgpt-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."

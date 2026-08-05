@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR GEO Ranking Article Builder"
+  short_description: "Build evidence-led GEO ranking and review articles"
+  default_prompt: "Use $wepr-geo-ranking-article-builder to build a fair, evidence-backed GEO ranking article with explicit scope and validation."

@@ -13,7 +13,7 @@
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |
-| `$qiaomu-seo` | 统一处理快速/深度HTML审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI搜索 |
+| `$wepr-seo` | 统一处理快速/深度HTML审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI搜索 |
 | `$operate-georank-workbench` | 安全操作已部署的GEOrank实例、诊断、拓词与后台 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
@@ -26,7 +26,7 @@
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
 | `$analyze-brand-strategy` | 以证据分析品牌定位、差异化、竞争和出海路径 |
 | `$create-marketing-content` | 把业务证据写成可信、可发布的多平台内容 |
-| `$marketing-for-founders` | 形成客户营销方案、传播策略、早期获客计划与转化文案 |
+| `$wepr-marketing` | 形成客户营销方案、传播策略、早期获客计划与转化文案 |
 | `$launch-content-account` | 规划公众号、抖音、视频号、X和小红书的内容账号冷启动 |
 
 ## 2. 安装

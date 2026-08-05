@@ -36,7 +36,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 增长规划与获客
 ├── plan-paid-media
 ├── plan-organic-growth
-├── qiaomu-seo（完整SEO：快速/深度审计、策略、实施与验证）
+├── wepr-seo（完整SEO：快速/深度审计、策略、实施与验证）
 ├── operate-georank-workbench（GEOrank安全操作与交付回执）
 └── plan-xiaohongshu-growth
 
@@ -44,8 +44,8 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-├── marketing-for-founders（客户营销方案、传播与文案）
-├── bento-slides（单文件交互式演示文档）
+├── wepr-marketing（客户营销方案、传播与文案）
+├── wepr-slides（单文件交互式演示文档）
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite
@@ -69,7 +69,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - AI 答案、引用源、品牌事实、转化归因和月度监测；
 - GEO 工作台的开发、CLI/API/后台操作、主题、渠道站点和旧模板迁移。
 
-推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发与运营时使用 `$geoflow`。
+推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发与运营时使用 `$wepr-geoflow`。
 
 ### 技能目录
 
@@ -80,7 +80,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和90天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
-| `qiaomu-seo` | 完整SEO工作台 | 快速/深度页面审计、技术SEO、关键词内容、国际化、电商、迁移、流量诊断、AI搜索 | HTML审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
+| `wepr-seo` | 完整SEO工作台 | 快速/深度页面审计、技术SEO、关键词内容、国际化、电商、迁移、流量诊断、AI搜索 | HTML审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API执行回执、资源ID、风险与回滚说明 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
@@ -93,8 +93,8 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
-| `marketing-for-founders` | 创始人营销工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
-| `bento-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
+| `wepr-marketing` | 创始人营销工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
+| `wepr-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
 ### 如何选择
@@ -104,7 +104,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
-- 所有SEO任务统一使用 `$qiaomu-seo`：可自动选择快速页面审计、含PageSpeed的深度审计、站点策略、关键词内容、迁移、国际化、电商或AI搜索模式。
+- 所有SEO任务统一使用 `$wepr-seo`：可自动选择快速页面审计、含PageSpeed的深度审计、站点策略、关键词内容、迁移、国际化、电商或AI搜索模式。
 - 已部署GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般GEO策略仍使用 `$plan-organic-growth`。
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
@@ -112,8 +112,8 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
 - 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
-- 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$marketing-for-founders`。
-- 要把方案、报价或报告制作成可直接在浏览器演示的单文件演示文档：使用 `$bento-slides`。
+- 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$wepr-marketing`。
+- 要把方案、报价或报告制作成可直接在浏览器演示的单文件演示文档：使用 `$wepr-slides`。
 - 要从零启动或修复一个内容账号：使用 `$launch-content-account`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
 
@@ -224,7 +224,7 @@ skills/<skill-name>/
 └── references/           # 按具体任务读取的详细方法与检查表
 ```
 
-详细输入模板、逐项调用方式、组合流程和验收标准见[中文使用手册](docs/USAGE.zh-CN.md)。参考来源与许可见[来源说明](docs/SOURCES.md)。
+详细输入模板、逐项调用方式、组合流程和验收标准见[中文使用手册](docs/USAGE.zh-CN.md)。
 
 ### 交付风格
 
@@ -273,7 +273,7 @@ This is not a prompt collection. Each skill defines triggering contexts, an exec
 
 ### GEO capability pack
 
-The repository now provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench development or operations. Use `$geoflow` for workbench development and operations.
+The repository now provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench development or operations. Use `$wepr-geoflow` for workbench development and operations.
 
 ### Capability architecture
 
@@ -287,7 +287,7 @@ Business and brand decisions
 Growth planning and acquisition
 ├── plan-paid-media
 ├── plan-organic-growth
-├── qiaomu-seo (complete SEO: quick/full audits, strategy, implementation, verification)
+├── wepr-seo (complete SEO: quick/full audits, strategy, implementation, verification)
 ├── operate-georank-workbench (safe GEOrank operations)
 └── plan-xiaohongshu-growth
 
@@ -295,8 +295,8 @@ Content production and account operations
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-├── marketing-for-founders (client plans, communications, and copy)
-├── bento-slides (single-file interactive presentations)
+├── wepr-marketing (client plans, communications, and copy)
+├── wepr-slides (single-file interactive presentations)
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite
@@ -318,7 +318,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
-| `qiaomu-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
+| `wepr-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
 | `xiaohongshu-suite` | Xiaohongshu workflow routing | Unclear whether to start with profile, topics, titles, copy, comments, or conversion | Blocked stage, skill selection, processing order, and input handoff |
@@ -331,7 +331,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `plan-editorial-illustrations` | Editorial illustration planning | Article visuals, social illustrations, prompts, visual QA | Placement map, shot list, prompts, alt text, QA findings |
 | `analyze-brand-strategy` | Evidence-aware positioning and brand strategy | Positioning, differentiation, repositioning, competition, youth strategy, international expansion | Readiness gate, five-role competition set, D6 advantage test, options, falsification conditions, activation roadmap |
 | `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
-| `marketing-for-founders` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
+| `wepr-marketing` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
 | `launch-content-account` | Content-account launch | WeChat, Douyin, WeChat Channels, X, and Xiaohongshu launches | Account promise, profile, pillars, experiments, reviews, roadmap |
 
 ### Choosing a skill
@@ -341,7 +341,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
-- Use `$qiaomu-seo` for every SEO task; it selects quick page audit, PageSpeed-enabled full audit, site strategy, keyword/content, migration, international, commerce, or AI-search mode.
+- Use `$wepr-seo` for every SEO task; it selects quick page audit, PageSpeed-enabled full audit, site strategy, keyword/content, migration, international, commerce, or AI-search mode.
 - Use `$operate-georank-workbench` when a deployed GEOrank instance must be queried or changed. Use `$plan-organic-growth` for general GEO strategy.
 - Use `$plan-xiaohongshu-growth` to plan, write, rewrite, or diagnose Xiaohongshu content.
 - Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.
@@ -349,7 +349,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$plan-editorial-illustrations` to translate an article into a coherent illustration system.
 - Use `$analyze-brand-strategy` to diagnose evidence-aware positioning, differentiation, competition, or international expansion. It checks readiness and covers direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark.
 - Use `$create-marketing-content` to turn business evidence into credible platform-native content.
-- Use `$marketing-for-founders` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
+- Use `$wepr-marketing` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
 - Use `$launch-content-account` to launch or repair a content account through comparable experiments and business signals.
 - Combine skills when appropriate. A growth audit can define the problem before separate paid and organic plans are built.
 
@@ -460,7 +460,7 @@ skills/<skill-name>/
 └── references/           # Detailed methods loaded only when relevant
 ```
 
-See the [English usage guide](docs/USAGE.en.md) for input templates, individual modes, combined workflows, and acceptance criteria. See [sources and acknowledgements](docs/SOURCES.md) for provenance and licensing.
+See the [English usage guide](docs/USAGE.en.md) for input templates, individual modes, combined workflows, and acceptance criteria.
 
 ### Output philosophy
 
@@ -482,7 +482,3 @@ Platform capabilities, policies, algorithms, prices, and examples must be re-ver
 ### Contributing
 
 Issues and pull requests are welcome. Strong contributions include a concrete scenario, evidence or official source, a proposed change, the risk introduced by that change, and a reproducible prompt or example output.
-
-## License
-
-MIT

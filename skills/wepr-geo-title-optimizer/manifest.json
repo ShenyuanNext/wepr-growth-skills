@@ -1,0 +1,22 @@
+{
+  "id": "wepr-geo-title-optimizer",
+  "name": "WEPR GEO Title Optimizer",
+  "version": "0.1.0",
+  "family": "geo-content-production",
+  "maturity": "beta",
+  "status": "active",
+  "owner": "WEPR",
+  "requires_web": false,
+  "primary_outputs": [
+    "title-candidate-library",
+    "title-scorecard",
+    "title-compliance-check",
+    "title-to-article-structure-map",
+    "four-format-report-delivery"
+  ],
+  "entrypoint": "SKILL.md",
+  "script": "scripts/render_wepr_geo_title_optimizer.py",
+  "support_scripts": [
+    "scripts/collect_wepr_geo_title_evidence.py"
+  ]
+}

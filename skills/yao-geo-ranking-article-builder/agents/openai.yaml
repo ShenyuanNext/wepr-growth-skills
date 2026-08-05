@@ -1,4 +1,0 @@
-interface:
-  display_name: "Yao GEO Ranking Article Builder"
-  short_description: "Build evidence-led GEO ranking and review articles"
-  default_prompt: "Use $yao-geo-ranking-article-builder to build a fair, evidence-backed GEO ranking article with explicit scope and validation."

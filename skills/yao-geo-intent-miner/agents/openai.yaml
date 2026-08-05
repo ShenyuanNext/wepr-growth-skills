@@ -1,4 +1,0 @@
-interface:
-  display_name: "yao-geo-intent-miner"
-  short_description: "Run the evidence-led workflow for yao-geo-intent-miner"
-  default_prompt: "Use $yao-geo-intent-miner to complete this GEO task with source boundaries, validation, and auditable deliverables."

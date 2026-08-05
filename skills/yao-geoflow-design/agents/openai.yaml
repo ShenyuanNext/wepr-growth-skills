@@ -1,4 +1,0 @@
-interface:
-  display_name: "yao-geoflow-design"
-  short_description: "Run the evidence-led workflow for yao-geoflow-design"
-  default_prompt: "Use $yao-geoflow-design to complete this GEO task with source boundaries, validation, and auditable deliverables."

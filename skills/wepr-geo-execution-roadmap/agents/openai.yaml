@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-execution-roadmap"
+  short_description: "Run the evidence-led workflow for wepr-geo-execution-roadmap"
+  default_prompt: "Use $wepr-geo-execution-roadmap to complete this GEO task with source boundaries, validation, and auditable deliverables."

@@ -1,0 +1,29 @@
+# Copyright © 2026 姚金刚. All rights reserved.
+# Project: wepr-geoflow-cli
+# Created by: 姚金刚
+# Date: 2026-05-16
+
+interface:
+  display_name: "WEPR GEOFlow Operations"
+  short_description: "Operate an existing GEOFlow 2.1+ instance through CLI, API v1, or authenticated admin web"
+  default_prompt: "Use $wepr-geoflow-cli for GEOFlow operations across CLI, API v1, and authenticated admin web: content ops, enterprise knowledge, growth-center leads, distribution, analytics, URL import, updates, theme editor, frontend-capability sync, tokens, users, and preflight. Do not implement code or invent routes."
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "claude"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "metadata-adapter"
+    claude: "neutral-source-plus-adapter"
+    generic: "neutral-source"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-page-blueprint"
+  short_description: "Run the evidence-led workflow for wepr-geo-page-blueprint"
+  default_prompt: "Use $wepr-geo-page-blueprint to complete this GEO task with source boundaries, validation, and auditable deliverables."

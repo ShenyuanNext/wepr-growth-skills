@@ -1,4 +1,0 @@
-interface:
-  display_name: "yao-doubao-crawler"
-  short_description: "Run the evidence-led workflow for yao-doubao-crawler"
-  default_prompt: "Use $yao-doubao-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."

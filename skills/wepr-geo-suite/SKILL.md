@@ -18,17 +18,17 @@ Read [references/routing-and-delivery.md](references/routing-and-delivery.md) fo
 
 ## Route the work
 
-- Baseline and opportunity map: `$yao-geo-panorama-audit`.
-- Natural-language query expansion and prompt library: `$yao-geo-intent-miner`.
-- Brand facts and reusable evidence: `$yao-geo-knowledge-base-builder`; use `$yao-geo-brand-graph` when entity relationships are central.
-- Existing-page diagnosis: `$yao-geo-page-audit`; new page structure: `$yao-geo-page-blueprint`.
-- Content: `$yao-geo-title-optimizer`, `$yao-geo-explainer-builder`, `$yao-geo-comparison-builder`, `$yao-geo-ranking-article-builder`, `$yao-geo-content-refiner`, or `$yao-geo-article-friendly` according to format.
-- Platform evidence collection: `$yao-deepseek-crawler`, `$yao-doubao-crawler`, or `$yao-chatgpt-crawler`. Respect login, rate, CAPTCHA, privacy, and platform boundaries.
-- Monitoring and attribution: `$yao-geo-effect-monitor` for answer/citation signals; `$yao-geo-tracking` for downstream conversion attribution.
-- 30/60/90-day implementation: `$yao-geo-execution-roadmap`.
-- GEOFlow product development and operations: `$geoflow`. Treat `$yao-geoflow-cli`, `$yao-geoflow-design`, and `$yao-geoflow-template` as compatibility routes.
+- Baseline and opportunity map: `$wepr-geo-panorama-audit`.
+- Natural-language query expansion and prompt library: `$wepr-geo-intent-miner`.
+- Brand facts and reusable evidence: `$wepr-geo-knowledge-base-builder`; use `$wepr-geo-brand-graph` when entity relationships are central.
+- Existing-page diagnosis: `$wepr-geo-page-audit`; new page structure: `$wepr-geo-page-blueprint`.
+- Content: `$wepr-geo-title-optimizer`, `$wepr-geo-explainer-builder`, `$wepr-geo-comparison-builder`, `$wepr-geo-ranking-article-builder`, `$wepr-geo-content-refiner`, or `$wepr-geo-article-friendly` according to format.
+- Platform evidence collection: `$wepr-deepseek-crawler`, `$wepr-doubao-crawler`, or `$wepr-chatgpt-crawler`. Respect login, rate, CAPTCHA, privacy, and platform boundaries.
+- Monitoring and attribution: `$wepr-geo-effect-monitor` for answer/citation signals; `$wepr-geo-tracking` for downstream conversion attribution.
+- 30/60/90-day implementation: `$wepr-geo-execution-roadmap`.
+- GEOFlow product development and operations: `$wepr-geoflow`. Treat `$wepr-geoflow-cli`, `$wepr-geoflow-design`, and `$wepr-geoflow-template` as compatibility routes.
 - Broader WEPR channel strategy, GEO/SEO integration, and commercial growth planning: `$plan-organic-growth`; live GEOrank operations: `$operate-georank-workbench`.
-- Browser-openable interactive proposal or report presentation: `$bento-slides`; use the PowerPoint skill when `.pptx` compatibility is required.
+- Browser-openable interactive proposal or report presentation: `$wepr-slides`; use the PowerPoint skill when `.pptx` compatibility is required.
 
 ## Orchestrate multi-stage projects
 
@@ -69,4 +69,4 @@ Use one canonical content structure for Markdown, HTML, Word, PDF, slides, and s
 - Treat platform metrics as repeated-sample estimates, not ground truth.
 - Keep platform collection low-frequency, visible, authorized, and auditable.
 - Require explicit approval before live publication, destructive operations, bulk synchronization, secret access, or production activation.
-- Retain upstream license and attribution notices when redistributing adapted skills.
+- Preserve applicable legal notices when redistributing packaged skills.

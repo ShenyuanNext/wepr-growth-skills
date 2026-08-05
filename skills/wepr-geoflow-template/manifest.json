@@ -1,0 +1,26 @@
+{
+  "name": "wepr-geoflow-template",
+  "version": "0.2.0",
+  "owner": "WEPR",
+  "updated_at": "2026-07-05",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "active",
+  "context_budget_tier": "production",
+  "review_cadence": "monthly",
+  "skill_archetype": "production",
+  "target_platforms": [
+    "openai",
+    "claude",
+    "generic",
+    "agent-skills-compatible"
+  ],
+  "factory_components": [
+    "references",
+    "reports",
+    "evals",
+    "scripts",
+    "templates",
+    "outputs"
+  ]
+}

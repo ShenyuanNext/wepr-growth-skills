@@ -11,7 +11,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
-| `$qiaomu-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
+| `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |
@@ -24,7 +24,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
-| `$marketing-for-founders` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
+| `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
 ## 2. Installation

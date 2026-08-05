@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-panorama-audit"
+  short_description: "Run the evidence-led workflow for wepr-geo-panorama-audit"
+  default_prompt: "Use $wepr-geo-panorama-audit to complete this GEO task with source boundaries, validation, and auditable deliverables."

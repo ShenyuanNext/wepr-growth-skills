@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-title-optimizer"
+  short_description: "Run the evidence-led workflow for wepr-geo-title-optimizer"
+  default_prompt: "Use $wepr-geo-title-optimizer to complete this GEO task with source boundaries, validation, and auditable deliverables."

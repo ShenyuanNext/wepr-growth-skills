@@ -1,4 +1,0 @@
-interface:
-  display_name: "yao-geo-content-refiner"
-  short_description: "Run the evidence-led workflow for yao-geo-content-refiner"
-  default_prompt: "Use $yao-geo-content-refiner to complete this GEO task with source boundaries, validation, and auditable deliverables."

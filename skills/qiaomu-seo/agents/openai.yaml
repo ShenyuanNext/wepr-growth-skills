@@ -1,4 +1,0 @@
-interface:
-  display_name: "WEPR Complete SEO Workbench"
-  short_description: "Audit, plan, implement, and verify complete SEO programs"
-  default_prompt: "Use $qiaomu-seo to run the appropriate quick audit, full audit, site strategy, implementation, or verification workflow with explicit evidence and coverage."

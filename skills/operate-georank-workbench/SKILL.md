@@ -7,8 +7,6 @@ description: Safely operate a self-hosted GEOrank instance through its HTTP API.
 
 Operate a running GEOrank instance with explicit access checks, dry runs, secret redaction, and execution receipts.
 
-> Adapted and renamed for the WEPR skill collection from the Apache-2.0 GEOrank operator skill. The workflow and bundled client have been modified and redistributed under the upstream license; see `LICENSE` and the repository third-party notices.
-
 ## Workflow
 
 1. Confirm the instance base URL. Use `http://localhost:8000` only for a local instance; remote instances must use HTTPS.

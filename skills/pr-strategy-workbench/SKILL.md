@@ -112,12 +112,12 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 
 - Active crisis response: `$diagnose-pr-crisis`
 - Brand strategy: `$analyze-brand-strategy`
-- Marketing strategy: `$marketing-for-founders`
+- Marketing strategy: `$wepr-marketing`
 - Content production: `$create-marketing-content`
 - Digital-growth evidence: `$audit-digital-growth`
 - Account operations: `$launch-content-account`
 - Client pricing and scope: `$wepr-pricing`
-- Interactive client presentation: `$bento-slides`
+- Interactive client presentation: `$wepr-slides`
 
 ## Quality gate
 

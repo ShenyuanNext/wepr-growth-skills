@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-deepseek-crawler"
+  short_description: "Run the evidence-led workflow for wepr-deepseek-crawler"
+  default_prompt: "Use $wepr-deepseek-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."

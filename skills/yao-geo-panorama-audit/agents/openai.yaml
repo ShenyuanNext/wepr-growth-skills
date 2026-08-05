@@ -1,4 +1,0 @@
-interface:
-  display_name: "yao-geo-panorama-audit"
-  short_description: "Run the evidence-led workflow for yao-geo-panorama-audit"
-  default_prompt: "Use $yao-geo-panorama-audit to complete this GEO task with source boundaries, validation, and auditable deliverables."

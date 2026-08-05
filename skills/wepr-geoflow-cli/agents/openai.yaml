@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geoflow-cli"
+  short_description: "Run the evidence-led workflow for wepr-geoflow-cli"
+  default_prompt: "Use $wepr-geoflow-cli to complete this GEO task with source boundaries, validation, and auditable deliverables."

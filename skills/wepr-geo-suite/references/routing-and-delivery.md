@@ -4,18 +4,18 @@
 
 | Need | Primary skill | Required handoff |
 | --- | --- | --- |
-| GEO baseline | `yao-geo-panorama-audit` | platform scope, evidence ledger, gaps, priorities |
-| Intent expansion | `yao-geo-intent-miner` | seed terms, audience, stage, evidence needs |
-| Brand knowledge | `yao-geo-knowledge-base-builder` | source IDs, fact cards, prohibited claims |
-| Entity graph | `yao-geo-brand-graph` | canonical entities, aliases, evidence-backed edges |
-| Existing page audit | `yao-geo-page-audit` | URLs, page type, observed code/content evidence |
-| Page blueprint | `yao-geo-page-blueprint` | target questions, facts, conversion goal, CMS constraints |
-| Content production | matching `yao-geo-*` content skill | source pack, audience, format, compliance limits |
+| GEO baseline | `wepr-geo-panorama-audit` | platform scope, evidence ledger, gaps, priorities |
+| Intent expansion | `wepr-geo-intent-miner` | seed terms, audience, stage, evidence needs |
+| Brand knowledge | `wepr-geo-knowledge-base-builder` | source IDs, fact cards, prohibited claims |
+| Entity graph | `wepr-geo-brand-graph` | canonical entities, aliases, evidence-backed edges |
+| Existing page audit | `wepr-geo-page-audit` | URLs, page type, observed code/content evidence |
+| Page blueprint | `wepr-geo-page-blueprint` | target questions, facts, conversion goal, CMS constraints |
+| Content production | matching `wepr-geo-*` content skill | source pack, audience, format, compliance limits |
 | AI answer sampling | platform crawler | prompt IDs, repeats, environment, raw evidence |
-| Signal monitoring | `yao-geo-effect-monitor` | baseline, sample protocol, citation and fact metrics |
-| Conversion attribution | `yao-geo-tracking` | landing paths, CRM fields, direct/indirect signals |
-| Execution plan | `yao-geo-execution-roadmap` | diagnosis, capacity, budget, owners, acceptance criteria |
-| GEOFlow work | `geoflow` | mode, workspace or instance, target, authorization |
+| Signal monitoring | `wepr-geo-effect-monitor` | baseline, sample protocol, citation and fact metrics |
+| Conversion attribution | `wepr-geo-tracking` | landing paths, CRM fields, direct/indirect signals |
+| Execution plan | `wepr-geo-execution-roadmap` | diagnosis, capacity, budget, owners, acceptance criteria |
+| GEOFlow work | `wepr-geoflow` | mode, workspace or instance, target, authorization |
 
 ## Stage gates
 

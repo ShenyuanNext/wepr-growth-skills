@@ -1,0 +1,4 @@
+interface:
+  display_name: "wepr-geo-explainer-builder"
+  short_description: "Run the evidence-led workflow for wepr-geo-explainer-builder"
+  default_prompt: "Use $wepr-geo-explainer-builder to complete this GEO task with source boundaries, validation, and auditable deliverables."
