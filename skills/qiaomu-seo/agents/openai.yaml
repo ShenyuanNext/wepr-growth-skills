@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR SEO Strategy Workbench"
+  short_description: "Plan and verify evidence-led SEO across search surfaces"
+  default_prompt: "Use $qiaomu-seo to audit, plan, implement, or verify SEO with explicit scope, evidence, coverage, and measurement."

@@ -11,6 +11,9 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
+| `$qiaomu-seo` | Handle site-level SEO strategy, technical work, keywords, migrations, international, commerce, and AI search |
+| `$seo-audit` | Generate a quick single-page SEO audit and HTML report |
+| `$seo-audit-full` | Generate a deep SEO audit with PageSpeed and social metadata |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |

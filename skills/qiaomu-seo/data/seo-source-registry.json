@@ -1,0 +1,352 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-08-03",
+  "allowed_official_domains": [
+    "developers.google.com",
+    "web.dev",
+    "www.bing.com",
+    "blogs.bing.com",
+    "www.indexnow.org",
+    "schema.org",
+    "developers.openai.com",
+    "help.openai.com",
+    "docs.perplexity.ai",
+    "learn.microsoft.com"
+  ],
+  "sources": [
+    {
+      "id": "google-search-essentials",
+      "authority": "official",
+      "topic": "foundations",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "stability": "stable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 365
+    },
+    {
+      "id": "google-crawling-indexing",
+      "authority": "official",
+      "topic": "technical",
+      "url": "https://developers.google.com/search/docs/crawling-indexing",
+      "stability": "stable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 365
+    },
+    {
+      "id": "google-sitemaps",
+      "authority": "official",
+      "topic": "technical",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+      "stability": "stable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 365
+    },
+    {
+      "id": "google-robots-meta",
+      "authority": "official",
+      "topic": "technical",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "google-canonical",
+      "authority": "official",
+      "topic": "technical",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "google-javascript-seo",
+      "authority": "official",
+      "topic": "rendering",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-redirects",
+      "authority": "official",
+      "topic": "migration",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "google-site-moves",
+      "authority": "official",
+      "topic": "migration",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-crawl-budget",
+      "authority": "official",
+      "topic": "large-sites",
+      "url": "https://developers.google.com/crawling/docs/crawl-budget",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-helpful-content",
+      "authority": "official",
+      "topic": "content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-spam-policies",
+      "authority": "official",
+      "topic": "policy",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    },
+    {
+      "id": "google-structured-data-guidelines",
+      "authority": "official",
+      "topic": "structured-data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    },
+    {
+      "id": "google-search-appearance",
+      "authority": "official",
+      "topic": "features",
+      "url": "https://developers.google.com/search/docs/appearance",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "google-ai-features",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "google-ai-optimization",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "google-traffic-drops",
+      "authority": "official",
+      "topic": "measurement",
+      "url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-hreflang",
+      "authority": "official",
+      "topic": "international",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "google-ecommerce-pagination",
+      "authority": "official",
+      "topic": "commerce",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-product-variants",
+      "authority": "official",
+      "topic": "commerce",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product-variants",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    },
+    {
+      "id": "google-image-seo",
+      "authority": "official",
+      "topic": "image-search",
+      "url": "https://developers.google.com/search/docs/appearance/google-images",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-video-seo",
+      "authority": "official",
+      "topic": "video-search",
+      "url": "https://developers.google.com/search/docs/appearance/video",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "google-ab-testing",
+      "authority": "official",
+      "topic": "experiments",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/website-testing",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "google-search-console-data",
+      "authority": "official",
+      "topic": "measurement",
+      "url": "https://developers.google.com/webmaster-tools/v1/how-tos/all-your-data",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    },
+    {
+      "id": "google-search-analytics-api",
+      "authority": "official",
+      "topic": "measurement",
+      "url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    },
+    {
+      "id": "webdev-cwv-thresholds",
+      "authority": "official",
+      "topic": "performance",
+      "url": "https://web.dev/articles/defining-core-web-vitals-thresholds",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "bing-sitemaps",
+      "authority": "official",
+      "topic": "bing",
+      "url": "https://blogs.bing.com/webmaster/July-2025/Keeping-Content-Discoverable-with-Sitemaps-in-AI-Powered-Search",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "bing-crawl-control",
+      "authority": "official",
+      "topic": "bing",
+      "url": "https://www.bing.com/webmasters/help/crawl-control-55a30303",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "indexnow-protocol",
+      "authority": "official",
+      "topic": "bing",
+      "url": "https://www.indexnow.org/documentation",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 120
+    },
+    {
+      "id": "schema-validator",
+      "authority": "official",
+      "topic": "structured-data",
+      "url": "https://schema.org/docs/validator.html",
+      "stability": "mutable",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 180
+    },
+    {
+      "id": "openai-crawlers",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://developers.openai.com/api/docs/bots",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "openai-publisher-faq",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "perplexity-crawlers",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 30
+    },
+    {
+      "id": "microsoft-public-web-grounding",
+      "authority": "official",
+      "topic": "ai-search",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-ai-public-websites",
+      "stability": "volatile",
+      "reviewed_at": "2026-08-03",
+      "review_after_days": 60
+    }
+  ],
+  "feature_lifecycle": [
+    {
+      "id": "google-generative-ai-performance-report",
+      "status": "supported",
+      "as_of": "2026-08-03",
+      "source_id": "google-ai-optimization",
+      "note": "The newer guide documents a dedicated Generative AI performance report; verify property rollout and broader Web-report relationship."
+    },
+    {
+      "id": "google-llms-txt-search-visibility",
+      "status": "unsupported",
+      "as_of": "2026-08-03",
+      "source_id": "google-ai-optimization",
+      "note": "Google says llms.txt neither helps nor harms Google Search visibility or ranking."
+    },
+    {
+      "id": "google-faq-rich-results",
+      "status": "removed",
+      "as_of": "2026-05-07",
+      "source_id": "google-search-analytics-api",
+      "note": "The Search Console API documentation states FAQ rich results no longer appear; related search-appearance support is being deprecated."
+    },
+    {
+      "id": "core-web-vitals-inp",
+      "status": "supported",
+      "as_of": "2026-08-03",
+      "source_id": "webdev-cwv-thresholds",
+      "note": "The current Core Web Vitals set is LCP, INP, and CLS."
+    }
+  ],
+  "deprecated_claim_patterns": [
+    "Google reports AI-feature traffic inside the Search Console Web search type rather than a separate AI report",
+    "FAQ rich results are supported by Google Search",
+    "IndexNow guarantees indexing",
+    "Lighthouse score proves Core Web Vitals",
+    "GPTBot is the crawler used for ChatGPT Search"
+  ]
+}
