@@ -2,9 +2,9 @@
 
 [中文](#中文说明) · [English](#english)
 
-An open collection of practical Agent Skills for public relations, digital analytics, paid media, SEO/GEO, creator research, Xiaohongshu operations, editorial illustration, community marketing, and international growth.
+WEPR's open, evidence-led Agent Skills system for brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, content and account operations, client proposals, presentations, and international growth.
 
-一套面向公关、数字营销、广告投放、SEO/GEO、小红书运营、内容研究、编辑插画、社区营销和品牌出海的可执行 Agent Skills。
+WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、内容与账号运营、客户方案、演示文档和品牌出海。
 
 ---
 
@@ -12,7 +12,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 
 ### 项目简介
 
-`wepr-growth-skills` 是 WEPR 建设并持续维护的开放式增长技能库。它把公关、品牌、数据分析、广告投放、SEO/GEO、社区增长、内容运营和视觉生产中的真实执行方法，整理为可以被 Codex、Claude Code 及其他兼容 Agent 调用的独立技能。更多关于 WEPR 的服务与案例，请访问 [WEPR 官网](https://www.scwepr.com/)。
+`wepr-growth-skills` 是 WEPR 建设并持续维护的开放式增长执行系统。它把品牌、公关、数据、投放、SEO/GEO、内容、账号运营、报价和演示中的真实方法，整理为 Codex、Claude Code 及其他兼容 Agent 可调用的完整工作流。技能既能完成单项诊断和生产，也能组合成从研究、策略、报价、执行到复盘的客户交付链路。更多服务与案例见 [WEPR 官网](https://www.scwepr.com/)。
 
 仓库不是提示词合集。每个技能都包含明确触发场景、执行流程、交付结构、条件性参考资料和风险边界，可单独调用，也可以组合成完整客户工作流。
 
@@ -36,8 +36,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 增长规划与获客
 ├── plan-paid-media
 ├── plan-organic-growth
-├── qiaomu-seo（站点SEO策略、实施与验证）
-├── seo-audit / seo-audit-full（快速与深度单页审计）
+├── qiaomu-seo（完整SEO：快速/深度审计、策略、实施与验证）
 ├── operate-georank-workbench（GEOrank安全操作与交付回执）
 └── plan-xiaohongshu-growth
 
@@ -81,9 +80,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和90天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
-| `qiaomu-seo` | SEO策略工作台 | 技术SEO、关键词与页面地图、内容治理、国际化、电商、迁移、流量诊断、AI搜索 | 覆盖台账、证据化发现、优先级、实施与验证、机器可读审计 |
-| `seo-audit` | 快速SEO审计 | 单个URL的站点基础、页面元素、Schema和信任页检查 | 结构化JSON证据与客户可读HTML报告 |
-| `seo-audit-full` | 深度SEO审计 | 单个URL的技术、PageSpeed、社交元数据、Schema与高级页面检查 | 完整HTML报告、优先修复项、影响/投入标签 |
+| `qiaomu-seo` | 完整SEO工作台 | 快速/深度页面审计、技术SEO、关键词内容、国际化、电商、迁移、流量诊断、AI搜索 | HTML审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API执行回执、资源ID、风险与回滚说明 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
@@ -107,8 +104,7 @@ An open collection of practical Agent Skills for public relations, digital analy
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
-- 要做站点级SEO策略、关键词内容体系、迁移、国际化、电商或AI搜索：使用 `$qiaomu-seo`。
-- 要快速检查一个页面：使用 `$seo-audit`；要加入PageSpeed、社交元数据与更深技术检查：使用 `$seo-audit-full`。
+- 所有SEO任务统一使用 `$qiaomu-seo`：可自动选择快速页面审计、含PageSpeed的深度审计、站点策略、关键词内容、迁移、国际化、电商或AI搜索模式。
 - 已部署GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般GEO策略仍使用 `$plan-organic-growth`。
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
@@ -291,8 +287,7 @@ Business and brand decisions
 Growth planning and acquisition
 ├── plan-paid-media
 ├── plan-organic-growth
-├── qiaomu-seo (site SEO strategy, implementation, and verification)
-├── seo-audit / seo-audit-full (quick and deep page audits)
+├── qiaomu-seo (complete SEO: quick/full audits, strategy, implementation, verification)
 ├── operate-georank-workbench (safe GEOrank operations)
 └── plan-xiaohongshu-growth
 
@@ -323,9 +318,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
-| `qiaomu-seo` | SEO strategy workbench | Technical SEO, keyword/page mapping, content governance, international, commerce, migrations, incidents, AI search | Coverage ledger, evidence-bound findings, priorities, implementation verification, machine-readable audits |
-| `seo-audit` | Quick SEO audit | Single-URL site basics, on-page elements, schema, and trust-page checks | Structured JSON evidence and client-ready HTML report |
-| `seo-audit-full` | Full SEO audit | Single-URL technical, PageSpeed, social metadata, schema, and advanced checks | Full HTML report, priority actions, impact/effort labels |
+| `qiaomu-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
 | `xiaohongshu-suite` | Xiaohongshu workflow routing | Unclear whether to start with profile, topics, titles, copy, comments, or conversion | Blocked stage, skill selection, processing order, and input handoff |
@@ -348,8 +341,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
-- Use `$qiaomu-seo` for site-wide SEO strategy, keyword/content systems, migrations, international, commerce, or AI-search work.
-- Use `$seo-audit` for a quick page check; use `$seo-audit-full` for PageSpeed, social metadata, and deeper technical checks.
+- Use `$qiaomu-seo` for every SEO task; it selects quick page audit, PageSpeed-enabled full audit, site strategy, keyword/content, migration, international, commerce, or AI-search mode.
 - Use `$operate-georank-workbench` when a deployed GEOrank instance must be queried or changed. Use `$plan-organic-growth` for general GEO strategy.
 - Use `$plan-xiaohongshu-growth` to plan, write, rewrite, or diagnose Xiaohongshu content.
 - Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Full SEO Audit"
-  short_description: "Run a deep technical and on-page SEO audit"
-  default_prompt: "Use $seo-audit-full to run a deep SEO audit with technical, performance, schema, and social checks."

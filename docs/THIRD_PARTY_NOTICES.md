@@ -46,13 +46,13 @@ WEPR adaptation dated 2026-07-28: transformed the curated marketing-resource cat
 
 Source: https://github.com/JeffLi1993/seo-audit-skill
 
-MIT License, Copyright (c) 2026 Jeff. The full license notice is included at `skills/seo-audit/LICENSE` and `skills/seo-audit-full/LICENSE`. WEPR removes upstream interface promotion, adds Codex interface metadata, and preserves the audit scripts and reporting assets.
+MIT License, Copyright (c) 2026 Jeff. The full license notice is included at `skills/qiaomu-seo/LICENSE-JEFF.md`. WEPR incorporates the audit scripts and reporting assets into the single complete SEO skill.
 
 ## Qiaomu SEO
 
 Source: https://github.com/joeseesun/qiaomu-seo
 
-MIT License, Copyright (c) 向阳乔木. The full license notice is included at `skills/qiaomu-seo/LICENSE`. WEPR removes promotional interface assets and repository-only evaluation reports while retaining the evidence-led SEO workflow, references, source registry, schema, and validators.
+MIT License, Copyright (c) 向阳乔木. The full license notice is included at `skills/qiaomu-seo/LICENSE`. WEPR removes promotional interface assets and repository-only evaluation reports while retaining and extending the evidence-led SEO workflow, references, source registry, schema, validators, deterministic audit scripts, and HTML reporting.
 
 ## GEORank operator skill
 

@@ -14,6 +14,7 @@ REQUIRED_FILES = (
     "agents/openai.yaml",
     "manifest.json",
     "references/audit-playbook.md",
+    "references/page-audit-checks.md",
     "references/technical-seo.md",
     "references/execution-sampling.md",
     "references/ai-search.md",
@@ -29,6 +30,14 @@ REQUIRED_FILES = (
     "references/official-sources.md",
     "schemas/seo-audit.schema.json",
     "data/seo-source-registry.json",
+    "assets/report-template.html",
+    "LICENSE-JEFF.md",
+    "scripts/check-site.py",
+    "scripts/check-page.py",
+    "scripts/fetch-page.py",
+    "scripts/check-schema.py",
+    "scripts/check-social.py",
+    "scripts/check-pagespeed.py",
     "scripts/validate_knowledge.py",
 )
 

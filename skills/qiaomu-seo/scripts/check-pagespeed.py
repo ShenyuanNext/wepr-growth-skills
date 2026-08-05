@@ -3,7 +3,7 @@
 PageSpeed Insights / Lighthouse checks.
 
 Fetches PageSpeed Insights metrics for a target URL and outputs structured JSON
-for direct use in seo-audit-full reports.
+for direct use in qiaomu-seo full-mode reports.
 
 Usage:
     python scripts/check-pagespeed.py https://example.com
@@ -348,7 +348,7 @@ def get_pagespeed_metrics(
             "url": _normalize_url(target_url),
             "strategy": strategy,
             "status": "error",
-            "error": "PageSpeed API key is required for seo-audit-full.",
+            "error": "PageSpeed API key is required for qiaomu-seo full mode.",
             "hint": (
                 "Set PAGESPEED_API_KEY or GOOGLE_PAGESPEED_API_KEY, "
                 "or pass --api-key. Get a key from the official PageSpeed "
