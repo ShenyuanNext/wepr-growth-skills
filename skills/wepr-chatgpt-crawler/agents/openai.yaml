@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-chatgpt-crawler"
-  short_description: "Run the evidence-led workflow for wepr-chatgpt-crawler"
-  default_prompt: "Use $wepr-chatgpt-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR ChatGPT 采样工具"
+  short_description: "多轮采样并分析 ChatGPT 中的品牌提及"
+  default_prompt: "使用 $wepr-chatgpt-crawler 按关键词完成多轮 ChatGPT 采样，输出可核验的数据和 GEO 报告。"

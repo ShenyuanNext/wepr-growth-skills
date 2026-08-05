@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Workflow Router"
-  short_description: "Route profile, topic, title, content, comment, and conversion tasks"
-  default_prompt: "Use $xiaohongshu-suite to diagnose the blocked stage and select the shortest Xiaohongshu workflow for this request."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书工作流总控"
+  short_description: "判断小红书任务应从哪个环节开始"
+  default_prompt: "使用 $xiaohongshu-suite 找出最先受阻的环节，并调用最合适的专项技能。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-explainer-builder"
-  short_description: "Run the evidence-led workflow for wepr-geo-explainer-builder"
-  default_prompt: "Use $wepr-geo-explainer-builder to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 科普文章"
+  short_description: "撰写有证据支撑的 GEO 科普内容"
+  default_prompt: "使用 $wepr-geo-explainer-builder 撰写结构完整、证据清晰、可直接发布的科普文章。"

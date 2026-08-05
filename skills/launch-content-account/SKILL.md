@@ -1,6 +1,6 @@
 ---
 name: launch-content-account
-description: Plan, audit, and improve compliant content-account launches across WeChat Official Accounts, Douyin, WeChat Channels, X/Twitter, and Xiaohongshu. Use for 起号, 冷启动, 账号定位, 内容支柱, 主页优化, 选题库, 视频实验, 公众号运营, 抖音起号, 视频号起号, X起号, content-account launch, early account diagnosis, or 30/60/90-day publishing systems.
+description: 规划、诊断和优化微信公众号、抖音、视频号、X/Twitter 和小红书的合规起号与冷启动。适用于账号定位、内容支柱、主页优化、选题库、视频实验、早期账号诊断，以及建立 30/60/90 天发布和复盘体系。
 ---
 
 # Launch Content Account

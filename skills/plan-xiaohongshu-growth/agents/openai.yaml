@@ -1,4 +1,4 @@
 interface:
-  display_name: "Plan Xiaohongshu Growth"
-  short_description: "Build searchable, useful Xiaohongshu content systems"
-  default_prompt: "Use $plan-xiaohongshu-growth to turn my topic into a searchable Xiaohongshu post and execution plan."
+  display_name: "WEPR 小红书内容增长"
+  short_description: "策划、撰写和诊断搜索型小红书内容"
+  default_prompt: "使用 $plan-xiaohongshu-growth 根据真实需求和搜索意图完成可发布的小红书内容。"

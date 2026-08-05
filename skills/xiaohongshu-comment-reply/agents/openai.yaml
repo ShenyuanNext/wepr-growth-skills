@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Comment Operations"
-  short_description: "Reply naturally, handle objections, pin value, and flag high-risk comments"
-  default_prompt: "Use $xiaohongshu-comment-reply to classify these Xiaohongshu comments and draft natural, risk-aware replies."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书评论运营"
+  short_description: "撰写自然评论回复并处理异议"
+  default_prompt: "使用 $xiaohongshu-comment-reply 根据评论语境生成自然、合规且不过度营销的回复。"

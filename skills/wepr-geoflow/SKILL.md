@@ -1,6 +1,6 @@
 ---
 name: wepr-geoflow
-description: Develop or operate GEOFlow across Laravel backend/admin/API/CLI, the default site, themes, leads, and GeoFlow Agent channel sites. Use for code changes, running-system operations, frontend or template edits, channel capability sync, legacy PHP migration, or retired wepr-geoflow-cli, wepr-geoflow-design, and wepr-geoflow-template IDs. Discover real routes first. Excludes unrelated work, database shortcuts, invented routes, auth bypass, secret exposure, raw copying, and unapproved live or destructive actions.
+description: 开发或运营 GEOFlow，覆盖 Laravel 后端、管理后台、API、命令行、默认站点、主题、线索及渠道站点。适用于代码修改、线上系统操作、前端与模板调整、渠道能力同步、旧 PHP 模板迁移，以及兼容 wepr-geoflow-cli、wepr-geoflow-design 和 wepr-geoflow-template 等入口。执行前必须确认真实路由；不处理无关任务，也不得绕过数据库流程、虚构接口、规避鉴权、泄露密钥、直接复制网页或未经批准执行上线及破坏性操作。
 ---
 
 # GEOFlow

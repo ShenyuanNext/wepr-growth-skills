@@ -1,4 +1,4 @@
 interface:
-  display_name: "WEPR Complete SEO Workbench"
-  short_description: "Audit, plan, implement, and verify complete SEO programs"
-  default_prompt: "Use $wepr-seo to run the appropriate quick audit, full audit, site strategy, implementation, or verification workflow with explicit evidence and coverage."
+  display_name: "WEPR 完整 SEO 工作台"
+  short_description: "完成 SEO 审计、策略、实施和验证"
+  default_prompt: "使用 $wepr-seo 选择合适的审计或策略模式，并以明确证据、范围和验证方式完成任务。"

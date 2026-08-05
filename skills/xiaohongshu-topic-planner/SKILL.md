@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-topic-planner
-description: Build evidence-based Xiaohongshu topic systems, series, backlogs, and 7/14/30-day calendars from account positioning, user situations, search intent, customer questions, objections, proof, production capacity, and business goals. Use for 小红书选题, 内容方向, 系列策划, 周更计划, 选题池, 内容日历, 产品种草选题, 服务号规划, or personal-IP topic planning. Route title-only requests to xiaohongshu-title and final-copy requests to plan-xiaohongshu-growth.
+description: 根据账号定位、用户场景、搜索意图、客户问题、异议、证据素材、生产能力和业务目标，建立小红书选题体系、内容系列、选题池及 7/14/30 天发布日历。适用于内容方向、系列策划、周更计划、产品种草、服务号和个人 IP 选题规划。只需要标题时使用 xiaohongshu-title，需要完整成稿时使用 plan-xiaohongshu-growth。
 ---
 
 # Plan Xiaohongshu Topics

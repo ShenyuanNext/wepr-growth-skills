@@ -1,4 +1,4 @@
 interface:
-  display_name: "Plan Editorial Illustrations"
-  short_description: "Turn articles into coherent editorial illustration plans"
-  default_prompt: "Use $plan-editorial-illustrations to create a coherent illustration plan for this article."
+  display_name: "WEPR 编辑配图规划"
+  short_description: "把文章转化为统一的插画与镜头系统"
+  default_prompt: "使用 $plan-editorial-illustrations 为文章设计配图结构、镜头、提示词和质检标准。"

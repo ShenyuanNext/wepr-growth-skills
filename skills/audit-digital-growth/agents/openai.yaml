@@ -1,4 +1,4 @@
 interface:
-  display_name: "数字营销增长诊断"
-  short_description: "用数据诊断流量、转化、归因、留存与增长执行问题"
-  default_prompt: "使用 $audit-digital-growth 诊断这个数字营销项目并制定增长动作。"
+  display_name: "WEPR 数字增长诊断"
+  short_description: "诊断流量、转化、归因和留存问题"
+  default_prompt: "使用 $audit-digital-growth 审计数字营销数据和漏斗，并形成可验证的增长行动。"

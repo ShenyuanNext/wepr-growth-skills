@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-tracking"
-  short_description: "Run the evidence-led workflow for wepr-geo-tracking"
-  default_prompt: "Use $wepr-geo-tracking to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 归因追踪"
+  short_description: "设计 GEO 效果跟踪和转化归因体系"
+  default_prompt: "使用 $wepr-geo-tracking 为企业设计可实施的 GEO 监测、数据模型和归因路线图。"

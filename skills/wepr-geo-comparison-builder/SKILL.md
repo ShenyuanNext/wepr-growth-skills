@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-comparison-builder
-description: 当用户需要生成 GEO 品牌对比内容、品牌替代方案、选型页、竞品对比页、FAQ 对比问答或“某品牌和其他方案怎么选”的内容包时使用，面向 DeepSeek、豆包、千问、Kimi、腾讯元宝生成中文简体、证据绑定、同口径、公平表达的品牌对比报告，并默认交付 Word、PDF、HTML、Markdown 四格式。
+description: 为品牌对比、替代方案、产品选型、竞品页面和 FAQ 问答制作公平、可核验的 GEO 内容。适用于回答“某品牌与其他方案怎么选”等真实需求，并面向 DeepSeek、豆包、千问、Kimi、腾讯元宝生成简体中文报告；默认交付 Word、PDF、HTML 和 Markdown 四种格式。
 ---
 
 <!--

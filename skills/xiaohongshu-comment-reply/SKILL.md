@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-comment-reply
-description: Draft and diagnose natural Xiaohongshu comment replies, pinned comments, objection handling, discussion prompts, high-risk comment responses, and appropriate consultation invitations. Use for 小红书评论回复, 置顶评论, 评论区运营, 质疑处理, 批量回复, 人设语气, discussion continuation, or soft private-message guidance. Do not use it for a full content calendar or account diagnosis.
+description: 撰写和诊断自然的小红书评论回复，覆盖置顶评论、异议处理、讨论引导、高风险评论回应和适度的咨询邀请。适用于评论回复、评论区运营、批量回复、人设语气、延续讨论和柔和的私信引导；不用于完整内容日历或账号诊断。
 ---
 
 # Operate Xiaohongshu Comments

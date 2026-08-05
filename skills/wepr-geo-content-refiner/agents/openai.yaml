@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-content-refiner"
-  short_description: "Run the evidence-led workflow for wepr-geo-content-refiner"
-  default_prompt: "Use $wepr-geo-content-refiner to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 内容改造"
+  short_description: "把现有内容改造成 AI 易引用版本"
+  default_prompt: "使用 $wepr-geo-content-refiner 评估并改造现有内容，保留证据边界和发布建议。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Founder Marketing Workbench"
-  short_description: "Plan early-stage marketing and client communication"
-  default_prompt: "Use $wepr-marketing to build an evidence-led customer marketing plan, communication strategy, or copy package."
+  display_name: "WEPR 营销策略工作台"
+  short_description: "制定客户营销方案、传播策略和文案"
+  default_prompt: "使用 $wepr-marketing 基于事实制定营销策略、执行路线图和客户可用文案。"

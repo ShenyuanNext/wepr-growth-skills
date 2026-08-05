@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Profile Audit"
-  short_description: "Audit positioning, bio, proof, pinned posts, and profile acceptance"
-  default_prompt: "Use $xiaohongshu-profile to audit this Xiaohongshu profile and rewrite the bio and pinned-post structure."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书主页诊断"
+  short_description: "优化主页定位、信任和承接能力"
+  default_prompt: "使用 $xiaohongshu-profile 诊断昵称、简介、定位和置顶内容，并给出可执行改写。"

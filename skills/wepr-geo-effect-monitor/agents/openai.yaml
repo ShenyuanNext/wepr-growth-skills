@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-effect-monitor"
-  short_description: "Run the evidence-led workflow for wepr-geo-effect-monitor"
-  default_prompt: "Use $wepr-geo-effect-monitor to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 效果监测"
+  short_description: "监测 AI 回答、引用与品牌事实变化"
+  default_prompt: "使用 $wepr-geo-effect-monitor 设计可重复采样、可追溯的 GEO 监测与纠偏体系。"

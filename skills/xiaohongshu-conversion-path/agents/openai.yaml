@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Conversion Path"
-  short_description: "Connect content, profile, trust, qualification, action, and delivery"
-  default_prompt: "Use $xiaohongshu-conversion-path to map and improve this Xiaohongshu content-to-consultation or product-adoption path."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书转化路径"
+  short_description: "设计从内容到咨询和成交的合规路径"
+  default_prompt: "使用 $xiaohongshu-conversion-path 识别转化阻力，并设计平台允许的下一步动作。"

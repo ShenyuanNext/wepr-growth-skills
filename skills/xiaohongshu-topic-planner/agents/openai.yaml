@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Topic Planner"
-  short_description: "Build topic pools, series, calendars, proof plans, and learning goals"
-  default_prompt: "Use $xiaohongshu-topic-planner to build a prioritized Xiaohongshu topic system and publishing calendar for this account."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书选题规划"
+  short_description: "建立选题体系、内容系列和发布日历"
+  default_prompt: "使用 $xiaohongshu-topic-planner 根据定位、用户问题和生产能力制定可持续选题计划。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Bento Slides"
-  short_description: "Create interactive single-file client presentations"
-  default_prompt: "Use $wepr-slides to turn this approved proposal or report into a polished, interactive, single-file Bento presentation with charts, motion, and speaker notes."
+  display_name: "WEPR 交互式演示文档"
+  short_description: "制作单文件客户方案和汇报演示"
+  default_prompt: "使用 $wepr-slides 将已确认的方案或报告制作成清晰、专业、可交互的单文件演示文档。"

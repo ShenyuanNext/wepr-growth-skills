@@ -1,4 +1,4 @@
 interface:
-  display_name: "WEPR GEO Suite"
-  short_description: "Route complete evidence-led GEO delivery workflows"
-  default_prompt: "Use $wepr-geo-suite to scope this GEO project, route the required specialist skills, and define evidence, deliverables, measurement, and validation."
+  display_name: "WEPR GEO 项目总控"
+  short_description: "统筹完整 GEO 项目和专项技能"
+  default_prompt: "使用 $wepr-geo-suite 明确项目范围，并组合必要的专项技能、证据、交付物和验收方式。"

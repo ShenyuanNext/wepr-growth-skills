@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-title-optimizer"
-  short_description: "Run the evidence-led workflow for wepr-geo-title-optimizer"
-  default_prompt: "Use $wepr-geo-title-optimizer to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 标题优化"
+  short_description: "生成、评分并校验中文 GEO 标题"
+  default_prompt: "使用 $wepr-geo-title-optimizer 生成与正文匹配、自然且合规的 GEO 标题。"

@@ -1,6 +1,6 @@
 ---
 name: audit-digital-growth
-description: Audit digital marketing performance across analytics, websites, apps, funnels, attribution, paid and organic channels, CRM, retention, private-domain operations, and AI marketing workflows. Use for GA4/GTM, 转化分析, ROI/ROAS, CAC/LTV, 数据看板, 归因, 增长诊断, 落地页, or 30/60/90-day growth planning.
+description: 诊断数字营销效果，覆盖数据分析、网站与应用、转化漏斗、归因、付费与自然渠道、CRM、留存、私域运营和 AI 营销流程。适用于 GA4、GTM、转化分析、ROI、ROAS、CAC、LTV、数据看板、增长诊断、落地页优化及 30/60/90 天增长规划。
 ---
 
 # Audit Digital Growth

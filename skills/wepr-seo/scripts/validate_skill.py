@@ -81,9 +81,15 @@ def validate(root: Path) -> dict[str, object]:
         if frontmatter.get("name") != "wepr-seo":
             failures.append("SKILL.md name must be wepr-seo")
         description = frontmatter.get("description", "").lower()
-        for phrase in ("seo", "audit", "keyword", "exclude"):
-            if phrase not in description:
-                warnings.append(f"description may be missing routing phrase: {phrase}")
+        routing_terms = {
+            "seo": ("seo",),
+            "audit": ("audit", "审计", "检查"),
+            "keyword": ("keyword", "关键词"),
+            "exclude": ("exclude", "不用于"),
+        }
+        for label, phrases in routing_terms.items():
+            if not any(phrase in description for phrase in phrases):
+                warnings.append(f"description may be missing routing phrase: {label}")
         for link in re.findall(r"\]\((references/[^)]+\.md)\)", text):
             if not (root / link).is_file():
                 failures.append(f"SKILL.md links to missing reference: {link}")

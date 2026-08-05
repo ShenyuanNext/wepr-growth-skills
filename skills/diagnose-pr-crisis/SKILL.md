@@ -1,6 +1,6 @@
 ---
 name: diagnose-pr-crisis
-description: Diagnose public-relations incidents, media controversies, negative sentiment, brand-response failures, crisis statements, and reputation recovery. Use when a user asks for crisis PR, 舆情分析, 声明撰写, 媒体沟通, 负面处理, public response, stakeholder messaging, or a 30/60/90-day reputation plan.
+description: 诊断公关事件、媒体争议、负面舆情和品牌回应失误，并制定危机声明、媒体沟通及声誉修复方案。适用于危机公关、舆情分析、声明撰写、负面处理、公众回应、利益相关者沟通，以及 30/60/90 天声誉恢复计划。
 ---
 
 # Diagnose PR Crisis

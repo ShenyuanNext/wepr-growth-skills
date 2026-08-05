@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-intent-miner
-description: Use when a user asks for GEO 意图拓词、AI 搜索意图挖掘、AI 搜索问题集、问题簇、追问链路、查询重写、内容选题库、FAQ 题库、监测 Prompt 库, or AI Intent Miner.
+description: 挖掘 GEO 和 AI 搜索中的真实用户意图，并形成可执行的问题体系。适用于意图拓词、问题集与问题簇、连续追问链路、查询改写、内容选题库、FAQ 题库和监测提示词库建设。
 ---
 
 <!--

@@ -1,6 +1,6 @@
 ---
 name: plan-organic-growth
-description: Plan and diagnose compliant organic growth across SEO, GEO/AI search, Reddit research and community participation, Product Hunt launches, SaaS cold starts, founder-led content, digital PR, and international brand discovery. Use for 出海增长, SEO/GEO方案, AI搜索可见度, Reddit营销, Product Hunt发布, SaaS冷启动, 社区洞察, 内容增长, 外链策略, or 30/60/90-day organic growth roadmaps.
+description: 规划和诊断合规的自然增长，覆盖 SEO、GEO 与 AI 搜索、Reddit 调研和社区参与、Product Hunt 发布、SaaS 冷启动、创始人内容、数字公关及海外品牌发现。适用于出海增长、SEO/GEO 方案、AI 搜索可见度、社区洞察、内容增长、外链策略和 30/60/90 天自然增长路线图。
 ---
 
 # Plan Organic Growth

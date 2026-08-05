@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-title
-description: Generate, diagnose, select, and rewrite Xiaohongshu post titles and cover lines for image-text posts, short videos, tutorials, comparisons, product content, service content, and search-oriented notes. Use when the user explicitly requests 小红书标题, 封面标题, 标题诊断, 标题优化, title directions, or multiple title candidates. Use plan-xiaohongshu-growth when the user also needs the full body, keywords, or a complete publishing-ready post.
+description: 生成、诊断、筛选和改写小红书笔记标题及封面短句，适用于图文、短视频、教程、对比、产品、服务和搜索型内容。用户明确需要标题、封面标题、标题诊断、标题优化、标题方向或多组候选时使用；如果还需要正文、关键词或完整发布稿，应使用 plan-xiaohongshu-growth。
 ---
 
 # Create Xiaohongshu Titles

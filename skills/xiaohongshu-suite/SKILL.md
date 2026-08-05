@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-suite
-description: Route and orchestrate Xiaohongshu account, profile, topic, title, comment, content, conversion, and review tasks. Use when the user wants an overall Xiaohongshu diagnosis or workflow but is unsure whether to start with positioning, profile, topic planning, titles, full-copy execution, comment operations, or conversion design. Route clear single-purpose requests to the matching xiaohongshu-* or plan-xiaohongshu-growth skill instead of duplicating their output.
+description: 作为小红书工作流总入口，负责识别并组合账号定位、主页、选题、标题、评论、内容、转化和复盘任务。适用于需要整体诊断，或暂时不确定应从定位、主页、选题、标题、正文、评论还是转化开始的情况。目标明确的单项需求应直接调用对应的 xiaohongshu-* 或 plan-xiaohongshu-growth 技能。
 ---
 
 # Xiaohongshu Workflow Router

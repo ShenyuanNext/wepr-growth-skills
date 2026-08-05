@@ -1,6 +1,6 @@
 ---
 name: plan-editorial-illustrations
-description: Turn Chinese or English articles into coherent editorial illustration systems, shot lists, prompts, and visual QA plans. Use for 文章配图, 小红书配图, 公众号插画, editorial illustration, illustration prompts, visual storytelling, recurring character systems, or checking composition, text accuracy, hierarchy, and style consistency.
+description: 将中文或英文文章转化为连贯的编辑插画体系，包括配图规划、镜头清单、生成提示词和视觉质检方案。适用于文章配图、小红书配图、公众号插画、视觉叙事、固定角色体系，以及检查构图、文字准确性、信息层级和风格一致性。
 ---
 
 # Plan Editorial Illustrations

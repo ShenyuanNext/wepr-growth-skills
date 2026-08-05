@@ -10,11 +10,11 @@
 | --- | --- |
 | `$diagnose-pr-crisis` | 处理舆情、声明、媒体沟通和声誉恢复 |
 | `$pr-strategy-workbench` | 制定客户公关方案、传播决策、媒体叙事、上线预案与公共文案 |
-| `$audit-digital-growth` | 找出流量、转化、归因、CRM和留存问题 |
+| `$audit-digital-growth` | 找出流量、转化、归因、CRM 和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
-| `$plan-organic-growth` | 规划SEO、GEO、Reddit、Product Hunt和内容增长 |
-| `$wepr-seo` | 统一处理快速/深度HTML审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI搜索 |
-| `$operate-georank-workbench` | 安全操作已部署的GEOrank实例、诊断、拓词与后台 |
+| `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
+| `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
+| `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
 | `$xiaohongshu-profile` | 诊断主页第一眼、简介、定位、信任材料和置顶笔记 |
@@ -94,7 +94,7 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ### 有机增长
 
 ```text
-使用 $plan-organic-growth。为新SaaS设计90天SEO、GEO、Reddit和Product Hunt计划，先给需求证据与渠道角色，再排实验优先级。
+使用 $plan-organic-growth。为新 SaaS设计90 天SEO、GEO、Reddit和Product Hunt计划，先给需求证据与渠道角色，再排实验优先级。
 ```
 
 重要输入：产品、用户、竞争替代、现有网站和内容、目标市场、可投入人力。禁止购买Karma、投票或垃圾外链。
@@ -102,10 +102,10 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ### GEOrank工作台操作
 
 ```text
-使用 $operate-georank-workbench。连接这个GEOrank实例，先检查登录身份和权限，再为指定网站启动诊断；任何写操作先给预检，不要输出密钥。
+使用 $operate-georank-workbench。连接这个GEOrank 实例，先检查登录身份和权限，再为指定网站启动诊断；任何写操作先给预检，不要输出密钥。
 ```
 
-重要输入：实例URL、账户、目标资源、期望动作，以及是否明确授权执行写操作。普通GEO策略、内容规划和客户方案仍使用 `$plan-organic-growth`；只有需要实际调用已部署GEOrank时才使用本技能。远程实例必须使用HTTPS，管理员写操作和删除有独立确认门槛。
+重要输入：实例 URL、账户、目标资源、期望动作，以及是否明确授权执行写操作。普通 GEO策略、内容规划和客户方案仍使用 `$plan-organic-growth`；只有需要实际调用已部署 GEOrank时才使用本技能。远程实例必须使用 HTTPS，管理员写操作和删除有独立确认门槛。
 
 ### 小红书搜索与内容
 
@@ -149,7 +149,7 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ### 品牌战略分析
 
 ```text
-使用 $analyze-brand-strategy。分析这个品牌进入年轻消费市场的路径。先检查定位对象、决策、产品、市场、目标用户和资料是否达到研究门槛；再区分企业主张、客户认知和行为证据，研究直接竞品、间接替代、现状、不行动和心智标杆，比较三个方向后只推荐一套，并给出牺牲项、反证条件和90天验证计划。
+使用 $analyze-brand-strategy。分析这个品牌进入年轻消费市场的路径。先检查定位对象、决策、产品、市场、目标用户和资料是否达到研究门槛；再区分企业主张、客户认知和行为证据，研究直接竞品、间接替代、现状、不行动和心智标杆，比较三个方向后只推荐一套，并给出牺牲项、反证条件和 90 天验证计划。
 ```
 
 重要输入：业务目标、市场、用户、产品价格、渠道、竞争替代、研究与经营数据。资料不足时应输出“建议先验证”或“证据不足”，不能用口号填补证据。案例只能用于研究机制，不能直接复制结论。
@@ -178,7 +178,7 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 2. `$audit-digital-growth` 定义问题和指标；
 3. `$plan-paid-media` 设计可控获客实验；
 4. `$plan-organic-growth` 建设长期搜索与社区资产；
-5. 用30/60/90天路线图统一负责人和复盘节奏。
+5. 用 30/60/90 天路线图统一负责人和复盘节奏。
 
 ### 小红书内容生产
 

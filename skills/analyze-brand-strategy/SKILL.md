@@ -1,6 +1,6 @@
 ---
 name: analyze-brand-strategy
-description: Analyze and position brands, products, services, or companies through evidence readiness, customer demand, category framing, five-part competition mapping, provable differentiation, positioning options, and activation. Use for 品牌分析, 品牌定位, 差异化, 再定位, 品牌策略, 品牌年轻化, 品牌出海, IP出海, 渠道品牌, 竞争战略, value proposition, positioning, or brand-growth decisions.
+description: 基于证据完整度、客户需求、品类认知、五类竞争关系和可证明的差异化，对品牌、产品、服务或企业进行分析与定位。适用于品牌分析、品牌定位、差异化、再定位、品牌年轻化、品牌或 IP 出海、渠道品牌、竞争战略、价值主张和品牌增长决策。
 ---
 
 # Analyze Brand Strategy

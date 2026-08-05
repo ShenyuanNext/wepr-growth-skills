@@ -1,6 +1,6 @@
 ---
 name: create-marketing-content
-description: Create, rewrite, and diagnose evidence-based marketing content for articles, newsletters, social posts, brand accounts, case studies, thought leadership, and campaign copy. Use for 内容创作, 公众号文章, 品牌内容, 营销文案, 广告文案, 案例复盘, 内容重构, 去AI味, thought leadership, or adapting one source into multiple platform-native formats.
+description: 创作、改写和诊断有事实依据的营销内容，覆盖文章、通讯、社交媒体、品牌账号、案例、行业观点和活动文案。适用于内容创作、公众号文章、品牌内容、营销与广告文案、案例复盘、内容重构、弱化 AI 痕迹，以及将同一份素材改编为符合不同平台习惯的内容。
 ---
 
 # Create Marketing Content

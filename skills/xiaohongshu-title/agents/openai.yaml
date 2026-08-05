@@ -1,7 +1,4 @@
 interface:
-  display_name: "Xiaohongshu Title Studio"
-  short_description: "Generate, diagnose, select, and rewrite truthful Xiaohongshu titles"
-  default_prompt: "Use $xiaohongshu-title to generate distinct Xiaohongshu title options from this content and recommend the strongest one."
-
-policy:
-  allow_implicit_invocation: true
+  display_name: "WEPR 小红书标题优化"
+  short_description: "生成和筛选真实、自然的小红书标题"
+  default_prompt: "使用 $xiaohongshu-title 根据内容事实、用户场景和搜索语言生成标题与封面短句。"

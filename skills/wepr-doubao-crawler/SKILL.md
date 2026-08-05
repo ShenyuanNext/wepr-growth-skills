@@ -1,9 +1,9 @@
 ---
 name: wepr-doubao-crawler
-description: "Use when a user needs repeated Doubao AI-search collection from web or Android Appium into compatible JSON plus Markdown/Excel/HTML GEO reports. Requires keywords/questions and repeat count; target entity/type are required only for target-vs-competitor diagnosis. Not for generic scraping, Doubao API chat, hidden API extraction, SEO writing, high-frequency automation, or one-off answers."
+description: 当用户需要通过豆包网页端或 Android Appium 进行多轮 AI 搜索采样，并生成 JSON 数据及 Markdown、Excel、HTML 格式的 GEO 报告时使用。必须提供关键词或问题及采样次数；只有在进行品牌与竞品对比时，才需要目标实体和实体类型。不用于普通爬虫、豆包 API 对话、隐藏接口提取、SEO 写作、高频自动化或一次性问答。
 ---
 
-# Yao Doubao Crawler
+# WEPR 豆包采样工具
 
 ## Inputs
 

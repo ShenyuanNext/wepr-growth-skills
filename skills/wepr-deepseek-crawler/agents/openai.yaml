@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-deepseek-crawler"
-  short_description: "Run the evidence-led workflow for wepr-deepseek-crawler"
-  default_prompt: "Use $wepr-deepseek-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR DeepSeek 采样工具"
+  short_description: "多轮采样并分析 DeepSeek 中的品牌提及"
+  default_prompt: "使用 $wepr-deepseek-crawler 按关键词完成多轮 DeepSeek 采样，输出可核验的数据和 GEO 报告。"

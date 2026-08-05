@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-intent-miner"
-  short_description: "Run the evidence-led workflow for wepr-geo-intent-miner"
-  default_prompt: "Use $wepr-geo-intent-miner to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 意图拓词"
+  short_description: "挖掘 AI 搜索问题、意图和追问链路"
+  default_prompt: "使用 $wepr-geo-intent-miner 挖掘真实需求，并形成问题簇、追问链路和内容选题。"

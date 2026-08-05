@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-panorama-audit"
-  short_description: "Run the evidence-led workflow for wepr-geo-panorama-audit"
-  default_prompt: "Use $wepr-geo-panorama-audit to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 全景诊断"
+  short_description: "评估品牌 GEO 现状与站内外机会"
+  default_prompt: "使用 $wepr-geo-panorama-audit 对品牌开展全景诊断，并形成有证据的机会地图。"

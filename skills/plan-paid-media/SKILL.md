@@ -1,6 +1,6 @@
 ---
 name: plan-paid-media
-description: Plan, diagnose, and optimize paid media across Baidu, 360 Search, Microsoft Advertising, Douyin, Xiaohongshu, WeChat Channels, search, short video, creators, live commerce, and multi-platform funnels. Use for 投放方案, SEM, 账户搭建, 冷启动, 素材测试, 出价, 定向, 预算, ROI, 直播投流, or paid-media reviews.
+description: 规划、诊断和优化百度、360 搜索、Microsoft Advertising、抖音、小红书、视频号等平台的付费投放，覆盖搜索、短视频、达人、直播和跨平台转化漏斗。适用于投放方案、SEM、账户搭建、冷启动、素材测试、出价、定向、预算、ROI、直播投流和投放复盘。
 ---
 
 # Plan Paid Media

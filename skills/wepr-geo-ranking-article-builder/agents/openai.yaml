@@ -1,4 +1,4 @@
 interface:
-  display_name: "WEPR GEO Ranking Article Builder"
-  short_description: "Build evidence-led GEO ranking and review articles"
-  default_prompt: "Use $wepr-geo-ranking-article-builder to build a fair, evidence-backed GEO ranking article with explicit scope and validation."
+  display_name: "WEPR GEO 榜单评测"
+  short_description: "制作公平、有依据的榜单与评测文章"
+  default_prompt: "使用 $wepr-geo-ranking-article-builder 生成有评选方法、有来源且不夸大的榜单评测文章。"

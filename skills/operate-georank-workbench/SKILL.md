@@ -1,6 +1,6 @@
 ---
 name: operate-georank-workbench
-description: Safely operate a self-hosted GEOrank instance through its HTTP API. Use for GEOrank登录、账户检查、网站诊断、诊断报告读取、方案对话、关键词拓展、用量查询，以及经明确授权的管理员配置与内容管理。Do not use for general GEO consulting or strategy when no running GEOrank instance is involved.
+description: 通过 HTTP API 安全操作自部署的 GEOrank 系统。适用于登录与账户检查、网站诊断、读取诊断报告、方案对话、关键词拓展、用量查询，以及经明确授权的管理员配置和内容管理。若没有可访问的 GEOrank 实例，不用于一般 GEO 咨询或策略规划。
 ---
 
 # Operate GEOrank Workbench

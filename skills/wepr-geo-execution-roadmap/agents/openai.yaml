@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-execution-roadmap"
-  short_description: "Run the evidence-led workflow for wepr-geo-execution-roadmap"
-  default_prompt: "Use $wepr-geo-execution-roadmap to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 实施路线图"
+  short_description: "把诊断结论转成 30/60/90 天行动"
+  default_prompt: "使用 $wepr-geo-execution-roadmap 将现有诊断转化为分阶段、可验收的实施计划。"

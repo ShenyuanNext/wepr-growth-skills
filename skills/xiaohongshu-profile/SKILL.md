@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-profile
-description: Audit and rewrite a Xiaohongshu profile, including nickname, avatar description, bio, account positioning, first impression, proof, pinned-post structure, and permitted next action. Use for 小红书主页诊断, 简介改写, 昵称优化, 账号第一眼, 定位表达, 置顶笔记, profile conversion, or trust repair. Route full account launch to launch-content-account and full content-to-consultation design to xiaohongshu-conversion-path.
+description: 诊断和改写小红书主页，包括昵称、头像说明、简介、账号定位、第一印象、信任依据、置顶笔记结构和平台允许的下一步动作。适用于主页诊断、简介改写、昵称优化、定位表达、主页转化和信任修复。完整起号应使用 launch-content-account，内容到咨询的完整路径应使用 xiaohongshu-conversion-path。
 ---
 
 # Audit Xiaohongshu Profiles

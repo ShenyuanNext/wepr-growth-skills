@@ -1,4 +1,4 @@
 interface:
-  display_name: "全域广告投放规划"
-  short_description: "规划并诊断搜索、抖音、小红书与视频号全域投放"
-  default_prompt: "使用 $plan-paid-media 为这个项目制定可验证的投放计划。"
+  display_name: "WEPR 广告投放规划"
+  short_description: "规划和诊断多平台付费投放"
+  default_prompt: "使用 $plan-paid-media 设计可测量的账户、素材、预算、出价和复盘方案。"

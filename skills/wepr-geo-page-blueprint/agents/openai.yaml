@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-page-blueprint"
-  short_description: "Run the evidence-led workflow for wepr-geo-page-blueprint"
-  default_prompt: "Use $wepr-geo-page-blueprint to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 页面蓝图"
+  short_description: "设计可交付开发的 GEO 页面结构"
+  default_prompt: "使用 $wepr-geo-page-blueprint 输出可供内容、设计和开发直接执行的页面蓝图。"

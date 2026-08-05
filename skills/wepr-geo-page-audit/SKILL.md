@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-page-audit
-description: Diagnose a website page or small page set for GEO readiness with authoritative public evidence, systematic page analysis, code/content/schema fixes, and four-format Chinese report delivery.
+description: 诊断单个网页或少量页面的 GEO 就绪度，结合权威公开证据检查页面结构、内容、代码和结构化数据，并给出可执行的修复建议。适用于页面上线前检查、现有页面优化和小范围页面对比，可交付 Word、PDF、HTML 和 Markdown 中文报告。
 metadata:
   owner: WEPR
   family: geo-page-technical

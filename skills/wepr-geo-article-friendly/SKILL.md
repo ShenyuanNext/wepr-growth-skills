@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-article-friendly
-description: Optimize an existing article or local article file into a GEO and AI-search-friendly rewrite with source-bound evidence, structure, semantic density, scoring, and change notes. Use for article rewriting and citation-readiness improvement; do not use for new articles, invented citations/data, compliance audits, ranking guarantees, or generic GEO strategy.
+description: 将已有文章或本地文档改写为更适合 GEO 和 AI 搜索引用的版本，并补充证据绑定、结构优化、语义密度评估、评分和修改说明。适用于旧文改造和提升内容可引用性；不用于从零撰写文章、虚构引用或数据、合规审计、排名承诺及泛化 GEO 策略。
 metadata:
   author: WEPR
   maturity: scaffold

@@ -1,6 +1,6 @@
 ---
 name: wepr-geoflow-design
-description: Discover, compare, preview, clone, and orchestrate current GEOFlow frontend experiences across the default site and GeoFlow Agent channel sites, including Laravel Blade themes, homepage module/style JSON, lead_form conversion modules, theme editor, target-package capabilities, and cross-channel sync planning. Use for frontend theme discovery, reference-site mapping, homepage builder design, channel capability audits, and preview-first design iteration. Do not use for CLI operations, backend implementation, lead-form CRUD, raw HTML copying, unsupported remote edits, or direct live activation.
+description: 规划和预览 GEOFlow 默认站点及渠道站点的前端体验，覆盖 Laravel Blade 主题、首页模块与样式配置、线索表单、主题编辑器、目标主题包能力和跨渠道同步。适用于主题盘点、参考站映射、首页搭建、渠道能力审计和先预览后上线的设计迭代；不用于命令行运营、后端开发、线索表单增删改查、直接复制网页、未经支持的远程修改或直接上线。
 ---
 
 # WEPR GEOFlow Design

@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-page-audit"
-  short_description: "Run the evidence-led workflow for wepr-geo-page-audit"
-  default_prompt: "Use $wepr-geo-page-audit to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 页面诊断"
+  short_description: "诊断页面结构、内容和可引用性"
+  default_prompt: "使用 $wepr-geo-page-audit 检查指定页面的 GEO 就绪度，并给出有证据的修复建议。"

@@ -1,6 +1,6 @@
 ---
 name: wepr-geoflow-template
-description: Use only for explicit legacy GEOFlow template skill questions, old PHP template-package contracts, or historical outputs using root index.php/article.php/category.php/archive.php and includes/*.php. Route current Laravel Blade themes, reference-site cloning, homepage modules, lead_form, theme editor, channel frontend, and target-package mapping to wepr-geoflow-design. Do not use for new frontend design, backend implementation, raw HTML copying, or live activation.
+description: 仅用于处理旧版 GEOFlow PHP 模板包、历史模板规范，以及采用根目录 index.php、article.php、category.php、archive.php 和 includes/*.php 的旧交付物。当前 Laravel Blade 主题、参考站复刻、首页模块、线索表单、主题编辑器、渠道前端和目标主题包映射应转交 wepr-geoflow-design。不用于新前端设计、后端开发、直接复制 HTML 或线上启用。
 ---
 
 # WEPR GEOFlow Template Legacy Router

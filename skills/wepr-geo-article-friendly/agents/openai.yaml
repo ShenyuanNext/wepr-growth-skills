@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-article-friendly"
-  short_description: "Run the evidence-led workflow for wepr-geo-article-friendly"
-  default_prompt: "Use $wepr-geo-article-friendly to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEO 文章优化"
+  short_description: "提升已有文章的 AI 搜索可引用性"
+  default_prompt: "使用 $wepr-geo-article-friendly 在不虚构事实的前提下改造现有文章，并说明修改依据。"

@@ -1,6 +1,6 @@
 ---
 name: wepr-seo
-description: Complete evidence-led SEO workbench for quick page checks, full HTML audits, site-wide strategy, implementation, experiments, and verification across Google, Bing, and AI-search surfaces. Use for technical SEO, crawling, rendering, indexing, robots.txt, sitemaps, canonicals, redirects, metadata, internal links, structured data, PageSpeed and Core Web Vitals, social metadata, keyword and intent research, content planning or pruning, traffic drops, migrations, international and ecommerce SEO, image/video search, large-site sampling, Search Console analysis, IndexNow, AI Overviews, AI Mode, ChatGPT Search, Copilot, or Perplexity visibility. Use with URLs, code, rendered pages, logs, crawl files, first-party exports, and keyword datasets. Exclude paid-search management, ASO, ranking/citation guarantees, link spam, fabricated metrics, and unsupported causal claims.
+description: 提供从单页快速检查、完整 HTML 审计到全站 SEO 策略、实施、实验和效果验证的一体化工作台，覆盖 Google、Bing 及 AI 搜索。适用于技术 SEO、抓取与渲染、索引、robots.txt、站点地图、规范链接、重定向、元数据、内链、结构化数据、PageSpeed、核心网页指标、关键词与意图研究、内容规划与清理、流量下滑、网站迁移、国际化、电商、图片和视频搜索、大型网站抽样、Search Console、IndexNow 及 AI 搜索可见度分析。可结合 URL、代码、渲染页面、日志、抓取文件、第一方数据和关键词数据集使用。不用于付费搜索管理、应用商店优化、排名或引用保证、垃圾外链、虚构指标及缺乏证据的因果判断。
 ---
 
 # WEPR Complete SEO Workbench

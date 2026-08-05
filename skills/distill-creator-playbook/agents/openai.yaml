@@ -1,4 +1,4 @@
 interface:
-  display_name: "Distill Creator Playbook"
-  short_description: "Extract reusable creator patterns from public content"
-  default_prompt: "Use $distill-creator-playbook to analyze this creator and produce a reusable content playbook."
+  display_name: "WEPR 创作者方法拆解"
+  short_description: "从公开内容提炼原创、合规的执行方法"
+  default_prompt: "使用 $distill-creator-playbook 分析公开样本，并提炼可复用但不照搬的内容方法。"

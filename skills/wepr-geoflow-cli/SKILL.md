@@ -1,6 +1,6 @@
 ---
 name: wepr-geoflow-cli
-description: Use when operating an existing GEOFlow 2.1+ system from CLI, API v1, or authenticated admin web for catalog/material/task/job/article operations, enterprise knowledge, growth-center leads, distribution, analytics, URL import, theme editor, frontend-capability sync, system updates, settings, tokens, users, or preflight. Do not use for implementation, schema changes, direct DB edits, frontend design, or invented API routes.
+description: 通过命令行、API v1 或已登录的管理后台操作现有 GEOFlow 2.1 及以上版本。适用于管理目录、素材、任务、作业、文章、企业知识库、增长中心线索、分发、数据分析、URL 导入、主题编辑、前端能力同步、系统更新、配置、令牌和用户，以及执行前检查。不用于代码开发、数据库结构调整、直接修改数据库、前端设计或调用未经确认的接口。
 ---
 
 # WEPR GEOFlow Operations

@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geoflow-template"
-  short_description: "Run the evidence-led workflow for wepr-geoflow-template"
-  default_prompt: "Use $wepr-geoflow-template to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEOFlow 旧模板兼容"
+  short_description: "处理旧版 PHP 模板和历史交付物"
+  default_prompt: "使用 $wepr-geoflow-template 处理旧版 GEOFlow PHP 模板问题，并将新需求转交当前设计工作流。"

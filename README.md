@@ -36,8 +36,8 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 增长规划与获客
 ├── plan-paid-media
 ├── plan-organic-growth
-├── wepr-seo（完整SEO：快速/深度审计、策略、实施与验证）
-├── operate-georank-workbench（GEOrank安全操作与交付回执）
+├── wepr-seo（完整 SEO：快速/深度审计、策略、实施与验证）
+├── operate-georank-workbench（GEOrank 安全操作与交付回执）
 └── plan-xiaohongshu-growth
 
 内容生产与账号运营
@@ -77,11 +77,11 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 | --- | --- | --- | --- |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
 | `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
-| `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和90天路线图 |
+| `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
-| `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO审计、社区与发布方案、实验和90天路线图 |
-| `wepr-seo` | 完整SEO工作台 | 快速/深度页面审计、技术SEO、关键词内容、国际化、电商、迁移、流量诊断、AI搜索 | HTML审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
-| `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API执行回执、资源ID、风险与回滚说明 |
+| `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS 冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO 审计、社区与发布方案、实验和 90 天路线图 |
+| `wepr-seo` | 完整 SEO 工作台 | 快速/深度页面审计、技术 SEO、关键词内容、国际化、电商、迁移、流量诊断、AI 搜索 | HTML 审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
+| `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API 执行回执、资源 ID、风险与回滚说明 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
 | `xiaohongshu-profile` | 小红书主页诊断 | 简介、昵称、定位、信任材料、置顶笔记 | 第一眼判断、定位句、简介版本、置顶结构和下一步测试 |
@@ -93,7 +93,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
-| `wepr-marketing` | 创始人营销工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
+| `wepr-marketing` | 营销策略工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
 | `wepr-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
@@ -103,9 +103,9 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
-- 希望通过搜索、AI搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
-- 所有SEO任务统一使用 `$wepr-seo`：可自动选择快速页面审计、含PageSpeed的深度审计、站点策略、关键词内容、迁移、国际化、电商或AI搜索模式。
-- 已部署GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般GEO策略仍使用 `$plan-organic-growth`。
+- 希望通过搜索、AI 搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
+- 所有 SEO任务统一使用 `$wepr-seo`：可自动选择快速页面审计、包含 PageSpeed 的深度审计、站点策略、关键词内容、迁移、国际化、电商或 AI 搜索模式。
+- 已部署 GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般 GEO 策略仍使用 `$plan-organic-growth`。
 - 要写、改或诊断小红书内容：使用 `$plan-xiaohongshu-growth`。
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
@@ -162,7 +162,7 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 ```
 
 ```text
-使用 $plan-organic-growth，为一个新SaaS制定SEO、GEO、Reddit和Product Hunt的90天冷启动计划。
+使用 $plan-organic-growth，为一个新 SaaS制定 SEO、GEO、Reddit和Product Hunt 的90 天冷启动计划。
 ```
 
 ```text
@@ -178,7 +178,7 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 ```
 
 ```text
-使用 $analyze-brand-strategy，分析这个品牌的定位、渠道与竞争。先检查研究就绪度，建立五类竞争参照和D6优势诊断，再比较三套方向、只推荐一套，并给出反证条件和90天验证计划。
+使用 $analyze-brand-strategy，分析这个品牌的定位、渠道与竞争。先检查研究就绪度，建立五类竞争参照和 D6优势诊断，再比较三套方向、只推荐一套，并给出反证条件和 90 天验证计划。
 ```
 
 ```text
@@ -197,7 +197,7 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 2. `$analyze-brand-strategy` 判断品牌价值、竞争位置和客户选择理由；
 3. `$plan-paid-media` 设计可控的付费获客实验；
 4. `$plan-organic-growth` 建立SEO、GEO、社区与长期内容资产；
-5. 汇总为统一的30/60/90天路线图。
+5. 汇总为统一的 30/60/90 天路线图。
 
 #### 小红书内容与获客
 

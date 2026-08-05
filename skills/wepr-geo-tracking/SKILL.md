@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-tracking
-description: Build a company-specific GEO backend tracking plan from a company name plus optional supporting information, using authoritative retrieval anchored on the official website, business-feature recognition, and market-aware GEO monitoring methods, then deliver a direct-vs-indirect attribution design, data model, roadmap, and optional openable HTML and Word reports. Use when asked to 设计 GEO 后端效果归因框架、GEO 效果跟踪体系、AI 搜索效果监测方案、GEO 转化追踪方案、GEO attribution plan、GEO tracking plan、GEO 后端分析 HTML 或 Word 交付件. Do not use for generic GEO education, content planning, pure brand research, or CRM/BI implementation work without GEO attribution design.
+description: 为企业设计 GEO 后端效果跟踪与转化归因方案。以官网和权威公开资料为事实基础，结合业务特征与市场环境，输出直接与间接归因框架、数据模型、实施路线图，以及可选的 HTML 和 Word 报告。适用于 GEO 效果跟踪、AI 搜索监测、转化追踪和后端分析；不用于泛化 GEO 科普、内容规划、单纯品牌研究，或不涉及 GEO 归因的 CRM、BI 实施。
 ---
 
 <!--

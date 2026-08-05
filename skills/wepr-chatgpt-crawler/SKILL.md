@@ -1,9 +1,9 @@
 ---
 name: wepr-chatgpt-crawler
-description: "Use when a user provides ChatGPT web AI-search keywords, repeat count, target entity, entity type, OpenCLI profile, and crawl interval preference, then needs repeated crawls aggregated into JSON plus a Kami HTML GEO report. Not for generic crawling, ChatGPT API chat, SEO writing, or one-off answers."
+description: 当用户需要按关键词在 ChatGPT 网页端进行多轮 AI 搜索采样，并汇总品牌、人物或产品的提及与引用情况时使用。输入包括关键词、采样次数、目标实体、实体类型、OpenCLI 配置和采样间隔；输出结构化 JSON 数据及可查看的 GEO HTML 报告。不用于普通网页抓取、ChatGPT API 对话、SEO 文案写作或一次性问答。
 ---
 
-# Yao ChatGPT Crawler
+# WEPR ChatGPT 采样工具
 
 ## Inputs
 

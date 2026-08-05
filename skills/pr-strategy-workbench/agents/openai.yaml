@@ -1,4 +1,4 @@
 interface:
-  display_name: "WEPR PR Strategy Workbench"
-  short_description: "Plan PR decisions, communications, and public copy"
-  default_prompt: "Use $pr-strategy-workbench to build an evidence-led PR plan, communication strategy, or publication-ready copy package."
+  display_name: "WEPR 公关策略工作台"
+  short_description: "制定传播方案、媒体叙事和公共文案"
+  default_prompt: "使用 $pr-strategy-workbench 基于事实制定公关策略、传播路径和客户可用文案。"

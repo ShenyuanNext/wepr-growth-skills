@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geo-brand-graph"
-  short_description: "Run the evidence-led workflow for wepr-geo-brand-graph"
-  default_prompt: "Use $wepr-geo-brand-graph to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR 品牌知识图谱"
+  short_description: "整理品牌实体、关系与证据来源"
+  default_prompt: "使用 $wepr-geo-brand-graph 将品牌资料整理成可核验、可复用的实体知识图谱。"

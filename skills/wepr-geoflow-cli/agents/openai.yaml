@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-geoflow-cli"
-  short_description: "Run the evidence-led workflow for wepr-geoflow-cli"
-  default_prompt: "Use $wepr-geoflow-cli to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR GEOFlow 系统操作"
+  short_description: "安全操作现有 GEOFlow 系统"
+  default_prompt: "使用 $wepr-geoflow-cli 在确认权限和真实接口后执行 GEOFlow 系统操作，并保留操作回执。"

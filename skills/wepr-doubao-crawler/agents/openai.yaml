@@ -1,4 +1,4 @@
 interface:
-  display_name: "wepr-doubao-crawler"
-  short_description: "Run the evidence-led workflow for wepr-doubao-crawler"
-  default_prompt: "Use $wepr-doubao-crawler to complete this GEO task with source boundaries, validation, and auditable deliverables."
+  display_name: "WEPR 豆包采样工具"
+  short_description: "通过网页或 App 多轮采样豆包回答"
+  default_prompt: "使用 $wepr-doubao-crawler 完成豆包多轮采样，并生成结构化数据和 GEO 报告。"

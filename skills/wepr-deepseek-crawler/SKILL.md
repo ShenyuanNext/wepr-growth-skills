@@ -1,9 +1,9 @@
 ---
 name: wepr-deepseek-crawler
-description: "Use when a user provides DeepSeek web AI-search keywords, repeat count, target entity, and entity type, then needs repeated fresh-window crawls aggregated into JSON plus a Kami HTML GEO report. Not for generic website crawling, DeepSeek API chat, SEO writing, or one-off answer generation."
+description: 当用户需要按关键词在 DeepSeek 网页端进行多轮独立窗口采样，并统计品牌、人物或产品的提及与引用情况时使用。输入包括关键词、采样次数、目标实体和实体类型；输出结构化 JSON 数据及可查看的 GEO HTML 报告。不用于普通网页抓取、DeepSeek API 对话、SEO 文案写作或一次性回答生成。
 ---
 
-# WEPR DeepSeek Crawler
+# WEPR DeepSeek 采样工具
 
 ## Inputs
 

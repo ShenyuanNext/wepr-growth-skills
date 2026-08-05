@@ -1,9 +1,9 @@
 ---
 name: wepr-marketing
-description: Build evidence-led marketing strategy, go-to-market plans, customer proposals, communication plans, launch campaigns, and conversion copy for founders and growth teams. Use for early-user acquisition, ICP and positioning, channel selection, 30/60/90-day execution, website or landing-page messaging, social/email/outbound copy, PR angles, lifecycle communication, or a client-ready marketing plan. Do not use to promise unsupported results, fabricate evidence, automate spam, or disguise paid promotion.
+description: 为创始人和增长团队制定以证据为基础的营销策略、市场进入计划、客户方案、传播计划、发布活动和转化文案。适用于早期获客、理想客户画像、品牌定位、渠道选择、30/60/90 天执行规划、网站与落地页文案、社交媒体、邮件、外呼、公关角度和用户生命周期沟通。不用于承诺缺乏依据的结果、虚构证据、自动化骚扰或隐瞒付费推广。
 ---
 
-# Marketing for Founders
+# WEPR 营销策略工作台
 
 Turn a business objective into a focused growth system and client-ready deliverables. Connect audience, message, channel, offer, measurement, and ownership from evidence and stage constraints.
 

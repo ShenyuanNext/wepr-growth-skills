@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-ranking-article-builder
-description: 当用户需要基于品牌 Brief、选题配置、关键词、竞品库和可信来源生成 GEO 榜单评测文章、best/top/alternatives/vs/persona/use-case 意图内容、评选方法、核心对比表、榜单正文、适合人群、FAQ、来源表和 Word/PDF/HTML/Markdown 四格式文章包时使用；适配 DeepSeek、豆包、千问、Kimi、元宝；不用于全景诊断、后台归因、单页审计、纯标题生成或无证据软文排行。
+description: 基于品牌资料、选题、关键词、竞品信息和可信来源，制作有评选依据的 GEO 榜单、评测、替代方案和对比文章。内容可覆盖最佳选择、热门方案、竞品替代、品牌对比、适用人群和使用场景，并包含评选方法、对比表、正文、FAQ 与来源表；适配 DeepSeek、豆包、千问、Kimi、腾讯元宝，可交付 Word、PDF、HTML 和 Markdown。不用于全景诊断、后端归因、单页审计、单独生成标题或无证据排行。
 ---
 
 <!--

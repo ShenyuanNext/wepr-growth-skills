@@ -1,6 +1,6 @@
 ---
 name: plan-xiaohongshu-growth
-description: Plan, write, diagnose, and improve compliant Xiaohongshu posts using search intent, keyword architecture, truthful titles, useful body structure, evidence, save-worthy takeaways, and natural consultation paths. Use for 小红书内容创作, 关键词布局, 搜索流量, 图文笔记, 内容重构, 周更内容, 笔记诊断, or publishing-ready Xiaohongshu copy. Route profile-only, topic-only, title-only, comment-only, and conversion-path requests to the matching xiaohongshu-* specialist skill.
+description: 根据搜索意图、关键词结构、真实标题、实用正文、事实证据、收藏价值和自然咨询路径，策划、撰写、诊断和优化合规的小红书笔记。适用于内容创作、关键词布局、搜索流量、图文笔记、内容重构、周更内容、笔记诊断和可直接发布的文案。仅涉及主页、选题、标题、评论或转化路径时，应调用对应的小红书专项技能。
 ---
 
 # Plan Xiaohongshu Growth

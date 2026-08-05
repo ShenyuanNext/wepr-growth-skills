@@ -1,6 +1,6 @@
 ---
 name: wepr-geo-suite
-description: Route and orchestrate end-to-end WEPR GEO projects across research, AI-search intent mining, panorama audits, knowledge assets, page and content production, platform sampling, monitoring, attribution, execution roadmaps, GEOFlow operations, and client delivery. Use when a GEO request spans multiple workstreams, platforms, quarters, or deliverables, or when the correct specialist skill is unclear.
+description: 作为 WEPR GEO 项目的统一入口，负责组合调研、AI 搜索意图挖掘、全景诊断、知识资产、页面与内容生产、平台采样、效果监测、归因、实施路线图、GEOFlow 操作和客户交付。适用于跨多个工作模块、平台、季度或交付物的项目，也适用于暂时无法判断应调用哪个专项技能的情况。
 ---
 
 # WEPR GEO Suite
