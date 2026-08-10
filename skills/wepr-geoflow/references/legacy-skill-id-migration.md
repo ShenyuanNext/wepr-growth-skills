@@ -1,6 +1,6 @@
 # Legacy GEOFlow Skill ID Migration
 
-Version `1.0.0` consolidates three retired public IDs into `wepr-geoflow`:
+Version `1.0.0` consolidates three retired public IDs into `geoflow`:
 
 | Retired ID | Current mode |
 |---|---|

@@ -1,8 +1,8 @@
 {
-  "name": "geoflow",
+  "name": "wepr-geoflow",
   "version": "1.0.0",
   "owner": "WEPR",
-  "updated_at": "2026-07-19",
+  "updated_at": "2026-08-10",
   "status": "active",
   "catalog_maturity": "beta",
   "maturity_tier": "production",
@@ -36,6 +36,7 @@
     "operations": "stable",
     "public_frontend": "beta",
     "channel_frontend": "beta",
-    "legacy_migration": "beta"
+    "legacy_migration": "beta",
+    "client_delivery": "stable"
   }
 }

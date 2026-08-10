@@ -1,6 +1,6 @@
 # Runtime Conformance Matrix
 
-- Skill: `wepr-geoflow`
+- Skill: `geoflow`
 - Targets: `5`
 - Passed: `5`
 - Failed: `0`

@@ -85,10 +85,13 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Pricing and scope: `$wepr-pricing`
 - Interactive presentation: `$wepr-slides`
 - Natural Chinese final revision: `$wepr-human-writing`
+- GEOFlow-backed implementation and delivery scope: `$wepr-geoflow`
 
 Keep this skill as the strategic spine; do not duplicate specialist execution.
 
 When the strategy, facts, offer, and compliance language are final, route Chinese client proposals, campaign copy, and communication drafts through `$wepr-human-writing`. It may improve fluency, but must not change business meaning, scope, price, claims, or risk controls.
+
+When a client plan depends on GEOFlow for knowledge governance, content operations, sites, leads, manual-publication work orders, or channel distribution, use `$wepr-geoflow` to verify the target instance and convert real capabilities into scope and acceptance criteria. Do not present a public-version capability as already deployed for the client.
 
 ## Quality gate
 

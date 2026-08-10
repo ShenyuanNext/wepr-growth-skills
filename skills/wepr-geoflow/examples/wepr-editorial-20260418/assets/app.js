@@ -1,5 +1,5 @@
 const PACKAGE_META = Object.freeze([
-  { text: 'WEPR Editorial', accent: true },
+  { text: 'Qiaomu Editorial', accent: true },
   { text: 'reference: sanitized local example', accent: false },
   { text: 'MVP: homepage → article', accent: false }
 ]);

@@ -7,7 +7,7 @@ Date: 2026-05-16
 
 # GEOFlow Frontend Module And Variable Map
 
-This document is the current GEOFlow frontend contract for `wepr-geoflow`. It is based on the Laravel rewrite, not the older root-level PHP frontend.
+This document is the current GEOFlow frontend contract for `geoflow`. It is based on the Laravel rewrite, not the older root-level PHP frontend.
 
 ## 1. Current Workspace Baseline
 

@@ -1,6 +1,6 @@
 # GEOFlow Work Brief
 
-- `skill_id`: `wepr-geoflow`
+- `skill_id`: `geoflow`
 - `workspace`: absolute local path when code or CLI access is available
 - `instance_url`: running GEOFlow base URL when remote operation is requested
 - `mode`: `auto | development | operations | public_frontend | channel_frontend | legacy_migration`

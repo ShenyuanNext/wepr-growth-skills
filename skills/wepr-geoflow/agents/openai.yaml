@@ -1,4 +1,4 @@
 interface:
   display_name: "WEPR GEOFlow 工作台"
-  short_description: "开发和运营完整 GEOFlow 系统"
-  default_prompt: "使用 $wepr-geoflow 先确认真实能力与权限，再完成开发、运营、主题或渠道站任务。"
+  short_description: "开发运营 GEOFlow，并形成可执行的客户方案与内容交付规划"
+  default_prompt: "使用 $wepr-geoflow，先核验当前 GEOFlow 版本、真实能力与权限，再完成开发、运营、主题、渠道或客户交付任务。"

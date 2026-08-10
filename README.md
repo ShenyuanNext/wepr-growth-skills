@@ -68,9 +68,10 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 - 页面审计、页面蓝图、标题、科普、对比、榜单和文章改造；
 - DeepSeek、豆包、ChatGPT 合规重复采样与可审计报告；
 - AI 答案、引用源、品牌事实、转化归因和月度监测；
-- GEO 工作台的开发、CLI/API/后台操作、主题、渠道站点和旧模板迁移。
+- GEO 工作台的开发、CLI/API/后台操作、企业知识库、人工发布工单、主题、渠道站点和旧模板迁移；
+- 基于已核验系统能力形成客户实施方案、传播执行规划和内容生产简报。
 
-推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发与运营时使用 `$wepr-geoflow`。
+推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发、运营或系统承接方案时使用 `$wepr-geoflow`。当前技能基线已适配 GEOFlow v2.3.0 与 CLI 0.2.0，具体实例仍以现场发现结果为准。
 
 ### 技能目录
 
@@ -280,7 +281,7 @@ This is not a prompt collection. Each skill defines triggering contexts, an exec
 
 ### GEO capability pack
 
-The repository now provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench development or operations. Use `$wepr-geoflow` for workbench development and operations.
+The repository provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench delivery. Use `$wepr-geoflow` for workbench development, operations, system-backed client plans, enterprise knowledge, manual-publication workflows, themes, and channel delivery. Its current baseline covers GEOFlow v2.3.0 and CLI 0.2.0; each target instance must still be discovered and verified.
 
 ### Capability architecture
 

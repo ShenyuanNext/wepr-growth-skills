@@ -27,6 +27,7 @@ Turn real business knowledge into clear, useful, credible content. Optimize for 
 - Read [references/editorial-qa.md](references/editorial-qa.md) for rewriting, platform adaptation, and final review.
 - For Xiaohongshu-specific search, titles, and account operations, use `$plan-xiaohongshu-growth` instead.
 - For final Chinese-language naturalization without changing claims, use `$wepr-human-writing`.
+- When approved content will be created, reviewed, scheduled, or distributed through GEOFlow, use `$wepr-geoflow` to verify the instance workflow and operational boundary before any write or publication.
 
 ## Output modes
 

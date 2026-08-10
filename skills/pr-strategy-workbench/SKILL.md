@@ -119,8 +119,11 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Client pricing and scope: `$wepr-pricing`
 - Interactive client presentation: `$wepr-slides`
 - Natural Chinese final revision: `$wepr-human-writing`
+- GEOFlow-backed content and publication workflow: `$wepr-geoflow`
 
 After facts, response strategy, approvals, and public wording are settled, use `$wepr-human-writing` to improve Chinese fluency without changing the approved meaning or risk controls.
+
+If a communication program will use GEOFlow for enterprise knowledge, content review, sites, manual-publication work orders, or distribution, use `$wepr-geoflow` to verify the deployed capability and define system responsibilities. A work order or distribution record is not proof of platform publication or communication outcome.
 
 ## Quality gate
 

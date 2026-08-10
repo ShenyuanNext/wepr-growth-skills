@@ -74,7 +74,7 @@ bash -n "$stage_dir/scripts/geoflow_preflight.sh"
 bash -n "$stage_dir/scripts/install_codex_skill.sh"
 
 moved_names=()
-for skill_name in geoflow wepr-geoflow-cli wepr-geoflow-design wepr-geoflow-template; do
+for skill_name in wepr-geoflow geoflow wepr-geoflow-cli wepr-geoflow-design wepr-geoflow-template; do
   installed_path="$skills_root/$skill_name"
   if [[ -e "$installed_path" || -L "$installed_path" ]]; then
     if ! mv "$installed_path" "$backup_dir/$skill_name"; then
@@ -87,7 +87,7 @@ for skill_name in geoflow wepr-geoflow-cli wepr-geoflow-design wepr-geoflow-temp
   fi
 done
 
-if ! mv "$stage_dir" "$skills_root/geoflow"; then
+if ! mv "$stage_dir" "$skills_root/wepr-geoflow"; then
   for skill_name in "${moved_names[@]}"; do
     mv "$backup_dir/$skill_name" "$skills_root/$skill_name"
   done
@@ -95,6 +95,6 @@ if ! mv "$stage_dir" "$skills_root/geoflow"; then
 fi
 trap - EXIT
 
-echo "Installed GEOFlow skill: $skills_root/geoflow"
+echo "Installed GEOFlow skill: $skills_root/wepr-geoflow"
 echo "Previous skill backups: $backup_dir"
 echo "Restart Codex to reload the skill catalog."
