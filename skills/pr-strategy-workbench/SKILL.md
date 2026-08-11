@@ -120,6 +120,7 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Interactive client presentation: `$wepr-slides`
 - Natural Chinese final revision: `$wepr-human-writing`
 - GEOFlow-backed content and publication workflow: `$wepr-geoflow`
+- Commercial problem framing and client decision brief: `$wepr-business-workbench`
 
 After facts, response strategy, approvals, and public wording are settled, use `$wepr-human-writing` to improve Chinese fluency without changing the approved meaning or risk controls.
 

@@ -27,6 +27,8 @@ Capture or infer, while labeling assumptions:
 
 Ask only questions whose answers would materially change the recommendation. Otherwise proceed with explicit assumptions.
 
+If the request is still a vague commercial problem rather than a marketing brief, use `$wepr-business-workbench` first to define the decision, competing explanations, evidence gaps, and validation standard.
+
 ## 2. Build an evidence ledger
 
 Classify every material input as a **fact** (supplied or cited), **observation** (reproducible audit), **inference** (reasoned conclusion), or **assumption** (premise to test). Verify current platform policies, prices, features, benchmarks, and legal requirements against recent authoritative sources. Never turn an unverified claim into a promise.
@@ -86,6 +88,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Interactive presentation: `$wepr-slides`
 - Natural Chinese final revision: `$wepr-human-writing`
 - GEOFlow-backed implementation and delivery scope: `$wepr-geoflow`
+- Commercial problem framing, business diagnosis, and decision review: `$wepr-business-workbench`
 
 Keep this skill as the strategic spine; do not duplicate specialist execution.
 

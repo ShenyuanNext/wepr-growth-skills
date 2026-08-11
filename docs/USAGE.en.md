@@ -6,6 +6,7 @@ This repository is a set of composable execution workflows, not a library of mar
 
 | Skill | Primary job |
 | --- | --- |
+| `$wepr-business-workbench` | Clarify commercial problems, diagnose models and trade-offs, and build testable client strategy |
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |
 | `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
@@ -58,6 +59,14 @@ Constraints:
 ```
 
 ## 4. Skill examples
+
+### Business strategy workbench
+
+```text
+Use $wepr-business-workbench to turn this vague client request into a testable problem statement, separate facts from assumptions, compare competing explanations, recommend one direction, and define falsification conditions and a minimum validation plan.
+```
+
+Provide the decision to unlock, current state, target user, evidence, horizon, budget, capacity, and acceptance standard. It owns commercial judgment and specialist handoff, not the full execution of marketing, PR, brand, or content work.
 
 ### Crisis and PR
 

@@ -7,6 +7,8 @@ description: 基于证据完整度、客户需求、品类认知、五类竞争�
 
 Diagnose why a brand is chosen, trusted, remembered, and repeated. Treat famous cases as hypotheses to verify, not templates to copy.
 
+If the request is still an undefined commercial problem rather than a brand decision, use `$wepr-business-workbench` first to define the decision, business mechanism, evidence gaps, and validation boundary.
+
 ## Workflow
 
 1. Define the decision: reposition, enter a category, reach a new generation, expand abroad, repair trust, or allocate investment.

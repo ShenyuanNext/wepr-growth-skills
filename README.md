@@ -2,9 +2,9 @@
 
 [中文](#中文说明) · [English](#english)
 
-WEPR's open, evidence-led Agent Skills system for brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
+WEPR's open, evidence-led Agent Skills system for business diagnosis, brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
 
-WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
+WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
 
 ---
 
@@ -28,6 +28,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 
 ```text
 业务与品牌判断
+├── wepr-business-workbench（商业问题、目标、决策与客户策略）
 ├── analyze-brand-strategy（证据化定位、差异化与品牌战略）
 ├── audit-digital-growth
 ├── pr-strategy-workbench（公关方案、传播决策与公共文案）
@@ -77,6 +78,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 
 | 技能 | 中文名称 | 适用场景 | 主要输出 |
 | --- | --- | --- | --- |
+| `wepr-business-workbench` | 商业策略工作台 | 商业问题澄清、模式诊断、对标、客户方案、传播与内容前置判断、长期决策 | 问题说明书、证据账本、商业诊断、策略简报、验证计划和决策记录 |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
 | `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
@@ -102,6 +104,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖品牌战略�
 
 ### 如何选择
 
+- 商业问题还没说清，或需要先判断目标、模式、对标、取舍和验证路径：使用 `$wepr-business-workbench`。
 - 发生负面事件、需要声明或媒体沟通：使用 `$diagnose-pr-crisis`。
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
@@ -152,6 +155,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 完整使用方法、输入要求、输出结构和组合工作流见[中文使用手册](docs/USAGE.zh-CN.md)。
 
 ### 示例提示词
+
+```text
+使用 $wepr-business-workbench，把这个模糊的客户需求整理成问题说明书，比较三种商业解释，只推荐一个当前方向，并给出反证条件和最小验证计划。
+```
 
 ```text
 使用 $diagnose-pr-crisis，分析这次产品安全争议，给出24小时回应计划和声明草案。
@@ -287,6 +294,7 @@ The repository provides `$wepr-geo-suite` as the WEPR orchestration entrypoint f
 
 ```text
 Business and brand decisions
+├── wepr-business-workbench (business diagnosis, decisions, and client strategy)
 ├── analyze-brand-strategy (evidence-aware positioning and brand strategy)
 ├── audit-digital-growth
 ├── pr-strategy-workbench (PR plans, communication decisions, and public copy)
@@ -322,6 +330,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 | Skill | Purpose | Typical use cases | Core deliverables |
 | --- | --- | --- | --- |
+| `wepr-business-workbench` | Business strategy workbench | Problem framing, business diagnosis, benchmarks, client strategy, communication and content briefs, long-term decisions | Problem statement, evidence ledger, diagnosis, strategy brief, validation plan, decision record |
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
 | `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
@@ -346,6 +355,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Choosing a skill
 
+- Use `$wepr-business-workbench` when the commercial problem, objective, business model, benchmark, trade-off, or validation path must be clarified before channel execution.
 - Use `$diagnose-pr-crisis` when the business needs a response, statement, media plan, or reputation recovery.
 - Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
@@ -395,6 +405,10 @@ You may copy every folder under `skills/`. Restart or refresh the agent environm
 See the [English usage guide](docs/USAGE.en.md) for inputs, outputs, operating modes, and combined workflows.
 
 ### Example prompts
+
+```text
+Use $wepr-business-workbench to turn this vague client request into a testable problem statement, compare three competing explanations, recommend one direction, and define falsification conditions and a minimum validation plan.
+```
 
 ```text
 Use $diagnose-pr-crisis to analyze this product-safety controversy and draft a 24-hour response plan.

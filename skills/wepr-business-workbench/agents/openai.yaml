@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 商业策略工作台"
+  short_description: "诊断商业问题并形成可验证的客户策略、传播与内容决策"
+  default_prompt: "使用 $wepr-business-workbench，把当前商业问题澄清为可验证的决策，并输出客户方案、传播或内容执行建议。"
