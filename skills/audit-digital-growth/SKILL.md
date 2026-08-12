@@ -7,6 +7,8 @@ description: 诊断数字营销效果，覆盖数据分析、网站与应用、�
 
 Use the sequence: problem → data → judgment → action → validation.
 
+When diagnosis requires paid-ad account controls, platform evidence, creative fatigue, media pacing, cross-platform attribution reconciliation, or a guarded optimization draft, use `$wepr-advertising-workbench` for that workstream.
+
 ## Workflow
 
 1. Convert the request into a decision question, business outcome, owner, deadline, and constraint.

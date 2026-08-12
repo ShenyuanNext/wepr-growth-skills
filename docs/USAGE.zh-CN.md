@@ -13,6 +13,7 @@
 | `$pr-strategy-workbench` | 制定客户公关方案、传播决策、媒体叙事、上线预案与公共文案 |
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM 和留存问题 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
+| `$wepr-advertising-workbench` | 规划、审计和优化跨平台广告，并衔接创意、归因、实验与安全变更 |
 | `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
 | `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
 | `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |
@@ -100,6 +101,14 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：价格、毛利、LTV、有效线索标准、销售承接能力、平台准入和预算。正式执行前核验平台最新政策。
+
+### 广告策略工作台
+
+```text
+使用 $wepr-advertising-workbench。基于账户导出、落地页数据和CRM结果，审计Google、Meta和LinkedIn广告，区分账户健康、证据覆盖与合规风险，输出预算调整、创意文案、归因修复和实验计划；只提供变更草案，不直接执行。
+```
+
+重要输入：业务目标、经济模型、有效转化定义、平台和市场、账户导出、时间范围、落地页与CRM结果、追踪方式、预算边界，以及是否授权写操作。默认只读并输出草案；任何线上变更都需要明确授权、精确对象、变更前后值、预算上限、回滚方案和结果核验。涉及百度、抖音、小红书、视频号等中国平台的具体规则时，同时使用 `$plan-paid-media` 并核验最新官方要求。
 
 ### 有机增长
 

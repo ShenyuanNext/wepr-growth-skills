@@ -79,6 +79,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Brand positioning: `$analyze-brand-strategy`
 - Growth audit: `$audit-digital-growth`
 - Paid media: `$plan-paid-media`
+- Cross-platform advertising audit, creative, attribution, experiments, and guarded optimization: `$wepr-advertising-workbench`
 - Organic growth: `$plan-organic-growth`
 - Content production: `$create-marketing-content`
 - PR crisis work: `$diagnose-pr-crisis`

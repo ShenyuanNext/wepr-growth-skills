@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 广告策略工作台"
+  short_description: "规划、审计和优化多平台广告，并形成客户方案与合规文案"
+  default_prompt: "使用 $wepr-advertising-workbench，基于账户证据和商业目标制定广告方案、审计、创意或优化计划。"

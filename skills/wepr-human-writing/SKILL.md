@@ -51,6 +51,7 @@ description: 将客户方案、传播稿、品牌文章、营销文案、社交�
 
 - 客户营销方案、获客与传播策略：先用 `$wepr-marketing`，再用本技能润色终稿。
 - 商业问题、客户目标或核心判断尚未说清：先用 `$wepr-business-workbench`，再进入策略和写作。
+- 广告概念、平台文案、创意简报或落地页衔接：先用 `$wepr-advertising-workbench` 确定证据、规格和合规边界，再用本技能润色中文终稿。
 - 公众号、品牌文章、案例和跨平台内容：先用 `$create-marketing-content`，再用本技能处理自然表达。
 - 公关方案、新闻稿和公共文案：先用 `$pr-strategy-workbench`，再用本技能做中文语感检查。
 - 危机声明仍由 `$diagnose-pr-crisis` 控制事实与回应策略，本技能只处理不改变含义的表达优化。

@@ -7,6 +7,8 @@ description: 规划、诊断和优化百度、360 搜索、Microsoft Advertising
 
 Treat media buying as a system connecting market demand, audience, creative, bidding, landing experience, product, sales, measurement, and economics.
 
+Use `$wepr-advertising-workbench` when the task needs a cross-platform evidence ledger, formal account audit, attribution reconciliation, experiment design, creative/copy deck, monitoring bundle, or capability-gated account-change draft. Keep this skill as the primary route for China-platform planning and platform-specific operating context.
+
 ## Workflow
 
 1. Confirm product, price, margin, sales cycle, refund risk, LTV, capacity, and target action.

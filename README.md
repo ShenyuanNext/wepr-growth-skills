@@ -2,9 +2,9 @@
 
 [中文](#中文说明) · [English](#english)
 
-WEPR's open, evidence-led Agent Skills system for business diagnosis, brand strategy, public relations, digital analytics, paid media, complete SEO/GEO delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
+WEPR's open, evidence-led Agent Skills system for business diagnosis, brand strategy, public relations, digital analytics, cross-platform advertising, complete SEO/GEO delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
 
-WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、广告投放、完整 SEO/GEO 交付、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
+WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、跨平台广告投放、完整 SEO/GEO 交付、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
 
 ---
 
@@ -36,6 +36,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 增长规划与获客
 ├── plan-paid-media
+├── wepr-advertising-workbench（跨平台广告审计、创意、归因与优化）
 ├── plan-organic-growth
 ├── wepr-seo（完整 SEO：快速/深度审计、策略、实施与验证）
 ├── operate-georank-workbench（GEOrank 安全操作与交付回执）
@@ -83,6 +84,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
+| `wepr-advertising-workbench` | 广告策略工作台 | 跨平台媒体方案、账户审计、预算归因、创意文案、实验、监测和优化 | 证据账本、客户方案、审计报告、创意简报、实验与变更草案 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS 冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO 审计、社区与发布方案、实验和 90 天路线图 |
 | `wepr-seo` | 完整 SEO 工作台 | 快速/深度页面审计、技术 SEO、关键词内容、国际化、电商、迁移、流量诊断、AI 搜索 | HTML 审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API 执行回执、资源 ID、风险与回滚说明 |
@@ -109,6 +111,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
+- 要做跨平台广告账户审计、归因对齐、广告创意与文案、实验、监测或有安全门禁的优化草案：使用 `$wepr-advertising-workbench`。涉及中国平台的具体准入、账户和投放规则时，同时使用 `$plan-paid-media`。
 - 希望通过搜索、AI 搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
 - 所有 SEO任务统一使用 `$wepr-seo`：可自动选择快速页面审计、包含 PageSpeed 的深度审计、站点策略、关键词内容、迁移、国际化、电商或 AI 搜索模式。
 - 已部署 GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般 GEO 策略仍使用 `$plan-organic-growth`。
@@ -170,6 +173,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 
 ```text
 使用 $plan-paid-media，为B2B软件设计百度、Microsoft Ads和小红书的测试计划。
+```
+
+```text
+使用 $wepr-advertising-workbench，基于这份账户导出和CRM数据审计广告表现，分开账户健康、证据覆盖与合规风险，并输出预算、创意、归因和实验建议。
 ```
 
 ```text
@@ -302,6 +309,7 @@ Business and brand decisions
 
 Growth planning and acquisition
 ├── plan-paid-media
+├── wepr-advertising-workbench (cross-platform audit, creative, attribution, and optimization)
 ├── plan-organic-growth
 ├── wepr-seo (complete SEO: quick/full audits, strategy, implementation, verification)
 ├── operate-georank-workbench (safe GEOrank operations)
@@ -335,6 +343,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
+| `wepr-advertising-workbench` | Advertising strategy workbench | Cross-platform plans, account audits, budget and attribution, creative and copy, experiments, monitoring, optimization | Evidence ledger, client plan, audit, creative brief, experiment, guarded change draft |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
 | `wepr-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
@@ -360,6 +369,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
+- Use `$wepr-advertising-workbench` for cross-platform account audits, attribution alignment, advertising creative and copy, experiments, monitoring, or safely gated optimization drafts. Pair it with `$plan-paid-media` when China-platform eligibility, account, or delivery rules are involved.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
 - Use `$wepr-seo` for every SEO task; it selects quick page audit, PageSpeed-enabled full audit, site strategy, keyword/content, migration, international, commerce, or AI-search mode.
 - Use `$operate-georank-workbench` when a deployed GEOrank instance must be queried or changed. Use `$plan-organic-growth` for general GEO strategy.
@@ -420,6 +430,10 @@ Use $audit-digital-growth to diagnose why website traffic grew while qualified l
 
 ```text
 Use $plan-paid-media to design a measurable search and social advertising test for a B2B SaaS product.
+```
+
+```text
+Use $wepr-advertising-workbench to audit these account exports and CRM outcomes, separate account health from evidence coverage and compliance risk, and produce budget, creative, attribution, and experiment recommendations.
 ```
 
 ```text

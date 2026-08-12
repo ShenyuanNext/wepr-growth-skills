@@ -11,6 +11,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
+| `$wepr-advertising-workbench` | Plan, audit, and optimize cross-platform advertising with creative, attribution, experiments, and guarded changes |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
 | `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
@@ -91,6 +92,14 @@ Use $plan-paid-media to design a first-month B2B acquisition test with account s
 ```
 
 Provide price, margin, LTV, valid-lead definition, sales capacity, eligibility, and budget. Recheck current platform policy before launch.
+
+### Advertising strategy workbench
+
+```text
+Use $wepr-advertising-workbench to audit Google, Meta, and LinkedIn account exports against landing-page and CRM outcomes; separate account health, evidence coverage, and compliance risk; then produce budget, creative, attribution, and experiment recommendations without applying changes.
+```
+
+Provide the business objective, economics, valid-conversion definition, platforms and markets, account exports, date range, landing-page and CRM outcomes, tracking setup, budget boundaries, and any explicit write authorization. The default is read-only with draft outputs. Any live mutation requires explicit authorization, exact objects, before-and-after values, ceilings, rollback, and verification. Pair with `$plan-paid-media` and current official sources for China-platform-specific eligibility and delivery rules.
 
 ### Organic growth
 

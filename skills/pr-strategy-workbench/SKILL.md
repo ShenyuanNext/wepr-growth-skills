@@ -115,6 +115,7 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Marketing strategy: `$wepr-marketing`
 - Content production: `$create-marketing-content`
 - Digital-growth evidence: `$audit-digital-growth`
+- Paid advertising plans, creative, and platform-policy checks: `$wepr-advertising-workbench`
 - Account operations: `$launch-content-account`
 - Client pricing and scope: `$wepr-pricing`
 - Interactive client presentation: `$wepr-slides`
