@@ -63,6 +63,7 @@ description: 规划、审计、创作、监测和优化多平台付费广告，�
 - 广告文章、案例和跨平台内容：`$create-marketing-content`
 - 公共传播与声誉风险：`$pr-strategy-workbench`
 - 自然中文终稿：`$wepr-human-writing`
+- 广告文案的机械表达诊断、最小改写与声纹保护：`$wepr-editorial-quality`
 - 数据、漏斗、CRM 和归因诊断：`$audit-digital-growth`
 - 客户演示与汇报：`$wepr-slides`
 - 服务范围与报价：`$wepr-pricing`

@@ -88,6 +88,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Pricing and scope: `$wepr-pricing`
 - Interactive presentation: `$wepr-slides`
 - Natural Chinese final revision: `$wepr-human-writing`
+- Editorial quality, mechanical-pattern diagnosis, and author-voice preservation: `$wepr-editorial-quality`
 - GEOFlow-backed implementation and delivery scope: `$wepr-geoflow`
 - Commercial problem framing, business diagnosis, and decision review: `$wepr-business-workbench`
 

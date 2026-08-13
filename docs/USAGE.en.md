@@ -27,6 +27,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
 | `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
+| `$wepr-editorial-quality` | Diagnose mechanical writing and evidence risk, then minimally revise while preserving author voice |
 | `$wepr-human-writing` | Revise proposals, communication drafts, and copy into natural Chinese without changing business meaning |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
@@ -168,6 +169,14 @@ Use $wepr-human-writing to remove translated phrasing, generic filler, mechanica
 ```
 
 Provide the source text, reader, delivery context, editing boundary, protected facts and terms, and brand voice. Use it after strategy and structure are stable. Start with `$wepr-marketing`, `$create-marketing-content`, or `$pr-strategy-workbench` when the underlying message is still undecided.
+
+### Editorial quality and minimal revision
+
+```text
+Use $wepr-editorial-quality to identify observable mechanical patterns, templated rhythm, generic claims, and evidence risks without guessing whether AI wrote the draft; then make the smallest useful revision while preserving the author's vocabulary, stance, and cadence.
+```
+
+Provide the full draft, reader, channel, content job, author or brand voice, editing boundary, and all protected facts, prices, commitments, and compliance language. Request diagnosis mode for findings only or minimal-revision mode for a complete edited draft. Use `$wepr-human-writing` afterward when a natural Chinese final pass is also required.
 
 ### Content-account launch
 

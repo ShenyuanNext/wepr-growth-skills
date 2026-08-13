@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 文稿质量工作台"
+  short_description: "审计机械表达并在保留作者语气的前提下完成最小幅度改写"
+  default_prompt: "使用 $wepr-editorial-quality 审计这份文稿中的机械表达、空泛判断和证据风险，并在不改变事实与作者语气的前提下完成最小改写。"
