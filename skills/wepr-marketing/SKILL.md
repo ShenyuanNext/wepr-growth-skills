@@ -91,6 +91,8 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Editorial quality, mechanical-pattern diagnosis, and author-voice preservation: `$wepr-editorial-quality`
 - GEOFlow-backed implementation and delivery scope: `$wepr-geoflow`
 - Commercial problem framing, business diagnosis, and decision review: `$wepr-business-workbench`
+- Client interviews, questionnaires, requirements, and handoffs: `$wepr-client-discovery`
+- Public user-demand, pain-point, objection, and language research: `$wepr-market-signal-research`
 
 Keep this skill as the strategic spine; do not duplicate specialist execution.
 

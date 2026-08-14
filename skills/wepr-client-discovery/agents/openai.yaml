@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 客户需求澄清工作台"
+  short_description: "通过深度访谈、异步问卷和决策记录形成可执行客户需求"
+  default_prompt: "使用 $wepr-client-discovery 澄清这个客户需求，区分事实、决定和未知项，并输出可交接的客户需求简报。"

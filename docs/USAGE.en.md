@@ -6,7 +6,9 @@ This repository is a set of composable execution workflows, not a library of mar
 
 | Skill | Primary job |
 | --- | --- |
+| `$wepr-client-discovery` | Turn interviews, questionnaires, and decisions into a handoff-ready client brief |
 | `$wepr-business-workbench` | Clarify commercial problems, diagnose models and trade-offs, and build testable client strategy |
+| `$wepr-market-signal-research` | Distill needs, pains, objections, and audience language from public feedback and platform signals |
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |
 | `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
@@ -61,6 +63,22 @@ Constraints:
 ```
 
 ## 4. Skill examples
+
+### Client discovery
+
+```text
+Use $wepr-client-discovery to turn these client meeting notes into confirmed facts, preferences, decisions, assumptions, and open questions; then produce a requirements brief, an asynchronous questionnaire, owners, and deadlines.
+```
+
+Provide the raw conversation, project purpose, participants, expected deliverable, and known constraints. The skill asks only questions that can change direction, scope, price, or acceptance; public facts remain the delivery team's research responsibility.
+
+### Market-signal research
+
+```text
+Use $wepr-market-signal-research to study how target users describe this problem across public communities, reviews, Q&A, and launch platforms; preserve links and dates, deduplicate the sample, and report needs, pains, objections, alternatives, language patterns, and opportunity hypotheses.
+```
+
+Provide the decision, market, language, user role, date range, competitors, and accessible sources. Platform engagement is not market size; insufficient samples should remain preliminary signals with a validation plan.
 
 ### Business strategy workbench
 

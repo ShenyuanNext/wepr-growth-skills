@@ -9,6 +9,8 @@ Diagnose why a brand is chosen, trusted, remembered, and repeated. Treat famous 
 
 If the request is still an undefined commercial problem rather than a brand decision, use `$wepr-business-workbench` first to define the decision, business mechanism, evidence gaps, and validation boundary.
 
+Use `$wepr-client-discovery` when client objectives, decision ownership, scope, or acceptance remain unclear. Use `$wepr-market-signal-research` when positioning requires traceable public audience language, pains, objections, or alternatives.
+
 ## Workflow
 
 1. Define the decision: reposition, enter a category, reach a new generation, expand abroad, repair trust, or allocate investment.

@@ -30,6 +30,8 @@ Turn real business knowledge into clear, useful, credible content. Optimize for 
 - For mechanical-pattern diagnosis, minimal revision, evidence-risk checks, and author-voice preservation, use `$wepr-editorial-quality`.
 - When approved content will be created, reviewed, scheduled, or distributed through GEOFlow, use `$wepr-geoflow` to verify the instance workflow and operational boundary before any write or publication.
 - When the topic, commercial objective, audience problem, or business claim is still unclear, use `$wepr-business-workbench` before drafting.
+- When the client brief, approval owner, protected scope, or acceptance criteria are unclear, use `$wepr-client-discovery` before drafting.
+- For evidence-backed audience needs, pains, objections, alternatives, and natural market language, use `$wepr-market-signal-research`.
 - For paid-ad concepts, platform copy decks, creative briefs, landing-page continuity, and advertising-policy checks, use `$wepr-advertising-workbench`.
 
 ## Output modes

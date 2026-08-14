@@ -58,6 +58,8 @@ description: 规划、审计、创作、监测和优化多平台付费广告，�
 
 - 中国平台投放、平台组合和账户规划：`$plan-paid-media`
 - 商业问题、客户目标和价值判断：`$wepr-business-workbench`
+- 客户访谈、需求、审批与验收：`$wepr-client-discovery`
+- 公开用户需求、痛点、异议和广告语言研究：`$wepr-market-signal-research`
 - 品牌定位与差异化：`$analyze-brand-strategy`
 - 完整客户营销方案：`$wepr-marketing`
 - 广告文章、案例和跨平台内容：`$create-marketing-content`

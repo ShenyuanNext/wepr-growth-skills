@@ -7,6 +7,8 @@ description: 规划和诊断合规的自然增长，覆盖 SEO、GEO 与 AI 搜�
 
 Build a compounding growth system, not a list of platform tricks.
 
+Use `$wepr-market-signal-research` when channel planning needs a traceable public-feedback ledger covering user needs, pains, objections, alternatives, and audience language. Use `$wepr-client-discovery` when client goals, approval, scope, or acceptance criteria are still unresolved.
+
 ## Workflow
 
 1. Define the business stage, target user, problem, value proposition, economics, capacity, and target action.

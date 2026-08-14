@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 市场信号研究工作台"
+  short_description: "从公开用户反馈与平台信号中提炼需求、痛点和传播机会"
+  default_prompt: "使用 $wepr-market-signal-research，从公开用户反馈和平台信号中研究这个市场，输出证据化需求、痛点与传播机会。"

@@ -28,7 +28,9 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ```text
 业务与品牌判断
+├── wepr-client-discovery（客户访谈、需求澄清、问卷与交接）
 ├── wepr-business-workbench（商业问题、目标、决策与客户策略）
+├── wepr-market-signal-research（公开用户反馈、需求信号与传播洞察）
 ├── analyze-brand-strategy（证据化定位、差异化与品牌战略）
 ├── audit-digital-growth
 ├── pr-strategy-workbench（公关方案、传播决策与公共文案）
@@ -80,7 +82,9 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 | 技能 | 中文名称 | 适用场景 | 主要输出 |
 | --- | --- | --- | --- |
+| `wepr-client-discovery` | 客户需求澄清工作台 | 方案前访谈、启动会、异步问卷、多人决策、会议纪要和跨人员交接 | 需求简报、决策树、问题前沿、问卷、未决项和交接文档 |
 | `wepr-business-workbench` | 商业策略工作台 | 商业问题澄清、模式诊断、对标、客户方案、传播与内容前置判断、长期决策 | 问题说明书、证据账本、商业诊断、策略简报、验证计划和决策记录 |
+| `wepr-market-signal-research` | 市场信号研究工作台 | 公开评论、社区、问答、发布平台和竞品反馈中的需求、痛点、异议与语言研究 | 研究设计、证据账本、机会卡、传播洞察和验证计划 |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
 | `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
@@ -108,7 +112,9 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 如何选择
 
+- 客户需求模糊、关键问题未回答、需要访谈或向客户补材料：使用 `$wepr-client-discovery`。
 - 商业问题还没说清，或需要先判断目标、模式、对标、取舍和验证路径：使用 `$wepr-business-workbench`。
+- 要从公开用户反馈、社区讨论、评论和发布平台中寻找真实需求、痛点、异议和传播语言：使用 `$wepr-market-signal-research`。
 - 发生负面事件、需要声明或媒体沟通：使用 `$diagnose-pr-crisis`。
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
@@ -161,6 +167,14 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 完整使用方法、输入要求、输出结构和组合工作流见[中文使用手册](docs/USAGE.zh-CN.md)。
 
 ### 示例提示词
+
+```text
+使用 $wepr-client-discovery，把这次客户沟通整理成需求简报，列出已经确认的事实、必须由客户决定的问题、证据缺口、审批人和下一步。
+```
+
+```text
+使用 $wepr-market-signal-research，研究目标用户在公开社区和评论区如何描述这个问题，建立可回查证据账本，并输出需求、痛点、异议、传播语言和验证计划。
+```
 
 ```text
 使用 $wepr-business-workbench，把这个模糊的客户需求整理成问题说明书，比较三种商业解释，只推荐一个当前方向，并给出反证条件和最小验证计划。
@@ -308,7 +322,9 @@ The repository provides `$wepr-geo-suite` as the WEPR orchestration entrypoint f
 
 ```text
 Business and brand decisions
+├── wepr-client-discovery (client interviews, requirements, questionnaires, and handoffs)
 ├── wepr-business-workbench (business diagnosis, decisions, and client strategy)
+├── wepr-market-signal-research (public feedback, demand signals, and communication insight)
 ├── analyze-brand-strategy (evidence-aware positioning and brand strategy)
 ├── audit-digital-growth
 ├── pr-strategy-workbench (PR plans, communication decisions, and public copy)
@@ -346,7 +362,9 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 | Skill | Purpose | Typical use cases | Core deliverables |
 | --- | --- | --- | --- |
+| `wepr-client-discovery` | Client discovery workbench | Pre-proposal interviews, kickoffs, questionnaires, multi-owner decisions, meeting notes, handoffs | Requirements brief, decision tree, question frontier, questionnaire, open items, handoff |
 | `wepr-business-workbench` | Business strategy workbench | Problem framing, business diagnosis, benchmarks, client strategy, communication and content briefs, long-term decisions | Problem statement, evidence ledger, diagnosis, strategy brief, validation plan, decision record |
+| `wepr-market-signal-research` | Market-signal research workbench | Public reviews, communities, Q&A, launch platforms, competitor feedback, demand language | Research design, evidence ledger, opportunity cards, communication insight, validation plan |
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
 | `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
@@ -373,7 +391,9 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Choosing a skill
 
+- Use `$wepr-client-discovery` when client requirements are vague, critical questions remain unanswered, or an interview, questionnaire, kickoff, or handoff is needed.
 - Use `$wepr-business-workbench` when the commercial problem, objective, business model, benchmark, trade-off, or validation path must be clarified before channel execution.
+- Use `$wepr-market-signal-research` to find evidence-backed needs, pains, objections, alternatives, and audience language in public feedback, communities, reviews, and launch platforms.
 - Use `$diagnose-pr-crisis` when the business needs a response, statement, media plan, or reputation recovery.
 - Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
@@ -425,6 +445,14 @@ You may copy every folder under `skills/`. Restart or refresh the agent environm
 See the [English usage guide](docs/USAGE.en.md) for inputs, outputs, operating modes, and combined workflows.
 
 ### Example prompts
+
+```text
+Use $wepr-client-discovery to turn this client conversation into a requirements brief with confirmed facts, client-owned decisions, evidence gaps, approvers, and next steps.
+```
+
+```text
+Use $wepr-market-signal-research to study how target users describe this problem in public communities and reviews, build a traceable evidence ledger, and report needs, pains, objections, language, and validation steps.
+```
 
 ```text
 Use $wepr-business-workbench to turn this vague client request into a testable problem statement, compare three competing explanations, recommend one direction, and define falsification conditions and a minimum validation plan.
