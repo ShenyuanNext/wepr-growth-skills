@@ -5,6 +5,8 @@ description: 创建和编辑单文件 .bento.html 演示文档，文档内容以
 
 # Authoring Bento decks
 
+Use `$wepr-presentation-workbench` first when the user has not chosen between editable PPTX and single-file HTML, or when the task needs narrative planning, template selection, presenter notes, client-deck structure, and cross-format delivery QA. This skill owns only the Bento HTML route.
+
 For WEPR proposals, strategy decks, quotation presentations, quarterly reviews,
 and client reports, first read `references/wepr-delivery.md`. Keep claims,
 figures, pricing, platform scope, and source dates consistent with the approved

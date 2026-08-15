@@ -119,6 +119,7 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Account operations: `$launch-content-account`
 - Client pricing and scope: `$wepr-pricing`
 - Interactive client presentation: `$wepr-slides`
+- Editable PPTX or HTML proposal, launch, briefing, and presentation delivery: `$wepr-presentation-workbench`
 - Natural Chinese final revision: `$wepr-human-writing`
 - Editorial-quality audit and author-voice preservation: `$wepr-editorial-quality`
 - GEOFlow-backed content and publication workflow: `$wepr-geoflow`

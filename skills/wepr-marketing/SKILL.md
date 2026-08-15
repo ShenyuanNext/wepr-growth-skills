@@ -87,6 +87,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Xiaohongshu work: `$xiaohongshu-suite`
 - Pricing and scope: `$wepr-pricing`
 - Interactive presentation: `$wepr-slides`
+- Editable PPTX or HTML presentation planning, authoring, presenter notes, and QA: `$wepr-presentation-workbench`
 - Natural Chinese final revision: `$wepr-human-writing`
 - Editorial quality, mechanical-pattern diagnosis, and author-voice preservation: `$wepr-editorial-quality`
 - GEOFlow-backed implementation and delivery scope: `$wepr-geoflow`

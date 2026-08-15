@@ -51,6 +51,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 ├── wepr-marketing（客户营销方案、传播与文案）
 ├── wepr-editorial-quality（文稿质量审计、最小改写与作者声纹保护）
 ├── wepr-human-writing（自然中文写作与客户终稿润色）
+├── wepr-presentation-workbench（PPTX 与 HTML 演示文档统一入口）
 ├── wepr-slides（单文件交互式演示文档）
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
@@ -107,6 +108,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `wepr-marketing` | 营销策略工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
 | `wepr-editorial-quality` | 文稿质量工作台 | 方案、传播、公关、广告和品牌内容的机械表达诊断、最小改写与声纹保护 | 问题证据表、完整改写稿、变更说明与事实风险提示 |
 | `wepr-human-writing` | 自然中文写作 | 客户方案、传播稿、品牌文章、营销文案和终稿润色 | 素材缺口、自然中文成稿、机械表达诊断与事实风险提示 |
+| `wepr-presentation-workbench` | 演示文档工作台 | 客户方案、传播提案、商业计划、报价、复盘、培训和发布会的 PPTX 或 HTML 制作 | 叙事结构、页面计划、可编辑成品、演讲备注与逐页质检 |
 | `wepr-slides` | 交互式演示文档 | 客户方案、报价展示、策略汇报、季度复盘、浏览器演示 | 单文件 `.bento.html`、图表、Morph、状态页、动效和演讲备注 |
 | `launch-content-account` | 内容账号冷启动 | 公众号、抖音、视频号、X、小红书起号与诊断 | 账号承诺、主页、内容支柱、样本实验、复盘和路线图 |
 
@@ -132,6 +134,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$wepr-marketing`。
 - 要检查文稿中的机械表达、空泛判断、模板化节奏和证据风险，或在保留作者个人语气的前提下做最小改写：使用 `$wepr-editorial-quality`。它不判断文本是否由 AI 创作。
 - 要在不改变事实、数据和承诺的前提下，让方案、传播稿或营销文案更自然、更符合中文阅读习惯：使用 `$wepr-human-writing`。策略和内容结构尚未确定时，先使用对应的营销、公关或内容技能。
+- 要制作、重构或审校可编辑 PPTX 或单文件 HTML 演示，并处理叙事、客户模板、图表、演讲备注和逐页质检：使用 `$wepr-presentation-workbench`。
 - 要把方案、报价或报告制作成可直接在浏览器演示的单文件演示文档：使用 `$wepr-slides`。
 - 要从零启动或修复一个内容账号：使用 `$launch-content-account`。
 - 一个项目可以组合多个技能。例如先用增长诊断明确问题，再分别制定付费与有机增长计划。
@@ -214,6 +217,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 
 ```text
 使用 $wepr-human-writing，在不改变报价、服务范围和事实的前提下，把这份客户方案改成自然、可信、符合中国人阅读习惯的中文。
+```
+
+```text
+使用 $wepr-presentation-workbench，把这份客户方案和报价表制作成可编辑 PPTX，先给页面计划，再完成图表、演讲备注和逐页视觉质检。
 ```
 
 ```text
@@ -345,6 +352,7 @@ Content production and account operations
 ├── wepr-marketing (client plans, communications, and copy)
 ├── wepr-editorial-quality (editorial diagnosis, minimal revision, and voice preservation)
 ├── wepr-human-writing (natural Chinese writing and final revision)
+├── wepr-presentation-workbench (unified PPTX and HTML presentation delivery)
 ├── wepr-slides (single-file interactive presentations)
 ├── plan-editorial-illustrations
 └── Xiaohongshu Workbench
@@ -387,6 +395,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `wepr-marketing` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
 | `wepr-editorial-quality` | Editorial quality workbench | Mechanical-pattern diagnosis, minimal revision, evidence checks, and author-voice preservation across client content | Evidence-tagged findings, full revision, change notes, fact-risk flags |
 | `wepr-human-writing` | Natural Chinese writing | Client proposals, communication drafts, brand articles, marketing copy, final revision | Material gaps, natural Chinese copy, mechanical-writing diagnosis, fact-risk notes |
+| `wepr-presentation-workbench` | Presentation workbench | PPTX or HTML proposals, plans, quotations, reviews, training, and launches | Narrative, slide plan, editable deck, speaker notes, rendered QA |
 | `launch-content-account` | Content-account launch | WeChat, Douyin, WeChat Channels, X, and Xiaohongshu launches | Account promise, profile, pillars, experiments, reviews, roadmap |
 
 ### Choosing a skill
@@ -411,6 +420,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$wepr-marketing` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
 - Use `$wepr-editorial-quality` to identify observable mechanical writing, generic claims, templated rhythm, or evidence risk, and to make the smallest useful revision while preserving the author's voice. It does not infer whether AI wrote the text.
 - Use `$wepr-human-writing` to make Chinese proposals, communication drafts, and marketing copy sound natural without changing facts, data, scope, or promises. Use the relevant strategy or content skill first when the message and structure are not yet settled.
+- Use `$wepr-presentation-workbench` to create, reconstruct, or audit editable PPTX or single-file HTML presentations with narrative planning, templates, charts, speaker notes, and rendered visual QA.
 - Use `$launch-content-account` to launch or repair a content account through comparable experiments and business signals.
 - Combine skills when appropriate. A growth audit can define the problem before separate paid and organic plans are built.
 
@@ -480,6 +490,10 @@ Use $plan-organic-growth to build a 90-day SEO, GEO, Reddit, and Product Hunt co
 
 ```text
 Use $wepr-human-writing to revise this client proposal into natural Chinese without changing its facts, pricing, scope, or commitments.
+```
+
+```text
+Use $wepr-presentation-workbench to turn this proposal and quotation sheet into an editable PPTX, starting with a slide plan and finishing with charts, speaker notes, and rendered slide-by-slide QA.
 ```
 
 ```text

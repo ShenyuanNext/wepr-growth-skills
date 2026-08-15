@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 演示文档工作台"
+  short_description: "统一规划和交付可编辑PPTX与单文件HTML演示文档"
+  default_prompt: "使用 $wepr-presentation-workbench，把这些客户资料整理成叙事清晰、可演讲、可编辑并经过视觉质检的演示文档。"

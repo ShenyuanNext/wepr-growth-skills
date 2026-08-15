@@ -31,6 +31,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
 | `$wepr-editorial-quality` | Diagnose mechanical writing and evidence risk, then minimally revise while preserving author voice |
 | `$wepr-human-writing` | Revise proposals, communication drafts, and copy into natural Chinese without changing business meaning |
+| `$wepr-presentation-workbench` | Plan and deliver editable PPTX and single-file HTML presentations through one route |
 | `$launch-content-account` | Launch WeChat, Douyin, WeChat Channels, X, and Xiaohongshu accounts |
 
 ## 2. Installation
@@ -195,6 +196,14 @@ Use $wepr-editorial-quality to identify observable mechanical patterns, template
 ```
 
 Provide the full draft, reader, channel, content job, author or brand voice, editing boundary, and all protected facts, prices, commitments, and compliance language. Request diagnosis mode for findings only or minimal-revision mode for a complete edited draft. Use `$wepr-human-writing` afterward when a natural Chinese final pass is also required.
+
+### Presentation workbench
+
+```text
+Use $wepr-presentation-workbench to turn this client proposal, data sheet, and quotation into an editable PPTX. Confirm the audience and decision first, provide a slide plan, then finish charts, speaker notes, and rendered slide-by-slide QA.
+```
+
+Provide the presentation setting, audience, duration, target format, sources, client template, brand rules, page range, and protected facts. Choose the HTML route and `$wepr-slides` when browser interaction is required.
 
 ### Content-account launch
 
