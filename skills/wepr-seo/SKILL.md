@@ -106,6 +106,8 @@ Use current first-party and market evidence to cluster by intent and expected pa
 
 For client proposals and SEO communication plans, include executive priorities, evidence limits, technical workstreams, keyword/page map, content and distribution plan, 30/60/90-day roadmap, owners, dependencies, budget logic, KPI definitions, verification, and risks. Route finished narrative copy to `$create-marketing-content` when specialist writing is useful.
 
+Route backlink inventories, unlinked mentions, directory qualification, linkable assets, digital PR, personalized outreach, and ongoing link monitoring to `$wepr-link-authority-workbench`. Keep technical internal-link and redirect work here.
+
 ## Implement safely
 
 Audit and advisory requests do not authorize edits. For explicit implementation, capture a before snapshot, make the smallest safe change, run repository/runtime/rendered checks, and preserve rollback information.

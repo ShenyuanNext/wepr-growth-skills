@@ -81,6 +81,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Paid media: `$plan-paid-media`
 - Cross-platform advertising audit, creative, attribution, experiments, and guarded optimization: `$wepr-advertising-workbench`
 - Organic growth: `$plan-organic-growth`
+- Link and mention audits, linkable assets, digital PR, and compliant outreach: `$wepr-link-authority-workbench`
 - Content production: `$create-marketing-content`
 - PR crisis work: `$diagnose-pr-crisis`
 - Account launch: `$launch-content-account`

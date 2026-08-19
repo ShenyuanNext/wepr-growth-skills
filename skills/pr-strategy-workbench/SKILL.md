@@ -126,6 +126,7 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Commercial problem framing and client decision brief: `$wepr-business-workbench`
 - Client interviews, approval mapping, questionnaires, and handoffs: `$wepr-client-discovery`
 - Public audience language, objections, and market-signal research: `$wepr-market-signal-research`
+- Linkable assets, media/resource opportunities, brand mentions, compliant outreach, and authority monitoring: `$wepr-link-authority-workbench`
 
 After facts, response strategy, approvals, and public wording are settled, use `$wepr-human-writing` to improve Chinese fluency without changing the approved meaning or risk controls.
 

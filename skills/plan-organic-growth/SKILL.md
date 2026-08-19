@@ -23,6 +23,7 @@ Use `$wepr-market-signal-research` when channel planning needs a traceable publi
 ## Route by need
 
 - SEO, technical search, content architecture, or backlinks: read [references/seo-geo.md](references/seo-geo.md) and [references/seo-system.md](references/seo-system.md).
+- Backlink and brand-mention audits, directory qualification, linkable assets, digital PR, outreach, or link monitoring: use `$wepr-link-authority-workbench`.
 - GEO, AI search, brand entities, citations, prompt baselines, diagnostic scoring, or 30/60/90-day GEO execution: read [references/seo-geo.md](references/seo-geo.md), [references/geo-evidence.md](references/geo-evidence.md), and [references/georank-measurement.md](references/georank-measurement.md).
 - Operating a live self-hosted GEOrank instance: hand off to `$operate-georank-workbench`; do not mix platform mutations into a general strategy deliverable.
 - Reddit research, participation, monitoring, or crisis response: read [references/community-launch.md](references/community-launch.md) and [references/reddit-community.md](references/reddit-community.md).

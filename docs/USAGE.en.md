@@ -16,6 +16,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$wepr-advertising-workbench` | Plan, audit, and optimize cross-platform advertising with creative, attribution, experiments, and guarded changes |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
 | `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
+| `$wepr-link-authority-workbench` | Audit links and mentions; plan linkable assets, digital PR, qualified directories, compliant outreach, and measurement |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |
@@ -128,6 +129,14 @@ Use $plan-organic-growth to build a 90-day SEO, GEO, Reddit, and Product Hunt pl
 ```
 
 Provide the product, user, alternatives, current site and content, market, and capacity. Purchased karma, votes, and spam links are out of scope.
+
+### Link and authority building
+
+```text
+Use $wepr-link-authority-workbench to audit current links and brand mentions, separate repair, conversion, and new-build opportunities, then deliver an asset plan, digital-PR angles, personalized outreach drafts, approval gates, and quarterly measurement.
+```
+
+Provide verified brand and product facts, audience and market, target pages, available link or analytics data, publishable evidence, prior relationships, approvers, and allowed actions. The default is research and local drafts only; sending, submission, payment, reciprocal links, publication, removal, or disavowal requires explicit authorization.
 
 ### GEOrank workbench operations
 

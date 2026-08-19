@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEPR 链接与权威建设工作台"
+  short_description: "规划审计合规外链、数字公关、品牌提及与权威建设方案"
+  default_prompt: "使用 $wepr-link-authority-workbench，审计现有链接与品牌提及，筛选高质量机会，并输出合规的内容资产、数字公关、触达和监测计划。"

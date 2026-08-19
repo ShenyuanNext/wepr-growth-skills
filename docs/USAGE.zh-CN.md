@@ -18,6 +18,7 @@
 | `$wepr-advertising-workbench` | 规划、审计和优化跨平台广告，并衔接创意、归因、实验与安全变更 |
 | `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
 | `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
+| `$wepr-link-authority-workbench` | 审计链接与品牌提及，规划可链接资产、数字公关、目录筛选、合规触达和效果监测 |
 | `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
@@ -137,6 +138,14 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：产品、用户、竞争替代、现有网站和内容、目标市场、可投入人力。禁止购买Karma、投票或垃圾外链。
+
+### 链接与权威建设
+
+```text
+使用 $wepr-link-authority-workbench。审计现有链接与品牌提及，区分修复、转化和建设机会，再输出资产计划、数字公关角度、个性化触达草稿、授权点和季度监测指标。
+```
+
+重要输入：品牌与产品事实、目标受众和市场、目标页面、已有链接或分析数据、可公开证据、历史合作、审批人与允许动作。默认只研究并制作草稿；发送、提交、付款、互链、发布、删除或拒绝链接均需明确授权。
 
 ### GEOrank工作台操作
 
