@@ -4,7 +4,6 @@
   "owner": "WEPR",
   "updated_at": "2026-07-18",
   "status": "active",
-  "license": "Apache-2.0",
   "category": "platform-operations",
   "modified": true,
   "runtime_permissions": [

@@ -31,7 +31,6 @@ REQUIRED_FILES = (
     "schemas/seo-audit.schema.json",
     "data/seo-source-registry.json",
     "assets/report-template.html",
-    "LICENSE-JEFF.md",
     "scripts/check-site.py",
     "scripts/check-page.py",
     "scripts/fetch-page.py",

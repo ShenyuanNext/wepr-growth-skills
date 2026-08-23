@@ -73,6 +73,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - **底层执行器不与总入口竞争：** 例如 `$wepr-presentation-workbench` 负责演示需求判断与统一交付，`$wepr-slides` 只负责已明确的单文件交互式 HTML 路线。
 - **旧能力并入完整版：** GEOFlow 的开发、运行操作、前端主题、渠道站点和旧模板迁移统一由 `$wepr-geoflow` 承接；已有文章的 GEO 改造统一由 `$wepr-geo-content-refiner` 承接。
 - **定期清理重复入口：** 删除仅保留旧名称、与完整版高度重合或不再具备独立调用价值的技能；Git 历史保留恢复能力。
+- **只保留交付所需信息：** 技能正文和示例不承担外部项目推广，不保留上游仓库名称、来源链接或许可证副本；仓库自身的授权信息仅由根目录文件统一管理。
 
 ### GEO 专业能力包
 
@@ -389,6 +390,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - **Execution routes do not compete with orchestrators:** `$wepr-presentation-workbench` owns presentation planning and format selection; `$wepr-slides` owns only the explicitly selected single-file interactive HTML route.
 - **Legacy capabilities live in the complete workbench:** `$wepr-geoflow` covers development, operations, frontend themes, channel sites, and legacy migration; `$wepr-geo-content-refiner` owns GEO refinement of existing articles and pages.
 - **Redundant entrypoints are removed regularly:** a skill is retired when it is only an old name, substantially duplicates a complete workbench, or no longer has an independent routing purpose. Git history remains the recovery path.
+- **Only delivery-relevant information remains:** skills and examples do not promote external projects or retain upstream repository names, source links, or copied license files. Repository-level licensing is managed only at the root.
 
 ### Included skills
 

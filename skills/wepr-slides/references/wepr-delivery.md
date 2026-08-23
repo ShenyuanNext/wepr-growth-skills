@@ -52,3 +52,13 @@ for before/after or phased strategy, and state slides for optional detail.
 - Confirm all figures against the source document.
 - Check that confidential assets are embedded only with authorization.
 - Confirm offline behavior when the deliverable is promised as self-contained.
+- Check whether collaboration material is embedded before copying document
+  JSON or distributing the file; rotate access when a shared copy may have
+  exposed write credentials.
+- Test light and dark themes for text/background contrast when theme switching
+  is enabled.
+- Verify media with autoplay both enabled and disabled in presentation mode.
+- State the exact saved filename and location; distinguish the saved deck from
+  a web page that always starts a new document.
+- Treat parser, exporter, renderer, and save warnings as unresolved until the
+  produced file has been opened and inspected.

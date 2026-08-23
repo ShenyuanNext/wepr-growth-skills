@@ -39,8 +39,11 @@ curl -fsSL https://bento.page/releases/slides/Bento_Slides.bento.html -o "<Topic
 
 (Windows without curl: `iwr https://bento.page/releases/slides/Bento_Slides.bento.html -OutFile <Topic>.bento.html`.)
 
-Then verify the download contains `id="bento-doc"`, and **replace** that
-block's JSON (it ships with a showcase deck — discard it) with your document.
+Then verify the download contains `id="bento-doc"`, and write your document
+into that block. Current release shells may contain an empty block; a showcase
+visible on first browser open can be generated at runtime and is not proof that
+the on-disk file already contains document JSON. Never discard existing JSON
+without parsing and preserving it first.
 Use `python3 scripts/wepr_deck.py inject <deck.bento.html> <document.json>`
 for deterministic replacement and `python3 scripts/wepr_deck.py validate
 <deck.bento.html>` before delivery. Current shells may contain an empty
@@ -65,6 +68,11 @@ request to opened deck.
 1. **Find the document.** Locate the `#bento-doc` block; parse its JSON. Note
    `doc.size` (canonical 1280×720), `doc.theme`, existing element `id`s, and
    whether `doc.template`/`doc.readonly` are set.
+   Check `doc.collab` before sharing, copying, or returning JSON. If it contains
+   owner, writer, or invitation secrets, warn the user that anyone receiving
+   the file or JSON may be able to modify the live session. Offer a read-only
+   duplicate or key rotation; do not imply that deleting keys from the current
+   copy revokes access already shared elsewhere.
 2. **Read the source material the user gave you** and classify each piece —
    is it a stat? a table? a process? a definition to expand? a photo?
 3. **Map material → feature (do NOT default to bullet text).** This is the
@@ -103,6 +111,8 @@ request to opened deck.
    replacement JSON. Never regenerate the whole HTML file.
 7. **Validate** with `scripts/wepr_deck.py validate`, then open the file in a
    browser and review every slide, interaction, chart, note, and margin.
+   Confirm the saved filename and location so a returning user does not mistake
+   a new browser starter for the previously saved deck.
 
 ## Critical gotchas
 
@@ -122,6 +132,10 @@ request to opened deck.
   document's identity. (Fresh decks omit it — the app mints one.)
 - `template:true` → every open mints a fresh deck; `readonly:true` → the
   file boots straight into the show with no editor.
+- Pair foreground colors with the actual surface/theme tokens they sit on.
+  Inspect light and dark modes when theme switching is available.
+- Surface parsing, export, save, rendering, and media failures. An empty result
+  or swallowed exception must not be reported as a completed deck.
 
 Working examples of every technique: open any template at
 https://bento.page and read its `#bento-doc` block.
