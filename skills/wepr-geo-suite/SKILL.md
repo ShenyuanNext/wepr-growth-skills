@@ -22,13 +22,13 @@ Read [references/routing-and-delivery.md](references/routing-and-delivery.md) fo
 - Natural-language query expansion and prompt library: `$wepr-geo-intent-miner`.
 - Brand facts and reusable evidence: `$wepr-geo-knowledge-base-builder`; use `$wepr-geo-brand-graph` when entity relationships are central.
 - Existing-page diagnosis: `$wepr-geo-page-audit`; new page structure: `$wepr-geo-page-blueprint`.
-- Content: `$wepr-geo-title-optimizer`, `$wepr-geo-explainer-builder`, `$wepr-geo-comparison-builder`, `$wepr-geo-ranking-article-builder`, `$wepr-geo-content-refiner`, or `$wepr-geo-article-friendly` according to format.
+- Content: `$wepr-geo-title-optimizer`, `$wepr-geo-explainer-builder`, `$wepr-geo-comparison-builder`, `$wepr-geo-ranking-article-builder`, or `$wepr-geo-content-refiner` according to format.
 - Platform evidence collection: `$wepr-deepseek-crawler`, `$wepr-doubao-crawler`, or `$wepr-chatgpt-crawler`. Respect login, rate, CAPTCHA, privacy, and platform boundaries.
 - Monitoring and attribution: `$wepr-geo-effect-monitor` for answer/citation signals; `$wepr-geo-tracking` for downstream conversion attribution.
 - 30/60/90-day implementation: `$wepr-geo-execution-roadmap`.
-- GEOFlow product development and operations: `$wepr-geoflow`. Treat `$wepr-geoflow-cli`, `$wepr-geoflow-design`, and `$wepr-geoflow-template` as compatibility routes.
+- GEOFlow product development, system operations, frontend themes, channel sites, legacy migration, and client implementation: `$wepr-geoflow`.
 - Broader WEPR channel strategy, GEO/SEO integration, and commercial growth planning: `$plan-organic-growth`; live GEOrank operations: `$operate-georank-workbench`.
-- Browser-openable interactive proposal or report presentation: `$wepr-slides`; use the PowerPoint skill when `.pptx` compatibility is required.
+- Proposal or report presentation: `$wepr-presentation-workbench`; it selects editable PPTX or single-file interactive HTML according to the delivery requirement.
 
 ## Orchestrate multi-stage projects
 

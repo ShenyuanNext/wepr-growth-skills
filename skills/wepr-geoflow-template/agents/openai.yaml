@@ -1,4 +1,0 @@
-interface:
-  display_name: "WEPR GEOFlow 旧模板兼容"
-  short_description: "处理旧版 PHP 模板和历史交付物"
-  default_prompt: "使用 $wepr-geoflow-template 处理旧版 GEOFlow PHP 模板问题，并将新需求转交当前设计工作流。"

@@ -66,6 +66,14 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 每项技能都遵循同一条主线：`目标 → 证据 → 判断 → 动作 → 负责人 → 指标 → 复盘 → 风险`。
 
+### 技能治理与调用原则
+
+- **总入口负责路由：** 跨模块项目先使用总入口，明确单项任务则直接调用专项技能，避免重复加载。
+- **专项技能保持单一职责：** 策略、生产、执行、监测和归因分别处理，不用一个大而全的入口替代专业判断。
+- **底层执行器不与总入口竞争：** 例如 `$wepr-presentation-workbench` 负责演示需求判断与统一交付，`$wepr-slides` 只负责已明确的单文件交互式 HTML 路线。
+- **旧能力并入完整版：** GEOFlow 的开发、运行操作、前端主题、渠道站点和旧模板迁移统一由 `$wepr-geoflow` 承接；已有文章的 GEO 改造统一由 `$wepr-geo-content-refiner` 承接。
+- **定期清理重复入口：** 删除仅保留旧名称、与完整版高度重合或不再具备独立调用价值的技能；Git 历史保留恢复能力。
+
 ### GEO 专业能力包
 
 仓库现已新增 `$wepr-geo-suite` 作为 WEPR GEO 项目总入口，覆盖从策略诊断到执行监测的完整工作流：
@@ -373,6 +381,14 @@ Content production and account operations
 ```
 
 Every skill follows the same operating line: `objective → evidence → judgment → action → owner → metric → review → risk`.
+
+### Skill governance and routing
+
+- **Orchestrators route cross-module work:** use a suite for an unclear or multi-stage project and call a specialist directly for a defined task.
+- **Specialists keep one responsibility:** strategy, production, execution, monitoring, and attribution remain distinct.
+- **Execution routes do not compete with orchestrators:** `$wepr-presentation-workbench` owns presentation planning and format selection; `$wepr-slides` owns only the explicitly selected single-file interactive HTML route.
+- **Legacy capabilities live in the complete workbench:** `$wepr-geoflow` covers development, operations, frontend themes, channel sites, and legacy migration; `$wepr-geo-content-refiner` owns GEO refinement of existing articles and pages.
+- **Redundant entrypoints are removed regularly:** a skill is retired when it is only an old name, substantially duplicates a complete workbench, or no longer has an independent routing purpose. Git history remains the recovery path.
 
 ### Included skills
 

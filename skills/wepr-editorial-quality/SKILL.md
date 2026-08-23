@@ -61,7 +61,6 @@ description: 审计并修复客户方案、传播稿、公关文案、广告文�
 - 品牌文章和跨平台内容：`$create-marketing-content`
 - 广告概念、创意和平台文案：`$wepr-advertising-workbench`
 - 危机声明：`$diagnose-pr-crisis`
-- 客户演示文档：`$wepr-slides`
+- 客户演示文档：`$wepr-presentation-workbench`
 
 策略、事实和内容结构尚未确定时，先使用对应业务技能。本技能负责表达质量和作者声纹，不替代商业判断、事实核验、法律审查或平台政策检查。
-

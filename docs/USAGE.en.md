@@ -212,7 +212,7 @@ Provide the full draft, reader, channel, content job, author or brand voice, edi
 Use $wepr-presentation-workbench to turn this client proposal, data sheet, and quotation into an editable PPTX. Confirm the audience and decision first, provide a slide plan, then finish charts, speaker notes, and rendered slide-by-slide QA.
 ```
 
-Provide the presentation setting, audience, duration, target format, sources, client template, brand rules, page range, and protected facts. Choose the HTML route and `$wepr-slides` when browser interaction is required.
+Provide the presentation setting, audience, duration, target format, sources, client template, brand rules, page range, and protected facts. Start with `$wepr-presentation-workbench` by default; call `$wepr-slides` directly only when the single-file interactive HTML route is already explicit.
 
 ### Content-account launch
 

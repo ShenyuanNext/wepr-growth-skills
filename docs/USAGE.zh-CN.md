@@ -232,7 +232,7 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 使用 $wepr-presentation-workbench。把这份客户方案、数据表和报价制作成可编辑 PPTX；先确认受众和决策目标，输出逐页计划，再完成图表、演讲备注和逐页渲染质检。
 ```
 
-重要输入：使用场景、受众、演讲时长、目标格式、原始资料、客户模板、品牌规范、页数和必须保留的事实。需要浏览器互动演示时可选择 HTML 路线并调用 `$wepr-slides`。
+重要输入：使用场景、受众、演讲时长、目标格式、原始资料、客户模板、品牌规范、页数和必须保留的事实。默认从 `$wepr-presentation-workbench` 进入；只有已经明确要求单文件交互式 HTML 时，才直接调用 `$wepr-slides`。
 
 ### 内容账号冷启动
 

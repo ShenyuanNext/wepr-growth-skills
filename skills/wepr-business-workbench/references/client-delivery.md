@@ -35,4 +35,4 @@
 
 ## 交接
 
-本文件产出的是决策与简报。完整营销方案交给 `$wepr-marketing`，公关与新闻稿交给 `$pr-strategy-workbench`，正文交给 `$create-marketing-content`，中文终稿交给 `$wepr-human-writing`，演示交给 `$wepr-slides`。
+本文件产出的是决策与简报。完整营销方案交给 `$wepr-marketing`，公关与新闻稿交给 `$pr-strategy-workbench`，正文交给 `$create-marketing-content`，中文终稿交给 `$wepr-human-writing`，演示交给 `$wepr-presentation-workbench`。

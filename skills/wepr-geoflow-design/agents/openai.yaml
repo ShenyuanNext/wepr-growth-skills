@@ -1,4 +1,0 @@
-interface:
-  display_name: "WEPR GEOFlow 前端设计"
-  short_description: "规划、预览和审计 GEOFlow 前端体验"
-  default_prompt: "使用 $wepr-geoflow-design 先盘点现有能力，再完成预览优先的前端设计与同步规划。"
