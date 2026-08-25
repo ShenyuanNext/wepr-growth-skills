@@ -117,6 +117,7 @@ Each recommendation must include action, owner, deadline, dependency, evidence, 
 - Digital-growth evidence: `$audit-digital-growth`
 - Paid advertising plans, creative, and platform-policy checks: `$wepr-advertising-workbench`
 - Account operations: `$launch-content-account`
+- Always-on cross-channel operations, SOPs, cadence, measurement, and ownership: `$wepr-growth-operations`
 - Client pricing and scope: `$wepr-pricing`
 - PPTX or interactive HTML proposal, launch, briefing, and presentation delivery: `$wepr-presentation-workbench`
 - Natural Chinese final revision: `$wepr-human-writing`

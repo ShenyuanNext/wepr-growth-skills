@@ -12,6 +12,7 @@ description: 规划、创建、重构、审校和交付客户方案、传播提�
 - 新建、改写、模板填充或增强原生可编辑 `.pptx`：读取 [references/pptx-delivery.md](references/pptx-delivery.md)，并使用可用的演示文档工具完成实际读写、渲染和验证。
 - 单文件 HTML、浏览器演示、Morph、交互图表或 Bento 文档：读取 [references/html-delivery.md](references/html-delivery.md)，并使用 `$wepr-slides`。
 - 客户方案、报价、商业计划和传播提案：同时读取 [references/client-deck.md](references/client-deck.md)。
+- 社媒比稿、整合营销、年度运营、产品种草、新品上市、品牌焕新或活动传播方案：同时读取 [references/proposal-composition-patterns.md](references/proposal-composition-patterns.md)，按方案类型选择论证结构、创意生成链路和执行展开方式，不机械套用统一目录。
 - 正式演讲、发布会、培训或需要讲稿：读取 [references/presenter-and-notes.md](references/presenter-and-notes.md)。
 - 视觉方向、页面节奏和交付质检：读取 [references/visual-system-and-qa.md](references/visual-system-and-qa.md)。
 
@@ -57,9 +58,9 @@ description: 规划、创建、重构、审校和交付客户方案、传播提�
 
 - 客户需求、受众、审批和验收：`$wepr-client-discovery`
 - 商业判断和方案方向：`$wepr-business-workbench`
+- 运营方案的闭环、SOP、阶段路线、KPI、团队与治理逻辑：`$wepr-growth-operations`
 - 市场证据：`$wepr-market-signal-research`
 - 营销、公关和品牌策略：`$wepr-marketing`、`$pr-strategy-workbench`、`$analyze-brand-strategy`
 - 报价与服务范围：`$wepr-pricing`
 - 文案和中文终稿：`$create-marketing-content`、`$wepr-editorial-quality`、`$wepr-human-writing`
 - Bento HTML 制作：`$wepr-slides`
-

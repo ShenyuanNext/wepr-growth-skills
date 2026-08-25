@@ -43,6 +43,7 @@ description: 澄清和诊断商业问题，并把模糊目标转化为可验证�
 
 - 品牌定位和竞争关系：`$analyze-brand-strategy`
 - 营销方案、渠道和获客：`$wepr-marketing`
+- 跨渠道运营闭环、SOP、节奏、指标、实验和团队：`$wepr-growth-operations`
 - 公关策略、公共叙事和新闻稿：`$pr-strategy-workbench`
 - 内容创作和跨平台改写：`$create-marketing-content`
 - 自然中文终稿：`$wepr-human-writing`

@@ -12,6 +12,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |
 | `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
+| `$wepr-growth-operations` | Turn commercial objectives into operating loops, unit economics, SOPs, cadence, KPIs, experiments, and team ownership |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$wepr-advertising-workbench` | Plan, audit, and optimize cross-platform advertising with creative, attribution, experiments, and guarded changes |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
@@ -65,6 +66,14 @@ Constraints:
 ```
 
 ## 4. Skill examples
+
+### Growth operations system
+
+```text
+Use $wepr-growth-operations to identify the main operating bottleneck from the current business stage, customer, offer, channel, sales, and delivery evidence; then build the smallest operating loop, unit economics, workflows, SOPs, RACI, KPI tree, and a 30/60/90-day experiment roadmap with stop and scale conditions.
+```
+
+Use it when isolated content, media, community, or automation tactics need to become a sustainable operating system. Recheck current platform rules, algorithms, fees, and benchmarks; do not use fake engagement, bulk spam, evasion, or earnings guarantees.
 
 ### Client discovery
 

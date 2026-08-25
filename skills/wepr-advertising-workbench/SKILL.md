@@ -62,6 +62,7 @@ description: 规划、审计、创作、监测和优化多平台付费广告，�
 - 公开用户需求、痛点、异议和广告语言研究：`$wepr-market-signal-research`
 - 品牌定位与差异化：`$analyze-brand-strategy`
 - 完整客户营销方案：`$wepr-marketing`
+- 将付费媒体接入获客、销售、交付、留存和复盘运营闭环：`$wepr-growth-operations`
 - 广告文章、案例和跨平台内容：`$create-marketing-content`
 - 公共传播与声誉风险：`$pr-strategy-workbench`
 - 自然中文终稿：`$wepr-human-writing`

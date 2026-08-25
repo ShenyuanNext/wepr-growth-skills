@@ -14,6 +14,7 @@
 | `$diagnose-pr-crisis` | 处理舆情、声明、媒体沟通和声誉恢复 |
 | `$pr-strategy-workbench` | 制定客户公关方案、传播决策、媒体叙事、上线预案与公共文案 |
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM 和留存问题 |
+| `$wepr-growth-operations` | 把商业目标转化为最小经营闭环、单位经济、SOP、运营节奏、KPI、实验与团队责任 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$wepr-advertising-workbench` | 规划、审计和优化跨平台广告，并衔接创意、归因、实验与安全变更 |
 | `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
@@ -74,6 +75,14 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 ## 4. 各技能怎么用
+
+### 增长运营系统
+
+```text
+使用 $wepr-growth-operations。基于当前业务阶段、目标客户、产品、渠道、销售和交付资料，判断核心瓶颈，建立最小经营闭环、单位经济、工作流、SOP、RACI、KPI 树与 30/60/90 天实验路线图；标明假设、停止条件和扩量条件。
+```
+
+适合从“做内容、投广告、建社群”等单点动作升级为可持续运营系统。具体平台规则、算法、费率和基准应重新核验，不使用虚假互动、批量灌水或收益保证。
 
 ### 客户需求澄清
 

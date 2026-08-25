@@ -2,9 +2,9 @@
 
 [中文](#中文说明) · [English](#english)
 
-WEPR's open, evidence-led Agent Skills system for business diagnosis, brand strategy, public relations, digital analytics, cross-platform advertising, complete SEO/GEO and authority-building delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
+WEPR's open, evidence-led Agent Skills system for business diagnosis, brand strategy, public relations, digital analytics, growth operations, cross-platform advertising, complete SEO/GEO and authority-building delivery, natural Chinese writing, content and account operations, client proposals, presentations, and international growth.
 
-WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、跨平台广告投放、完整 SEO/GEO 与链接权威建设、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
+WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、增长运营、跨平台广告投放、完整 SEO/GEO 与链接权威建设、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
 
 ---
 
@@ -37,6 +37,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 └── diagnose-pr-crisis
 
 增长规划与获客
+├── wepr-growth-operations（增长闭环、单位经济、SOP、指标、实验与团队）
 ├── plan-paid-media
 ├── wepr-advertising-workbench（跨平台广告审计、创意、归因与优化）
 ├── plan-organic-growth
@@ -99,6 +100,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
 | `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
+| `wepr-growth-operations` | 增长运营工作台 | 商业目标落地、0→1 验证、跨渠道运营、SOP、团队节奏、规模化与自动化治理 | 最小经营闭环、单位经济、工作流、SOP、RACI、KPI 树、实验卡和运营路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `wepr-advertising-workbench` | 广告策略工作台 | 跨平台媒体方案、账户审计、预算归因、创意文案、实验、监测和优化 | 证据账本、客户方案、审计报告、创意简报、实验与变更草案 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS 冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO 审计、社区与发布方案、实验和 90 天路线图 |
@@ -131,6 +133,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 发生负面事件、需要声明或媒体沟通：使用 `$diagnose-pr-crisis`。
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
+- 要把商业目标转化为获客、销售、交付、留存与复购的运营闭环，或设计 SOP、运营节奏、KPI、实验和团队责任：使用 `$wepr-growth-operations`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 要做跨平台广告账户审计、归因对齐、广告创意与文案、实验、监测或有安全门禁的优化草案：使用 `$wepr-advertising-workbench`。涉及中国平台的具体准入、账户和投放规则时，同时使用 `$plan-paid-media`。
 - 希望通过搜索、AI 搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
@@ -354,6 +357,7 @@ Business and brand decisions
 └── diagnose-pr-crisis
 
 Growth planning and acquisition
+├── wepr-growth-operations (operating loops, unit economics, SOPs, KPIs, experiments, and ownership)
 ├── plan-paid-media
 ├── wepr-advertising-workbench (cross-platform audit, creative, attribution, and optimization)
 ├── plan-organic-growth
@@ -402,6 +406,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
 | `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
+| `wepr-growth-operations` | Growth operations workbench | Commercial execution, 0-to-1 validation, cross-channel operations, SOPs, team cadence, scaling, and automation governance | Operating loop, unit economics, workflows, SOPs, RACI, KPI tree, experiment cards, roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `wepr-advertising-workbench` | Advertising strategy workbench | Cross-platform plans, account audits, budget and attribution, creative and copy, experiments, monitoring, optimization | Evidence ledger, client plan, audit, creative brief, experiment, guarded change draft |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
@@ -433,6 +438,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 - Use `$diagnose-pr-crisis` when the business needs a response, statement, media plan, or reputation recovery.
 - Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
+- Use `$wepr-growth-operations` to turn a commercial objective into an acquisition-to-retention operating loop, or to design SOPs, cadence, KPI trees, experiments, ownership, and scaling controls.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$wepr-advertising-workbench` for cross-platform account audits, attribution alignment, advertising creative and copy, experiments, monitoring, or safely gated optimization drafts. Pair it with `$plan-paid-media` when China-platform eligibility, account, or delivery rules are involved.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.

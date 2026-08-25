@@ -1,0 +1,5 @@
+interface:
+  display_name: "WEPR 增长运营工作台"
+  short_description: "把商业目标转化为可执行、可度量、可复盘的增长运营系统"
+  brand_color: "#18A66A"
+  default_prompt: "使用 $wepr-growth-operations 诊断业务并设计运营闭环、SOP、指标与实验计划。"

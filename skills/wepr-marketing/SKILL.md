@@ -80,6 +80,7 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - Growth audit: `$audit-digital-growth`
 - Paid media: `$plan-paid-media`
 - Cross-platform advertising audit, creative, attribution, experiments, and guarded optimization: `$wepr-advertising-workbench`
+- Recurring growth operations, operating loops, SOPs, cadence, KPI trees, experiments, and team ownership: `$wepr-growth-operations`
 - Organic growth: `$plan-organic-growth`
 - Link and mention audits, linkable assets, digital PR, and compliant outreach: `$wepr-link-authority-workbench`
 - Content production: `$create-marketing-content`
