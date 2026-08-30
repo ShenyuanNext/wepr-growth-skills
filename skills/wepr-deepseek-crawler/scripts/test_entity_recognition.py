@@ -251,7 +251,7 @@ def main() -> None:
     generic_nev = {"name": "新能源汽车", "kind": "concept", "is_target": False, "sample_count": 2, "evidence": {"answer_heading": 2}}
     assert analyzer.heuristic_semantic_review(generic_nev, product_profile, product_profile["aliases"])["semantic_label"] == "generic_category"
 
-    person_profile = {"entity": "姚金刚", "aliases": ["姚金刚"], "entity_type": "person", "has_target": True}
+    person_profile = {"entity": "陈明", "aliases": ["陈明"], "entity_type": "person", "has_target": True}
     company_candidate = {"name": "启德教育", "kind": "company", "is_target": False, "sample_count": 2, "evidence": {"org_suffix": 2}}
     assert analyzer.heuristic_semantic_review(company_candidate, person_profile, person_profile["aliases"])["semantic_label"] == "unrelated_entity"
 

@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# Copyright © 2026 姚金刚. All rights reserved.
-# Project: wepr-geo-page-blueprint
-# Created by: 姚金刚
-# Date: 2026-05-16
 
 from __future__ import annotations
 
@@ -39,13 +35,8 @@ KEYWORDS = [
     "公众号",
     "FAQPage 正文可见",
 ]
-REPORT_NOTICE_MD = """<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-blueprint
-Created by: 姚金刚
-Date: 2026-05-16
--->"""
-REPORT_NOTICE_HTML = "<!-- Copyright © 2026 姚金刚. All rights reserved. Project: wepr-geo-page-blueprint. -->"
+REPORT_NOTICE_MD = """"""
+REPORT_NOTICE_HTML = ""
 
 DOCX_PAGE_WIDTH = 11906
 DOCX_MARGIN = 1020

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-knowledge-base-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Source Acquisition And Freshness
 
 This skill can use real data only when the data is accessible, cited, and time-stamped. Every report must state the acquisition mode and boundary before strong facts are reused.

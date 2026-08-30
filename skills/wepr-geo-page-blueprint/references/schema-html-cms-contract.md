@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-blueprint
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # HTML、Schema 与 CMS 合同
 
 - 页面主内容使用 `<main>`，页面核心内容使用 `<article>` 或清晰的 `<section>`。

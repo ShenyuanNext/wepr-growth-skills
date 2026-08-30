@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-content-refiner
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 研究支撑框架
 
 本 skill 的理论基础是把旧内容改造成更容易被生成式引擎检索、理解、引用、核验和复用的知识资产。它不把 GEO 简化为关键词堆叠，而是把内容拆成“可回答、可检索、可证明、可抽取、可发布、可复核”的结构。

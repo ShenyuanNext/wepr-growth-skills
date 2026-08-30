@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-ranking-article-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 真实数据获取能力
 
 ## 数据来源分层

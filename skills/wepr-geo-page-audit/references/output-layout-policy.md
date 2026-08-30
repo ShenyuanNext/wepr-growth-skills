@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 输出排版防溢出策略
 
 ## Word 优先规则

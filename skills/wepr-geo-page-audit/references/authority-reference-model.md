@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 权威参考与证据分层
 
 页面 GEO 诊断必须先建立证据层级，再输出结论。报告中的关键判断不得只来自印象、关键词密度或单页截图。

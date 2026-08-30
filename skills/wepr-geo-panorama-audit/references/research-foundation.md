@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-panorama-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # GEO 全景诊断研究依据
 
 本 skill 的底层方法不是把传统 SEO 指标换名为 GEO 指标，而是把官网事实源、断言级可引用性、公开信源交叉验证和站内/站外证据建设作为 GEO 诊断的第一层工作。

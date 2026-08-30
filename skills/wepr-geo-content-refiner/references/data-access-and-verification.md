@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-content-refiner
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 真实数据获取与核验
 
 本 skill 可以处理真实数据，但必须遵守权限、来源和证据边界。不能访问的数据不推测；无法核验的数据不写成强结论。

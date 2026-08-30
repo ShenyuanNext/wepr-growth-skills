@@ -1,9 +1,9 @@
 {
   "id": "wepr-geo-intent-miner",
   "name": "WEPR GEO Intent Miner",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "status": "active",
-  "summary": "把种子词和业务材料扩展为 AI 搜索问题集、意图地图、追问链路、查询重写、内容资产和国内 AI 平台监测 Prompt 库。",
+  "summary": "把种子词和业务材料扩展为经词根、语义、场景、意图、证据和去重质检的 AI 搜索问题集、意图地图、追问链路、内容资产与监测 Prompt 库。",
   "primary_outputs": [
     "ai-search-question-bank",
     "intent-map",

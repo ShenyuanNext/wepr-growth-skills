@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-content-refiner
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 内容改造方法
 
 ## 原文体检

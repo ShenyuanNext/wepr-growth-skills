@@ -3,13 +3,6 @@ name: wepr-geo-panorama-audit
 description: 开展品牌 GEO 全景诊断，覆盖官网采集、公开事实交叉核验、内容资产分析及站内外机会地图。适用于项目启动、季度复盘和投入前评估；不用于 AI 问答平台采样、单页诊断、文章或标题创作、后端归因设计及执行路线图拆解。
 ---
 
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-panorama-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # WEPR GEO Panorama Audit
 
 ## 使用场景

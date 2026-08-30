@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-panorama-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # GEO 全景诊断简报模板
 
 - 技能 ID：`wepr-geo-panorama-audit`

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-blueprint
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # GEO 页面蓝图质量门
 
 - 首屏必须包含直接答案、结构化摘要和关键事实。

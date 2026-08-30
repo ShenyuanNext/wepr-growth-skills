@@ -9,13 +9,6 @@ metadata:
   default_outputs: Word, PDF, HTML, Markdown
 ---
 
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-blueprint
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # WEPR GEO Page Blueprint
 
 ## 使用场景

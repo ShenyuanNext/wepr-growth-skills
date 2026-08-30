@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-brand-graph
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 方法说明
 
 `wepr-geo-brand-graph` 的目标不是输出一张漂亮脑图，而是把品牌事实整理成可检索、可验证、可维护的实体关系层。

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-intent-miner
-Created by: 姚金刚
-Date: 2026-05-21
--->
-
 # 研究依据与方法基线
 
 本 skill 的输出不是关键词堆叠，而是“AI 搜索意图空间”的结构化建模。每次生成报告时，先用以下研究基线自检，再进入问题扩展和排版。

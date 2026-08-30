@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-intent-miner
-Created by: 姚金刚
-Date: 2026-05-21
--->
-
 # 真实数据接入与校准
 
 本 skill 可以处理真实数据，但不能在未授权、未提供或未连接数据源时声称已经拿到真实数据。

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-content-refiner
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 国内 AI 平台适配
 
 改造后的内容应同时服务 DeepSeek、豆包、千问、Kimi、腾讯元宝和微信生态。

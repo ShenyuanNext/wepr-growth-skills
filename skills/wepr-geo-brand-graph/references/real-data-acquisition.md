@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-brand-graph
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 真实数据获取与核验
 
 本 skill 不把模型记忆当真实数据。正式报告必须先建立来源账本，再做 URL 连通核验和人工语义核对。

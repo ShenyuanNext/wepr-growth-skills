@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: geoflow
-Created by: 姚金刚
-Date: 2026-07-05
--->
-
 # GEOFlow Current Capability Map
 
 This reference maps the current repository to its supported operation surfaces. Inspect the target workspace before a mutation:
@@ -25,8 +18,22 @@ If a command or route is absent in the target deployment, report that capability
 - `Admin web`: capabilities outside API v1. Use an authenticated admin session, CSRF token, and the actual configurable admin prefix.
 - `Super-admin web`: protected workflows such as distribution, manual-publication settings, system updates, theme replication, admin users, and API tokens.
 - `Local Artisan`: maintenance commands that operate inside the deployed Laravel application.
+- `Browser operations assistant`: a separately versioned device-paired client for approved manual-publication work; it does not authorize unattended final publishing.
+- `Independent updater`: the 3.0.0 execution boundary for website updates, full backups, environment checks, and restore-point rollback.
 
 Do not replace an admin or Artisan capability with direct SQL or an invented API path.
+
+## Version 3.0.0 Baseline
+
+The verified 3.0.0 release baseline adds unified Admin UI V3, protected system knowledge with illustrated help, article AI quality inspection, hosted channel sites, a browser operations assistant, PWA installation, and an independent updater. The bundled CLI remains 0.2.0. Treat each feature as unavailable on a target instance until its routes, configuration, version, permissions, workers, and health state are discovered.
+
+Article AI quality inspection is opt-in at task level. It records plan, model, thresholds, four component scores, evidence, issues, revision advice, history, expiration, recheck, and audited manual release. Pending, blocked, failed, or stale results remain drafts and block local publication, assignment, manual publication, and distribution. Do not describe this workflow as a guarantee of factual accuracy or regulatory compliance.
+
+Hosted channel sites stay disabled until root-domain, reserved-subdomain, wildcard DNS, wildcard TLS, trusted-proxy, and reverse-proxy checks pass. Site lifecycle, article assignment, quotas, intervals, pause, maintenance, archive, indexing, reconciliation, and recovery are operational controls rather than proof of traffic or ranking.
+
+The browser operations assistant uses short-lived device pairing approved by an administrator. It may claim work, maintain a lease, validate the selected account, fill an approved draft, and return execution evidence. The user performs the final platform review and publish action. Revoke the device token when access is no longer needed.
+
+In 3.0.0, the independent updater is the only supported execution boundary for site updates, full backups, and rollback. The website requests fixed operations over a local Unix socket; it does not accept arbitrary commands or file paths. Sensitive operations require the current administrator password and a short-lived authorization code, and the updater prevents code replay. Never reuse the older in-application plan, file-replacement, single-file restore, retry, or manual-failure procedures as current instructions.
 
 ## CLI And API v1 Coverage
 

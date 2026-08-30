@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-knowledge-base-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Authoritative Reference Framework
 
 Use these references to make analysis and reports more systematic, detailed, and complete.

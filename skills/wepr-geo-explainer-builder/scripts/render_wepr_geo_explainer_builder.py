@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# Copyright © 2026 姚金刚. All rights reserved.
-# Project: wepr-geo-explainer-builder
-# Created by: 姚金刚
-# Date: 2026-05-16
 
 """Render wepr-geo-explainer-builder reports to Markdown, HTML, DOCX, and PDF."""
 

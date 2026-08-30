@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# Copyright © 2026 姚金刚. All rights reserved.
-# Project: wepr-geo-intent-miner
-# Created by: 姚金刚
-# Date: 2026-05-16
 
 """Check DOCX/PDF layout constraints for WEPR GEO Intent Miner reports."""
 

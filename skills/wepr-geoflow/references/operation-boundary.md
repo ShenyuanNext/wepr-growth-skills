@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: geoflow
-Created by: 姚金刚
-Date: 2026-07-05
--->
-
 # Operation Boundary
 
 The `operations` mode operates a running GEOFlow system. Product code changes require an explicit switch to `development`. When `bin/geoflow` exists, GEOFlow CLI 0.2.0 is the preferred API v1 client for catalog, task, job, material, and article operations. API v1 is the fallback when the CLI is absent. Blade admin routes handle management workflows such as Analytics, manual publication, distribution, enterprise knowledge, leads, AI source providers, article editor assistance, URL Import, System Updates, site settings, Theme Replication, homepage modules, API tokens, and frontend-capability sync.

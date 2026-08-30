@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-title-optimizer
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Artifact Layout Reference
 
 The report style follows the white-background Kami-style document standard:

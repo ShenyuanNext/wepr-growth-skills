@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-brand-graph
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 研究支撑框架
 
 本 skill 采用“知识图谱 + 实体链接 + 证据治理 + 结构化数据一致性”的组合框架。

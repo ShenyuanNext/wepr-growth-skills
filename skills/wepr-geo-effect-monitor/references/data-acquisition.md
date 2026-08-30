@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-effect-monitor
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Data Acquisition And Evidence Modes
 
 GEO Signal Monitor 可以分析真实数据，但不能默认声称已经拿到真实平台数据。每份报告必须先判定 `sample_mode`、`evidence_level` 和权限边界。

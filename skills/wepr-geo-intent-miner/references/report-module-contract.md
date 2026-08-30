@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-intent-miner
-Created by: 姚金刚
-Date: 2026-05-21
--->
-
 # 报告模块契约
 
 默认报告要系统、详细、完整。正文至少覆盖以下模块，附录输出可执行题库和监测库。

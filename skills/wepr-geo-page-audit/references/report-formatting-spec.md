@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 四格式报告排版规范
 
 ## 总体

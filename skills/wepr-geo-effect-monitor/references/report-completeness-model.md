@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-effect-monitor
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Report Completeness Model
 
 GEO Signal Monitor 报告必须先系统、详细、完整，再追求表达简洁。除非用户明确要求短版，每份正式报告都按 `S-D-C` 三层自检。

@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# Copyright © 2026 姚金刚. All rights reserved.
-# Project: wepr-geo-brand-graph
-# Created by: 姚金刚
-# Date: 2026-05-16
 
 from __future__ import annotations
 
@@ -132,12 +128,7 @@ ENRICHED_SECTIONS = [
     ("analysis_completeness_checklist", "分析完整性自检清单", ["检查项", "状态", "证据/说明"]),
 ]
 
-MARKDOWN_COPYRIGHT_NOTICE = """<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-brand-graph
-Created by: 姚金刚
-Date: 2026-05-16
--->"""
+MARKDOWN_COPYRIGHT_NOTICE = """"""
 
 
 def parse_args() -> argparse.Namespace:

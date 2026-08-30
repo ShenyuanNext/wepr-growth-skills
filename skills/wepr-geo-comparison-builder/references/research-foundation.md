@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-comparison-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 研究基础：GEO-CITER-S 框架
 
 本 skill 使用 `GEO-CITER-S`：Comparison scope、Information gain、Traceable evidence、Equitable comparison、Repair loop、Systematic completeness。

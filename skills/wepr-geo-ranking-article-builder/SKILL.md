@@ -3,13 +3,6 @@ name: wepr-geo-ranking-article-builder
 description: 基于品牌资料、选题、关键词、竞品信息和可信来源，制作有评选依据的 GEO 榜单、评测、替代方案和对比文章。内容可覆盖最佳选择、热门方案、竞品替代、品牌对比、适用人群和使用场景，并包含评选方法、对比表、正文、FAQ 与来源表；适配 DeepSeek、豆包、千问、Kimi、腾讯元宝，可交付 Word、PDF、HTML 和 Markdown。不用于全景诊断、后端归因、单页审计、单独生成标题或无证据排行。
 ---
 
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-ranking-article-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # WEPR GEO Ranking Article Builder
 
 ## 使用边界

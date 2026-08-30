@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-title-optimizer
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Systematic Reporting Framework
 
 Use this reference when a GEO title report must be more systematic, detailed, and complete than a simple candidate list.

@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# Copyright © 2026 姚金刚. All rights reserved.
-# Project: wepr-geo-intent-miner
-# Created by: 姚金刚
-# Date: 2026-05-21
 
 """Render WEPR GEO Intent Miner reports into Markdown, HTML, DOCX, and PDF."""
 

@@ -48,8 +48,10 @@ The workspace discovery script tracks these groups when evidence exists:
 - materials, tasks, jobs, and articles
 - enterprise knowledge and growth center
 - analytics and AI visibility
+- Admin UI V3, system knowledge, illustrated help, and article AI quality inspection
 - distribution and channel frontend experience
-- URL import and system updates
+- hosted channel sites, browser operations, and PWA
+- URL import and the independent updater boundary
 - theme catalog, replication, live editor, and homepage builder
 - queues and Horizon
 - legacy root PHP frontend

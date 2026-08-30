@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-ranking-article-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 研究基础
 
 本 skill 的底层假设是：GEO 榜单文章不是“软文排名”，而是面向生成式搜索、问答摘要和真人采购决策的证据化比较内容。执行时优先把参考文献和标准转成写作约束。

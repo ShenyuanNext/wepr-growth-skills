@@ -1,14 +1,7 @@
 ---
 name: wepr-geo-intent-miner
-description: 挖掘 GEO 和 AI 搜索中的真实用户意图，并形成可执行的问题体系。适用于意图拓词、问题集与问题簇、连续追问链路、查询改写、内容选题库、FAQ 题库和监测提示词库建设。
+description: 挖掘 GEO 和 AI 搜索中的真实用户意图，并形成可执行的问题体系。适用于核心词+拓展词、槽位组合拓词、意图拓词、问题集与问题簇、连续追问链路、查询改写、内容选题库、FAQ 题库和监测提示词库建设；机械组合只能作为候选池，正式词库必须通过词根完整性、自然语言、场景、意图、证据与去重质检。
 ---
-
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-intent-miner
-Created by: 姚金刚
-Date: 2026-05-16
--->
 
 # WEPR GEO Intent Miner
 
@@ -22,6 +15,7 @@ Date: 2026-05-16
 
 - `references/research-foundation.md`
 - `references/intent-mining-method.md`
+- `references/structured-expansion-workbook-logic.md`
 - `references/cn-platform-adaptation.md`
 - `references/scoring-and-mapping.md`
 - `references/real-data-ingestion.md`
@@ -35,7 +29,7 @@ Date: 2026-05-16
 2. 判断真实数据模式：`未接入 / 用户提供 / 工具或连接器导入 / 已采样校准`。没有真实数据时，必须输出数据缺口和采样计划，不能伪造真实平台回答、搜索量或转化数据。
 3. 做事实与证据校准：品牌、产品、价格、合规、竞品和行业事实必须标注来源状态，未校准信息只能作为假设或待确认项。
 4. 建立双层意图：先映射到信息、导航/验证、交易/行动任务层，再扩展为九类 GEO 操作意图。
-5. 按角色、场景、决策阶段、约束条件、证据需求和内容资产用途生成完整自然语言问题，不能只堆短关键词。
+5. 按角色、场景、决策阶段、约束条件、证据需求和内容资产用途生成完整自然语言问题，不能只堆短关键词。用户要求“核心词+拓展词”、每词固定数量或参考拓词表格时，读取 `references/structured-expansion-workbook-logic.md`，先用槽位组合扩充候选池，再做语义筛选；若要求拓展词完整包含核心词，逐条做字符串与语义双重校验。
 6. 输出五段式重写：口语问法、独立重写、检索短语、证据查询、标题输入。
 7. 保留多轮追问链路：`root_question_id / parent_question_id / standalone_rewrite / context_dependency / platform_fit`。
 8. 聚类去重，按问题目标、用户角色、约束条件、资产用途和合规等级合并同义问题。

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-effect-monitor
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Monitoring Method
 
 | 组别 | 目的 | 示例模式 |

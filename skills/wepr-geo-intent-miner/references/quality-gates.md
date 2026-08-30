@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-intent-miner
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 质量门
 
 - 正文必须覆盖 `report-module-contract.md` 的核心模块；示例报告不少于 15 个正文模块。

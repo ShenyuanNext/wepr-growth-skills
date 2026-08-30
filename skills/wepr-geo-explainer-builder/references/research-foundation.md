@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-explainer-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 研究基础
 
 本 skill 采用 GEO-EXPLAIN-SYS 框架：上下文无关摘要、意图矩阵、读者场景、实体与术语地图、证据分级、步骤化推理、长上下文抗丢失、结构化数据、可访问 HTML 报告、品牌非操纵式植入和可复盘衡量。

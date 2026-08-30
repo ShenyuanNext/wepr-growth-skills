@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-comparison-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # GEO 品牌对比内容质量门
 
 - 比较必须同口径；不能 A 写价格、B 写服务、C 写口碑。

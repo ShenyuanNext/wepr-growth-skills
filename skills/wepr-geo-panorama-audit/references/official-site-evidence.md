@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-panorama-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 官网抓取与证据核验规范
 
 ## 抓取范围

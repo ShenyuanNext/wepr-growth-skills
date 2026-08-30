@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-comparison-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 品牌对比报告版式
 
 - Markdown：内容母版，语义化标题、中文字段和标准 Markdown 表格。

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-effect-monitor
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Artifact Layout
 
 - Markdown 是内容源，HTML、Word、PDF 从同一份 Markdown 或结构化数据生成。

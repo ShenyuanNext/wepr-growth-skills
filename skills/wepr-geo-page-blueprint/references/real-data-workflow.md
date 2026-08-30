@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-blueprint
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 真实数据接入与核验流程
 
 `wepr-geo-page-blueprint` 默认可以离线运行；如果用户要求真实数据，必须先进入数据模式判断，而不是直接把模型记忆写成事实。

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-panorama-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # GEO 特征评分模型
 
 总分不直接等于业务效果，只用于定位可控优化机会。每项 1-5 分，必须给出证据或扣分原因。

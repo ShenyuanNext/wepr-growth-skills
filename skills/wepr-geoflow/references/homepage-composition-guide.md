@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: geoflow
-Created by: 姚金刚
-Date: 2026-06-23
--->
-
 # Homepage Composition Guide
 
 Use this reference when a GEOFlow theme request asks for a fuller homepage, a corporate-site feel, a portal-style front page, or modules beyond a basic article list.

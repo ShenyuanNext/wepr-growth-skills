@@ -3,13 +3,6 @@ name: wepr-geo-title-optimizer
 description: 为中文内容团队生成和筛选 GEO 标题，并进行评分、合规检查及标题与正文的匹配。适用于文章、网页、FAQ、对比内容和专题聚合页的标题策划与优化。
 ---
 
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-title-optimizer
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # wepr-geo-title-optimizer
 
 Use this skill when the user needs GEO title generation, title optimization, title scoring, title compliance checks, or title-to-article-structure mapping for Chinese content production.

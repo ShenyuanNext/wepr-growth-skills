@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-chatgpt-crawler
-Created by: 姚金刚
-Date: 2026-06-25
--->
-
 # ChatGPT AI Search Crawl Brief
 
 ## Run Basics

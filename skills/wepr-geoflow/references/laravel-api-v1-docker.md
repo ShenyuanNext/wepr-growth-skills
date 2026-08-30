@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: geoflow
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Laravel API v1, Docker, And Admin Fallback
 
 Use this reference when the target GEOFlow workspace is a Laravel app and no `bin/geoflow` wrapper is available. `/api/v1` is the normal scriptable content-operations path. Current GEOFlow also has many admin-only workflows under the configurable admin prefix; use authenticated admin web for those.

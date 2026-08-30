@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-knowledge-base-builder
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Knowledge Base Architecture
 
 This reference combines the formal AI brand knowledge-base structure from `ai-brand-kb-builder` with the evidence-led GEO reuse layer in this skill. It is also aligned with Schema.org entity typing, W3C PROV-O provenance thinking, W3C SKOS vocabulary/alias modeling, and Google Search Central structured-data module thinking.

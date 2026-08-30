@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-page-audit
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # 系统化报告模块分类
 
 页面 GEO 诊断报告必须完整回答“诊断了什么、依据是什么、风险在哪里、怎么改、如何验收”。除非用户明确要求轻量版，默认使用下列模块。

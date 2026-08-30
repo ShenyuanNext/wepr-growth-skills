@@ -63,7 +63,7 @@ Before running a standard report, prepare these four inputs:
 ```text
 1. 关键词：one or more DeepSeek questions, one per line
 2. 轮询次数：how many times each keyword should be queried
-3. 目标实体：the entity to diagnose, for example 新东方、姚金刚、某产品名、某公司名
+3. 目标实体：the entity to diagnose, for example 新东方、某创始人、某产品名、某公司名
 4. 实体类型：人, 公司, or 产品
 ```
 

@@ -28,7 +28,7 @@
 ## Warnings
 
 - No dependency or lock file is required; runtime prerequisites are documented in `README.md`.
-- The upstream automated trust scanner currently classifies Python direct calls only. This reviewed report additionally covers Bash `curl`, delegated Laravel live reads, and the loopback preview listener. Package regression tests enforce the supplemental inventory.
+- The automated trust scanner currently classifies Python direct calls only. This reviewed report additionally covers Bash `curl`, delegated Laravel live reads, and the loopback preview listener. Package regression tests enforce the supplemental inventory.
 
 ## Dependency Evidence
 

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-execution-roadmap
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # China AI Platform Adaptation
 
 ## 五个平台执行面

@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: geoflow
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # Template Boundary
 
 The `public_frontend` mode covers GEOFlow frontend template cloning, theme discovery, preview-first theme editing, and controlled design adjustments while preserving GEOFlow's rendering contract.

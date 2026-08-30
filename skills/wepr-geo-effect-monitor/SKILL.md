@@ -3,13 +3,6 @@ name: wepr-geo-effect-monitor
 description: 设计 GEO 信号监测体系，用于跟踪 DeepSeek、豆包、千问、Kimi、腾讯元宝等 AI 平台的回答、引用来源和品牌事实变化。适用于制定监测方案、纠偏闭环、月报、预警规则、看板字段及审慎的效果归因框架。
 ---
 
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-geo-effect-monitor
-Created by: 姚金刚
-Date: 2026-05-16
--->
-
 # WEPR GEO Effect Monitor
 
 ## When To Use

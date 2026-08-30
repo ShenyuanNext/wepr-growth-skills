@@ -1,10 +1,3 @@
-<!--
-Copyright © 2026 姚金刚. All rights reserved.
-Project: wepr-deepseek-crawler
-Created by: 姚金刚
-Date: 2026-06-20
--->
-
 # WEPR DeepSeek Crawler Brief
 
 - `skill_id`: `wepr-deepseek-crawler`
