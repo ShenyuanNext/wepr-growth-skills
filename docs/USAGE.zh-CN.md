@@ -30,6 +30,7 @@
 | `$xiaohongshu-conversion-path` | 设计内容、主页、私信、咨询、体验、购买和复访路径 |
 | `$distill-creator-playbook` | 从公开账号提炼原创、可测试的内容方法 |
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
+| `$wepr-limited-ink-visuals` | 设计并生成单色或双色的海报、封面与编辑视觉 |
 | `$analyze-brand-strategy` | 以证据分析品牌定位、差异化、竞争和出海路径 |
 | `$create-marketing-content` | 把业务证据写成可信、可发布的多平台内容 |
 | `$wepr-marketing` | 形成客户营销方案、传播策略、早期获客计划与转化文案 |
@@ -202,6 +203,14 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：完整文章、载体、比例、数量、品牌规范、是否直接生成图片。默认先做镜头清单；明确要求生成且工具可用时直接生成。
+
+### 限色编辑视觉
+
+```text
+使用 $wepr-limited-ink-visuals。为这场品牌活动设计一张4:5双色社交海报：先确定主墨、强调墨、构图和复制质感，再生成图片并检查文字、原创性和移动端裁切。
+```
+
+重要输入：传播任务、载体、比例、品牌规范、必须保留的文字、可用素材、参考图及授权边界。单张视觉可直接使用本技能；文章需要多张配图时，先用 `$plan-editorial-illustrations` 完成镜头规划。
 
 ### 品牌战略分析
 

@@ -56,6 +56,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 ├── wepr-presentation-workbench（PPTX 与 HTML 演示文档统一入口）
 ├── wepr-slides（单文件交互式演示文档）
 ├── plan-editorial-illustrations
+├── wepr-limited-ink-visuals（单色/双色编辑视觉与成品生成）
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite
     ├── xiaohongshu-profile
@@ -69,7 +70,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 技能与 WEPR 官网服务对应关系
 
-以下为 49 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
+以下为 50 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
 
 | WEPR 服务 | 官网具体服务内容 | 对应分支技能 |
 | --- | --- | --- |
@@ -80,7 +81,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | [小红书全案营销](https://www.scwepr.com/services/xiaohongshu-marketing.html) | 整合内容种草、笔记 SEO、聚光投流、搜索词优化、点点优化和 AI 榜单优化 | `plan-xiaohongshu-growth`、`xiaohongshu-suite`、`xiaohongshu-profile`、`xiaohongshu-topic-planner`、`xiaohongshu-title`、`xiaohongshu-comment-reply`、`xiaohongshu-conversion-path` |
 | [Wikipedia 与国内百科](https://www.scwepr.com/services/wikipedia-baike.html) | 从资格、来源和中立性评估出发，规划百科创建、更新与长期知识资产维护 | `wepr-geo-brand-graph`、`wepr-geo-knowledge-base-builder` |
 | [Google Ads 与 App 获客](https://www.scwepr.com/services/google-ads-app-growth.html) | 连接市场策略、广告账户、素材、归因和持续实验，获取可衡量的安装、激活、线索和销售 | `audit-digital-growth`、`plan-paid-media`、`wepr-advertising-workbench` |
-| [中国品牌出海增长](https://www.scwepr.com/services/china-brand-global-growth.html) | 将市场洞察、搜索、AI、媒体、社区、内容和广告组合成分阶段增长路线 | `wepr-client-discovery`、`wepr-business-workbench`、`wepr-growth-operations`、`analyze-brand-strategy`、`create-marketing-content`、`wepr-marketing`、`wepr-editorial-quality`、`wepr-human-writing`、`wepr-presentation-workbench`、`wepr-slides`、`plan-editorial-illustrations` |
+| [中国品牌出海增长](https://www.scwepr.com/services/china-brand-global-growth.html) | 将市场洞察、搜索、AI、媒体、社区、内容和广告组合成分阶段增长路线 | `wepr-client-discovery`、`wepr-business-workbench`、`wepr-growth-operations`、`analyze-brand-strategy`、`create-marketing-content`、`wepr-marketing`、`wepr-editorial-quality`、`wepr-human-writing`、`wepr-presentation-workbench`、`wepr-slides`、`plan-editorial-illustrations`、`wepr-limited-ink-visuals` |
 
 ### 技能治理与调用原则
 
@@ -131,6 +132,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `xiaohongshu-conversion-path` | 小红书转化路径 | 内容到主页、私信、咨询、体验、购买与复访 | 阶段路径、阻力、内容分工、筛选问题、指标与交付风险 |
 | `distill-creator-playbook` | 创作者内容蒸馏 | 博主拆解、对标账号、内容模式研究 | 样本账本、定位、选题、结构、证据强度和原创执行手册 |
 | `plan-editorial-illustrations` | 编辑插画规划 | 文章配图、小红书配图、公众号插画、提示词与质检 | 配图地图、镜头清单、生成提示词、替代文本和视觉质检 |
+| `wepr-limited-ink-visuals` | 限色编辑视觉 | 单色/双色海报、封面、社交图片、包装概念、文章和演示重点视觉 | 视觉系统、色版与构图、生成提示词、成品图片和六维质检 |
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
 | `wepr-marketing` | 营销策略工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
@@ -159,6 +161,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 不确定小红书任务应从哪里开始：使用 `$xiaohongshu-suite`；明确是主页、选题、标题、评论或转化时，直接使用对应的 `$xiaohongshu-*` 专项技能。
 - 要从公开账号提炼可复用方法：使用 `$distill-creator-playbook`。
 - 要把文章转成统一的配图系统：使用 `$plan-editorial-illustrations`。
+- 要设计或生成单色/双色、半调、孔版印刷感或复印颗粒的海报、封面和传播视觉：使用 `$wepr-limited-ink-visuals`；文章整组配图先由 `$plan-editorial-illustrations` 规划镜头。
 - 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
 - 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$wepr-marketing`。
@@ -247,6 +250,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 
 ```text
 使用 $plan-editorial-illustrations，为这篇文章设计6张统一风格配图，先给镜头清单和生成提示词。
+```
+
+```text
+使用 $wepr-limited-ink-visuals，为这场品牌活动设计一张4:5双色社交海报：先确定主墨、强调墨、构图和复制质感，再生成图片并检查文字、原创性和移动端裁切。
 ```
 
 ```text
@@ -391,6 +398,7 @@ Content production and account operations
 ├── wepr-presentation-workbench (unified PPTX and HTML presentation delivery)
 ├── wepr-slides (single-file interactive presentations)
 ├── plan-editorial-illustrations
+├── wepr-limited-ink-visuals (one- and two-ink editorial visuals)
 └── Xiaohongshu Workbench
     ├── xiaohongshu-suite
     ├── xiaohongshu-profile
@@ -404,7 +412,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Skills mapped to WEPR services
 
-The table assigns all 49 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
+The table assigns all 50 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
 
 | WEPR service | Concrete service scope | Branch skills |
 | --- | --- | --- |
@@ -415,7 +423,7 @@ The table assigns all 49 branch skills to their primary client-service line. Cro
 | [Xiaohongshu integrated marketing](https://www.scwepr.com/services/xiaohongshu-marketing.html) | Combine content seeding, post SEO, paid amplification, search-term optimization, in-app AI optimization, and AI-list visibility | `plan-xiaohongshu-growth`, `xiaohongshu-suite`, `xiaohongshu-profile`, `xiaohongshu-topic-planner`, `xiaohongshu-title`, `xiaohongshu-comment-reply`, `xiaohongshu-conversion-path` |
 | [Wikipedia and Chinese encyclopedias](https://www.scwepr.com/services/wikipedia-baike.html) | Assess eligibility, sources, and neutrality before creating, updating, and maintaining long-term knowledge assets | `wepr-geo-brand-graph`, `wepr-geo-knowledge-base-builder` |
 | [Google Ads and app acquisition](https://www.scwepr.com/services/google-ads-app-growth.html) | Connect market strategy, ad accounts, creative, attribution, and continuous experiments to measurable installs, activation, leads, and sales | `audit-digital-growth`, `plan-paid-media`, `wepr-advertising-workbench` |
-| [China-brand global growth](https://www.scwepr.com/services/china-brand-global-growth.html) | Combine market insight, search, AI, media, community, content, and advertising into a staged global-growth roadmap | `wepr-client-discovery`, `wepr-business-workbench`, `wepr-growth-operations`, `analyze-brand-strategy`, `create-marketing-content`, `wepr-marketing`, `wepr-editorial-quality`, `wepr-human-writing`, `wepr-presentation-workbench`, `wepr-slides`, `plan-editorial-illustrations` |
+| [China-brand global growth](https://www.scwepr.com/services/china-brand-global-growth.html) | Combine market insight, search, AI, media, community, content, and advertising into a staged global-growth roadmap | `wepr-client-discovery`, `wepr-business-workbench`, `wepr-growth-operations`, `analyze-brand-strategy`, `create-marketing-content`, `wepr-marketing`, `wepr-editorial-quality`, `wepr-human-writing`, `wepr-presentation-workbench`, `wepr-slides`, `plan-editorial-illustrations`, `wepr-limited-ink-visuals` |
 
 ### Skill governance and routing
 
@@ -452,6 +460,7 @@ The table assigns all 49 branch skills to their primary client-service line. Cro
 | `xiaohongshu-conversion-path` | Xiaohongshu conversion path | Content to profile, inquiry, trial, purchase, and return | Stage map, friction, content jobs, qualification, metrics, delivery risks |
 | `distill-creator-playbook` | Creator-pattern distillation | Creator research, benchmark accounts, content-pattern analysis | Sample ledger, positioning, structures, evidence strength, original playbook |
 | `plan-editorial-illustrations` | Editorial illustration planning | Article visuals, social illustrations, prompts, visual QA | Placement map, shot list, prompts, alt text, QA findings |
+| `wepr-limited-ink-visuals` | Limited-ink editorial visuals | One- or two-ink posters, covers, social images, packaging concepts, and hero visuals | Visual system, ink roles, composition, generation prompts, final images, six-part QA |
 | `analyze-brand-strategy` | Evidence-aware positioning and brand strategy | Positioning, differentiation, repositioning, competition, youth strategy, international expansion | Readiness gate, five-role competition set, D6 advantage test, options, falsification conditions, activation roadmap |
 | `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
 | `wepr-marketing` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
@@ -479,6 +488,7 @@ The table assigns all 49 branch skills to their primary client-service line. Cro
 - Use `$xiaohongshu-suite` when the blocked Xiaohongshu stage is unclear; use the matching `$xiaohongshu-*` specialist directly for profile, topics, titles, comments, or conversion.
 - Use `$distill-creator-playbook` to turn public creator content into an evidence-tagged original playbook.
 - Use `$plan-editorial-illustrations` to translate an article into a coherent illustration system.
+- Use `$wepr-limited-ink-visuals` to design or generate one- or two-ink posters, covers, and campaign visuals using controlled halftone, stencil-print, or photocopy texture. Route an article-wide illustration plan through `$plan-editorial-illustrations` first.
 - Use `$analyze-brand-strategy` to diagnose evidence-aware positioning, differentiation, competition, or international expansion. It checks readiness and covers direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark.
 - Use `$create-marketing-content` to turn business evidence into credible platform-native content.
 - Use `$wepr-marketing` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
@@ -578,6 +588,10 @@ Use $distill-creator-playbook to analyze 30 public posts from these accounts and
 
 ```text
 Use $plan-editorial-illustrations to design six coherent article illustrations, starting with a shot list and generation prompts.
+```
+
+```text
+Use $wepr-limited-ink-visuals to create a 4:5 two-ink social poster for this brand event. Define ink roles, composition, and reproduction texture, then generate the image and check copy, originality, and mobile cropping.
 ```
 
 ```text

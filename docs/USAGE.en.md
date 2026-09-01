@@ -28,6 +28,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$xiaohongshu-conversion-path` | Design content-to-profile-to-action and delivery paths |
 | `$distill-creator-playbook` | Distill public creator content into an original testable playbook |
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
+| `$wepr-limited-ink-visuals` | Design and generate one- or two-ink posters, covers, and editorial visuals |
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
 | `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
@@ -182,6 +183,14 @@ Use $plan-editorial-illustrations to design six 16:9 visuals for this article us
 ```
 
 Provide the complete article, publishing surface, ratio, count, brand rules, and whether images should be generated. The default is a shot list; explicit generation requests should proceed when an image tool is available.
+
+### Limited-ink editorial visuals
+
+```text
+Use $wepr-limited-ink-visuals to create a 4:5 two-ink social poster for this brand event. Define ink roles, composition, and reproduction texture, then generate the image and check copy, originality, and mobile cropping.
+```
+
+Provide the communication job, surface, ratio, brand rules, protected copy, available assets, references, and usage rights. Use this skill directly for individual visuals; route an article-wide image set through `$plan-editorial-illustrations` first.
 
 ### Brand strategy analysis
 
