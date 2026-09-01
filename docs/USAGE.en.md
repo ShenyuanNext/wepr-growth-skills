@@ -28,7 +28,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$xiaohongshu-conversion-path` | Design content-to-profile-to-action and delivery paths |
 | `$distill-creator-playbook` | Distill public creator content into an original testable playbook |
 | `$plan-editorial-illustrations` | Translate articles into coherent illustration systems |
-| `$wepr-limited-ink-visuals` | Design and generate one- or two-ink posters, covers, and editorial visuals |
+| `$wepr-limited-ink-visuals` | Design and generate limited-ink, halftone, fine-bitmap, and reverse-halftone editorial visuals |
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
 | `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
@@ -191,6 +191,8 @@ Use $wepr-limited-ink-visuals to create a 4:5 two-ink social poster for this bra
 ```
 
 Provide the communication job, surface, ratio, brand rules, protected copy, available assets, references, and usage rights. Use this skill directly for individual visuals; route an article-wide image set through `$plan-editorial-illustrations` first.
+
+For fine-bitmap work, specify the subject, title policy, and ratio. The skill builds tone through micro-pixel density, dot spacing, missing pixels, and stepped edges while excluding game sprites, 8-bit scenes, interfaces, and chunky pixel art.
 
 ### Brand strategy analysis
 

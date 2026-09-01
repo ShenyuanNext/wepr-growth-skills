@@ -30,7 +30,7 @@
 | `$xiaohongshu-conversion-path` | 设计内容、主页、私信、咨询、体验、购买和复访路径 |
 | `$distill-creator-playbook` | 从公开账号提炼原创、可测试的内容方法 |
 | `$plan-editorial-illustrations` | 把文章转成统一的配图镜头和生成提示词 |
-| `$wepr-limited-ink-visuals` | 设计并生成单色或双色的海报、封面与编辑视觉 |
+| `$wepr-limited-ink-visuals` | 设计并生成限色、半调、细点阵和反向半调编辑视觉 |
 | `$analyze-brand-strategy` | 以证据分析品牌定位、差异化、竞争和出海路径 |
 | `$create-marketing-content` | 把业务证据写成可信、可发布的多平台内容 |
 | `$wepr-marketing` | 形成客户营销方案、传播策略、早期获客计划与转化文案 |
@@ -211,6 +211,8 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：传播任务、载体、比例、品牌规范、必须保留的文字、可用素材、参考图及授权边界。单张视觉可直接使用本技能；文章需要多张配图时，先用 `$plan-editorial-illustrations` 完成镜头规划。
+
+需要细点阵位图时，请说明主体、标题策略和比例。技能会用微像素密度、点距、缺失像素与阶梯边缘建模，同时排除游戏精灵、八位机场景、界面和粗大像素。
 
 ### 品牌战略分析
 
