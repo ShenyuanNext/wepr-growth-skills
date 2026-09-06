@@ -1,4 +1,4 @@
 interface:
   display_name: "WEPR 营销策略工作台"
-  short_description: "制定客户营销方案、传播策略和文案"
-  default_prompt: "使用 $wepr-marketing 基于事实制定营销策略、执行路线图和客户可用文案。"
+  short_description: "制定营销策略、首批用户计划、发布战役、转化与客户方案"
+  default_prompt: "使用 $wepr-marketing 基于事实制定营销策略、首批用户计划、发布与转化路线图，以及客户可用文案。"

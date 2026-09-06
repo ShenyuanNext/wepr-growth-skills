@@ -31,7 +31,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$wepr-limited-ink-visuals` | Design and generate limited-ink, halftone, fine-bitmap, and reverse-halftone editorial visuals |
 | `$analyze-brand-strategy` | Diagnose evidence-aware positioning, differentiation, competition, and expansion |
 | `$create-marketing-content` | Turn business evidence into credible platform-native content |
-| `$wepr-marketing` | Build client marketing plans, communication strategy, early acquisition, and conversion copy |
+| `$wepr-marketing` | Build strategy, first-user plans, launch campaigns, conversion systems, and client copy |
 | `$wepr-editorial-quality` | Diagnose mechanical writing and evidence risk, then minimally revise while preserving author voice |
 | `$wepr-human-writing` | Revise proposals, communication drafts, and copy into natural Chinese without changing business meaning |
 | `$wepr-presentation-workbench` | Plan and deliver editable PPTX and single-file HTML presentations through one route |
@@ -201,6 +201,14 @@ Use $analyze-brand-strategy to evaluate this brand's path into a younger market.
 ```
 
 Provide the decision, market, audience, offer and price architecture, channels, substitutes, research, and operating evidence. When evidence is incomplete, the skill should return validate-first or insufficient-evidence instead of manufacturing certainty. Use cases to study mechanisms, not to copy conclusions.
+
+### Marketing strategy and first users
+
+```text
+Use $wepr-marketing to build a first-100-qualified-users plan for a B2B SaaS with a working product. Define the early customer and value proposition, compare launch surfaces, founder outreach, content, and partnerships, then plan pre-launch, launch-day, and follow-up work with activation, retention, revenue, stop, and scale criteria.
+```
+
+Provide the product stage, target customer, price and sales cycle, evidence, budget, team, available channels, and success definition. The skill loads launch and distribution, founder sales and lifecycle, or validation, pricing, and conversion modules as needed; popular channel lists remain candidates until current rules and audience fit are verified.
 
 ### Marketing content creation
 

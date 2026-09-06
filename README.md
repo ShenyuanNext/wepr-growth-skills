@@ -50,7 +50,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-├── wepr-marketing（客户营销方案、传播与文案）
+├── wepr-marketing（营销策略、首批用户、发布、转化与客户方案）
 ├── wepr-editorial-quality（文稿质量审计、最小改写与作者声纹保护）
 ├── wepr-human-writing（自然中文写作与客户终稿润色）
 ├── wepr-presentation-workbench（PPTX 与 HTML 演示文档统一入口）
@@ -135,7 +135,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `wepr-limited-ink-visuals` | 限色编辑视觉 | 单色/双色、半调、细点阵位图、反向半调海报、封面、社交图片和重点视觉 | 视觉系统、色版与构图、位图建模、生成提示词、成品图片和六维质检 |
 | `analyze-brand-strategy` | 证据化品牌定位与战略 | 品牌定位、差异化、再定位、年轻化、竞争与品牌出海 | 就绪门槛、五类竞争参照、D6优势诊断、定位方案、反证条件与验证路线图 |
 | `create-marketing-content` | 营销内容创作 | 公众号、品牌内容、案例、观点、跨平台改写 | 素材账本、内容结构、成稿、标题和编辑质检 |
-| `wepr-marketing` | 营销策略工作台 | 客户方案、传播策略、获客路径、发布计划、转化文案 | ICP、定位、渠道优先级、30/60/90 路线图、KPI 与成品文案 |
+| `wepr-marketing` | 营销策略工作台 | 客户方案、首批用户、发布战役、创始人销售、生命周期、定价、转化与免费工具获客 | ICP、定位、渠道优先级、发布计划、增长闭环、转化实验、路线图与成品文案 |
 | `wepr-editorial-quality` | 文稿质量工作台 | 方案、传播、公关、广告和品牌内容的机械表达诊断、最小改写与声纹保护 | 问题证据表、完整改写稿、变更说明与事实风险提示 |
 | `wepr-human-writing` | 自然中文写作 | 客户方案、传播稿、品牌文章、营销文案和终稿润色 | 素材缺口、自然中文成稿、机械表达诊断与事实风险提示 |
 | `wepr-presentation-workbench` | 演示文档工作台 | 客户方案、传播提案、商业计划、报价、复盘、培训和发布会的 PPTX 或 HTML 制作 | 叙事结构、页面计划、可编辑成品、演讲备注与逐页质检 |
@@ -164,7 +164,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 要设计或生成单色/双色、半调、细点阵位图、反向半调、孔版印刷感或复印颗粒的海报、封面和传播视觉：使用 `$wepr-limited-ink-visuals`；它会区分编辑位图与游戏像素画，文章整组配图先由 `$plan-editorial-illustrations` 规划镜头。
 - 要诊断品牌价值、定位、差异化、竞争或出海路径：使用 `$analyze-brand-strategy`。它会先检查研究资料是否足够，再区分直接竞品、间接替代、现状、不行动和心智标杆。
 - 要把业务素材写成可信的多平台内容：使用 `$create-marketing-content`。
-- 要形成客户营销方案、传播策略、早期获客计划或转化文案：使用 `$wepr-marketing`。
+- 要形成客户营销方案、传播策略、首批用户计划、产品发布、创始人销售、生命周期增长、定价/CRO、免费工具获客或转化文案：使用 `$wepr-marketing`。
 - 要检查文稿中的机械表达、空泛判断、模板化节奏和证据风险，或在保留作者个人语气的前提下做最小改写：使用 `$wepr-editorial-quality`。它不判断文本是否由 AI 创作。
 - 要在不改变事实、数据和承诺的前提下，让方案、传播稿或营销文案更自然、更符合中文阅读习惯：使用 `$wepr-human-writing`。策略和内容结构尚未确定时，先使用对应的营销、公关或内容技能。
 - 要制作、重构或审校可编辑 PPTX 或单文件 HTML 演示，并处理叙事、客户模板、图表、演讲备注和逐页质检：使用 `$wepr-presentation-workbench`。
@@ -234,6 +234,10 @@ cp -R wepr-growth-skills/skills/plan-organic-growth ~/.agents/skills/
 
 ```text
 使用 $plan-organic-growth，为一个新 SaaS制定 SEO、GEO、Reddit和Product Hunt 的90 天冷启动计划。
+```
+
+```text
+使用 $wepr-marketing，为一个 B2B SaaS 制定首批100名合格用户计划：比较发布平台、创始人外联、内容和合作渠道，设计发布前/发布日/发布后节奏，并给出激活、留存、收入和停止/扩量标准。
 ```
 
 ```text
@@ -396,7 +400,7 @@ Content production and account operations
 ├── launch-content-account
 ├── distill-creator-playbook
 ├── create-marketing-content
-├── wepr-marketing (client plans, communications, and copy)
+├── wepr-marketing (strategy, first users, launches, conversion, and client plans)
 ├── wepr-editorial-quality (editorial diagnosis, minimal revision, and voice preservation)
 ├── wepr-human-writing (natural Chinese writing and final revision)
 ├── wepr-presentation-workbench (unified PPTX and HTML presentation delivery)
@@ -467,7 +471,7 @@ The table assigns all 50 branch skills to their primary client-service line. Cro
 | `wepr-limited-ink-visuals` | Limited-ink editorial visuals | One- or two-ink, halftone, fine-bitmap, reverse-halftone posters, covers, and hero visuals | Visual system, ink roles, bitmap construction, generation prompts, final images, six-part QA |
 | `analyze-brand-strategy` | Evidence-aware positioning and brand strategy | Positioning, differentiation, repositioning, competition, youth strategy, international expansion | Readiness gate, five-role competition set, D6 advantage test, options, falsification conditions, activation roadmap |
 | `create-marketing-content` | Marketing content creation | Articles, brand content, cases, thought leadership, adaptation | Source ledger, structure, final copy, headlines, editorial QA |
-| `wepr-marketing` | Founder marketing workbench | Client plans, communication strategy, early acquisition, launches, conversion copy | ICP, positioning, channel priorities, 30/60/90 roadmap, KPIs, finished copy |
+| `wepr-marketing` | Founder marketing workbench | Client plans, first users, launches, founder sales, lifecycle, pricing, conversion, and free-tool acquisition | ICP, positioning, channel priorities, launch plan, growth loops, conversion experiments, roadmap, finished copy |
 | `wepr-editorial-quality` | Editorial quality workbench | Mechanical-pattern diagnosis, minimal revision, evidence checks, and author-voice preservation across client content | Evidence-tagged findings, full revision, change notes, fact-risk flags |
 | `wepr-human-writing` | Natural Chinese writing | Client proposals, communication drafts, brand articles, marketing copy, final revision | Material gaps, natural Chinese copy, mechanical-writing diagnosis, fact-risk notes |
 | `wepr-presentation-workbench` | Presentation workbench | PPTX or HTML proposals, plans, quotations, reviews, training, and launches | Narrative, slide plan, editable deck, speaker notes, rendered QA |
@@ -495,7 +499,7 @@ The table assigns all 50 branch skills to their primary client-service line. Cro
 - Use `$wepr-limited-ink-visuals` to design or generate one- or two-ink, halftone, fine-bitmap, reverse-halftone, stencil-print, or photocopy campaign visuals. It distinguishes editorial bitmap print from game pixel art. Route an article-wide illustration plan through `$plan-editorial-illustrations` first.
 - Use `$analyze-brand-strategy` to diagnose evidence-aware positioning, differentiation, competition, or international expansion. It checks readiness and covers direct competitors, indirect alternatives, the current workaround, inaction, and the mental benchmark.
 - Use `$create-marketing-content` to turn business evidence into credible platform-native content.
-- Use `$wepr-marketing` for client marketing plans, communication strategy, early acquisition, launch plans, or conversion copy.
+- Use `$wepr-marketing` for client plans, communication strategy, first-user acquisition, product launches, founder sales, lifecycle growth, pricing/CRO, free-tool acquisition, or conversion copy.
 - Use `$wepr-editorial-quality` to identify observable mechanical writing, generic claims, templated rhythm, or evidence risk, and to make the smallest useful revision while preserving the author's voice. It does not infer whether AI wrote the text.
 - Use `$wepr-human-writing` to make Chinese proposals, communication drafts, and marketing copy sound natural without changing facts, data, scope, or promises. Use the relevant strategy or content skill first when the message and structure are not yet settled.
 - Use `$wepr-presentation-workbench` to create, reconstruct, or audit editable PPTX or single-file HTML presentations with narrative planning, templates, charts, speaker notes, and rendered visual QA.

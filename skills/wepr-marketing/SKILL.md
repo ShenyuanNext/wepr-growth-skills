@@ -1,6 +1,6 @@
 ---
 name: wepr-marketing
-description: 为创始人和增长团队制定以证据为基础的营销策略、市场进入计划、客户方案、传播计划、发布活动和转化文案。适用于早期获客、理想客户画像、品牌定位、渠道选择、30/60/90 天执行规划、网站与落地页文案、社交媒体、邮件、外呼、公关角度和用户生命周期沟通。不用于承诺缺乏依据的结果、虚构证据、自动化骚扰或隐瞒付费推广。
+description: 为创始人和增长团队制定以证据为基础的营销策略、市场进入计划、客户方案、传播计划、发布活动和转化文案。适用于早期获客、首批用户、理想客户画像、品牌定位、渠道选择、产品发布、创始人销售、生命周期增长、定价与转化、免费工具获客、30/60/90 天执行规划及客户交付。不用于承诺缺乏依据的结果、虚构证据、自动化骚扰或隐瞒付费推广。
 ---
 
 # WEPR 营销策略工作台
@@ -11,6 +11,9 @@ Turn a business objective into a focused growth system and client-ready delivera
 
 - **Strategy or proposal:** run the complete workflow and read `references/client-proposal-and-copy.md`.
 - **Launch or acquisition plan:** run sections 1–6 and read `references/founder-growth-framework.md`.
+- **Product launch, directory, community, or release campaign:** also read `references/launch-and-distribution.md`.
+- **Founder-led sales, outbound, partner, creator, affiliate, referral, email, or onboarding loop:** also read `references/sales-lifecycle-and-loops.md`.
+- **Idea validation, offer, pricing, landing page, conversion, or free-tool acquisition:** also read `references/validation-offer-and-conversion.md`.
 - **Communication or copywriting:** establish the brief and message ladder, then use the copy workflow in `references/client-proposal-and-copy.md`.
 - **Channel diagnosis:** establish evidence, score candidate channels, and recommend a test portfolio with stop/scale rules.
 - **Existing plan review:** separate facts from assumptions, identify gaps and contradictions, then rewrite only what improves decision quality.
@@ -42,6 +45,8 @@ Classify every material input as a **fact** (supplied or cited), **observation**
 
 Do not recommend scale before message-market evidence exists.
 
+Treat customer-count stages as orientation, not universal thresholds. Business model, price, sales cycle, regulation, usage frequency, and available proof can justify a different sequence; state why.
+
 ## 4. Define ICP and positioning
 
 Create an ICP with situation, trigger, job-to-be-done, pain, desired outcome, buying role, objections, current alternative, accessibility, and disqualifiers.
@@ -54,11 +59,13 @@ Then create a message ladder: audience → problem → trigger → alternative �
 
 ## 5. Select channels deliberately
 
-Consider the catalog in `references/founder-growth-framework.md`, but select only channels supported by audience presence and intent, message-format fit, economics and time-to-signal, team capacity, compliance risk, and compounding value. Score each candidate 1–5 on those dimensions. Recommend one primary channel, one supporting channel, and at most one experiment for an early-stage team. Explain exclusions.
+Consider the catalog in `references/founder-growth-framework.md`, but select only channels supported by audience presence and intent, message-format fit, economics and time-to-signal, team capacity, compliance risk, and compounding value. Score each candidate 1–5 on those dimensions. Recommend one primary channel, one supporting channel, and at most one experiment for an early-stage team. Explain exclusions. A directory list or popular tactic is only a candidate inventory: verify audience fit, current rules, editorial quality, cost, attribution and maintenance before recommending it.
 
 ## 6. Design experiments and measurement
 
 For every initiative specify hypothesis, audience, offer/message, channel, asset, owner, cost, launch date, leading indicator, business outcome, decision date, stop rule, and scale rule. Distinguish reach, qualified response, conversion, activation, retention, revenue, and referral. Avoid vanity metrics unless tied to the next behavior.
+
+Separate acquisition, activation, retention, monetization and referral. A launch spike is not a repeatable channel; an email open is not activation; a signup is not a retained customer. Define the next valuable behavior and the observation window for each experiment.
 
 ## 7. Produce the deliverable
 
