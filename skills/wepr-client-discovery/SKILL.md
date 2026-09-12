@@ -63,6 +63,4 @@ description: 通过结构化访谈、异步问卷、决策树和交接简报澄�
 - 公关传播：`$pr-strategy-workbench`
 - 市场与用户证据：`$wepr-market-signal-research`
 - 内容生产：`$create-marketing-content`
-- 报价与范围：`$wepr-pricing`
 - 自然中文与文稿质量：`$wepr-human-writing`、`$wepr-editorial-quality`
-

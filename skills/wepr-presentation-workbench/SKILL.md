@@ -61,6 +61,5 @@ description: 规划、创建、重构、审校和交付客户方案、传播提�
 - 运营方案的闭环、SOP、阶段路线、KPI、团队与治理逻辑：`$wepr-growth-operations`
 - 市场证据：`$wepr-market-signal-research`
 - 营销、公关和品牌策略：`$wepr-marketing`、`$pr-strategy-workbench`、`$analyze-brand-strategy`
-- 报价与服务范围：`$wepr-pricing`
 - 文案和中文终稿：`$create-marketing-content`、`$wepr-editorial-quality`、`$wepr-human-writing`
 - Bento HTML 制作：`$wepr-slides`

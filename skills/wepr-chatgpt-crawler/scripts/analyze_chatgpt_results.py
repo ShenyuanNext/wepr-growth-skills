@@ -137,7 +137,7 @@ ENTITY_ATTRIBUTE_PATTERNS = [
     r"^(?:教育部|工信部|商务部|民政部|市场监管总局|国家|官方|政府|行业|协会|权威)?(?:首批|首家|唯一|指定|认证|认可|备案|批准|授权|资质|合规|正规|持牌|牌照|许可|监管|推荐|示范|试点|重点|白名单).{0,10}(?:机构|公司|企业|集团|平台|服务商|品牌|单位)$",
     r"^.{0,16}(?:首批|首家|唯一|指定|认证|认可|备案|批准|授权|资质|合规|正规|持牌|牌照|许可|监管|推荐|示范|试点|重点|白名单).{0,8}(?:机构|公司|企业|集团|平台|服务商|品牌|单位)$",
     r"^(?:部分|不同|多家|代表|这类|哪类|市场|市面上|市场上|主流|本地|靠谱|专业|靠谱专业|横向测评|盘点|挑选|选择|选|再选|要求|看重|重视|追求|申请季挑选|帮你盘点|我整理了几个|我把几家|直接询问|可以询问).{0,14}(?:机构|公司|企业|集团|平台|服务商|品牌|留学|教育|咨询|中介)$",
-    r"^.{0,12}(?:盘点|测评|评测|对比|避坑|攻略|指南(?!者)|推荐|排名|排行|榜单|甄选|哪家|哪个|如何|怎么|何选|何甄选).{0,12}(?:机构|公司|企业|集团|平台|服务商|品牌|留学|教育|咨询|中介)$",
+    r"^.{0,12}(?:盘点|测评|评测|对比|避坑|攻略|指南(?!者)|推荐|排名|排行|榜单|甄选|哪家|哪个|如何|怎么|何选|怎样甄选).{0,12}(?:机构|公司|企业|集团|平台|服务商|品牌|留学|教育|咨询|中介)$",
     r"^.{0,12}(?:教育留学|语培留学|留学机构|咨询机构|中介机构)$",
     r"^.{0,12}(?:业务覆盖|收费低于|同步进行|语言考试|境外服务|细分领域|影响整个|并参与|不仅做|除了看|砍掉|隐形消费|服务短板).{0,12}(?:机构|公司|企业|集团|平台|服务商|品牌|留学|教育|咨询|中介)$",
     r"^(?:中华人民共和国|国家|教育部|政府|官方).{0,12}(?:教育|机构|公司|企业|集团|平台|服务商|品牌)$",
@@ -4590,7 +4590,7 @@ p { margin:0 0 12px; color:var(--olive); }
     <h2><span class="lang-zh">竞品分析</span><span class="lang-en">Competitor Analysis</span></h2>
     {bilingual_summary(
         f"本模块只比较与目标实体类型一致的实体，目标实体「{target.get('entity') or '未指定'}」作为基准，最多展示 1 个目标实体和 {max(item_limit - 1, 0)} 个同类型竞品。",
-        f"This section compares only same-type entities. The target entity \"{target.get('entity') or 'not specified'}\" is the baseline, with up to {max(item_limit - 1, 0)} competitors shown.",
+        f"This section compares only same-type entities. The target entity {target.get('entity') or 'not specified'} is the baseline, with up to {max(item_limit - 1, 0)} competitors shown.",
     )}
     <div class="chart-grid">
       <div class="chart"><h3><span class="lang-zh">目标与最佳 3 个竞品 100 分制雷达</span><span class="lang-en">Target vs Best 3 Competitors Radar</span></h3><div class="lang-zh">{render_benchmark_radar(radar_rows, metric_rows, 'zh')}</div><div class="lang-en">{render_benchmark_radar(radar_rows, metric_rows, 'en')}</div></div>

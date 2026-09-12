@@ -46,4 +46,4 @@
 
 ## WEPR commercial handoff
 
-Keep scope and pricing outside unverifiable performance claims. Define the unit of work, platform count, prompt count, sampling repeats, asset count, review rounds, reporting cadence, exclusions, and optional work. Use `$wepr-pricing` when a formal WEPR estimate is requested.
+Keep scope and pricing outside unverifiable performance claims. Define the unit of work, platform count, prompt count, sampling repeats, asset count, review rounds, reporting cadence, exclusions, and optional work. Use only the commercial terms and pricing authority supplied for the current client engagement.

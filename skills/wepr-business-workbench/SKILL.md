@@ -51,7 +51,6 @@ description: 澄清和诊断商业问题，并把模糊目标转化为可验证�
 - 付费与自然渠道：`$plan-paid-media`、`$plan-organic-growth`
 - 小红书完整工作流：`$xiaohongshu-suite`
 - 客户 PPTX 或交互式 HTML 演示：`$wepr-presentation-workbench`
-- 服务范围和报价：`$wepr-pricing`
 
 专项技能完成后，如果出现新的商业矛盾、关键假设或取舍，再返回本技能更新判断。
 

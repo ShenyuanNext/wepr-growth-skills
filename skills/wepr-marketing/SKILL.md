@@ -94,7 +94,6 @@ For copy, provide the working brief, message hierarchy, finished copy, 2–3 mea
 - PR crisis work: `$diagnose-pr-crisis`
 - Account launch: `$launch-content-account`
 - Xiaohongshu work: `$xiaohongshu-suite`
-- Pricing and scope: `$wepr-pricing`
 - Editable PPTX or interactive HTML presentation planning, authoring, presenter notes, and QA: `$wepr-presentation-workbench`
 - Natural Chinese final revision: `$wepr-human-writing`
 - Editorial quality, mechanical-pattern diagnosis, and author-voice preservation: `$wepr-editorial-quality`
