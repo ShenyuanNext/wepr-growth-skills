@@ -18,6 +18,21 @@ Work as an execution lead, not a commentator.
 7. Create a single fact base for statements, customer service, executives, legal, media, and sales.
 8. Define monitoring, decision owners, next-update time, and postmortem criteria.
 
+## Opinion-state discipline
+
+Do not label one complaint, article, screenshot, or rumor as a public-opinion event. Use one of four states:
+
+- **insufficient spread evidence:** reach, repetition, or cross-platform evidence cannot yet support a state;
+- **isolated signal:** limited distribution without a repeated public frame;
+- **emerging public narrative:** repeated language, connected cases, or meaningful amplification appears;
+- **established public issue:** multi-channel attention, credible media or institutional involvement, or a stable public label exists.
+
+State the decision subject and exact time slice. Historical reach does not establish the current phase. For trajectory, use conditional triggers: new verified facts, additional affected parties, a reusable label, cross-platform movement, institutional participation, or a response that intensifies the dispute. “Insufficient spread evidence” is not the same as “no risk”; material harm can require action before a narrative is widespread.
+
+## Response decision gates
+
+Before recommending a public response, test reality, harm, context, organizational ability to deliver, and long-term trust. Compare no external action, monitoring, internal correction, targeted stakeholder response, and public response. State what each option gains, what it amplifies, who bears the cost, what commitment it creates, and when it becomes irreversible.
+
 ## Statement standard
 
 - Lead with the issue the public actually cares about.

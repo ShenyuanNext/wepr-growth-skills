@@ -100,6 +100,25 @@ Separate impact from confidence. Never invent search volume, difficulty, traffic
 
 Do not turn character counts, H1 counts, word counts, keyword density, or keyword position into universal ranking pass/fail rules. Do not confuse robots access, index directives, canonical preference, sitemap discovery, IndexNow notification, structured-data validity, feature eligibility, or observed search appearance.
 
+## Interpret ranking-factor studies
+
+Treat expert surveys, correlation studies, case studies, leaked-document commentary, and provider statements as different evidence classes.
+
+- An expert survey measures practitioner belief, not Google's weighting and not causal effect.
+- A correlation study identifies associations in its sampled queries and period; it does not prove a ranking mechanism.
+- A case study can support a hypothesis only within its disclosed site, change set, comparison, and time window.
+- Official documentation describes supported behavior and requirements but rarely supplies a universal priority order.
+
+When external research highlights content relevance, content quality, links, trust or authority, brand presence, user behavior, topical coverage, internal links, or technical SEO, translate these into inspectable workstreams rather than a universal scorecard:
+
+1. match the page to a real query task and appropriate page type;
+2. provide distinctive, accurate, complete information with clear authorship and evidence;
+3. make the page discoverable, renderable, index-eligible, canonical, usable, and internally connected;
+4. earn legitimate references, mentions, demand, and repeat use through useful assets and real reputation;
+5. measure segmented search and business outcomes, test plausible interventions, and retain competing explanations.
+
+Prioritize by the site's observed bottleneck, expected business impact, confidence, dependency, effort, and reversibility. Do not convert percentages from a survey into implementation weights.
+
 ## Build keyword, content, and communication deliverables
 
 Use current first-party and market evidence to cluster by intent and expected page type, not keyword similarity alone. For each approved opportunity provide audience/job, market, intent, cluster and evidence source, page type/URL role, distinctive value, questions, structure, internal links, truthful schema opportunity, conversion, factual reviewer, measurement, and review date.

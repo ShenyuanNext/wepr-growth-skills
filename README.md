@@ -114,7 +114,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `wepr-business-workbench` | 商业策略工作台 | 商业问题澄清、模式诊断、对标、客户方案、传播与内容前置判断、长期决策 | 问题说明书、证据账本、商业诊断、策略简报、验证计划和决策记录 |
 | `wepr-market-signal-research` | 市场信号研究工作台 | 公开评论、社区、问答、发布平台和竞品反馈中的需求、痛点、异议与语言研究 | 研究设计、证据账本、机会卡、传播洞察和验证计划 |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
-| `pr-strategy-workbench` | 公关策略工作台 | 客户公关方案、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 事实底稿、利益相关者、行动取舍、信息架构、30/60/90 路线图与成品内容 |
+| `pr-strategy-workbench` | 公关策略工作台 | 年度公关、消费者证据转译、行业媒体研究、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 决策卡、事实与样本底稿、媒体叙事、风险门禁、年度路线图、预案、新闻稿与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
 | `wepr-growth-operations` | 增长运营工作台 | 商业目标落地、0→1 验证、跨渠道运营、SOP、团队节奏、规模化与自动化治理 | 最小经营闭环、单位经济、工作流、SOP、RACI、KPI 树、实验卡和运营路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
@@ -450,7 +450,7 @@ The table assigns all 50 branch skills to their primary client-service line. Cro
 | `wepr-business-workbench` | Business strategy workbench | Problem framing, business diagnosis, benchmarks, client strategy, communication and content briefs, long-term decisions | Problem statement, evidence ledger, diagnosis, strategy brief, validation plan, decision record |
 | `wepr-market-signal-research` | Market-signal research workbench | Public reviews, communities, Q&A, launch platforms, competitor feedback, demand language | Research design, evidence ledger, opportunity cards, communication insight, validation plan |
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
-| `pr-strategy-workbench` | PR strategy workbench | Client PR plans, communication decisions, media narratives, launch-risk plans, public copy, press releases | Fact base, stakeholder map, action choice, message system, 30/60/90 roadmap, finished content |
+| `pr-strategy-workbench` | PR strategy workbench | Annual PR, consumer-evidence translation, industry-media research, communication decisions, narrative analysis, launch-risk plans, public copy, and press releases | Decision brief, evidence and sample ledgers, narrative analysis, risk gates, annual roadmap, contingency plan, and finished copy |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `wepr-growth-operations` | Growth operations workbench | Commercial execution, 0-to-1 validation, cross-channel operations, SOPs, team cadence, scaling, and automation governance | Operating loop, unit economics, workflows, SOPs, RACI, KPI tree, experiment cards, roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |

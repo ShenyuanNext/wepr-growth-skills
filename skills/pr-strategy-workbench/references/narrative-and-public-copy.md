@@ -11,6 +11,14 @@ Do not summarize the source. Identify:
 5. Effect on trust, category expectations, partner decisions, regulatory context, or explanation cost.
 6. Recommendation: no action, monitor, correct facts, build an alternative evidence base, engage selectively, or escalate.
 
+Keep three layers separate:
+
+- **observable editorial choices:** ordering, sourcing, comparison, vocabulary, included conditions, and relevant omissions that can be located in the text;
+- **possible audience effect:** the interpretation these choices may encourage, which is not proof of actual audience response;
+- **intent hypothesis:** only when it changes the recommendation, with supporting evidence, alternatives, and disconfirming signals.
+
+Calibrate the evidence path rather than judging an outlet by reputation. Record whether the item carries public material, adds explanation, contains independent interviews/data, or performs multi-party verification. This describes editorial processing, not a universal quality or truth score. A beneficiary, positive tone, same-day publication, or corporate source dependence does not independently prove paid placement or coordination.
+
 Quote only the minimum necessary text and preserve context. Label motive or coordination claims as unverified unless supported.
 
 ## Public-context copy review
@@ -35,6 +43,16 @@ Confirm who did what, when and where, what changed for whom, the communication o
 ### News value
 
 Choose one lead: verified result, new product/service, partnership outcome, research finding, public-interest action, event outcome, or accountable next step. An event itself is rarely the news; identify what was announced, changed, measured, or made available.
+
+Choose one primary release type and keep its evidence logic intact:
+
+- product or service: changed capability, availability, user effect, limits, and proof;
+- public-interest action: affected group, actual intervention, governance, resources, and accountable outcome;
+- event: decision, launch, agreement, evidence, or material change produced by the event;
+- expert view: attributable proposition, reasoning, evidence, countercondition, and relevance;
+- annual review: comparable period, important actions, verified results, limitations, and next commitment.
+
+Adapt relevance by audience: consumer-facing releases explain perceptible change; business releases explain operating, channel, or industry effect; public-sector releases explain governance, rules, and public value. Do not change the underlying facts by audience.
 
 ### Structure
 

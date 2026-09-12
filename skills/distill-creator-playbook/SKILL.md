@@ -24,12 +24,39 @@ Establish the platform, analysis target, whether it is a benchmark or the user's
 9. Identify what must not be copied: wording, proprietary assets, personal stories, trademarks, signature characters, confidential data, or unverifiable claims.
 10. Return conclusions with evidence strength and unresolved questions.
 
+## Corpus and style analysis
+
+When the objective is to learn a writing or operating method rather than review a few posts:
+
+1. Separate the corpus by author, platform, period, and format. Do not blend essays, short posts, ads, and formal documents into one average style.
+2. Prefer complete, representative samples. Record why each item was included and keep weak or contradictory examples instead of selecting only successes.
+3. Analyze six distinct layers: lexical and sentence habits; narrative structure; topic-selection logic; audience and perspective; recurring reasoning models and values; visual and layout grammar.
+4. Annotate each item before making cross-sample claims. A recurring phrase is not a worldview, and a visual motif is not a content strategy.
+5. Distill decision rules rather than signature wording. Preserve the creator's underlying method while producing a new voice, new examples, and new assets.
+6. Test the playbook on at least one held-out sample or new brief. Record where it reproduces useful decisions, where it becomes generic, and where human judgment is still required.
+
+## Operating-system lens
+
+When the target exposes a repeatable content workflow, map it as a production system:
+
+- **capture:** how observations, questions, emotions, customer language, and source material enter the system;
+- **selection:** how ideas are validated against demand, account positioning, timeliness, and evidence;
+- **production:** what remains human-owned and what may be assisted;
+- **handoff:** the exact files, briefs, version markers, and acceptance criteria between stages;
+- **approval:** decisions and external actions that require a person;
+- **distribution:** how one core idea is rebuilt for different surfaces rather than copied unchanged;
+- **learning:** which content and business signals update the next cycle.
+
+Treat role names and tool counts as packaging. The transferable asset is the explicit input, output, boundary, and quality gate for each stage.
+
 ## Analysis discipline
 
 - Use public content lawfully and respect access controls, privacy, copyright, and platform terms.
 - Anonymize ordinary commenters and do not profile sensitive traits.
 - Treat likes, saves, comments, and views as partial signals with different meanings.
 - Do not call a pattern “爆款公式” unless repeated evidence supports it; prefer “working hypothesis.”
+- Do not treat self-reported income, rankings, user counts, platform mechanisms, or causal explanations as verified merely because a post presents them confidently.
+- Do not preserve tactics based on account trading, fake engagement, unauthorized copying, watermark removal, policy evasion, or manufactured controversy.
 - Never invent inaccessible post content, comments, metrics, or account history.
 
 ## Route by need

@@ -20,6 +20,27 @@ Use `$wepr-market-signal-research` when channel planning needs a traceable publi
 7. Measure business outcomes alongside visibility, mentions, citations, rankings, engagement, and traffic.
 8. Convert results into reusable content units, channel playbooks, and a 30/60/90-day roadmap.
 
+## Community intelligence loop
+
+For Reddit and other public communities, separate listening from participation:
+
+1. Start with the communities where the target user discusses the problem, not only communities named after the product category.
+2. Maintain a dated community profile covering recurring jobs, urgency, attempted alternatives, objections, native terminology, accepted formats, moderation rules, and uncertainty. Mark inferred demographics or motivations as hypotheses.
+3. Keep raw observations and permalinks behind every important synthesis. Count repeated problems with a declared window and deduplication rule; do not mistake loud anecdotes for prevalence.
+4. Match product problems semantically, not only by keywords. Exclude stale discussions, already-solved questions, sensitive situations outside competence, and contexts where a commercial reply would be intrusive.
+5. Draft useful, self-contained responses before considering promotion. A human must review the thread context, disclose material affiliation where relevant, and perform any posting or messaging.
+6. Feed legitimate questions, removals, objections, conversions, and product gaps back into the profile. Treat community understanding—not posting volume—as the durable asset.
+
+Public feeds and search surfaces may support research only when their use complies with current platform rules and reasonable request rates. Verify availability and limits at execution time; do not encode a claimed rate limit or endpoint as permanent fact.
+
+## Content-to-growth operating model
+
+- Assign distinct stages for research, topic brief, draft, fact and policy review, human approval, distribution, and performance review.
+- Give every stage an explicit input, output, owner, stop condition, and acceptance test. Persist important handoffs in files or a system of record rather than relying on conversational memory.
+- Begin with one audience, one offer, one primary channel, and a manual closed loop. Automate only stable, low-risk, observable steps after several successful runs.
+- Use profile surfaces and pinned or evergreen content to orient new visitors; use individual posts for discovery, usefulness, proof, or participation.
+- Interpret engagement by function: views indicate exposure, saves future utility, shares social expression, profile visits curiosity, and qualified actions business progress. Do not collapse them into one score.
+
 ## Route by need
 
 - SEO, technical search, content architecture, or backlinks: read [references/seo-geo.md](references/seo-geo.md) and [references/seo-system.md](references/seo-system.md).

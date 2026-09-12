@@ -21,6 +21,31 @@ Turn real business knowledge into clear, useful, credible content. Optimize for 
 10. Run an integrity check for claims, permissions, disclosure, privacy, copyright, sensitive categories, and platform rules.
 11. After facts, structure, and platform requirements are stable, use `$wepr-human-writing` when the Chinese draft still feels mechanical, translated, generic, or unlike natural client-facing writing.
 
+## Human-led production loop
+
+For recurring editorial work, keep ideation and drafting as separate actions:
+
+1. Capture raw observations quickly in the lowest-friction form available. Preserve concrete scenes, emotional triggers, unresolved questions, and the speaker's own phrases.
+2. Validate the topic before polishing prose. Compare audience questions, current discussions, search demand, past performance, and the account's positioning; record contradictory signals.
+3. Let the author set the proposition, judgment, structure, and lived experience. Assistance may organize sources, expand marked gaps, produce variants, and challenge the draft, but must not invent the author's thinking.
+4. Draft through gaps without breaking the reasoning flow. Mark missing examples, definitions, facts, or transitions explicitly, then resolve each marker from supplied material or label it unresolved.
+5. Run separate fact, reasoning, voice, and platform reviews. A fluent draft does not pass if it adds unsupported claims or erases the author's point of view.
+6. When timing allows, review the draft after a cooling-off interval and read it in the actual consumption context before publication.
+7. After publication, preserve the core proposition but rebuild the opening, unit size, visual form, and CTA for each destination. Do not paste one platform's artifact everywhere.
+
+## Brand-content grammar
+
+For branded social content, connect the content system to the product and business model:
+
+- **recognition:** define a small set of repeatable visual and verbal choices that survive changing topics;
+- **story functions:** maintain recurring lanes for desire, product proof, education, creator/community participation, and objection handling;
+- **product action:** identify the product behavior worth repeatedly showing—comparison, assembly, transformation, testing, customization, or use in context;
+- **community role:** define what the audience can do inside the brand world, not only what they can buy;
+- **profile journey:** use profile copy, pinned content, highlights or equivalents to answer identity, mechanism, proof, and purchase-risk questions;
+- **feedback loop:** turn comments, support questions, objections, and user language into new proof content and product communication.
+
+Visual consistency is not identical templates. It is a stable decision grammar that can absorb new products, seasons, creators, and formats.
+
 ## Route by need
 
 - Read [references/structure-and-persuasion.md](references/structure-and-persuasion.md) to choose a structure and strengthen reasoning.

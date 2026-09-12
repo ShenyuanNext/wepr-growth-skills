@@ -10,9 +10,12 @@ Turn facts and business objectives into a defensible communication decision and 
 ## Route the task
 
 - **Client proposal or communication program:** run the complete workflow and read `references/client-pr-plan.md`.
+- **Annual media relations, reputation, or integrated PR strategy:** read `references/research-prelaunch-and-annual.md`; distinguish framework, working, and decision-ready status.
+- **Consumer evidence to PR decision:** read `references/research-prelaunch-and-annual.md`; convert evidence through fact, feeling, public narrative, business effect, and action without expanding sample claims.
+- **Industry media landscape:** read `references/research-prelaunch-and-annual.md`; build a traceable outlet and article sample before classifying narrative or editorial patterns.
 - **Issue or public-opinion assessment:** run evidence, issue-state, stakeholder, narrative, and action-option steps.
 - **Article, competitor, or media narrative analysis:** read `references/narrative-and-public-copy.md` and identify the claim, frame, evidence, beneficiary, omitted context, and business effect.
-- **Pre-launch risk review:** build the fact base, stakeholder challenge map, claim register, trigger levels, response materials, and go/no-go conditions.
+- **Pre-launch risk review:** read `references/research-prelaunch-and-annual.md`; build the fact base, six-part risk scan, stakeholder challenge map, claim register, trigger levels, response materials, and go/no-go conditions.
 - **Public copy or press release:** read `references/narrative-and-public-copy.md`; establish source support before drafting.
 - **Active incident, product-safety event, regulatory inquiry, or fast-moving backlash:** use `$diagnose-pr-crisis` for command, timeline, response windows, and recovery; use this skill only for supporting strategy or content.
 
@@ -53,6 +56,16 @@ Choose one primary problem:
 
 Separate the communication symptom from the underlying business condition. If the action, product, policy, or proof is not defensible, recommend changing it before changing the words.
 
+Before a material recommendation, pass five decision gates:
+
+- **Reality:** facts, status, claims, and promised outcomes are verifiable.
+- **Harm:** foreseeable harm is identified and not shifted onto affected people.
+- **Context:** the organization has a legitimate role in the current social, industry, and channel context.
+- **Organization:** product, service, legal, customer support, channel, and leadership can honor the message.
+- **Trust:** the action does not create disproportionate long-term explanation cost for short-term attention.
+
+A hard failure pauses the unsupported direction, not all useful work. Continue with evidence-safe alternatives, missing-input requirements, or a smaller action.
+
 ## 4. Assess issue state and materiality
 
 Classify the issue:
@@ -87,6 +100,8 @@ Evaluate five levels:
 5. Public response through owned statement, briefing, release, interview, correction, apology, withdrawal, or remediation.
 
 For each option state benefit, amplification risk, commitment created, operational dependency, stakeholder effect, reversibility, and decision deadline. Recommend one primary option and one fallback. Public action must justify the attention it creates.
+
+Give the recommendation first when leadership must decide. State the decision owner, time anchor, strongest supporting evidence, strongest counterevidence, largest uncertainty, expected benefit, cost borne, and stop condition. Do not repeat a specialist analysis when it already resolves the question; escalate to a broader judgment only when a real trade-off remains.
 
 ## 7. Build the message system
 
