@@ -7,6 +7,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | Skill | Primary job |
 | --- | --- |
 | `$wepr-client-discovery` | Turn interviews, questionnaires, and decisions into a handoff-ready client brief |
+| `$dbs` | Route one task across 34 business, content, learning, knowledge, and Agent utility skills |
 | `$wepr-business-workbench` | Clarify commercial problems, diagnose models and trade-offs, and build testable client strategy |
 | `$wepr-market-signal-research` | Distill needs, pains, objections, and audience language from public feedback and platform signals |
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |

@@ -9,6 +9,7 @@
 | 技能 | 一句话用途 |
 | --- | --- |
 | `$wepr-client-discovery` | 通过访谈、问卷和决策记录把模糊客户需求整理成可交接简报 |
+| `$dbs` | 在 34 项商业、内容、学习、知识管理和 Agent 工具中进行单任务路由 |
 | `$wepr-business-workbench` | 澄清商业问题，诊断模式、对标和取舍，并形成可验证的客户策略 |
 | `$wepr-market-signal-research` | 从公开用户反馈与平台信号中提炼需求、痛点、异议和传播语言 |
 | `$diagnose-pr-crisis` | 处理舆情、声明、媒体沟通和声誉恢复 |

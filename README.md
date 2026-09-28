@@ -71,7 +71,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 技能与 WEPR 官网服务对应关系
 
-以下为 52 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
+以下为 86 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
 
 | WEPR 服务 | 官网具体服务内容 | 对应分支技能 |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | [小红书全案营销](https://www.scwepr.com/services/xiaohongshu-marketing.html) | 整合内容种草、笔记 SEO、聚光投流、搜索词优化、点点优化和 AI 榜单优化 | `plan-xiaohongshu-growth`、`xiaohongshu-suite`、`xiaohongshu-profile`、`xiaohongshu-topic-planner`、`xiaohongshu-title`、`xiaohongshu-comment-reply`、`xiaohongshu-conversion-path` |
 | [Wikipedia 与国内百科](https://www.scwepr.com/services/wikipedia-baike.html) | 从资格、来源和中立性评估出发，规划百科创建、更新与长期知识资产维护 | `wepr-geo-brand-graph`、`wepr-geo-knowledge-base-builder` |
 | [Google Ads 与 App 获客](https://www.scwepr.com/services/google-ads-app-growth.html) | 连接市场策略、广告账户、素材、归因和持续实验，获取可衡量的安装、激活、线索和销售 | `audit-digital-growth`、`plan-paid-media`、`wepr-advertising-workbench` |
-| [中国品牌出海增长](https://www.scwepr.com/services/china-brand-global-growth.html) | 将市场洞察、搜索、AI、媒体、社区、内容和广告组合成分阶段增长路线 | `wepr-client-discovery`、`wepr-business-workbench`、`wepr-growth-operations`、`analyze-brand-strategy`、`create-marketing-content`、`wepr-marketing`、`wepr-editorial-quality`、`wepr-human-writing`、`wepr-presentation-workbench`、`wepr-slides`、`plan-editorial-illustrations`、`wepr-limited-ink-visuals` |
+| [中国品牌出海增长](https://www.scwepr.com/services/china-brand-global-growth.html) | 将市场洞察、搜索、AI、媒体、社区、内容和广告组合成分阶段增长路线 | `wepr-client-discovery`、`wepr-business-workbench`、`wepr-growth-operations`、`analyze-brand-strategy`、`create-marketing-content`、`wepr-marketing`、`wepr-editorial-quality`、`wepr-human-writing`、`wepr-presentation-workbench`、`wepr-slides`、`plan-editorial-illustrations`、`wepr-limited-ink-visuals`、`dbs` 及 33 项 `dbs-*` 专项技能 |
 
 ### 技能治理与调用原则
 
@@ -106,6 +106,17 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 基于已核验系统能力形成客户实施方案、传播执行规划和内容生产简报。
 
 推荐从 `$wepr-geo-suite` 开始。它会按目标、证据状态、平台、周期和交付物路由到所需专项技能，避免一次加载全部能力；涉及 GEO 工作台开发、运营或系统承接方案时使用 `$wepr-geoflow`。当前技能基线已适配 GEOFlow v3.0.0 与 CLI 0.2.0，具体实例仍以现场发现结果为准。
+
+### DBS 商业与内容工具包
+
+`$dbs` 是商业判断、内容诊断、学习、知识管理和 Agent 辅助工具的统一入口。本次同步 34 项正式技能，并移除了个人作者信息、特定个人声纹要求、自动联网导流、充值地址、购买步骤和返佣案例。
+
+- 任务与决策：`dbs`、`dbs-action`、`dbs-benchmark`、`dbs-decision`、`dbs-deconstruct`、`dbs-diagnosis`、`dbs-goal`、`dbs-good-question`、`dbs-jtbd`、`dbs-standard-answer`、`dbs-theory-grounding`。
+- 内容与传播：`dbs-ai-check`、`dbs-content`、`dbs-content-risk-check`、`dbs-content-system`、`dbs-content-value`、`dbs-hook`、`dbs-resonate`、`dbs-script-flow`、`dbs-spread`、`dbs-wechat-html`、`dbs-xhs-title`。
+- 学习与知识：`dbs-knowledge`、`dbs-learning`、`dbs-report`、`dbs-restore`、`dbs-save`。
+- Agent 与工具：`dbs-agent-migration`、`dbs-chatroom`、`dbs-chatroom-austrian`、`dbs-install-skill`、`dbs-skill-maker`、`dbs-update`、`dbs-video-extract`。
+
+该工具包不默认执行发布、购买、外部沟通或敏感数据读取；编号任务只读取安装包内已校验的本地内容。
 
 ### 技能目录
 
@@ -379,6 +390,10 @@ This is not a prompt collection. Each skill defines triggering contexts, an exec
 
 The repository provides `$wepr-geo-suite` as the WEPR orchestration entrypoint for complete GEO delivery. It covers panorama audits, intent mining, evidence-backed knowledge assets, page and content production, compliant platform sampling, answer and citation monitoring, attribution, execution roadmaps, and GEO workbench delivery. Use `$wepr-geoflow` for workbench development, operations, system-backed client plans, enterprise knowledge, manual-publication workflows, themes, and channel delivery. Its current baseline covers GEOFlow v3.0.0 and CLI 0.2.0; each target instance must still be discovered and verified.
 
+### DBS business and content toolkit
+
+`$dbs` is the unified entrypoint for 34 business reasoning, content diagnosis, learning, knowledge-management, and Agent utility skills. The integrated edition removes personal author attribution, author-specific voice imitation, automatic promotional update checks, payment links, purchase walkthroughs, and affiliate examples. It retains only task-relevant methods, local validated numbered tasks, explicit authorization boundaries, and the technical endpoints required by opt-in API features.
+
 ### Capability architecture
 
 ```text
@@ -426,7 +441,7 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Skills mapped to WEPR services
 
-The table assigns all 52 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
+The table assigns all 86 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
 
 | WEPR service | Concrete service scope | Branch skills |
 | --- | --- | --- |
@@ -437,7 +452,7 @@ The table assigns all 52 branch skills to their primary client-service line. Cro
 | [Xiaohongshu integrated marketing](https://www.scwepr.com/services/xiaohongshu-marketing.html) | Combine content seeding, post SEO, paid amplification, search-term optimization, in-app AI optimization, and AI-list visibility | `plan-xiaohongshu-growth`, `xiaohongshu-suite`, `xiaohongshu-profile`, `xiaohongshu-topic-planner`, `xiaohongshu-title`, `xiaohongshu-comment-reply`, `xiaohongshu-conversion-path` |
 | [Wikipedia and Chinese encyclopedias](https://www.scwepr.com/services/wikipedia-baike.html) | Assess eligibility, sources, and neutrality before creating, updating, and maintaining long-term knowledge assets | `wepr-geo-brand-graph`, `wepr-geo-knowledge-base-builder` |
 | [Google Ads and app acquisition](https://www.scwepr.com/services/google-ads-app-growth.html) | Connect market strategy, ad accounts, creative, attribution, and continuous experiments to measurable installs, activation, leads, and sales | `audit-digital-growth`, `plan-paid-media`, `wepr-advertising-workbench` |
-| [China-brand global growth](https://www.scwepr.com/services/china-brand-global-growth.html) | Combine market insight, search, AI, media, community, content, and advertising into a staged global-growth roadmap | `wepr-client-discovery`, `wepr-business-workbench`, `wepr-growth-operations`, `analyze-brand-strategy`, `create-marketing-content`, `wepr-marketing`, `wepr-editorial-quality`, `wepr-human-writing`, `wepr-presentation-workbench`, `wepr-slides`, `plan-editorial-illustrations`, `wepr-limited-ink-visuals` |
+| [China-brand global growth](https://www.scwepr.com/services/china-brand-global-growth.html) | Combine market insight, search, AI, media, community, content, and advertising into a staged global-growth roadmap | `wepr-client-discovery`, `wepr-business-workbench`, `wepr-growth-operations`, `analyze-brand-strategy`, `create-marketing-content`, `wepr-marketing`, `wepr-editorial-quality`, `wepr-human-writing`, `wepr-presentation-workbench`, `wepr-slides`, `plan-editorial-illustrations`, `wepr-limited-ink-visuals`, `dbs` and 33 `dbs-*` specialists |
 
 ### Skill governance and routing
 
