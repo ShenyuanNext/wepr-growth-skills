@@ -10,12 +10,14 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$wepr-business-workbench` | Clarify commercial problems, diagnose models and trade-offs, and build testable client strategy |
 | `$wepr-market-signal-research` | Distill needs, pains, objections, and audience language from public feedback and platform signals |
 | `$diagnose-pr-crisis` | Respond to controversies, media inquiries, and reputation damage |
+| `$draft-corporate-content-appeals` | Draft evidence-led platform appeals, evidence checklists, and stamped statements for corporate negative content |
 | `$pr-strategy-workbench` | Build client PR plans, communication decisions, narrative analysis, launch-risk plans, and public copy |
 | `$audit-digital-growth` | Diagnose traffic, conversion, attribution, CRM, and retention |
 | `$wepr-growth-operations` | Turn commercial objectives into operating loops, unit economics, SOPs, cadence, KPIs, experiments, and team ownership |
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$wepr-advertising-workbench` | Plan, audit, and optimize cross-platform advertising with creative, attribution, experiments, and guarded changes |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
+| `$reddit-content-operations` | Research communities, write Reddit-native posts, and review disclosed participation and spam risk |
 | `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
 | `$wepr-link-authority-workbench` | Audit links and mentions; plan linkable assets, digital PR, qualified directories, compliant outreach, and measurement |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
@@ -108,6 +110,8 @@ Use $diagnose-pr-crisis to separate confirmed, disputed, and unknown facts, then
 
 Provide a timeline, evidence, public statements, stakeholders, and legal or operational status. Do not use the skill to promise deletion or opinion manipulation.
 
+Use `$draft-corporate-content-appeals` when a specific platform complaint requires itemized factual analysis, counter-evidence, a precise remedy request, or a stamped statement. Do not fabricate rights, abuse DMCA, or present ordinary criticism as automatically unlawful.
+
 ### Digital growth audit
 
 ```text
@@ -139,6 +143,8 @@ Use $plan-organic-growth to build a 90-day SEO, GEO, Reddit, and Product Hunt pl
 ```
 
 Provide the product, user, alternatives, current site and content, market, and capacity. Purchased karma, votes, and spam links are out of scope.
+
+Use `$reddit-content-operations` for community selection, Reddit-native drafts, affiliation disclosure, participation calendars, and pre-publish review. It excludes paid Reddit Ads, sockpuppets, vote manipulation, ban evasion, and fabricated independent endorsements.
 
 ### Link and authority building
 

@@ -12,12 +12,14 @@
 | `$wepr-business-workbench` | 澄清商业问题，诊断模式、对标和取舍，并形成可验证的客户策略 |
 | `$wepr-market-signal-research` | 从公开用户反馈与平台信号中提炼需求、痛点、异议和传播语言 |
 | `$diagnose-pr-crisis` | 处理舆情、声明、媒体沟通和声誉恢复 |
+| `$draft-corporate-content-appeals` | 逐条起草涉企负面内容的平台申诉、证据清单和盖章说明 |
 | `$pr-strategy-workbench` | 制定客户公关方案、传播决策、媒体叙事、上线预案与公共文案 |
 | `$audit-digital-growth` | 找出流量、转化、归因、CRM 和留存问题 |
 | `$wepr-growth-operations` | 把商业目标转化为最小经营闭环、单位经济、SOP、运营节奏、KPI、实验与团队责任 |
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$wepr-advertising-workbench` | 规划、审计和优化跨平台广告，并衔接创意、归因、实验与安全变更 |
 | `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
+| `$reddit-content-operations` | 调研 Reddit 社区、撰写原生帖子并审核透明参与与垃圾营销风险 |
 | `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
 | `$wepr-link-authority-workbench` | 审计链接与品牌提及，规划可链接资产、数字公关、目录筛选、合规触达和效果监测 |
 | `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |
@@ -117,6 +119,8 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 
 重要输入：事件时间线、证据、已公开表态、相关方、法律或运营进展。不要用它承诺删稿、控评或操纵舆论。
 
+需要就具体平台负面内容提交申诉时，使用 `$draft-corporate-content-appeals`。必须提供原文、URL、账号、主体和可核验反证；不得伪造权利、滥用 DMCA 或把主观批评一律表述为违法。
+
 ### 数字增长诊断
 
 ```text
@@ -148,6 +152,8 @@ cp -R wepr-growth-skills/skills/* ~/.agents/skills/
 ```
 
 重要输入：产品、用户、竞争替代、现有网站和内容、目标市场、可投入人力。禁止购买Karma、投票或垃圾外链。
+
+具体的 Reddit 社区选择、帖子写作、利益关系披露、参与日历和发布前审核使用 `$reddit-content-operations`。它不用于 Reddit 付费广告，也不支持马甲号、刷票、规避封禁或虚构独立推荐。
 
 ### 链接与权威建设
 

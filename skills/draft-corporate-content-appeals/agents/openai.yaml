@@ -1,0 +1,7 @@
+interface:
+  display_name: "涉企负面内容公关申诉"
+  short_description: "逐条分析涉企负面内容并生成删除导向的申诉、证据及盖章材料"
+  default_prompt: "Use $draft-corporate-content-appeals to analyze these posts and prepare evidence-based takedown appeals."
+
+policy:
+  allow_implicit_invocation: true

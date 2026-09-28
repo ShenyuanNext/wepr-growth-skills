@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit Content Operations"
+  short_description: "Research communities and create authentic Reddit posts"
+  default_prompt: "Use $reddit-content-operations to research a subreddit and draft or review authentic, policy-compliant content."

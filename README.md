@@ -34,7 +34,8 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 ├── analyze-brand-strategy（证据化定位、差异化与品牌战略）
 ├── audit-digital-growth
 ├── pr-strategy-workbench（公关方案、传播决策与公共文案）
-└── diagnose-pr-crisis
+├── diagnose-pr-crisis
+└── draft-corporate-content-appeals（涉企负面内容申诉与证据治理）
 
 增长规划与获客
 ├── wepr-growth-operations（增长闭环、单位经济、SOP、指标、实验与团队）
@@ -70,14 +71,14 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 技能与 WEPR 官网服务对应关系
 
-以下为 50 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
+以下为 52 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
 
 | WEPR 服务 | 官网具体服务内容 | 对应分支技能 |
 | --- | --- | --- |
 | [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 建立可被搜索、理解和引用的品牌知识体系，提升生成式答案中的准确性、可发现性与引用机会 | `operate-georank-workbench`、`wepr-chatgpt-crawler`、`wepr-deepseek-crawler`、`wepr-doubao-crawler`、`wepr-geo-comparison-builder`、`wepr-geo-content-refiner`、`wepr-geo-effect-monitor`、`wepr-geo-execution-roadmap`、`wepr-geo-explainer-builder`、`wepr-geo-intent-miner`、`wepr-geo-page-audit`、`wepr-geo-page-blueprint`、`wepr-geo-panorama-audit`、`wepr-geo-ranking-article-builder`、`wepr-geo-suite`、`wepr-geo-title-optimizer`、`wepr-geo-tracking`、`wepr-geoflow` |
 | [国际 SEO 与 Google 搜索](https://www.scwepr.com/services/international-seo.html) | 连接技术 SEO、国际关键词、内容集群和权威建设，形成可持续的海外自然搜索获客基础 | `plan-organic-growth`、`wepr-seo`、`wepr-link-authority-workbench` |
-| [海外 PR 与品牌权威](https://www.scwepr.com/services/overseas-pr.html) | 通过议题策略、媒体关系、专业内容和可信第三方提及积累品牌权威 | `diagnose-pr-crisis`、`pr-strategy-workbench` |
-| [Reddit 社区营销](https://www.scwepr.com/services/reddit-marketing.html) | 开展社区研究、透明参与、内容贡献和声誉监测，建立真实讨论与长期信任 | `wepr-market-signal-research`、`launch-content-account`、`distill-creator-playbook` |
+| [海外 PR 与品牌权威](https://www.scwepr.com/services/overseas-pr.html) | 通过议题策略、媒体关系、专业内容和可信第三方提及积累品牌权威 | `diagnose-pr-crisis`、`draft-corporate-content-appeals`、`pr-strategy-workbench` |
+| [Reddit 社区营销](https://www.scwepr.com/services/reddit-marketing.html) | 开展社区研究、透明参与、内容贡献和声誉监测，建立真实讨论与长期信任 | `reddit-content-operations`、`wepr-market-signal-research`、`launch-content-account`、`distill-creator-playbook` |
 | [小红书全案营销](https://www.scwepr.com/services/xiaohongshu-marketing.html) | 整合内容种草、笔记 SEO、聚光投流、搜索词优化、点点优化和 AI 榜单优化 | `plan-xiaohongshu-growth`、`xiaohongshu-suite`、`xiaohongshu-profile`、`xiaohongshu-topic-planner`、`xiaohongshu-title`、`xiaohongshu-comment-reply`、`xiaohongshu-conversion-path` |
 | [Wikipedia 与国内百科](https://www.scwepr.com/services/wikipedia-baike.html) | 从资格、来源和中立性评估出发，规划百科创建、更新与长期知识资产维护 | `wepr-geo-brand-graph`、`wepr-geo-knowledge-base-builder` |
 | [Google Ads 与 App 获客](https://www.scwepr.com/services/google-ads-app-growth.html) | 连接市场策略、广告账户、素材、归因和持续实验，获取可衡量的安装、激活、线索和销售 | `audit-digital-growth`、`plan-paid-media`、`wepr-advertising-workbench` |
@@ -114,12 +115,14 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `wepr-business-workbench` | 商业策略工作台 | 商业问题澄清、模式诊断、对标、客户方案、传播与内容前置判断、长期决策 | 问题说明书、证据账本、商业诊断、策略简报、验证计划和决策记录 |
 | `wepr-market-signal-research` | 市场信号研究工作台 | 公开评论、社区、问答、发布平台和竞品反馈中的需求、痛点、异议与语言研究 | 研究设计、证据账本、机会卡、传播洞察和验证计划 |
 | `diagnose-pr-crisis` | 公关与危机诊断 | 舆情、声明、负面事件、媒体采访、海外危机 | 时间线、利益相关者、风险分级、回应策略、声明、Q&A、恢复计划 |
+| `draft-corporate-content-appeals` | 涉企负面内容申诉 | 平台负面内容、虚假事实、名誉商誉、版权或商标投诉 | 逐条申诉、证据清单、成功率分级、盖章说明和提交顺序 |
 | `pr-strategy-workbench` | 公关策略工作台 | 年度公关、消费者证据转译、行业媒体研究、传播决策、媒体叙事、上线预案、公共文案和新闻稿 | 决策卡、事实与样本底稿、媒体叙事、风险门禁、年度路线图、预案、新闻稿与成品内容 |
 | `audit-digital-growth` | 数字营销增长诊断 | GA4/GTM、漏斗、转化、归因、CRM、留存 | 指标树、数据审计、漏斗、假设、实验、看板和 90 天路线图 |
 | `wepr-growth-operations` | 增长运营工作台 | 商业目标落地、0→1 验证、跨渠道运营、SOP、团队节奏、规模化与自动化治理 | 最小经营闭环、单位经济、工作流、SOP、RACI、KPI 树、实验卡和运营路线图 |
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `wepr-advertising-workbench` | 广告策略工作台 | 跨平台媒体方案、账户审计、预算归因、创意文案、实验、监测和优化 | 证据账本、客户方案、审计报告、创意简报、实验与变更草案 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS 冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO 审计、社区与发布方案、实验和 90 天路线图 |
+| `reddit-content-operations` | Reddit 内容运营 | 社区调研、子版块选择、英文原生帖子、品牌透明参与和发布前审核 | 社区匹配、帖子草稿、利益关系披露、运营计划、风险审核和回复指南 |
 | `wepr-seo` | 完整 SEO 工作台 | 快速/深度页面审计、技术 SEO、关键词内容、国际化、电商、迁移、流量诊断、AI 搜索 | HTML 审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `wepr-link-authority-workbench` | 链接与权威建设工作台 | 外链和品牌提及审计、竞品差距、目录筛选、可链接资产、数字公关与合规触达 | 证据基线、机会分层、资产计划、个性化触达、30/60/90 天路线图与监测 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API 执行回执、资源 ID、风险与回滚说明 |
@@ -148,12 +151,14 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - 商业问题还没说清，或需要先判断目标、模式、对标、取舍和验证路径：使用 `$wepr-business-workbench`。
 - 要从公开用户反馈、社区讨论、评论和发布平台中寻找真实需求、痛点、异议和传播语言：使用 `$wepr-market-signal-research`。
 - 发生负面事件、需要声明或媒体沟通：使用 `$diagnose-pr-crisis`。
+- 需要针对涉企负面内容形成平台申诉、证据清单、处置请求或盖章说明：使用 `$draft-corporate-content-appeals`；活跃危机的整体回应仍使用 `$diagnose-pr-crisis`。
 - 要做客户公关方案、传播决策、媒体叙事分析、上线预案、公共文案审校或新闻稿：使用 `$pr-strategy-workbench`；正在发生的危机仍使用 `$diagnose-pr-crisis`。
 - 有流量但不知道哪里出了问题：使用 `$audit-digital-growth`。
 - 要把商业目标转化为获客、销售、交付、留存与复购的运营闭环，或设计 SOP、运营节奏、KPI、实验和团队责任：使用 `$wepr-growth-operations`。
 - 准备花媒体预算获客：使用 `$plan-paid-media`。
 - 要做跨平台广告账户审计、归因对齐、广告创意与文案、实验、监测或有安全门禁的优化草案：使用 `$wepr-advertising-workbench`。涉及中国平台的具体准入、账户和投放规则时，同时使用 `$plan-paid-media`。
 - 希望通过搜索、AI 搜索、社区和内容长期获客：使用 `$plan-organic-growth`。
+- 要研究 Reddit 社区、撰写原生帖子、设计透明的品牌参与或审核发布风险：使用 `$reddit-content-operations`。
 - 所有 SEO任务统一使用 `$wepr-seo`：可自动选择快速页面审计、包含 PageSpeed 的深度审计、站点策略、关键词内容、迁移、国际化、电商或 AI 搜索模式。
 - 要审计外链和品牌提及、筛选高质量目录与资源、规划可链接资产、数字公关或合规触达：使用 `$wepr-link-authority-workbench`。
 - 已部署 GEOrank，需要执行诊断、拓词、方案对话或后台操作：使用 `$operate-georank-workbench`。一般 GEO 策略仍使用 `$plan-organic-growth`。
@@ -384,7 +389,8 @@ Business and brand decisions
 ├── analyze-brand-strategy (evidence-aware positioning and brand strategy)
 ├── audit-digital-growth
 ├── pr-strategy-workbench (PR plans, communication decisions, and public copy)
-└── diagnose-pr-crisis
+├── diagnose-pr-crisis
+└── draft-corporate-content-appeals (evidence-led platform appeals)
 
 Growth planning and acquisition
 ├── wepr-growth-operations (operating loops, unit economics, SOPs, KPIs, experiments, and ownership)
@@ -420,14 +426,14 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Skills mapped to WEPR services
 
-The table assigns all 50 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
+The table assigns all 52 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
 
 | WEPR service | Concrete service scope | Branch skills |
 | --- | --- | --- |
 | [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Build searchable, understandable, citable brand knowledge and improve accuracy, discoverability, and citation opportunity in generated answers | `operate-georank-workbench`, `wepr-chatgpt-crawler`, `wepr-deepseek-crawler`, `wepr-doubao-crawler`, `wepr-geo-comparison-builder`, `wepr-geo-content-refiner`, `wepr-geo-effect-monitor`, `wepr-geo-execution-roadmap`, `wepr-geo-explainer-builder`, `wepr-geo-intent-miner`, `wepr-geo-page-audit`, `wepr-geo-page-blueprint`, `wepr-geo-panorama-audit`, `wepr-geo-ranking-article-builder`, `wepr-geo-suite`, `wepr-geo-title-optimizer`, `wepr-geo-tracking`, `wepr-geoflow` |
 | [International SEO and Google Search](https://www.scwepr.com/services/international-seo.html) | Connect technical SEO, international keywords, content clusters, and authority building into a sustainable organic-acquisition base | `plan-organic-growth`, `wepr-seo`, `wepr-link-authority-workbench` |
-| [Global PR and brand authority](https://www.scwepr.com/services/overseas-pr.html) | Build verifiable brand authority through issue strategy, media relations, professional content, and credible third-party mentions | `diagnose-pr-crisis`, `pr-strategy-workbench` |
-| [Reddit community marketing](https://www.scwepr.com/services/reddit-marketing.html) | Use community research, transparent participation, useful contributions, and reputation monitoring to build durable trust | `wepr-market-signal-research`, `launch-content-account`, `distill-creator-playbook` |
+| [Global PR and brand authority](https://www.scwepr.com/services/overseas-pr.html) | Build verifiable brand authority through issue strategy, media relations, professional content, and credible third-party mentions | `diagnose-pr-crisis`, `draft-corporate-content-appeals`, `pr-strategy-workbench` |
+| [Reddit community marketing](https://www.scwepr.com/services/reddit-marketing.html) | Use community research, transparent participation, useful contributions, and reputation monitoring to build durable trust | `reddit-content-operations`, `wepr-market-signal-research`, `launch-content-account`, `distill-creator-playbook` |
 | [Xiaohongshu integrated marketing](https://www.scwepr.com/services/xiaohongshu-marketing.html) | Combine content seeding, post SEO, paid amplification, search-term optimization, in-app AI optimization, and AI-list visibility | `plan-xiaohongshu-growth`, `xiaohongshu-suite`, `xiaohongshu-profile`, `xiaohongshu-topic-planner`, `xiaohongshu-title`, `xiaohongshu-comment-reply`, `xiaohongshu-conversion-path` |
 | [Wikipedia and Chinese encyclopedias](https://www.scwepr.com/services/wikipedia-baike.html) | Assess eligibility, sources, and neutrality before creating, updating, and maintaining long-term knowledge assets | `wepr-geo-brand-graph`, `wepr-geo-knowledge-base-builder` |
 | [Google Ads and app acquisition](https://www.scwepr.com/services/google-ads-app-growth.html) | Connect market strategy, ad accounts, creative, attribution, and continuous experiments to measurable installs, activation, leads, and sales | `audit-digital-growth`, `plan-paid-media`, `wepr-advertising-workbench` |
@@ -450,12 +456,14 @@ The table assigns all 50 branch skills to their primary client-service line. Cro
 | `wepr-business-workbench` | Business strategy workbench | Problem framing, business diagnosis, benchmarks, client strategy, communication and content briefs, long-term decisions | Problem statement, evidence ledger, diagnosis, strategy brief, validation plan, decision record |
 | `wepr-market-signal-research` | Market-signal research workbench | Public reviews, communities, Q&A, launch platforms, competitor feedback, demand language | Research design, evidence ledger, opportunity cards, communication insight, validation plan |
 | `diagnose-pr-crisis` | PR and crisis response | Controversies, negative sentiment, statements, interviews, reputation recovery | Timeline, stakeholder map, risk grade, response plan, statement, Q&A, recovery roadmap |
+| `draft-corporate-content-appeals` | Corporate content appeals | False factual claims, reputation harm, copyright or trademark complaints on content platforms | Itemized appeals, evidence checklist, probability range, stamped statement, submission order |
 | `pr-strategy-workbench` | PR strategy workbench | Annual PR, consumer-evidence translation, industry-media research, communication decisions, narrative analysis, launch-risk plans, public copy, and press releases | Decision brief, evidence and sample ledgers, narrative analysis, risk gates, annual roadmap, contingency plan, and finished copy |
 | `audit-digital-growth` | Digital growth analytics | GA4/GTM, funnels, conversion, attribution, CRM, retention | Metric tree, tracking audit, funnel, hypotheses, experiments, dashboard, 90-day roadmap |
 | `wepr-growth-operations` | Growth operations workbench | Commercial execution, 0-to-1 validation, cross-channel operations, SOPs, team cadence, scaling, and automation governance | Operating loop, unit economics, workflows, SOPs, RACI, KPI tree, experiment cards, roadmap |
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `wepr-advertising-workbench` | Advertising strategy workbench | Cross-platform plans, account audits, budget and attribution, creative and copy, experiments, monitoring, optimization | Evidence ledger, client plan, audit, creative brief, experiment, guarded change draft |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
+| `reddit-content-operations` | Reddit content operations | Community research, subreddit selection, native posts, disclosed brand participation, pre-publish review | Community fit, post drafts, disclosure, operating plan, risk review, reply guidance |
 | `wepr-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `wepr-link-authority-workbench` | Link and authority workbench | Link and mention audits, competitor gaps, directory qualification, linkable assets, digital PR, compliant outreach | Evidence baseline, opportunity tiers, asset plan, personalized outreach, roadmap, monitoring |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
@@ -483,12 +491,14 @@ The table assigns all 50 branch skills to their primary client-service line. Cro
 - Use `$wepr-business-workbench` when the commercial problem, objective, business model, benchmark, trade-off, or validation path must be clarified before channel execution.
 - Use `$wepr-market-signal-research` to find evidence-backed needs, pains, objections, alternatives, and audience language in public feedback, communities, reviews, and launch platforms.
 - Use `$diagnose-pr-crisis` when the business needs a response, statement, media plan, or reputation recovery.
+- Use `$draft-corporate-content-appeals` for evidence-led platform complaints about corporate negative content; use `$diagnose-pr-crisis` for the wider live response.
 - Use `$pr-strategy-workbench` for client PR plans, communication decisions, narrative analysis, pre-launch risk, public-copy review, or press releases; use `$diagnose-pr-crisis` for active incidents.
 - Use `$audit-digital-growth` when performance is unclear or traffic, conversion, attribution, and retention disagree.
 - Use `$wepr-growth-operations` to turn a commercial objective into an acquisition-to-retention operating loop, or to design SOPs, cadence, KPI trees, experiments, ownership, and scaling controls.
 - Use `$plan-paid-media` when the team is preparing to spend media budget and needs a measurable acquisition system.
 - Use `$wepr-advertising-workbench` for cross-platform account audits, attribution alignment, advertising creative and copy, experiments, monitoring, or safely gated optimization drafts. Pair it with `$plan-paid-media` when China-platform eligibility, account, or delivery rules are involved.
 - Use `$plan-organic-growth` when growth should compound through search, AI search, community participation, launches, and content.
+- Use `$reddit-content-operations` for subreddit research, native post writing, disclosed brand participation, and pre-publish risk review.
 - Use `$wepr-seo` for every SEO task; it selects quick page audit, PageSpeed-enabled full audit, site strategy, keyword/content, migration, international, commerce, or AI-search mode.
 - Use `$wepr-link-authority-workbench` to audit links and brand mentions, qualify directories and resources, plan linkable assets and digital PR, or prepare compliant personalized outreach.
 - Use `$operate-georank-workbench` when a deployed GEOrank instance must be queried or changed. Use `$plan-organic-growth` for general GEO strategy.
