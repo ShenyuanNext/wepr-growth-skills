@@ -4,7 +4,13 @@
 
 A strong post adds something useful while leaving room for other people to contribute. Choose one core angle: a changed assumption, overlooked tradeoff, defined comparison, practical failure, counterintuitive result, experience-based question, or transparent field note from a disclosed practitioner or representative.
 
+Write the useful answer, method, or test result in the post itself. A conversation gap is a genuine unresolved choice, edge case, or competing experience—not a reason to withhold the solution, manufacture conflict, or move essential details into a self-promotional comment.
+
+Prefer a concrete situation over a broad debate: name who faced what constraint, what they tried, what happened, and what remains uncertain. Invite counterexamples only where they can improve the answer. A provocative claim is acceptable only if it is supportable, relevant, and respectful; disagreement is not an engagement tactic to manufacture.
+
 Avoid generic ultimate guides, empty listicles, fake controversy, vague inspiration, engagement bait, and posts whose only value is an external link.
+
+When adapting a topic for another subreddit, rebuild the framing around that community's knowledge and humor while preserving the original facts and context. Check media rights and attribution. Do not copy a viral post, miscaption an image, or assume the same framing works across communities.
 
 ## Structure
 
@@ -22,6 +28,7 @@ Avoid generic ultimate guides, empty listicles, fake controversy, vague inspirat
 - Keep uncertainty where it is real. Do not manufacture confidence or vulnerability.
 - Avoid corporate slogans, SEO phrasing, AI clichés, excessive headings, excessive bullets, and over-polished symmetry.
 - Preserve useful specificity and supported conditions or limitations.
+- When relevant, include the actual task, constraints, sample size, measured result, failure case, and what has not been tested. Specificity is evidence only when the underlying experience or test is real.
 - Do not imitate a private individual's voice or fabricate slang to appear native.
 
 ## Brand integration

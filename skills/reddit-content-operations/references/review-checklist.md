@@ -29,6 +29,8 @@
 - Does it avoid fake personas, invented reviews, karma targets, vote requests, brigading, mass messaging, and repetitive posting?
 - Does it avoid prohibited, harmful, discriminatory, harassing, or privacy-invasive content?
 - Are health, safety, legal, financial, or performance claims sourced and qualified?
+- Does the plan avoid fixed "warm-up" days, karma targets, CQS recovery guarantees, and claims that an AI answer will recommend a product merely because Reddit mentions it?
+- If citing a growth case, are baseline, dates, attribution method, first-party data, and plausible alternative causes available? Otherwise is it labeled an unverified anecdote?
 
 ## Decision
 

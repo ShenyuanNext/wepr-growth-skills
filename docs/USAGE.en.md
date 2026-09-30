@@ -18,7 +18,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$plan-paid-media` | Plan and review measurable search and social media buying |
 | `$wepr-advertising-workbench` | Plan, audit, and optimize cross-platform advertising with creative, attribution, experiments, and guarded changes |
 | `$plan-organic-growth` | Build SEO, GEO, community, launch, and content systems |
-| `$reddit-content-operations` | Research communities, write Reddit-native posts, and review disclosed participation and spam risk |
+| `$reddit-content-operations` | Research communities and demand signals, write Reddit-native posts, and review disclosed participation and spam risk |
 | `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
 | `$wepr-link-authority-workbench` | Audit links and mentions; plan linkable assets, digital PR, qualified directories, compliant outreach, and measurement |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |

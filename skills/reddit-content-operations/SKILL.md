@@ -21,9 +21,11 @@ Create content that earns discussion by fitting a community and being genuinely 
 ## Route the task
 
 1. For subreddit discovery, audience mapping, keyword analysis, search-led opportunity mining, or community recommendations, read [references/community-research.md](references/community-research.md).
-2. For drafting, rewriting, bilingual adaptation, titles, or natural brand mentions, read [references/post-writing.md](references/post-writing.md).
-3. For participation plans, calendars, moderator contact, publishing, and measurement, read [references/operations.md](references/operations.md).
-4. For final verification or risk review, read [references/review-checklist.md](references/review-checklist.md).
+2. For product-demand mining from complaints, workarounds, alternatives, and comment threads, read [references/demand-validation.md](references/demand-validation.md).
+3. For drafting, rewriting, bilingual adaptation, titles, or natural brand mentions, read [references/post-writing.md](references/post-writing.md).
+4. For participation plans, calendars, moderator contact, publishing, and measurement, read [references/operations.md](references/operations.md).
+5. For final verification or risk review, read [references/review-checklist.md](references/review-checklist.md).
+6. When adapting advice from a creator account or a case study, read [references/field-evidence.md](references/field-evidence.md) to separate observed examples from platform rules and unverified results.
 
 Read every reference that matches the request. Apply the review checklist before final delivery of publishable copy.
 

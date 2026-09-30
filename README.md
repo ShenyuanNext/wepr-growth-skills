@@ -133,7 +133,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `plan-paid-media` | 全域广告投放规划 | 百度、360、Microsoft Ads、抖音、小红书、视频号 | 平台组合、账户结构、测试矩阵、预算、诊断、复盘和风险控制 |
 | `wepr-advertising-workbench` | 广告策略工作台 | 跨平台媒体方案、账户审计、预算归因、创意文案、实验、监测和优化 | 证据账本、客户方案、审计报告、创意简报、实验与变更草案 |
 | `plan-organic-growth` | 出海有机增长规划 | SEO、GEO、Reddit、Product Hunt、SaaS 冷启动、内容增长 | 需求证据、渠道地图、SEO/GEO 审计、社区与发布方案、实验和 90 天路线图 |
-| `reddit-content-operations` | Reddit 内容运营 | 社区调研、子版块选择、英文原生帖子、品牌透明参与和发布前审核 | 社区匹配、帖子草稿、利益关系披露、运营计划、风险审核和回复指南 |
+| `reddit-content-operations` | Reddit 内容运营 | 社区调研、真实需求挖掘、英文原生帖子、品牌透明参与和发布前审核 | 社区匹配、需求证据、帖子草稿、利益关系披露、运营计划和风险审核 |
 | `wepr-seo` | 完整 SEO 工作台 | 快速/深度页面审计、技术 SEO、关键词内容、国际化、电商、迁移、流量诊断、AI 搜索 | HTML 审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `wepr-link-authority-workbench` | 链接与权威建设工作台 | 外链和品牌提及审计、竞品差距、目录筛选、可链接资产、数字公关与合规触达 | 证据基线、机会分层、资产计划、个性化触达、30/60/90 天路线图与监测 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API 执行回执、资源 ID、风险与回滚说明 |
@@ -478,7 +478,7 @@ The table assigns all 86 branch skills to their primary client-service line. Cro
 | `plan-paid-media` | Paid-media planning | Search ads, Douyin, Xiaohongshu, WeChat Channels, multi-platform acquisition | Channel roles, account structure, test matrix, budget, diagnostics, review system |
 | `wepr-advertising-workbench` | Advertising strategy workbench | Cross-platform plans, account audits, budget and attribution, creative and copy, experiments, monitoring, optimization | Evidence ledger, client plan, audit, creative brief, experiment, guarded change draft |
 | `plan-organic-growth` | Organic international growth | SEO, GEO/AI search, Reddit, Product Hunt, SaaS launch, content systems | Demand evidence, channel map, SEO/GEO audit, community and launch plans, experiments, roadmap |
-| `reddit-content-operations` | Reddit content operations | Community research, subreddit selection, native posts, disclosed brand participation, pre-publish review | Community fit, post drafts, disclosure, operating plan, risk review, reply guidance |
+| `reddit-content-operations` | Reddit content operations | Community research, demand validation, native posts, disclosed brand participation, pre-publish review | Community fit, demand evidence, post drafts, disclosure, operating plan, risk review |
 | `wepr-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `wepr-link-authority-workbench` | Link and authority workbench | Link and mention audits, competitor gaps, directory qualification, linkable assets, digital PR, compliant outreach | Evidence baseline, opportunity tiers, asset plan, personalized outreach, roadmap, monitoring |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |

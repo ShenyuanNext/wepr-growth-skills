@@ -20,7 +20,7 @@
 | `$plan-paid-media` | 设计并诊断搜索、短视频和社交广告投放 |
 | `$wepr-advertising-workbench` | 规划、审计和优化跨平台广告，并衔接创意、归因、实验与安全变更 |
 | `$plan-organic-growth` | 规划 SEO、GEO、Reddit、Product Hunt和内容增长 |
-| `$reddit-content-operations` | 调研 Reddit 社区、撰写原生帖子并审核透明参与与垃圾营销风险 |
+| `$reddit-content-operations` | 调研 Reddit 社区与真实需求、撰写原生帖子，并审核透明参与与垃圾营销风险 |
 | `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
 | `$wepr-link-authority-workbench` | 审计链接与品牌提及，规划可链接资产、数字公关、目录筛选、合规触达和效果监测 |
 | `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |

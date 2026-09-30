@@ -12,6 +12,8 @@
 
 Do not prescribe universal waiting periods, karma thresholds, or promotional ratios. Communities set their own rules, and authentic participation cannot be reduced to an account-warming formula.
 
+If a post or comment is removed, identify the visible reason first: community rule, AutoModerator notice, sitewide filter, moderator message, or unknown. Correct the underlying issue or ask moderators appropriately; do not recommend new accounts, device or network fingerprint changes, comment-filler quotas, or other enforcement evasion. CQS is a classification moderators may use, not a guaranteed 7-day recovery plan.
+
 ## Community portfolio
 
 Maintain a dated status for each community:
@@ -28,11 +30,21 @@ Build plans from distinct community needs, not one post copied everywhere. Usefu
 
 Avoid repetitive domain links, unsolicited private messages, mass tagging, synchronized voting, coordinated comment seeding, and rapid reposting for exposure.
 
+## Timing as a test, not a formula
+
+Use the target community's timezone, recent post cadence, and permitted formats to propose a few publishing windows. Compare comparable posts across windows while recording date, community, format, topic, moderator outcome, early comments, later discussion quality, and qualified visits if available. A single early upvote or one viral case does not establish an algorithmic threshold. Never ask colleagues, customers, or other accounts to vote or comment to accelerate a post.
+
+## Optional discovery-to-conversion path
+
+When a business goal is in scope, map the path without turning the community post into a disguised ad: useful contribution → optional profile visit → clearly identified project or brand information → permitted site visit or user-initiated contact. Check profile and link rules, disclose relationships at the relevant mention, and never make a reader hunt for the actual answer on another site. Track each step separately when measurement is permitted; do not assume a standard conversion window or infer sales from profile visits.
+
 ## Measurement
 
 Track quality before raw reach: on-topic replies, discussion depth, questions answered, objections learned, evidence-based sentiment, moderation outcomes, repeat participation by credible members, durable citations, and qualified visits only when links and measurement are allowed.
 
 Do not label upvotes as proof of purchase intent or attribute causality without appropriate tracking.
+
+For AI-search claims, record the exact query, date, answer surface, cited URL, and whether the brand was actually recommended. A Reddit citation or visible mention does not establish that Reddit caused the recommendation or any sale. Anonymous case studies and claimed order lifts remain unverified until first-party analytics and confounders can be reviewed.
 
 For search-led opportunities, keep tool settings consistent and compare direction over time: ranking-query coverage, position bands, estimated organic trend, search-result persistence, and qualified owned-site outcomes. Treat a Reddit URL's estimated search traffic as external-demand evidence only; it does not measure the commercial value of the discussion.
 
