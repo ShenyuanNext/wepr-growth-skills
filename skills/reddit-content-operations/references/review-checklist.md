@@ -30,6 +30,8 @@
 - Does it avoid prohibited, harmful, discriminatory, harassing, or privacy-invasive content?
 - Are health, safety, legal, financial, or performance claims sourced and qualified?
 - Does the plan avoid fixed "warm-up" days, karma targets, CQS recovery guarantees, and claims that an AI answer will recommend a product merely because Reddit mentions it?
+- If a post has been removed, are the actual notice and subreddit rules recorded before attributing it to CQS, IP, duplicate text, links, or a hidden filter?
+- Is any mention, profile link, or requested DM a transparent, permitted response rather than a planned concealed promotion path?
 - If citing a growth case, are baseline, dates, attribution method, first-party data, and plausible alternative causes available? Otherwise is it labeled an unverified anecdote?
 
 ## Decision

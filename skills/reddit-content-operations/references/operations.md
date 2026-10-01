@@ -14,6 +14,8 @@ Do not prescribe universal waiting periods, karma thresholds, or promotional rat
 
 If a post or comment is removed, identify the visible reason first: community rule, AutoModerator notice, sitewide filter, moderator message, or unknown. Correct the underlying issue or ask moderators appropriately; do not recommend new accounts, device or network fingerprint changes, comment-filler quotas, or other enforcement evasion. CQS is a classification moderators may use, not a guaranteed 7-day recovery plan.
 
+For a removal review, preserve the post URL, timestamp, community rule snapshot, account notice, removal wording, link placement, duplicate replies, and moderator communication. Distinguish what was observed from a guessed cause. CQS has five tiers and may be used in AutoModerator rules; Reddit says it reflects multiple signals, but does not publish a formula or a fixed recovery timetable. A low tier does not prove that a particular IP, browser, link, or comment caused removal. Check the [official CQS description](https://support.reddithelp.com/hc/en-us/articles/19023371170196-What-is-the-Contributor-Quality-Score) before giving account-risk advice. If the account or community is banned, use the available appeal or moderator channel; never advise replacement accounts or fingerprint changes to bypass enforcement. See [Reddit's disruption policy](https://support.reddithelp.com/hc/en-us/articles/360043066412-Disrupting-Communities).
+
 ## Community portfolio
 
 Maintain a dated status for each community:
@@ -29,6 +31,8 @@ Record the evidence and next review date. A community can change status.
 Build plans from distinct community needs, not one post copied everywhere. Useful formats include evidence-backed field notes, transparent comparisons with a method, troubleshooting, disclosed product-development questions, feedback follow-ups, and moderator-approved AMAs or resources.
 
 Avoid repetitive domain links, unsolicited private messages, mass tagging, synchronized voting, coordinated comment seeding, and rapid reposting for exposure.
+
+Do not use an apparently non-commercial discussion post followed by a planned product reveal, profile redirect, or private-message handoff to hide promotion. If a product is relevant, explain the real relationship at the point of mention and check whether that community allows it. Do not prescribe a 9:1 content ratio, a two-week warm-up, daily comment quotas, or karma targets; these are not permissions or safety thresholds.
 
 ## Timing as a test, not a formula
 

@@ -12,6 +12,8 @@ Avoid generic ultimate guides, empty listicles, fake controversy, vague inspirat
 
 When adapting a topic for another subreddit, rebuild the framing around that community's knowledge and humor while preserving the original facts and context. Check media rights and attribution. Do not copy a viral post, miscaption an image, or assume the same framing works across communities.
 
+Use community shorthand to understand context, not to impersonate a member. Terms such as `OP`, `TL;DR`, `AMA`, `PSA`, `TIL`, `Flair`, and `ModMail` can help interpret a thread, but title prefixes and formats are not universal templates. `AITA`, `CMV`, and similar formats belong to communities with particular rules and purposes. Never invent a conflict, vulnerable moment, professional history, test result, or unpopular opinion to fit a format or earn karma. If a real practitioner experience is relevant, show the actual constraint, method, scale, result, and failure case, then invite substantive correction.
+
 ## Structure
 
 1. **Title:** State the tension, decision, result, or specific question. Match community conventions without copying formulas mechanically.
