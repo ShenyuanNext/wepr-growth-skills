@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音两层相关词采集"
+  short_description: "仅输入触发抖音下拉词，两层扩展、截图、行业评分和Excel交付"
+  default_prompt: "请使用 $wepr-douyin-keyword-research，优先沿用我指定且已授权的抖音浏览器页面，以页面输入触发搜索框下拉，采集给定词根的两层联想词，记录位置与截图，按行业转化目标评分并生成 Excel 采集包。"

@@ -6,6 +6,7 @@
 | --- | --- | --- |
 | GEO baseline | `wepr-geo-panorama-audit` | platform scope, evidence ledger, gaps, priorities |
 | Intent expansion | `wepr-geo-intent-miner` | seed terms, audience, stage, evidence needs |
+| Douyin demand clues | `wepr-douyin-keyword-research` | authorized page, seed terms, screenshots, suggestion paths; never AI-answer evidence |
 | Brand knowledge | `wepr-geo-knowledge-base-builder` | source IDs, fact cards, prohibited claims |
 | Entity graph | `wepr-geo-brand-graph` | canonical entities, aliases, evidence-backed edges |
 | Existing page audit | `wepr-geo-page-audit` | URLs, page type, observed code/content evidence |

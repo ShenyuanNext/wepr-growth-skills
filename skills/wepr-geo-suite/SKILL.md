@@ -20,6 +20,7 @@ Read [references/routing-and-delivery.md](references/routing-and-delivery.md) fo
 
 - Baseline and opportunity map: `$wepr-geo-panorama-audit`.
 - Natural-language query expansion and prompt library: `$wepr-geo-intent-miner`.
+- Douyin search-box suggestions as a separate cross-platform demand signal: `$wepr-douyin-keyword-research`. Do not treat suggestions as AI answers or search-volume data.
 - Brand facts and reusable evidence: `$wepr-geo-knowledge-base-builder`; use `$wepr-geo-brand-graph` when entity relationships are central.
 - Existing-page diagnosis: `$wepr-geo-page-audit`; new page structure: `$wepr-geo-page-blueprint`.
 - Content: `$wepr-geo-title-optimizer`, `$wepr-geo-explainer-builder`, `$wepr-geo-comparison-builder`, `$wepr-geo-ranking-article-builder`, or `$wepr-geo-content-refiner` according to format.

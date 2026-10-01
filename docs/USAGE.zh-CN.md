@@ -24,6 +24,7 @@
 | `$wepr-seo` | 统一处理快速/深度 HTML 审计、站点策略、技术、关键词内容、迁移、国际化、电商与AI 搜索 |
 | `$wepr-link-authority-workbench` | 审计链接与品牌提及，规划可链接资产、数字公关、目录筛选、合规触达和效果监测 |
 | `$operate-georank-workbench` | 安全操作已部署的 GEOrank 实例、诊断、拓词与后台 |
+| `$wepr-douyin-keyword-research` | 采集已授权抖音网页的搜索框下拉词，扩展两层、截图留证并输出行业评分词库 |
 | `$plan-xiaohongshu-growth` | 写作、重构、诊断小红书搜索型内容 |
 | `$xiaohongshu-suite` | 判断小红书任务应先处理主页、选题、标题、正文、评论还是转化 |
 | `$xiaohongshu-profile` | 诊断主页第一眼、简介、定位、信任材料和置顶笔记 |

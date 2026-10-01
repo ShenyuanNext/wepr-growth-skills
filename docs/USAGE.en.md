@@ -22,6 +22,7 @@ This repository is a set of composable execution workflows, not a library of mar
 | `$wepr-seo` | Handle quick/full HTML audits, site strategy, technical SEO, keywords, migrations, international, commerce, and AI search |
 | `$wepr-link-authority-workbench` | Audit links and mentions; plan linkable assets, digital PR, qualified directories, compliant outreach, and measurement |
 | `$operate-georank-workbench` | Safely operate a deployed GEOrank instance and its API |
+| `$wepr-douyin-keyword-research` | Collect two levels of suggestions from an authorized Douyin search box, preserve screenshots, and produce a scored keyword workbook |
 | `$plan-xiaohongshu-growth` | Plan, write, rewrite, and diagnose Xiaohongshu content |
 | `$xiaohongshu-suite` | Route an unclear Xiaohongshu problem to the earliest blocked stage |
 | `$xiaohongshu-profile` | Audit profile positioning, bio, proof, and pinned posts |

@@ -71,11 +71,12 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 技能与 WEPR 官网服务对应关系
 
-以下为 86 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
+以下为 87 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
 
 | WEPR 服务 | 官网具体服务内容 | 对应分支技能 |
 | --- | --- | --- |
 | [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 建立可被搜索、理解和引用的品牌知识体系，提升生成式答案中的准确性、可发现性与引用机会 | `operate-georank-workbench`、`wepr-chatgpt-crawler`、`wepr-deepseek-crawler`、`wepr-doubao-crawler`、`wepr-geo-comparison-builder`、`wepr-geo-content-refiner`、`wepr-geo-effect-monitor`、`wepr-geo-execution-roadmap`、`wepr-geo-explainer-builder`、`wepr-geo-intent-miner`、`wepr-geo-page-audit`、`wepr-geo-page-blueprint`、`wepr-geo-panorama-audit`、`wepr-geo-ranking-article-builder`、`wepr-geo-suite`、`wepr-geo-title-optimizer`、`wepr-geo-tracking`、`wepr-geoflow` |
+| [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 抖音下拉词作为跨平台用户需求线索，不视为 AI 答案或搜索量证据 | `wepr-douyin-keyword-research` |
 | [国际 SEO 与 Google 搜索](https://www.scwepr.com/services/international-seo.html) | 连接技术 SEO、国际关键词、内容集群和权威建设，形成可持续的海外自然搜索获客基础 | `plan-organic-growth`、`wepr-seo`、`wepr-link-authority-workbench` |
 | [海外 PR 与品牌权威](https://www.scwepr.com/services/overseas-pr.html) | 通过议题策略、媒体关系、专业内容和可信第三方提及积累品牌权威 | `diagnose-pr-crisis`、`draft-corporate-content-appeals`、`pr-strategy-workbench` |
 | [Reddit 社区营销](https://www.scwepr.com/services/reddit-marketing.html) | 开展社区研究、透明参与、内容贡献和声誉监测，建立真实讨论与长期信任 | `reddit-content-operations`、`wepr-market-signal-research`、`launch-content-account`、`distill-creator-playbook` |
@@ -91,7 +92,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 - **底层执行器不与总入口竞争：** 例如 `$wepr-presentation-workbench` 负责演示需求判断与统一交付，`$wepr-slides` 只负责已明确的单文件交互式 HTML 路线。
 - **旧能力并入完整版：** GEOFlow 的开发、运行操作、前端主题、渠道站点和旧模板迁移统一由 `$wepr-geoflow` 承接；已有文章的 GEO 改造统一由 `$wepr-geo-content-refiner` 承接。
 - **定期清理重复入口：** 删除仅保留旧名称、与完整版高度重合或不再具备独立调用价值的技能；Git 历史保留恢复能力。
-- **只保留交付所需信息：** 技能正文和示例不承担外部项目推广，不保留上游仓库名称、来源链接或许可证副本；仓库自身的授权信息仅由根目录文件统一管理。
+- **只保留交付所需信息：** 技能正文和示例不承担外部项目推广；第三方代码所要求的版权与许可声明必须保留，不能用根目录许可代替。
 
 ### GEO 专业能力包
 
@@ -137,6 +138,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 | `wepr-seo` | 完整 SEO 工作台 | 快速/深度页面审计、技术 SEO、关键词内容、国际化、电商、迁移、流量诊断、AI 搜索 | HTML 审计报告、覆盖台账、页面地图、优先级、实施验证与机器可读审计 |
 | `wepr-link-authority-workbench` | 链接与权威建设工作台 | 外链和品牌提及审计、竞品差距、目录筛选、可链接资产、数字公关与合规触达 | 证据基线、机会分层、资产计划、个性化触达、30/60/90 天路线图与监测 |
 | `operate-georank-workbench` | GEOrank工作台操作 | 登录、网站诊断、方案对话、拓词、用量检查和管理员操作 | 权限识别、写操作预检、API 执行回执、资源 ID、风险与回滚说明 |
+| `wepr-douyin-keyword-research` | 抖音下拉词研究 | 已授权抖音网页的搜索框联想词采集、词根到二级词拓展和行业意图评估 | 逐词截图、来源路径、评分理由、Excel 词库与采集边界说明 |
 | `plan-xiaohongshu-growth` | 小红书搜索与内容增长 | 标题、关键词、图文笔记、周更计划、账号诊断 | 搜索意图、双标题、发布正文、内容日历、诊断与自然咨询路径 |
 | `xiaohongshu-suite` | 小红书工作流路由 | 不确定先改主页、选题、标题、正文、评论还是转化 | 阻塞环节、技能选择、处理顺序和输入交接 |
 | `xiaohongshu-profile` | 小红书主页诊断 | 简介、昵称、定位、信任材料、置顶笔记 | 第一眼判断、定位句、简介版本、置顶结构和下一步测试 |
@@ -441,11 +443,12 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Skills mapped to WEPR services
 
-The table assigns all 86 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
+The table assigns all 87 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
 
 | WEPR service | Concrete service scope | Branch skills |
 | --- | --- | --- |
 | [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Build searchable, understandable, citable brand knowledge and improve accuracy, discoverability, and citation opportunity in generated answers | `operate-georank-workbench`, `wepr-chatgpt-crawler`, `wepr-deepseek-crawler`, `wepr-doubao-crawler`, `wepr-geo-comparison-builder`, `wepr-geo-content-refiner`, `wepr-geo-effect-monitor`, `wepr-geo-execution-roadmap`, `wepr-geo-explainer-builder`, `wepr-geo-intent-miner`, `wepr-geo-page-audit`, `wepr-geo-page-blueprint`, `wepr-geo-panorama-audit`, `wepr-geo-ranking-article-builder`, `wepr-geo-suite`, `wepr-geo-title-optimizer`, `wepr-geo-tracking`, `wepr-geoflow` |
+| [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Douyin suggestions are cross-platform demand clues, not AI-answer or search-volume evidence | `wepr-douyin-keyword-research` |
 | [International SEO and Google Search](https://www.scwepr.com/services/international-seo.html) | Connect technical SEO, international keywords, content clusters, and authority building into a sustainable organic-acquisition base | `plan-organic-growth`, `wepr-seo`, `wepr-link-authority-workbench` |
 | [Global PR and brand authority](https://www.scwepr.com/services/overseas-pr.html) | Build verifiable brand authority through issue strategy, media relations, professional content, and credible third-party mentions | `diagnose-pr-crisis`, `draft-corporate-content-appeals`, `pr-strategy-workbench` |
 | [Reddit community marketing](https://www.scwepr.com/services/reddit-marketing.html) | Use community research, transparent participation, useful contributions, and reputation monitoring to build durable trust | `reddit-content-operations`, `wepr-market-signal-research`, `launch-content-account`, `distill-creator-playbook` |
@@ -461,7 +464,7 @@ The table assigns all 86 branch skills to their primary client-service line. Cro
 - **Execution routes do not compete with orchestrators:** `$wepr-presentation-workbench` owns presentation planning and format selection; `$wepr-slides` owns only the explicitly selected single-file interactive HTML route.
 - **Legacy capabilities live in the complete workbench:** `$wepr-geoflow` covers development, operations, frontend themes, channel sites, and legacy migration; `$wepr-geo-content-refiner` owns GEO refinement of existing articles and pages.
 - **Redundant entrypoints are removed regularly:** a skill is retired when it is only an old name, substantially duplicates a complete workbench, or no longer has an independent routing purpose. Git history remains the recovery path.
-- **Only delivery-relevant information remains:** skills and examples do not promote external projects or retain upstream repository names, source links, or copied license files. Repository-level licensing is managed only at the root.
+- **Only delivery-relevant information remains:** skills and examples do not promote external projects. Copyright and license notices required by included third-party code must remain with that code; the root license does not replace them.
 
 ### Included skills
 
@@ -482,6 +485,7 @@ The table assigns all 86 branch skills to their primary client-service line. Cro
 | `wepr-seo` | Complete SEO workbench | Quick/full page audits, technical SEO, keyword/content systems, international, commerce, migrations, incidents, AI search | HTML audits, coverage ledger, page maps, priorities, implementation verification, machine-readable audits |
 | `wepr-link-authority-workbench` | Link and authority workbench | Link and mention audits, competitor gaps, directory qualification, linkable assets, digital PR, compliant outreach | Evidence baseline, opportunity tiers, asset plan, personalized outreach, roadmap, monitoring |
 | `operate-georank-workbench` | GEOrank operations | Login, diagnostics, solution chat, keyword expansion, usage, and authorized administration | Access detection, write preflight, API receipt, resource IDs, risk and rollback guidance |
+| `wepr-douyin-keyword-research` | Douyin suggestion research | Collect search-box suggestions from an authorized Douyin page, expand seed terms to two levels, and assess commercial intent | Screenshots, source paths, scoring reasons, Excel keyword set, and collection limits |
 | `plan-xiaohongshu-growth` | Xiaohongshu search and content | Titles, keywords, image-text posts, calendars, account diagnosis | Search intent, title options, publishing copy, calendar, diagnosis, consultation path |
 | `xiaohongshu-suite` | Xiaohongshu workflow routing | Unclear whether to start with profile, topics, titles, copy, comments, or conversion | Blocked stage, skill selection, processing order, and input handoff |
 | `xiaohongshu-profile` | Xiaohongshu profile audit | Bio, positioning, proof, pinned posts, profile acceptance | First-impression diagnosis, positioning, bio options, pinned-post plan |
