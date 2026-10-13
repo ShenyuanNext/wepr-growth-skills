@@ -12,7 +12,7 @@
 
 Do not prescribe universal waiting periods, karma thresholds, or promotional ratios. Communities set their own rules, and authentic participation cannot be reduced to an account-warming formula.
 
-If a post or comment is removed, identify the visible reason first: community rule, AutoModerator notice, sitewide filter, moderator message, or unknown. Correct the underlying issue or ask moderators appropriately; do not recommend new accounts, device or network fingerprint changes, comment-filler quotas, or other enforcement evasion. CQS is a classification moderators may use, not a guaranteed 7-day recovery plan.
+If a post or comment is removed, identify the visible reason first: community rule, AutoModerator notice, sitewide filter, moderator message, or unknown. Correct the underlying issue or ask moderators appropriately. Use the user's account-environment notes for preventive setup and incident review, not to bypass an existing suspension or community penalty. Do not promise a fixed CQS or account-recovery schedule.
 
 For a removal review, preserve the post URL, timestamp, community rule snapshot, account notice, removal wording, link placement, duplicate replies, and moderator communication. Distinguish what was observed from a guessed cause. CQS has five tiers and may be used in AutoModerator rules; Reddit says it reflects multiple signals, but does not publish a formula or a fixed recovery timetable. A low tier does not prove that a particular IP, browser, link, or comment caused removal. Check the [official CQS description](https://support.reddithelp.com/hc/en-us/articles/19023371170196-What-is-the-Contributor-Quality-Score) before giving account-risk advice. If the account or community is banned, use the available appeal or moderator channel; never advise replacement accounts or fingerprint changes to bypass enforcement. See [Reddit's disruption policy](https://support.reddithelp.com/hc/en-us/articles/360043066412-Disrupting-Communities).
 
@@ -47,6 +47,14 @@ When a business goal is in scope, map the path without turning the community pos
 Track quality before raw reach: on-topic replies, discussion depth, questions answered, objections learned, evidence-based sentiment, moderation outcomes, repeat participation by credible members, durable citations, and qualified visits only when links and measurement are allowed.
 
 Do not label upvotes as proof of purchase intent or attribute causality without appropriate tracking.
+
+## Commercial paths and measurement
+
+When monetization is part of the brief, first name the business model: platform reward, a product the contributor owns, a third-party affiliate offer, sponsorship, consulting or services, or an owned newsletter/product. For each path, document the community's link and promotion rules, the contributor's relationship, the user action being invited, and the evidence needed to count an outcome. Treat platform eligibility and payout terms as current facts to recheck; do not reuse an anecdotal revenue figure as a forecast.
+
+Keep the community contribution complete on its own. If a relevant commercial mention or link is allowed, state the relationship clearly near it and describe the offer accurately. Do not use comment replies, profile links, or DMs as a delayed-disclosure funnel. Never promise that karma, helpful posts, high reach, or a particular participation period will generate clients or revenue. Measure permitted clicks, qualified inquiries, and sales separately, and disclose attribution limits.
+
+For account management services, use the user's documented environment and account-separation experience as the primary internal reference. Record the account purpose, login environment, account history, community, action, and observed outcome so the procedure can be applied to a comparable case. Keep cross-account engagement out of the plan, and do not use account separation to continue activity after a penalty.
 
 For AI-search claims, record the exact query, date, answer surface, cited URL, and whether the brand was actually recommended. A Reddit citation or visible mention does not establish that Reddit caused the recommendation or any sale. Anonymous case studies and claimed order lifts remain unverified until first-party analytics and confounders can be reviewed.
 

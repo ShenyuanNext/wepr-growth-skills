@@ -14,6 +14,10 @@ When adapting a topic for another subreddit, rebuild the framing around that com
 
 Use community shorthand to understand context, not to impersonate a member. Terms such as `OP`, `TL;DR`, `AMA`, `PSA`, `TIL`, `Flair`, and `ModMail` can help interpret a thread, but title prefixes and formats are not universal templates. `AITA`, `CMV`, and similar formats belong to communities with particular rules and purposes. Never invent a conflict, vulnerable moment, professional history, test result, or unpopular opinion to fit a format or earn karma. If a real practitioner experience is relevant, show the actual constraint, method, scale, result, and failure case, then invite substantive correction.
 
+For a genuine technical or product troubleshooting postmortem, use the user's field-tested sequence: the specific failure → the initial assumption → what was tried and why it failed → the diagnostic turning point → the fix or tool actually used → an observed before/after result → remaining limitations → one concrete question for peers. A text-first post with a relevant tool link supplied when readers ask is one documented option. Keep the product relationship clear when introducing the tool and follow the destination community's posting requirements.
+
+Choose the content format by what the reader needs: narrow workflow tools for a recurring task, comparisons with explicit criteria and evidence, failure reports that help others avoid a real mistake, concrete first-person stories, and relevant pet or meme content in communities where that is the actual topic. The user's experience favors relevance to the community over generic product promotion. Avoid unrelated posts as a route to later marketing.
+
 ## Structure
 
 1. **Title:** State the tension, decision, result, or specific question. Match community conventions without copying formulas mechanically.

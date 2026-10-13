@@ -32,6 +32,8 @@
 - Does the plan avoid fixed "warm-up" days, karma targets, CQS recovery guarantees, and claims that an AI answer will recommend a product merely because Reddit mentions it?
 - If a post has been removed, are the actual notice and subreddit rules recorded before attributing it to CQS, IP, duplicate text, links, or a hidden filter?
 - Is any mention, profile link, or requested DM a transparent, permitted response rather than a planned concealed promotion path?
+- If the goal includes revenue, is the model, relationship disclosure, community permission, and measured conversion event explicit, without earnings or timing guarantees?
+- If multiple accounts or separate environments are involved, is the recommendation based on the user's documented operating context, with no promise of guaranteed protection or use to bypass an existing penalty?
 - If citing a growth case, are baseline, dates, attribution method, first-party data, and plausible alternative causes available? Otherwise is it labeled an unverified anecdote?
 
 ## Decision
