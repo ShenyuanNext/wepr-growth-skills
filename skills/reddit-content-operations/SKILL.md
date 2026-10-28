@@ -26,6 +26,7 @@ Create content that earns discussion by fitting a community and being genuinely 
 4. For participation plans, calendars, moderator contact, publishing, and measurement, read [references/operations.md](references/operations.md).
 5. For final verification or risk review, read [references/review-checklist.md](references/review-checklist.md).
 6. When adapting advice from a creator account or a case study, read [references/field-evidence.md](references/field-evidence.md) to separate observed examples from platform rules and unverified results.
+7. For case-led monthly execution, technical comparisons, comment-response coverage, service budgeting, or reach forecasts, read [references/execution-playbook.md](references/execution-playbook.md). Use the user's operating documents as the primary internal source, preserving the difference between planned work, forecasts, and observed results.
 
 Read every reference that matches the request. Apply the review checklist before final delivery of publishable copy.
 

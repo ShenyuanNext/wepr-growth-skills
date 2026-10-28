@@ -1,5 +1,7 @@
 # Authentic Reddit operations
 
+For monthly client execution, division of responsibilities, comment-response coverage, budget scoping, and forecast-versus-result reporting, use [execution-playbook.md](execution-playbook.md). Its 4+4 content mix is an adaptable example. Original commercial terms stay in authorized internal records and are not included in the public skill.
+
 ## Participation sequence
 
 1. Identify communities already discussing the problem, category, or brand.

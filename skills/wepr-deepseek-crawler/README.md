@@ -162,30 +162,11 @@ HTML 报告默认使用中文简体，并包含英文总结切换入口。报告
 - 标题功能特征、标题长度、时间新旧和标题意图
 - GEO 总结建议、优化优先级、趋势预测和具体执行方法
 
-## 蔚来真实采样示例
+## 本地数据格式示例
 
-示例基于 2026-06-20 的真实 DeepSeek 网页端采样：
+仓库提供 [聚合 JSON 格式样本](fixtures/sample-deepseek-crawl.json)，用于离线验证输入结构与分析逻辑，不代表当前平台表现或 WEPR 客户交付业绩。
 
-- 关键词：4 个
-- 每个关键词轮询：5 次
-- 计划样本：20
-- 成功样本：20
-- 失败样本：0
-- 引用来源：199 条
-- 目标实体：蔚来
-- 补充别名：蔚来 ES8、蔚来 ES6、蔚来 EC6、NIO 等
-
-示例文件：
-
-- [问题列表](examples/nio-nev-deepseek-20260620/questions.txt)
-- [品牌别名表](examples/nio-nev-deepseek-20260620/brands.txt)
-- [原始聚合 JSON](examples/nio-nev-deepseek-20260620/deepseek-crawl.json)
-- [品牌/公司口径 Markdown](examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.md)
-- [品牌/公司口径 Excel](examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.xlsx)
-- [品牌/公司口径 HTML 报告](examples/nio-nev-deepseek-20260620/report-brand-company/report.html)
-- [产品口径 HTML 报告](examples/nio-nev-deepseek-20260620/report/report.html)
-- [单次 raw 样本目录](examples/nio-nev-deepseek-20260620/raw)
-- [单次日志目录](examples/nio-nev-deepseek-20260620/logs)
+原文引用的历史采样目录不包含在本安装包中，不能作为随包可复核案例。真实项目按上述采集流程生成自己的 raw、日志、聚合数据和报告，并记录采集时间与条件。
 
 ## 离线验证
 

@@ -290,3 +290,9 @@ A strong output contains a defined problem, separated facts and hypotheses, prio
 ## 7. Data and integrity
 
 Use only data you are authorized to process. Public visibility does not authorize unlimited collection, re-identification, or redistribution. Do not fabricate coverage, reviews, orders, chats, cases, search data, or engagement. Do not use sockpuppets, ban evasion, hidden promotion, spam links, or keyword stuffing. Platform policies, product names, prices, and algorithms change; verify current official sources before execution.
+
+## 8. GEO citation research and local reading
+
+Use `$wepr-geo-citation-lab` to read cross-platform citation research, install the WEPR local research navigation, and design client sampling or content experiments. Historical research data informs hypotheses rather than replacing a current client baseline.
+
+Example: `Use $wepr-geo-citation-lab to define the observations, metrics, missing fields, and experiment design for comparing Doubao Web and App sources.`

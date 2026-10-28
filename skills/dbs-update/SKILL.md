@@ -16,7 +16,7 @@ description: 更新 ShenyuanNext/wepr-growth-skills 中的全部公开 Skill，�
 
 ## 执行步骤
 
-1. 运行以下命令，同步官方 dbskill 的全部正式 Skill 到已支持的 Agent：
+1. 先检查是否存在当前 WEPR 仓库及未提交的定制修改；有本地版本时，备份并保留这些修改，再选择本地技能集或远端版本进行安装。不要从远端安装覆盖尚未发布的本地修订。远端安装命令如下，同步 WEPR 技能集中的全部正式技能：
 
    ```bash
    npx -y skills add ShenyuanNext/wepr-growth-skills -g --all
@@ -36,11 +36,11 @@ description: 更新 ShenyuanNext/wepr-growth-skills 中的全部公开 Skill，�
 
 成功：
 
-> dbskill 已更新完成。当前对话如果还没有读取到新能力，新建一次对话后即可使用。
+> WEPR 技能集已更新完成。当前对话如果还没有读取到新能力，新建一次对话后即可使用。
 
 失败：
 
-> dbskill 没有更新完成：{简短原因}。处理完 {权限或网络问题} 后，再说一次「更新 dbskill」。
+> WEPR 技能集没有更新完成：{简短原因}。处理完 {权限或网络问题} 后，再说一次「更新 WEPR 技能」。
 
 ## 边界
 

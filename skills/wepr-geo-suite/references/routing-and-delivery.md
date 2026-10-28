@@ -5,6 +5,7 @@
 | Need | Primary skill | Required handoff |
 | --- | --- | --- |
 | GEO baseline | `wepr-geo-panorama-audit` | platform scope, evidence ledger, gaps, priorities |
+| Citation research and experiments | `wepr-geo-citation-lab` | research snapshot, unit of observation, missing fields, client baseline and experiment card |
 | Intent expansion | `wepr-geo-intent-miner` | seed terms, audience, stage, evidence needs |
 | Douyin demand clues | `wepr-douyin-keyword-research` | authorized page, seed terms, screenshots, suggestion paths; never AI-answer evidence |
 | Brand knowledge | `wepr-geo-knowledge-base-builder` | source IDs, fact cards, prohibited claims |

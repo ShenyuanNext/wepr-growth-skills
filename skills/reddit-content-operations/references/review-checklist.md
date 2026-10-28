@@ -38,6 +38,8 @@
 
 ## Decision
 
+For execution plans and quotations, also check that promised work is separated from natural engagement, forecast views are not represented as measured reach or unique people, test conditions accompany comparison claims, and paid votes or staged third-party feedback are excluded. Comment budgets should cover real response work, not a guaranteed quantity of public comments. Use [execution-playbook.md](execution-playbook.md) for the worked example.
+
 - **Ready:** evidence, permission, disclosure, fit, and copy are complete.
 - **Conditional:** publish only after the listed rule, claim, flair, disclosure, or moderator check is resolved.
 - **Hold:** the concept relies on deception, prohibited promotion, unsupported claims, or material safety risk.

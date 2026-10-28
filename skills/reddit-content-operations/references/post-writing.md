@@ -1,5 +1,7 @@
 # Reddit-native post writing
 
+For technical demos, API tutorials, or comparison-led content, use the test-method and conditional-conclusion guidance in [execution-playbook.md](execution-playbook.md). Build authority from attributable work, not an invented independent reviewer identity.
+
 ## Find the conversation gap
 
 A strong post adds something useful while leaving room for other people to contribute. Choose one core angle: a changed assumption, overlooked tradeoff, defined comparison, practical failure, counterintuitive result, experience-based question, or transparent field note from a disclosed practitioner or representative.

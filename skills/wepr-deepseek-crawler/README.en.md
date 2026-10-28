@@ -162,30 +162,11 @@ The HTML report defaults to Simplified Chinese and includes an English summary t
 - Title functional features, title length, freshness, and title intent
 - GEO recommendations, optimization priorities, trend projection, and concrete execution methods
 
-## Real NIO Sampling Example
+## Local Data-format Example
 
-The example is based on a real DeepSeek web sampling run on 2026-06-20:
+The package includes a [crawl JSON format fixture](fixtures/sample-deepseek-crawl.json) for offline input and analysis checks. It does not establish current platform performance or WEPR client results.
 
-- Keywords: 4
-- Repeats per keyword: 5
-- Planned samples: 20
-- Successful samples: 20
-- Failed samples: 0
-- Source references: 199
-- Target entity: NIO / 蔚来
-- Aliases: 蔚来 ES8, 蔚来 ES6, 蔚来 EC6, NIO, etc.
-
-Example files:
-
-- [Question list](examples/nio-nev-deepseek-20260620/questions.txt)
-- [Brand alias table](examples/nio-nev-deepseek-20260620/brands.txt)
-- [Canonical crawl JSON](examples/nio-nev-deepseek-20260620/deepseek-crawl.json)
-- [Brand/company Markdown](examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.md)
-- [Brand/company Excel](examples/nio-nev-deepseek-20260620/report-brand-company/structured-data.xlsx)
-- [Brand/company HTML report](examples/nio-nev-deepseek-20260620/report-brand-company/report.html)
-- [Product-scope HTML report](examples/nio-nev-deepseek-20260620/report/report.html)
-- [Single-run raw samples](examples/nio-nev-deepseek-20260620/raw)
-- [Single-run logs](examples/nio-nev-deepseek-20260620/logs)
+The historical sampling directory referenced by the earlier documentation is not included in this package and is not a bundled, reproducible case study. Generate project-specific raw samples, logs, aggregate data, and reports using the collection workflow above, with collection dates and conditions.
 
 ## Offline Verification
 

@@ -1,5 +1,9 @@
 # Creator field evidence and limits
 
+## 用户执行案例文档
+
+《执行+案例拆解分析》已完整读取。可复用内容包括技术评测的“客观疑问 → 同条件实测 → 有条件结论”、硬核内容与真实讨论的月度组合、官方资料承接、评论问题分层和服务预算拆解。具体方法见 [execution-playbook.md](execution-playbook.md)。保留文档作为内部策略来源；其中篇数、价格和曝光为原方案设定，未写成实际交付或业绩。虚假用户反馈、点赞交易和安排账号互相制造质疑与反转不纳入执行技能，分别转化为真实问题收集、自然互动测量和公开身份答疑。
+
 Use this note when a request draws on the public X account @heizolshao. The account's homepage was sampled in September 2026, but the roughly 4,000-post timeline was **not** read exhaustively. Dynamic loading prevented a gap-free inventory. Do not present this as a complete study of the account, or treat its anecdotes as verified Reddit mechanics.
 
 | Observed post | Transferable decision | Limit |

@@ -6,6 +6,10 @@ WEPR's open, evidence-led Agent Skills system for business diagnosis, brand stra
 
 WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断、品牌战略、公关传播、数字分析、增长运营、跨平台广告投放、完整 SEO/GEO 与链接权威建设、自然中文写作、内容与账号运营、客户方案、演示文档和品牌出海。
 
+新增 WEPR GEO 引用研究工作台：提供本地研究阅读器、信源选择与内容吸收分析、中文 Web/App 差异研究，以及面向客户的采样和内容实验设计。服务入口为 [WEPR 官网](https://www.scwepr.com/)。
+
+New: the WEPR GEO citation research workbench provides a local research reader, source-selection and content-absorption methods, Chinese Web/App comparison guidance, and client experiment design. Explore [WEPR services](https://www.scwepr.com/).
+
 ---
 
 ## 中文说明
@@ -71,12 +75,13 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 ### 技能与 WEPR 官网服务对应关系
 
-以下为 87 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
+以下为 88 个分支技能的主要服务归属。跨服务项目可组合调用，但仓库简介按每项技能最直接承接的客户服务归类，服务范围与交付边界以对应官网页面为准。
 
 | WEPR 服务 | 官网具体服务内容 | 对应分支技能 |
 | --- | --- | --- |
 | [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 建立可被搜索、理解和引用的品牌知识体系，提升生成式答案中的准确性、可发现性与引用机会 | `operate-georank-workbench`、`wepr-chatgpt-crawler`、`wepr-deepseek-crawler`、`wepr-doubao-crawler`、`wepr-geo-comparison-builder`、`wepr-geo-content-refiner`、`wepr-geo-effect-monitor`、`wepr-geo-execution-roadmap`、`wepr-geo-explainer-builder`、`wepr-geo-intent-miner`、`wepr-geo-page-audit`、`wepr-geo-page-blueprint`、`wepr-geo-panorama-audit`、`wepr-geo-ranking-article-builder`、`wepr-geo-suite`、`wepr-geo-title-optimizer`、`wepr-geo-tracking`、`wepr-geoflow` |
 | [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 抖音下拉词作为跨平台用户需求线索，不视为 AI 答案或搜索量证据 | `wepr-douyin-keyword-research` |
+| [GEO 与 AI 搜索可见度](https://www.scwepr.com/services/geo-optimization.html) | 研究信源选择、内容吸收与终端差异，为客户提供引用证据分析和可验证实验 | `wepr-geo-citation-lab` |
 | [国际 SEO 与 Google 搜索](https://www.scwepr.com/services/international-seo.html) | 连接技术 SEO、国际关键词、内容集群和权威建设，形成可持续的海外自然搜索获客基础 | `plan-organic-growth`、`wepr-seo`、`wepr-link-authority-workbench` |
 | [海外 PR 与品牌权威](https://www.scwepr.com/services/overseas-pr.html) | 通过议题策略、媒体关系、专业内容和可信第三方提及积累品牌权威 | `diagnose-pr-crisis`、`draft-corporate-content-appeals`、`pr-strategy-workbench` |
 | [Reddit 社区营销](https://www.scwepr.com/services/reddit-marketing.html) | 开展社区研究、透明参与、内容贡献和声誉监测，建立真实讨论与长期信任 | `reddit-content-operations`、`wepr-market-signal-research`、`launch-content-account`、`distill-creator-playbook` |
@@ -123,6 +128,7 @@ WEPR 开放式、证据驱动的增长 Agent Skills 系统，覆盖商业诊断�
 
 | 技能 | 中文名称 | 适用场景 | 主要输出 |
 | --- | --- | --- | --- |
+| `wepr-geo-citation-lab` | GEO 引用研究工作台 | 引用研究学习、本地报告阅读、跨平台与 Web/App 对比、客户实验设计 | WEPR 阅读入口、研究证据与限制、实验卡、数据分析准备与复算要求 |
 | `wepr-client-discovery` | 客户需求澄清工作台 | 方案前访谈、启动会、异步问卷、多人决策、会议纪要和跨人员交接 | 需求简报、决策树、问题前沿、问卷、未决项和交接文档 |
 | `wepr-business-workbench` | 商业策略工作台 | 商业问题澄清、模式诊断、对标、客户方案、传播与内容前置判断、长期决策 | 问题说明书、证据账本、商业诊断、策略简报、验证计划和决策记录 |
 | `wepr-market-signal-research` | 市场信号研究工作台 | 公开评论、社区、问答、发布平台和竞品反馈中的需求、痛点、异议与语言研究 | 研究设计、证据账本、机会卡、传播洞察和验证计划 |
@@ -443,12 +449,13 @@ Every skill follows the same operating line: `objective → evidence → judgmen
 
 ### Skills mapped to WEPR services
 
-The table assigns all 87 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
+The table assigns all 88 branch skills to their primary client-service line. Cross-service projects may combine skills, while scope and delivery boundaries follow the corresponding WEPR service page.
 
 | WEPR service | Concrete service scope | Branch skills |
 | --- | --- | --- |
 | [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Build searchable, understandable, citable brand knowledge and improve accuracy, discoverability, and citation opportunity in generated answers | `operate-georank-workbench`, `wepr-chatgpt-crawler`, `wepr-deepseek-crawler`, `wepr-doubao-crawler`, `wepr-geo-comparison-builder`, `wepr-geo-content-refiner`, `wepr-geo-effect-monitor`, `wepr-geo-execution-roadmap`, `wepr-geo-explainer-builder`, `wepr-geo-intent-miner`, `wepr-geo-page-audit`, `wepr-geo-page-blueprint`, `wepr-geo-panorama-audit`, `wepr-geo-ranking-article-builder`, `wepr-geo-suite`, `wepr-geo-title-optimizer`, `wepr-geo-tracking`, `wepr-geoflow` |
 | [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Douyin suggestions are cross-platform demand clues, not AI-answer or search-volume evidence | `wepr-douyin-keyword-research` |
+| [GEO and AI-search visibility](https://www.scwepr.com/services/geo-optimization.html) | Study source selection, content absorption, and interface differences to design verifiable client experiments | `wepr-geo-citation-lab` |
 | [International SEO and Google Search](https://www.scwepr.com/services/international-seo.html) | Connect technical SEO, international keywords, content clusters, and authority building into a sustainable organic-acquisition base | `plan-organic-growth`, `wepr-seo`, `wepr-link-authority-workbench` |
 | [Global PR and brand authority](https://www.scwepr.com/services/overseas-pr.html) | Build verifiable brand authority through issue strategy, media relations, professional content, and credible third-party mentions | `diagnose-pr-crisis`, `draft-corporate-content-appeals`, `pr-strategy-workbench` |
 | [Reddit community marketing](https://www.scwepr.com/services/reddit-marketing.html) | Use community research, transparent participation, useful contributions, and reputation monitoring to build durable trust | `reddit-content-operations`, `wepr-market-signal-research`, `launch-content-account`, `distill-creator-playbook` |
@@ -470,6 +477,7 @@ The table assigns all 87 branch skills to their primary client-service line. Cro
 
 | Skill | Purpose | Typical use cases | Core deliverables |
 | --- | --- | --- | --- |
+| `wepr-geo-citation-lab` | GEO citation research workbench | Local reports, source selection, content absorption, Chinese Web/App comparisons, client experiments | WEPR research reader, evidence limits, experiment design, reproducible analysis guidance |
 | `wepr-client-discovery` | Client discovery workbench | Pre-proposal interviews, kickoffs, questionnaires, multi-owner decisions, meeting notes, handoffs | Requirements brief, decision tree, question frontier, questionnaire, open items, handoff |
 | `wepr-business-workbench` | Business strategy workbench | Problem framing, business diagnosis, benchmarks, client strategy, communication and content briefs, long-term decisions | Problem statement, evidence ledger, diagnosis, strategy brief, validation plan, decision record |
 | `wepr-market-signal-research` | Market-signal research workbench | Public reviews, communities, Q&A, launch platforms, competitor feedback, demand language | Research design, evidence ledger, opportunity cards, communication insight, validation plan |

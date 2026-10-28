@@ -26,6 +26,7 @@ Read [references/routing-and-delivery.md](references/routing-and-delivery.md) fo
 - Content: `$wepr-geo-title-optimizer`, `$wepr-geo-explainer-builder`, `$wepr-geo-comparison-builder`, `$wepr-geo-ranking-article-builder`, or `$wepr-geo-content-refiner` according to format.
 - Platform evidence collection: `$wepr-deepseek-crawler`, `$wepr-doubao-crawler`, or `$wepr-chatgpt-crawler`. Respect login, rate, CAPTCHA, privacy, and platform boundaries.
 - Monitoring and attribution: `$wepr-geo-effect-monitor` for answer/citation signals; `$wepr-geo-tracking` for downstream conversion attribution.
+- Citation research, offline reports, Chinese Web/App source differences, and evidence-led experiment design: `$wepr-geo-citation-lab`. Historical datasets inform hypotheses, not the client's current baseline.
 - 30/60/90-day implementation: `$wepr-geo-execution-roadmap`.
 - GEOFlow product development, system operations, frontend themes, channel sites, legacy migration, and client implementation: `$wepr-geoflow`.
 - Broader WEPR channel strategy, GEO/SEO integration, and commercial growth planning: `$plan-organic-growth`; live GEOrank operations: `$operate-georank-workbench`.
